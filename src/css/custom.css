@@ -1,0 +1,276 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #65ae00;
+  --ifm-color-primary-dark: #5b9d00;
+  --ifm-color-primary-darker: #569400;
+  --ifm-color-primary-darkest: #477a00;
+  --ifm-color-primary-light: #6fbf00;
+  --ifm-color-primary-lighter: #74c800;
+  --ifm-color-primary-lightest: #83e200;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 242, 0, 0.2);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #65ae00;
+  --ifm-color-primary-dark: #5b9d00;
+  --ifm-color-primary-darker: #569400;
+  --ifm-color-primary-darkest: #477a00;
+  --ifm-color-primary-light: #6fbf00;
+  --ifm-color-primary-lighter: #74c800;
+  --ifm-color-primary-lightest: #83e200;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 242, 0, 0.15);
+}
+
+/* ==========================================================================
+   自定义代码详情块 (Custom FAQ Details Block) 样式
+   使用 <details className="faq-details"> 来应用此样式
+   ========================================================================== */
+
+.faq-details.alert--info {
+  /* 重置 alert--info 的变量 */
+  --ifm-alert-background-color: var(--ifm-background-surface-color);
+  --ifm-alert-background-color-highlight: var(--ifm-color-emphasis-100);
+  --ifm-alert-foreground-color: var(--ifm-color-content-primary);
+  --ifm-alert-border-color: var(--ifm-color-emphasis-300);
+
+  /* 基础样式 */
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.2s ease;
+  /* 只保留边框颜色过渡 */
+  box-shadow: none;
+  /* 移除默认阴影 */
+}
+
+.faq-details.alert--info:hover {
+  --ifm-alert-border-color: var(--ifm-color-emphasis-400);
+  box-shadow: none;
+  /* 移除悬停阴影 */
+}
+
+/* Summary 标题样式 */
+.faq-details.alert--info>summary {
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-content-secondary);
+  /* 使用变量而不是固定颜色 */
+  padding: 14px 18px;
+  margin: 0;
+  border-radius: 7px 7px 0 0;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  list-style: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+
+.faq-details.alert--info>summary:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+/* 折叠状态下的圆角处理 */
+.faq-details.alert--info:not([open])>summary {
+  border-radius: 7px;
+  border-bottom: none;
+}
+
+/* 完全隐藏所有默认箭头 */
+.faq-details.alert--info>summary::marker {
+  display: none;
+}
+
+.faq-details.alert--info>summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-details.alert--info>summary::before {
+  display: none !important;
+}
+
+/* 内容区域 */
+.faq-details.alert--info .collapsibleContent_i85q {
+  padding: 18px;
+  background: var(--ifm-alert-background-color);
+  border-radius: 0 0 7px 7px;
+}
+
+/* 移除多余的边距 */
+.faq-details.alert--info .collapsibleContent_i85q>*:first-child {
+  margin-top: 0;
+}
+
+.faq-details.alert--info .collapsibleContent_i85q>*:last-child {
+  margin-bottom: 0;
+}
+
+/* 暗色模式优化 */
+[data-theme='dark'] .faq-details.alert--info {
+  --ifm-alert-background-color: var(--ifm-background-surface-color);
+  --ifm-alert-border-color: var(--ifm-color-emphasis-300);
+  box-shadow: none;
+}
+
+[data-theme='dark'] .faq-details.alert--info:hover {
+  box-shadow: none;
+}
+
+[data-theme='dark'] .faq-details.alert--info>summary {
+  background: var(--ifm-color-emphasis-200);
+  border-bottom-color: var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-content-primary);
+  /* 明确设置亮色文字 */
+}
+
+[data-theme='dark'] .faq-details.alert--info>summary:hover {
+  background: var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .faq-details.alert--info>summary::after {
+  background: var(--ifm-color-emphasis-400);
+  color: var(--ifm-color-content-primary);
+  /* FAQ标签在暗色模式下也使用亮色文字 */
+}
+
+/* 多个 FAQ 之间的间距优化 */
+
+.faq-details.alert--info+.faq-details.alert--info {
+  margin-top: -0.5rem;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .faq-details.alert--info>summary {
+    padding: 12px 16px;
+    font-size: 0.9rem;
+  }
+
+  .faq-details.alert--info .collapsibleContent_i85q {
+    padding: 16px;
+  }
+
+  .faq-details.alert--info>summary::after {
+    display: none;
+  }
+}
+
+/* 确保在所有浏览器中隐藏默认箭头并移除焦点样式 */
+.faq-details.alert--info>summary {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* 移除所有 focus 相关的样式 */
+.faq-details.alert--info>summary:focus,
+.faq-details.alert--info>summary:focus-visible,
+.faq-details.alert--info>summary:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.faq-details.alert--info>summary:focus-visible {
+  background: var(--ifm-color-emphasis-200) !important;
+}
+
+/* 暗色模式下的 focus 状态 */
+[data-theme='dark'] .faq-details.alert--info>summary:focus-visible {
+  background: var(--ifm-color-emphasis-300) !important;
+}
+
+
+/* ==========================================================================
+   自定义代码详情块 (Custom Code Details Block) 样式
+   使用 <details className="code-details"> 来应用此样式
+   ========================================================================== */
+
+.code-details.alert--info {
+  --ifm-alert-background-color: var(--ifm-background-surface-color);
+  --ifm-alert-border-color: var(--ifm-color-emphasis-400);
+}
+
+
+/* ==========================================================================
+   自定义侧边栏标题样式
+   使用 className="sidebar-title" 来应用此样式
+   ========================================================================== */
+
+.sidebar-title>a {
+  /* color: var(--ifm-color-content-primary); */
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18 px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* ==========================================================================
+   针对侧边栏的二和三级分类项调整字体大小
+   ========================================================================== */
+
+.theme-doc-sidebar-item-category-level-2>.menu__list-item-collapsible>.menu__link,
+.theme-doc-sidebar-item-link-level-2>.menu__link,
+.theme-doc-sidebar-item-category-level-3>.menu__list-item-collapsible>.menu__link,
+.theme-doc-sidebar-item-link-level-3>.menu__link {
+  font-size: 15px;
+}
+
+/* ==========================================================================
+   修改 wiki 导航栏 Logo 右侧间距
+   ========================================================================== */
+
+.navbar__brand {
+  margin-right: 0;
+}
+
+/* .navbar__logo {
+  margin-right: 0 !important;
+} */
+
+/* ==========================================================================
+   调整 wiki 导航栏 Logo 大小
+   ========================================================================== */
+
+.navbar__logo {
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* ==========================================================================
+   调整 wiki 导航栏 项目对齐方式
+   ========================================================================== */
+
+.navbar__inner {
+  align-items: center;
+}
+
+.navbar__item {
+  align-items: baseline;
+}
+
+.navbar__brand {
+  margin-bottom: 0px;
+  margin-left: 5px;
+  margin-right: 50px;
+}

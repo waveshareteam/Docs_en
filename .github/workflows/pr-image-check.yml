@@ -1,0 +1,111 @@
+name: PR Image Format Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  check-images:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check for new images via API and comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue_number = context.issue.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const botCommentIdentifier = "<!-- Image Format Check by GitHub Action -->";
+
+            console.log("Fetching files from PR via GitHub API...");
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner,
+              repo,
+              pull_number: issue_number,
+              per_page: 100,
+            });
+            
+            const newImages = files
+              .filter(file => file.status === 'added' && /\.(jpg|jpeg|png)$/i.test(file.filename))
+              .map(file => file.filename);
+
+            console.log("Searching for previous comments from this action...");
+            const { data: comments } = await github.rest.issues.listComments({
+              owner,
+              repo,
+              issue_number,
+            });
+
+            const botComments = comments.filter(comment => comment.body.includes(botCommentIdentifier));
+
+            if (botComments.length > 0) {
+              console.log(`Found ${botComments.length} old comment(s) to delete.`);
+              const deletePromises = botComments.map(comment =>
+                github.rest.issues.deleteComment({
+                  owner,
+                  repo,
+                  comment_id: comment.id,
+                })
+              );
+              await Promise.all(deletePromises);
+              console.log("Successfully deleted old comment(s).");
+            }
+
+            if (newImages.length > 0) {
+              console.log(`Found ${newImages.length} new JPG/JPEG/PNG images. Creating a new comment.`);
+              
+              const fileList = newImages.map(file => `- \`${file}\``).join('\n');
+              
+              // The body content is defined here without any leading whitespace on each line
+              // to ensure correct Markdown rendering in the final GitHub comment.
+              const bodyTemplate = `${botCommentIdentifier}
+              ### 🖼️ Image Format Check
+              
+              Hello! We've detected the following newly added JPG, JPEG, or PNG images in this pull request:
+              
+              ${fileList}
+              
+              For better web performance and smaller file sizes, please consider converting them to a more modern format like **WebP**.
+              
+              Thank you for your contribution! ✨
+
+              ---
+
+              <details>
+              <summary>💡How to Convert?</summary>
+
+              <br\>
+              
+              You can use Google's official \`cwebp\` command-line tool for conversion. It's efficient and powerful.
+              
+              <strong>Download \`cwebp\` Command-Line Tool</strong>
+              
+              You can download the pre-compiled toolkits: https://developers.google.com/speed/webp/download After downloading and extracting, you can find the \`cwebp\` executable in the \`bin\` directory.
+              
+              **Example Command:**
+              \`\`\`bash
+              # -q 80 sets the quality factor to 80 (0-100), a good balance between quality and file size.
+              cwebp -q 80 your_image.jpg -o your_image.webp
+              \`\`\`
+
+              </details>`
+              
+              ;
+
+              const body = bodyTemplate.split('\n').map(line => line.trimStart()).join('\n');
+
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number,
+                body,
+              });
+              console.log("Successfully created a new instructional comment.");
+
+            } else {
+              console.log("No new JPG/JPEG/PNG images found. No comment will be posted.");
+            }
