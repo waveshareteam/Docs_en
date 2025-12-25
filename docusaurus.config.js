@@ -52,7 +52,7 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.js",
-          // editUrl: "https://github.com/waveshareteam/Docs_en/tree/main/",
+          editUrl: "https://github.com/waveshareteam/Docs_en/tree/main/",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
