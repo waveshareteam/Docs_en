@@ -10,23 +10,6 @@ If you encounter any issues during use, please feel free to report them through 
 
 - Submit issues or suggestions on the [Issues](https://github.com/waveshareteam/Docs_en/issues/new) page of this project
 
-## Local Development
-
-This project is built with [Docusaurus](https://docusaurus.io/). Follow these steps to preview and build locally:
-
-```sh
-# Install dependencies
-npm ci
-
-# Start local preview
-npm run start
-
-# Build static files
-npm run build
-
-# Preview static files locally
-npm run serve
-```
 
 ## Contribution Guide
 
