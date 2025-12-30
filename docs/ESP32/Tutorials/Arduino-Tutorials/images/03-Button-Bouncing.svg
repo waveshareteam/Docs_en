@@ -28,7 +28,7 @@
   <!-- Ideal Signal Annotations -->
   <text x="100" y="55" class="time-label" text-anchor="middle">Not Pressed</text>
   <text x="300" y="80" class="time-label" text-anchor="middle">Pressed</text>
-  <text x="500" y="55" class="time-label" text-anchor="middle">Released</text>
+  <text x="510" y="55" class="time-label" text-anchor="middle">Released</text>
   <!-- Separator Line -->
   <line x1="30" y1="120" x2="570" y2="120" stroke="#ccc" stroke-width="2"/>
   <!-- Bottom Section: Actual Signal -->
@@ -47,10 +47,10 @@
   <!-- Actual Signal Annotations -->
   <text x="100" y="185" class="time-label" text-anchor="middle">Not Pressed</text>
   <text x="300" y="210" class="time-label" text-anchor="middle">Pressed</text>
-  <text x="500" y="185" class="time-label" text-anchor="middle">Released</text>
+  <text x="510" y="185" class="time-label" text-anchor="middle">Released</text>
   <!-- Bounce Area Annotations -->
-  <text x="185" y="155" class="time-label" text-anchor="middle">Bounce on Press</text>
-  <text x="445" y="155" class="time-label" text-anchor="middle">Bounce on Release</text>
+  <text x="180" y="155" class="time-label" text-anchor="middle">Bounce on Press</text>
+  <text x="450" y="155" class="time-label" text-anchor="middle">Bounce on Release</text>
   <!-- Bounce Area Highlight Boxes -->
   <rect x="145" y="160" width="70" height="70" fill="none" stroke="#ff9999" stroke-width="1" stroke-dasharray="5,5" rx="5"/>
   <rect x="415" y="160" width="70" height="70" fill="none" stroke="#ff9999" stroke-width="1" stroke-dasharray="5,5" rx="5"/>
