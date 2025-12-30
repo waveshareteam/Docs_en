@@ -45,14 +45,6 @@ A: You can subscribe to this repository and raise an issue to describe your requ
   The LCD screen display chip used in this product is ST7789V2, and the touch chip is CST816T (for touch version only). There are two chip drivers in the lib we provide. For display drivers, please refer to GFX enable. For touch drivers, please refer to Arduino_LVGL demo
 </Details>
 
-<Details summary=" Q: Can you help me review or modify my code? " className="faq-details" open>
-  This product is positioned as a development board, not a finished product. The ecosystem is based on the mature ESP32 core, featuring a friendly development environment. We do not assist in modifying the code. And we encourage makers and enthusiasts to explore their DIY capabilities. If you have any questions, please feel free to ask our engineers for answers.
-  
-  If you find our product satisfactory and are interested in batch hardware customization, custom enclosures, or custom software, please contact our sales department
-  
-  ![](https://www.waveshare.net/w/upload/thumb/8/8b/ESP32-S3-Touch-LCD-1.69-240708-02.png/900px-ESP32-S3-Touch-LCD-1.69-240708-02.png)
-</Details>
-
 <Details summary=" Q: Why is there no output even though the code is correct and flashed successfully?" className="faq-details" open>
 - Check the schematic diagram: Depending on the Type-C interface of your specific development board, the code handling the output differs:
   - For boards with a direct USB connection, they support output via the printf function. To support output via the Serial function, you need to enable the USB CDC On Boot feature or declare HWCDC
@@ -60,5 +52,5 @@ A: You can subscribe to this repository and raise an issue to describe your requ
 </Details>
 
 <Details summary=" Q: How to use SquareLine Studio to design interfaces?" className="faq-details" open>
-Please refer to **[SquareLine Studio Tutorial](https://www.waveshare.com/wiki/Waveshare_SquareLine_Studio).
+Please refer to **[SquareLine Studio Tutorial](https://www.waveshare.com/wiki/Waveshare_SquareLine_Studio)**.
 </Details>

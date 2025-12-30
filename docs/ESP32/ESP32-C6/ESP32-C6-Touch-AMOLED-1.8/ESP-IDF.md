@@ -24,7 +24,6 @@ import IDF_demo36 from './images/ESP32-C6-Touch-AMOLED-1.8-demo-VS36.webp';
 
 This chapter includes the following sections, please read as needed:
 
-- [ESP-IDF Getting Started](#espidf-getting-started)
 - [Setting Up Development Environment](#setting-up-development-environment)
 - [Demo](#demo)
 
@@ -80,11 +79,11 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 |                            Demo                             |                               Basic Description                               |
 | :-------------------------------------------------------------: | :----------------------------------------------------------------------: |
-|  [01_AXP2101](#Demo-1-HelloWorld)                              | Drives the AXP2101 PMU using the ported XPowersLib to get power-related data                           |
-|  [02_PCF85063](#Demo-2-Drawing_board)                          | Drives the PCF85063 RTC for time storage and reading                                          |
-|  [03_esp-brookesia](#Demo-3-GFX_AsciiTable)                    | Show a complete mobile-style UI system, including components such as the status bar, navigation bar, app launcher, and gesture interactions |
-|  [03_QMI8658](#Demo-4-GFX_FT3168_Image)                        | Drives the QMI8658 IMU using the ported SensorLib to get gyroscope-related data                         |
-|  [05_LVGL_WITH_RAM](#Demo-5-GFX_PCF85063_simpleTime)           | Run the LVGL demo by enabling double buffering and DMA acceleration to prevent tearing |
+|  [01_AXP2101](#Demo-1-AXP2101)                              | Drives the AXP2101 PMU using the ported XPowersLib to get power-related data                           |
+|  [02_PCF85063](#Demo-2-PCF85063)                          | Drives the PCF85063 RTC for time storage and reading                                          |
+|  [03_esp_brookesia](#Demo-3-esp-brookesia)                    | Show a complete mobile-style UI system, including components such as the status bar, navigation bar, app launcher, and gesture interactions |
+|  [04_QMI8658](#Demo-4-QMI8658)                        | Drives the QMI8658 IMU using the ported SensorLib to get gyroscope-related data                         |
+|  [05_LVGL_WITH_RAM](#Demo-5-LVGL_WITH_RAM)           | Run the LVGL demo by enabling double buffering and DMA acceleration to prevent tearing |
 
 
 ### 01_AXP2101 {#Demo-1-AXP2101}
@@ -140,7 +139,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 - The serial port monitor prints time information
 <div style={{maxWidth:800}}> <img src={IDF_demo2}/></div>
 
-### 03_esp-brookesia {#Demo-3-esp-brookesia}
+### 03_esp_brookesia {#Demo-3-esp-brookesia}
 
 #### Demo Description
 

@@ -38,7 +38,7 @@ import arduino_demo142 from './images/ESP32-C6-Touch-AMOLED-1.8_demo142.webp';
 
 This chapter includes the following sections, please read as needed:
 
-- [Arduino Getting Started](#arduino-getting-started)
+- [Arduino Getting Started Tutorial](#arduino-tutorial-for-beginners)
 - [Setting Up Development Environment](#setting-up-development-environment)
 - [Demo](#demo)
 
@@ -71,7 +71,7 @@ You can click [this link](https://github.com/waveshareteam/ESP32-C6-Touch-AMOLED
 |      ui_c               | Custom UI library                      | ——     |Install manually|
 |      lv_conf.h          | LVGL configuration file                   | ——     |Install manually|
 
-:::Warning Version Compatibility Description
+:::warning Version Compatibility Description
 
 There are strong dependencies between versions of LVGL and its driver libraries. For example, a driver written for LVGL v8 may not be compatible with LVGL v9. To ensure stable reproduction of the examples, it is recommended to use the specific versions listed in the table above. Mixing different library versions may cause compilation failures or runtime exceptions.
 :::
@@ -87,7 +87,7 @@ There are strong dependencies between versions of LVGL and its driver libraries.
    You can also locate it within the Arduino IDE via **File > Preferences**, by checking the "**Sketchbook location**". **The library folder is the `libraries` folder under this path.**
    :::
 
-3. For other installation methods, please refer to: [Arduino Library Management Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/01-Arduino-IDE-Setup.md#ArduinoIDE-Installing-Libraries).
+3. For other installation methods, please refer to: [Arduino Library Management Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/01-Arduino-IDE-Setup.md#ArduinoIDE-Install-Libraries).
 
 ## Demo
 
@@ -98,7 +98,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 |  [01_HelloWorld](#Demo-1-HelloWorld)                            | Demonstrates the basic graphics library function and can also be used to test the basic performance of display screens and the display effect of random text    | GFX_Library_for_Arduino |
 |  [02_Drawing_board](#Demo-2-Drawing_board)                      | Demonstrates the basic graphics library functions and can also be used to test the basic performance of display screens and the display effect of random text     | GFX_Library_for_Arduino, Arduino_DriveBus, Adafruit_XCA9554 |
 |  [03_GFX_AsciiTable](#Demo-3-GFX_AsciiTable)                    | Prints ASCII characters in rows and columns on the screen according to the screen size                                | GFX_Library_for_Arduino  |
-|  [04_GFX_FT3168_Image](#Demo-4-GFX_FT3168_Image)                | Shows image display effects, switching displayed images via touch |                                   | GFX_Library_for_Arduino, Arduino_DriveBus, Adafruit_XCA9554 |
+|  [04_GFX_FT3168_Image](#Demo-4-GFX_FT3168_Image)                | Shows image display effects, switching displayed images via touch |             GFX_Library_for_Arduino, Arduino_DriveBus, Adafruit_XCA9554 |
 |  [05_GFX_PCF85063_simpleTime](#Demo-5-GFX_PCF85063_simpleTime)  | GFX library displays the current time                                                   | SensorLib, GFX_Library_for_Arduino |
 |  [06_GFX_ESPWiFiAnalyzer](#Demo-6-GFX_ESPWiFiAnalyzer)          | Draws WiFi band signal strength on the screen                                              | GFX_Library_for_Arduino |
 |  [07_GFX_Clock](#Demo-7-GFX_Clock)                              | Implements a clock using simple marker pointers and time management                                       | GFX_Library_for_Arduino |
@@ -106,9 +106,9 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 |  [09_LVGL_change_background](#Demo-9-LVGL_change_background)    | Custom UI to control background colorbrightness                                                       | LVGL, Arduino_DriveBus, ui_b |
 |  [10_LVGL_PCF85063_simpleTime](#Demo-10-LVGL_PCF85063_simpleTime)  |  LVGL library displays the current time                                                  | LVGL, SensorLib |
 |  [11_LVGL_QMI8658_ui](#Demo-11-LVGL_QMI8658_ui)                 | LVGL draws an acceleration line chart                                                   | LVGL, SensorLib |
-|  [12_LVGL_Widgets](#Demo-13-LVGL_Widgets)                       | LVGL demonstration                                                               | LVGL, Arduino_DriveBus, Adafruit_XCA9554 |
-|  [13_ES8311](#Demo-15-ES8311)                                   | ES8311 driver example, plays simple audio                                           | —— |
-|  [14_LVGL_Sqprj](#Demo-16-LVGL_Sqprj)                           | SquareLine UI combined with LVGL example                                               | LVGL |
+|  [12_LVGL_Widgets](#Demo-12-LVGL_Widgets)                       | LVGL demonstration                                                               | LVGL, Arduino_DriveBus, Adafruit_XCA9554 |
+|  [13_ES8311](#Demo-13-ES8311)                                   | ES8311 driver example, plays simple audio                                           | —— |
+|  [14_LVGL_Sqprj](#Demo-14-LVGL_Sqprj)                           | SquareLine UI combined with LVGL example                                               | LVGL |
 
 - ESP32-C6-Touch-AMOLED-1.8 select model
 <div style={{maxWidth:800}}> <img src={arduino_config}/></div>

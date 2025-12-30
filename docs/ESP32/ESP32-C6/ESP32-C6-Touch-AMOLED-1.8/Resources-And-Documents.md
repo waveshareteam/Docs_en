@@ -36,4 +36,4 @@ product_model:
 
 ## **3. Demo**
 
-- **github GitHub Example Program Repository**: [ESP32-C6-Touch-AMOLED-1.8_Demo](https://github.com/waveshareteam/ESP32-C6-Touch-AMOLED-1.8)
+- **GitHub Example Program Repository**: [ESP32-C6-Touch-AMOLED-1.8_Demo](https://github.com/waveshareteam/ESP32-C6-Touch-AMOLED-1.8)
