@@ -55,7 +55,7 @@ The following environment settings are applicable to Windows 10/11 systems. For 
    - **Select download server**:
      - Espressif: Use Espressif's China server for faster download speeds.
      - Github: Use the official GitHub release link.
-   - **ESP-IDF Version**: Typically, select the version required by the development board. If no specific requirement, it's recommended to use the latest stable version. For [ESP32-C6-Touch-LCD-1.83](https://www.waveshare.com/esp32-c6-touch-lcd-1.83.htm), it is recommended to use the Espressif IDF version ≥ v5.5.0.
+   - **ESP-IDF Version**: Typically, select the version required by the development board. If no specific requirement, it's recommended to use the latest stable version. For [ESP32-C6-Touch-AMOLED-1.8](https://www.waveshare.com/esp32-c6-touch-amoled-1.8.htm), it is recommended to use the Espressif IDF version ≥ v5.5.0.
    - **ESP-IDF Container Installation Path**: It is recommended to use the default path, or use a path that contains only English characters and no spaces.
    - **ESP-IDF Required Tools Installation Path**: It is recommended to use the default path, or use a path that contains only English characters and no spaces.
 
