@@ -53,11 +53,11 @@ The following environment settings are applicable to Windows 10/11 systems. For 
 5. Modify the following options as needed:
 
    - **Select download server**:
-     - Espressif: Use Espressif's China server for faster download speeds.
+     - Espressif: For users in China, use Espressif's China server for faster downloads.
      - Github: Use the official GitHub release link.
    - **ESP-IDF Version**: Typically, select the version required by the development board. If no specific requirement, it's recommended to use the latest stable version. For [ESP32-C6-Touch-AMOLED-1.8](https://www.waveshare.com/esp32-c6-touch-amoled-1.8.htm), it is recommended to use the Espressif IDF version ≥ v5.5.0.
-   - **ESP-IDF Container Installation Path**: It is recommended to use the default path, or use a path that contains only English characters and no spaces.
-   - **ESP-IDF Required Tools Installation Path**: It is recommended to use the default path, or use a path that contains only English characters and no spaces.
+   - **ESP-IDF Container directory**: It is recommended to use the default path, or use a path that contains only English characters and no spaces.
+   - **ESP-IDF Required Tools directory**: It is recommended to use the default path, or use a path that contains only English characters and no spaces.
 
    ![ESP-IDF Extended Quick Configuration Mode Options](./images/VSCode-ESP-IDF-Configuration-3.webp)
 
