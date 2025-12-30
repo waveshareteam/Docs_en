@@ -27,7 +27,7 @@ product_model:
     - [Chinese Version](https://documentation.espressif.com/esp32-c6_technical_reference_manual_cn.pdf)
     - [English Version](https://documentation.espressif.com/esp32-c6_technical_reference_manual_en.pdf)
 
-- **Onboard Device Datasheets**
+- **Onboard Component Datasheets**
   - [QMI8658 Datasheet](https://files.waveshare.com/wiki/common/QMI8658C.pdf)
   - [PCF85063A Datasheet](https://files.waveshare.com/wiki/common/PCF85063A.pdf)
   - [AXP2101 Datasheet](https://files.waveshare.com/wiki/common/X-power-AXP2101_SWcharge_V1.0.pdf)
