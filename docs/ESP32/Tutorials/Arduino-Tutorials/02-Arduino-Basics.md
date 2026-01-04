@@ -64,6 +64,8 @@ void loop() {
   If the new port is not found, try entering download mode manually: **Hold the "BOOT" button, plug in the USB cable, and then release the button.** Check the port list again, and the port should appear.
 
   <VideoPlayer src={VideoDownloadMode} asGif />
+
+  **Note**: If you connect the board this way, you may need to manually press the reset button or re-plug the USB cable after a successful upload to run the program.
   :::
 
 - **Select the Board Model**:
