@@ -1,0 +1,10 @@
+pr_image_check:
+  stage: test
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+  script:
+    - node .gitlab/scripts/check-image-format.js
+  variables:
+    GITLAB_API_URL: "$CI_API_V4_URL"
+    PROJECT_ID: "$CI_PROJECT_ID"
+    MR_IID: "$CI_MERGE_REQUEST_IID"

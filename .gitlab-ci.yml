@@ -1,0 +1,23 @@
+stages:
+  - build
+  - test
+  - deploy
+
+default:
+  image: node:22
+
+variables:
+  npm_config_cache: "$CI_PROJECT_DIR/.npm"
+
+cache:
+  key:
+    files:
+      - package-lock.json
+  paths:
+    - .npm/
+  policy: pull-push
+
+include:
+  - local: .gitlab/ci/pr-deploy-test.yml
+  - local: .gitlab/ci/pr-image-check.yml
+  - local: .gitlab/ci/deploy.yml
