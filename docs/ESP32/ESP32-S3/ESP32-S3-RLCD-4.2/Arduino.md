@@ -28,7 +28,7 @@ import esp32S3RLCD4_2ArduinoExample9 from './images/Arduino-Example-9.webp';
 
 This chapter includes the following sections, please read as needed:
 
-- [Arduino Getting Started](#arduino-getting-started)
+- [Arduino Getting Started](#arduino-tutorial-for-beginners)
 - [Setting Up Development Environment](#setting-up-development-environment)
 - [Demo](#demo)
 

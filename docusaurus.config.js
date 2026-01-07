@@ -35,6 +35,17 @@ const config = {
 
   plugins: [
     "docusaurus-plugin-image-zoom",
+    [
+      "@docusaurus/plugin-client-redirects",
+      {
+        redirects: [
+          {
+            to: "/ESP32-S3-RLCD-4.2",
+            from: ["/wiki/ESP32-S3-RLCD-4.2"],
+          },
+        ],
+      },
+    ],
   ],
 
   markdown: {
