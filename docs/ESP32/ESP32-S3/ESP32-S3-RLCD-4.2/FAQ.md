@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: =FAQ=
+title: FAQ
 slug: /ESP32-S3-RLCD-4.2/FAQ
 product_family:
   - ESP32
