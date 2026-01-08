@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: ESP32-S3-RLCD-4.2 FAQ
+title: FAQ
 slug: /ESP32-S3-RLCD-4.2/FAQ
 product_family:
   - ESP32
@@ -11,7 +11,7 @@ product_model:
 
 import Details from '@theme/Details';
 
-# FAQ
+# ESP32-S3-RLCD-4.2 FAQ
 
 <Details 
   summary=" Q: How to turn the device on and off?" 
