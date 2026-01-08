@@ -57,7 +57,7 @@ import esp32S3RLCD4_2HW from './images/ESP32-S3-RLCD-4.2-HW.webp';
 14. **CHG Charging Indicator Light** The light turns off when the battery is fully charged
 15. **WRN Warning Indicator Light** The light stays on if the battery is reverse-connected
 16. **Type-C Interface** Used for program flashing and log printing
-17. **TF Card Slot ** Supports FAT32-formatted TF card for data expansion
+17. **TF Card Slot** Supports FAT32-formatted TF card for data expansion
 
 ## Interfaces
 
@@ -83,7 +83,7 @@ import esp32S3RLCD4_2ProductSize from './images/ESP32-S3-RLCD-4.2-ProductSize.we
 
 ## Development Methods
 
-The ESP32-S3-Touch-AMOLED-1.32 supports two development frameworks: Arduino IDE and ESP-IDF, providing flexibility for developers to choose the tool that best fits their project requirements and personal preference.
+The ESP32-S3-RLCD-4.2 supports two development frameworks: Arduino IDE and ESP-IDF, providing flexibility for developers to choose the tool that best fits their project requirements and personal preference.
 
 Each method has its advantages, and developers can select based on their needs and skill level. Arduino is simple to learn and easy to get started with, suitable for beginners and non-professionals; ESP-IDF provides more advanced development tools and stronger control capabilities, suitable for developers with professional backgrounds or those with higher performance requirements, and is more suitable for complex project development.
 

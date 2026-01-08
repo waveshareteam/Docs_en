@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: FAQ
+title: ESP32-S3-RLCD-4.2 FAQ
 slug: /ESP32-S3-RLCD-4.2/FAQ
 product_family:
   - ESP32
@@ -40,6 +40,10 @@ import Details from '@theme/Details';
   summary=" Q: Error when compiling an Arduino program?" 
   className="faq-details" open>
   - Check if the Arduino IDE -> Tools is properly configured.
+
+    <div style={{maxWidth: 450}}>
+      ![ArduinoToolCfg](./images/ESP32-S3-RLCD-4.2-ArduinoToolCfg.webp)
+    </div>
 </Details>
 
 <Details 
@@ -60,8 +64,8 @@ import Details from '@theme/Details';
 
   **Windows System**:
   
-  1. Through Device Manager: Press the Windows + R keys to open the "Run" dialog box; input devmgmt.msc and press Enter to open the Device Manager; expand the "Ports (COM and LPT)" section, where all COM ports and their current statuses will be listed.
-  2. Using Command Prompt: Open the Command Prompt (CMD), enter the mode command, which will display status information for all COM ports.
+  1. Through Device Manager: Press the <kbd>Windows</kbd> + <kbd>R</kbd> keys to open the "Run" dialog box; input `devmgmt.msc` and press Enter to open the Device Manager; expand the "Ports (COM and LPT)" section, where all COM ports and their current statuses will be listed.
+  2. Using Command Prompt: Open the Command Prompt (CMD), enter the `mode` command, which will display status information for all COM ports.
   3. Check the hardware connection: If you have already connected an external device to the COM port, the device usually occupies a port number, which can be determined by checking the connected hardware.
   
   **Linux System**:

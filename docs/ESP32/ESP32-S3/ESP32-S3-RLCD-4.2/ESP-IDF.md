@@ -28,7 +28,7 @@ import esp32S3RLCD4_2ESPIDFExample10_3 from './images/ESP-IDF-Example-10-3.webp'
 
 ## Demo
 
-The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https://github.com/waveshareteam/ESP32-C6-Touch-LCD-1.83/tree/main/examples demo] package.
+The ESP-IDF demo is located in the `ESP-IDF` directory of the [example](https://github.com/waveshareteam/ESP32-C6-Touch-LCD-1.83/tree/main/examples).
 | Demo | Basic Program Description | Dependency Library|
 | :-: | :-: | :-: |
 | 01_WIFI_AP | Set to AP mode to obtain the IP address of the access device | - |
