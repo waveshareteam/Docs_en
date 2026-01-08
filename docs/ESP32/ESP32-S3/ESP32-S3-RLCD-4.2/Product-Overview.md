@@ -3,6 +3,11 @@ sidebar_position: 1
 title: ESP32-S3-RLCD-4.2
 slug: /ESP32-S3-RLCD-4.2
 id: ESP32-S3-RLCD-4.2-Overview
+product_family:
+  - ESP32
+product_model:
+  - ESP32-S3-RLCD-4.2
+  - ESP32-S3-RLCD-4.2-EN
 ---
 
 import esp32S3RLCD4_2UiInit from './images/ESP32-S3-RLCD-4.2-DocHeader.webp';

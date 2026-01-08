@@ -6,6 +6,7 @@ product_family:
   - ESP32
 product_model:
   - ESP32-S3-RLCD-4.2
+  - ESP32-S3-RLCD-4.2-EN
 ---
 
 import Tabs from '@theme/Tabs';
