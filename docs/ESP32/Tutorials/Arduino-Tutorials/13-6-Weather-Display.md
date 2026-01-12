@@ -1,6 +1,6 @@
 ---
 title: Weather Display
-slug: /ESP32-MicroPython-Tutorials/13-6-Weather-Display
+slug: /ESP32-Arduino-Tutorials/13-6-Weather-Display
 id: 13-6
 product_serial:
   - ESP32

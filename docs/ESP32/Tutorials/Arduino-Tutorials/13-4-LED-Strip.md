@@ -1,6 +1,6 @@
 ---
 title: LED Strip
-slug: /ESP32-MicroPython-Tutorials/13-4-LED-Strip
+slug: /ESP32-Arduino-Tutorials/13-4-LED-Strip
 id: 13-4
 product_serial:
   - ESP32
