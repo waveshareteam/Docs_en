@@ -87,7 +87,7 @@ const char* ssid = "Maker";
 const char* password = "12345678";
 
 // Seniverse Weather API Configuration (Please replace with your private key)
-String apiKey = "SIAJmsAgSAiBZfefH";
+String apiKey = "your_api_key";
 // The city for which you want to query the weather
 String location = "shenzhen"; 
 
