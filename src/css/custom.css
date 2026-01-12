@@ -272,5 +272,9 @@
 .navbar__brand {
   margin-bottom: 0px;
   margin-left: 5px;
-  margin-right: 50px;
+  margin-right: 80px;
+}
+
+:root {
+  --doc-sidebar-width: 330px;
 }

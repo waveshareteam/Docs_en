@@ -120,6 +120,10 @@ const config = {
                 to: "/ESP32-S3",
               },
               {
+                label: "ESP32-P4",
+                to: "/ESP32-P4",
+              },
+              {
                 label: "ESP32-C3",
                 to: "/ESP32-C3",
               },
