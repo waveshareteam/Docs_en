@@ -53,7 +53,7 @@ Simply put, digital signals use these two voltage states to convey information l
 Therefore, the specific voltage value represented by "HIGH" depends on the development board being used.
 :::
 
-## 2. Digital Output
+## 2. Digital Output{#digital-output}
 
 This example uses an ESP32 board and an Arduino environment to make an external LED flash. This example will demonstrate how to control the digital output of an ESP32 board using the Arduino IDE.
 
@@ -155,7 +155,7 @@ After uploading the code, the LED connected to the ESP32 board will light up for
    - 1000 milliseconds = 1 second.
    - During `delay()`, the program does not perform any other operations. This means that during the `delay()`, the ESP32 cannot respond to other events, such as reading sensors or buttons. In more complex projects, non-blocking delay methods are required.
 
-## 3. Digital Input
+## 3. Digital Input{#digital-input}
 
 In this example, we will create a simple button circuit using an ESP32 development board to learn the basic operations of digital input by reading the button state.
 
@@ -338,7 +338,7 @@ As above, each time the button is released, the counter increases by 1, and beca
 - Update the counter every time it detects that it changes from LOW to HIGH (i.e. the button is released), execute 'count=count+1' and 'Serial.println(count)';
 - Add `delay(100)`, which pauses for 100 milliseconds, simply suppressing the repeated counting caused by button bounce
 
-## 4. Extension exercises
+## 4. Extension exercises{#digital-io-exercise}
 
 <Details>
   <summary>Please try to implement: when the button is pressed, the LED lights up. When the button is released, the LED turns off. </summary>
