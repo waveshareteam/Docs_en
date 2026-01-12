@@ -12,7 +12,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "WaveShare Documentation Platform",
   tagline: "WaveShare Documentation Platform, share awesome hardware",
-  favicon: "img/ws-logo-green.png",
+  favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
