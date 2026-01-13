@@ -81,6 +81,42 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        // The application ID provided by Algolia
+        appId: "HY4GVNM7LI",
+
+        // Public API key: it is safe to commit it
+        apiKey: "59957bcee7309714863dd62a27ee9207",
+
+        indexName: 'Waveshare Documentation Website EN',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        // externalUrlRegex: "external\\.com|domain\\.com",
+
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        // replaceSearchResultPathname: {
+        //   from: "/docs/", // or as RegExp: /\/docs\//
+        //   to: "/",
+        // },
+
+        maxResultsPerGroup: 7, 
+
+        // Optional: Algolia search parameters
+        // searchParameters: {
+        //  hitsPerPage: 15,
+        // },
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: "search",
+
+        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+        insights: true,
+
+        //... other Algolia params
+      },
       zoom: {
         selector: ".markdown :not(a) > img",
         background: {
