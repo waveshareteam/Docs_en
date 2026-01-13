@@ -16,7 +16,6 @@ product_model:
 
 This chapter includes the following sections, please read as needed:
 
-- [ESP-IDF Getting Started](#espidf-getting-started)
 - [Setting Up Development Environment](#setting-up-development-environment)
 
 ## Setting Up Development Environment
