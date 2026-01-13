@@ -439,7 +439,7 @@ void loop() {
 
 void setup() {
   Wire.begin(8, SDA, SCL, 100000);  // Initialize the I2C slave device at address 8 and frequency 100 kHz
-  Wire.onReceive(receiveEvent);     // Register the callback function for the request event
+  Wire.onRequest(requestEvent);     // Register the callback function for the request event
 }
 
 void loop() {
