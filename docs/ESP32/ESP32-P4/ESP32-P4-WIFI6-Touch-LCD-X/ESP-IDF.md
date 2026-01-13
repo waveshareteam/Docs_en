@@ -7,9 +7,10 @@ product_family:
   - ESP32
 product_model:
   - ESP32-P4-WIFI6-Touch-LCD-X
+  - ESP32-P4-WIFI6-Touch-LCD-7
+  - ESP32-P4-WIFI6-Touch-LCD-8
+  - ESP32-P4-WIFI6-Touch-LCD-10.1
 ---
-
-<!-- import EspidfTutorialIntro from '@site/docs/ESP32/snippets/EspidfTutorialIntro.mdx'; -->
 
 # Working with ESP-IDF
 
@@ -17,8 +18,6 @@ This chapter includes the following sections, please read as needed:
 
 - [ESP-IDF Getting Started](#espidf-getting-started)
 - [Setting Up Development Environment](#setting-up-development-environment)
-
-<!-- <EspidfTutorialIntro /> -->
 
 ## Setting Up Development Environment
 
@@ -121,7 +120,7 @@ After understanding the description of bottom toolbar of VS Code user interface,
 
 1. After opening the sample project `HelloWorld`, set the target port and chip type (Note: There is a loading action in the lower right corner when the chip type is selected, indicating that ESP-IDF is executing the command `idf.py set-target esp32p4`. It needs to pull the architecture package environment corresponding to the chip from the package manager, which may take some time. Please wait patiently. If you perform build or other operations at this time, there will be errors!!!)
 
-2. By using the bottom tool <kbd></kbd> to build, burn, and monitor with just one click, you can view the terminal output Hello World!
+2. By using the bottom tool <kbd>🔥</kbd> to build, burn, and monitor with just one click, you can view the terminal output Hello World!
 
 3. Code content analysis
 
@@ -157,7 +156,7 @@ Based on the above, the I2C configuration is defined as follows:
 ```
 
 1. Open the `i2c_tools` project, select the correct COM port and chip model, then click the <kbd>⚙️</kbd> button to enter the settings. This will open a new tab: **SDK Configuration editor**, also known as menuconfig. Directly search for I2C in the search bar. You will see the relevant configuration options, and the SCL GPIO Num and SDA GPIO Num in the example code should already correspond to `SCL(GPIO8)` and `SDA(GPIO7)`.
-2. Next, you can directly compile, flash, and monitor by clicking <kbd></kbd>. After completion, a command menu will appear in the terminal. When you execute the i2cdetect command, it will print all I2C addresses. If a device is present, its address will be displayed as a number (the device at I2C address 0x18 is the onboard ES8311 Codec audio chip, which will be explained in detail in the I2S section), as shown in the figure:
+2. Next, you can directly compile, flash, and monitor by clicking <kbd>🔥</kbd>. After completion, a command menu will appear in the terminal. When you execute the i2cdetect command, it will print all I2C addresses. If a device is present, its address will be displayed as a number (the device at I2C address 0x18 is the onboard ES8311 Codec audio chip, which will be explained in detail in the I2S section), as shown in the figure:
 
    ![i2cdetect](https://www.waveshare.net/w/upload/thumb/a/ab/ESP32-P4-Nano_I2C_demo_240906_01.png/900px-ESP32-P4-Nano_I2C_demo_240906_01.png)
 
@@ -192,9 +191,9 @@ idf.py add-dependency espressif/esp_hosted==1.4.*
 
    ![Configure Wi-Fi Information](https://www.waveshare.net/w/upload/c/c7/ESP32-P4-Nano-WiFistation_240907_02.png)
 
-4. Next, you can directly compile, flash, and monitor by clicking <kbd></kbd>. After completion, the terminal will display the following result, indicating that the ESP32‑P4‑NANO has successfully connected to the Wi‑Fi network and is online:
+4. Next, you can directly compile, flash, and monitor by clicking <kbd>🔥</kbd>. After completion, the terminal will display the following result, indicating that the ESP32‑P4‑NANO has successfully connected to the Wi‑Fi network and is online:
 
-   [Wi-Fi Networking Example Output](https://www.waveshare.net/w/upload/d/db/ESP32-P4-Nano-WiFistation_240907_03.png)
+   ![Wi-Fi Networking Example Output](https://www.waveshare.net/w/upload/d/db/ESP32-P4-Nano-WiFistation_240907_03.png)
 
 
 ### 5. SDMMC Example
@@ -240,7 +239,7 @@ The ESP32-P4-NANO features an onboard 4-Wire SDIO 3.0 card slot for expanding of
 
      ![ESP-IDF Configuration SDMMC](https://www.waveshare.net/w/upload/thumb/c/c3/ESP32-P4-Nano-SDMMC_240906_02.png/1200px-ESP32-P4-Nano-SDMMC_240906_02.png)
 
-  2. Next, insert the prepared TF card. Click <kbd></kbd> to compile, flash and monitor. After completion, the terminal will display a command menu and list the contents of the directory on the TF card.
+  2. Next, insert the prepared TF card. Click <kbd>🔥</kbd> to compile, flash and monitor. After completion, the terminal will display a command menu and list the contents of the directory on the TF card.
 
      ![SDMMC Example Output](https://www.waveshare.net/w/upload/e/e1/ESP32-P4-Nano-SDMMC_240906_03.png)
 
@@ -287,7 +286,7 @@ idf.py add-dependency "espressif/es8311"
 
    ![Configure Volume](https://www.waveshare.net/w/upload/a/a8/ESP32-P4-Nano-i2scodec_240909_02.png)
 
-3. Connect a speaker, you can directly compile, flash, and monitor by clicking <kbd></kbd>. After completion, the terminal will display the following result, indicating that the ESP32‑P4‑NANO is now playing audio.
+3. Connect a speaker, you can directly compile, flash, and monitor by clicking <kbd>🔥</kbd>. After completion, the terminal will display the following result, indicating that the ESP32‑P4‑NANO is now playing audio.
 
    ![I2S Audio Sample Output](https://www.waveshare.net/w/upload/c/c6/ESP32-P4-Nano-i2scodec_240909_03.png)
 
@@ -317,7 +316,7 @@ ESP32-P4-WIFI6-Touch-LCD-X Any Kit
 **Display Initialization Steps**
 
 1. The compatible screen driver has been packaged as a component, available in the [ESP Component Registry](https://components.espressif.com/components?q=namespace:waveshare)
-2. Open the corresponding project, select the esp32p4 target, then proceed by clicking <kbd></kbd> to compile, flash, and monitor. Upon completion, you can observe that the screen has lit up and is displaying color bars.
+2. Open the corresponding project, select the esp32p4 target, then proceed by clicking <kbd>🔥</kbd> to compile, flash, and monitor. Upon completion, you can observe that the screen has lit up and is displaying color bars.
 <img src="https://www.waveshare.net/w/upload/f/fa/ESP32-P4-WIFI6-Touch-LCD-7-260109-01.jpg" width="400"/>
 ---
 
@@ -332,7 +331,7 @@ ESP32-P4-WIFI6-Touch-LCD-X Any Kit
 **Display Initialization Steps**
 
 1. The compatible screen driver is packaged as a component and invoked via the BSP (Board Support Package).
-2. After opening the project, configure the relevant parameters in menuconfig under the Display settings. Select the esp32p4 target, then proceed by clicking <kbd></kbd> to compile, flash, and monitor. Upon completion, the display will show the rendered images.
+2. After opening the project, configure the relevant parameters in menuconfig under the Display settings. Select the esp32p4 target, then proceed by clicking <kbd>🔥</kbd> to compile, flash, and monitor. Upon completion, the display will show the rendered images.
 
 
 |<img src="https://www.waveshare.net/w/upload/d/d8/ESP32-P4-WIFI6-Touch-LCD-7-260109-02.jpg" width="400"/>   | <img src="https://www.waveshare.net/w/upload/5/55/ESP32-P4-WIFI6-Touch-LCD-7-260109-03.jpg" width="400"/>  |  <img src="https://www.waveshare.net/w/upload/9/94/ESP32-P4-WIFI6-Touch-LCD-7-260109-04.jpg" width="400"/> |
@@ -348,7 +347,7 @@ ESP32-P4-WIFI6-Touch-LCD-X Any Kit
 **Display Initialization Steps**
 
 1. The compatible screen driver is packaged as a component and invoked via the BSP (Board Support Package).
-2. After opening the project, configure the relevant parameters in menuconfig under the Display settings. Select the esp32p4 target, then proceed by clicking <kbd></kbd> to compile, flash, and monitor. Upon completion, the display will show the rendered images.
+2. After opening the project, configure the relevant parameters in menuconfig under the Display settings. Select the esp32p4 target, then proceed by clicking <kbd>🔥</kbd> to compile, flash, and monitor. Upon completion, the display will show the rendered images.
 
 ### 10. MP4 Player
 This example showcases ESP32-P4's robust image processing power by capturing video from a camera via the MIPI CSI interface and displaying it in real-time on a screen via the MIPI DSI interface.
@@ -370,7 +369,7 @@ ffmpeg -i input.mp4 -c:v mjpeg -q:v 3 -vf scale=720:1280 -r 20 -c:a aac output.m
 **Display Initialization Steps**
 
 1. Place the provided video file onto the TF card, and then insert the card into the main board's card slot.
-2. After opening the project, configure the relevant parameters in menuconfig under the Display settings. Select the esp32p4 target, then proceed by clicking <kbd></kbd> to compile, flash, and monitor. Upon completion, the display will show the rendered images.
+2. After opening the project, configure the relevant parameters in menuconfig under the Display settings. Select the esp32p4 target, then proceed by clicking <kbd>🔥</kbd> to compile, flash, and monitor. Upon completion, the display will show the rendered images.
 
 ### 11. ESP-Phone
 
@@ -382,7 +381,7 @@ This example is based on [ESP_Brookesia](https://github.com/espressif/esp-brooke
 
 **Display Initialization Steps**
 
-1. After opening the project, select esp32p4 core, and you can directly click <kbd></kbd> to compile, flash, and monitor. Upon completion, the display will show the rendered images.
+1. After opening the project, select esp32p4 core, and you can directly click <kbd>🔥</kbd> to compile, flash, and monitor. Upon completion, the display will show the rendered images.
 
 |<img src="https://www.waveshare.net/w/upload/8/82/ESP32-P4-WIFI6-Touch-LCD-7-260109-07.jpg" width="400"/>   | <img src="https://www.waveshare.net/w/upload/b/b0/ESP32-P4-WIFI6-Touch-LCD-7-260109-06.jpg" width="400"/>  |  <img src="https://www.waveshare.net/w/upload/d/dc/ESP32-P4-WIFI6-Touch-LCD-7-260109-05.jpg" width="400"/> |
 |---|---|---|

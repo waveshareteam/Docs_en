@@ -6,6 +6,9 @@ product_family:
   - ESP32
 product_model:
   - ESP32-P4-WIFI6-Touch-LCD-X
+  - ESP32-P4-WIFI6-Touch-LCD-7
+  - ESP32-P4-WIFI6-Touch-LCD-8
+  - ESP32-P4-WIFI6-Touch-LCD-10.1
 ---
 
 import Link from '@docusaurus/Link';
