@@ -100,13 +100,13 @@ The best way to learn a language or development environment is to start from the
 
 - **Description of Bottom Toolbar of VS Code User Interface:**
 
-  When opening an ESP-IDF project, the environment will be loaded automatically at the bottom. For the development of ESP32-P4-NANO, the bottom toolbar is very important, as shown in the figure:
+  When opening an ESP-IDF project, the environment will be loaded automatically at the bottom. For the development of ESP32-P4, the bottom toolbar is very important, as shown in the figure:
 
   ![Description of Bottom Toolbar of VS Code User Interface](https://www.waveshare.net/w/upload/b/b6/ESP32-P4_VSCode_ESP-IDF_GettingStart_240905_03.png)
 
   - **①. ESP-IDF Development Environment Version Manager**: When our project requires differentiation of development environment versions, it can be managed by installing different versions of ESP-IDF. When the project uses a specific version, it can be switched to by utilizing it
   - **②. Device flashing COM port**: Select to flash the compiled program into the chip
-  - **③. Select set-target chip model**: Select the corresponding chip model, for example, ESP32-P4-NANO needs to choose esp32p4 as the target chip
+  - **③. Select set-target chip model**: Select the corresponding chip model, for example, ESP32-P4 needs to choose esp32p4 as the target chip
   - **④. menuconfig**: Click it to modify sdkconfig configuration file
   - **⑤. fullclean button**: When the project compilation error or other operations pollute the compiled content, you can clean up all the compiled content by clicking it
   - **⑥. Build project**: When a project satisfies the build, click this button to compile
@@ -129,7 +129,7 @@ After understanding the description of bottom toolbar of VS Code user interface,
 
 ### 3. I2C Example
 
-I2C is a commonly used serial communication bus, which can communicate through two lines, one data cable (SDA, Serial Data) and one clock cable (SCL, Serial Clock), and supports multi-master and multi-slave mode. The ESP32-P4 chip features two I2C bus interfaces. Internally, the GPIO switch matrix allows these interfaces to be configured to use any GPIO pin. This flexibility enables users to freely assign any GPIO as I2C pins. Additionally, the ESP32-P4 I2C supports both slave and master modes. The following section focuses on the I2C master mode, which is used by the ESP32-P4 to initiate communication, control, and send data requests to or receive data from slave devices (such as any I2C‑compatible sensor). On the ESP32-P4-NANO, the I2C pins are configured by default as `SCL(GPIO8)` and `SDA(GPIO7)`
+I2C is a commonly used serial communication bus, which can communicate through two lines, one data cable (SDA, Serial Data) and one clock cable (SCL, Serial Clock), and supports multi-master and multi-slave mode. The ESP32-P4 chip features two I2C bus interfaces. Internally, the GPIO switch matrix allows these interfaces to be configured to use any GPIO pin. This flexibility enables users to freely assign any GPIO as I2C pins. Additionally, the ESP32-P4 I2C supports both slave and master modes. The following section focuses on the I2C master mode, which is used by the ESP32-P4 to initiate communication, control, and send data requests to or receive data from slave devices (such as any I2C‑compatible sensor). On the ESP32-P4, the I2C pins are configured by default as `SCL(GPIO8)` and `SDA(GPIO7)`
 
 ![I2C Wiring Diagram](https://www.waveshare.net/w/upload/0/0e/ESP32-P4-Nano-I2C_240906_01.png)
 
@@ -167,7 +167,7 @@ Based on the above, the I2C configuration is defined as follows:
 
 ### 4. WIFI Networking Example
 
-The ESP32-P4 itself does not have built-in WIFI/BT functionality. However, the ESP32-P4-NANO expands WIFI capability by connecting to an ESP32-C6 module via SDIO. The ESP32-C6 acts as a Slave and, through a set of command sets, enables the ESP32-P4 as the Host to utilize WIFI 6/BT 5 features over SDIO. After adding the following two components, seamless integration with `esp_wifi` can be achieved.
+The ESP32-P4 itself does not have built-in WIFI/BT functionality. However, the ESP32-P4 expands WIFI capability by connecting to an ESP32-C6 module via SDIO. The ESP32-C6 acts as a Slave and, through a set of command sets, enables the ESP32-P4 as the Host to utilize WIFI 6/BT 5 features over SDIO. After adding the following two components, seamless integration with `esp_wifi` can be achieved.
 
 ```C
 // In a WIFI project, add the following two components using the ESP-IDF component management tool
@@ -198,7 +198,7 @@ idf.py add-dependency espressif/esp_hosted==1.4.*
 
 ### 5. SDMMC Example
 
-The ESP32-P4-NANO features an onboard 4-Wire SDIO 3.0 card slot for expanding off-chip storage.
+The ESP32-P4 features an onboard 4-Wire SDIO 3.0 card slot for expanding off-chip storage.
 
 - **Supported Rate Modes**
 
@@ -221,7 +221,7 @@ The ESP32-P4-NANO features an onboard 4-Wire SDIO 3.0 card slot for expanding of
   host.max_freq_khz = SDMMC_FREQ_HIGHSPEED;
   ```
 
-  The SDMMC 4-wire connection on the ESP32-P4-NANO should be defined as:
+  The SDMMC 4-wire connection on the ESP32-P4 should be defined as:
 
   ```C
   sdmmc_slot_config_t slot_config = SDMMC_SLOT_CONFIG_DEFAULT();
@@ -248,7 +248,7 @@ The ESP32-P4-NANO features an onboard 4-Wire SDIO 3.0 card slot for expanding of
 **I2S (Inter-IC Sound)** is a digital communication protocol designed for transmitting audio data. I2S is a serial bus interface that is primarily used for digital audio data transmission between audio devices, such as digital audio processors (DSPs), digital-to-analog converters (DACs), analog-to-digital converters (ADCs), and audio codecs.
 The ESP32-P4 includes one I2S peripheral. By configuring this peripheral with the I2S driver, sampled audio data can be input and output.
 
-The ESP32-P4-NANO board integrates an ES8311 Codec chip and an NS4150B power amplifier. The I2S bus and pin assignments are as follows:
+The ESP32-P4 board integrates an ES8311 Codec chip and an NS4150B power amplifier. The I2S bus and pin assignments are as follows:
 
 - **MCLK (Master Clock)**: The master clock signal. The clock is typically provided to the ES8311 by an external device (such as an MCU or DSP), which serves as the clock source for its internal digital audio processing module.
 - **SCLK (Serial Clock)**: The serial clock signal. This signal is typically used for clock synchronization for I2S data transmission and is generated by the master device to indicate the rate at which the data is transferred. The transmission of each bit of each audio sample requires a clock cycle.
@@ -258,7 +258,7 @@ The ESP32-P4-NANO board integrates an ES8311 Codec chip and an NS4150B power amp
 
 ![Audio Signal Processing Block Diagram of ESP32-P4 with ES8311 Codec and NS4150B Power Amplifier](https://www.waveshare.net/w/upload/0/06/ESP32-P4-Nano-i2scodec_240909_05.png)
 
-|               Functional Pin               | ESP32-P4-NANO Pin |
+|               Functional Pin               | ESP32-P4 Pin |
 | :-----------------------------------: | :--------------------------: |
 |                 MCLK                  |            GPIO13            |
 |                 SCLK                  |            GPIO12            |
@@ -267,7 +267,7 @@ The ESP32-P4-NANO board integrates an ES8311 Codec chip and an NS4150B power amp
 |                 DSDIN                 |            GPIO9             |
 | PA_Ctrl (Power amplifier chip enable pin, active high) |            GPIO53            |
 
-The ES8311 driver for ESP32-P4-NANO utilizes the [ES8311](https://components.espressif.com/component/espressif/es8311) component, which can be added via the IDF Component Manager:
+The ES8311 driver for ESP32-P4 utilizes the [ES8311](https://components.espressif.com/component/espressif/es8311) component, which can be added via the IDF Component Manager:
 
 ```powershell
 idf.py add-dependency "espressif/es8311"
@@ -296,7 +296,7 @@ idf.py add-dependency "espressif/es8311"
 
 ### 7. MIPI-DSI Display Example
 
-The ESP32-P4-NANO utilizes the ESP32-P4NRW32 chip, which features the following new capabilities:
+The ESP32-P4 utilizes the ESP32-P4NRW32 chip, which features the following new capabilities:
 
 - Compliant with the MIPI-DSI protocol, using D-PHY v1.1, supporting up to 2-lane x 1.5Gbps (3Gbps total)
 - Supports RGB888, RGB565, and YUV422 input formats
