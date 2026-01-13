@@ -24,7 +24,7 @@ const config = {
   baseUrl: "/",
   projectName: 'Docs_en',
   organizationName: 'waveshareteam',
-  trailingSlash: false,
+  trailingSlash: true,
 
   onBrokenLinks: "throw",
 
