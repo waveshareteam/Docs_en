@@ -40,7 +40,7 @@ A: This product is positioned as a development board, not a finished product. Th
   
   If you find our product satisfactory and are interested in batch hardware customization, custom enclosures, or custom software, please contact our sales department
   
-  ![](https://www.waveshare.net/w/upload/thumb/8/8b/ESP32-S3-Touch-LCD-1.69-240708-02.png/900px-ESP32-S3-Touch-LCD-1.69-240708-02.png)
+  ![](https://www.waveshare.com/w/upload/thumb/0/05/%E6%89%B9%E9%87%8F%E5%AE%9A%E5%88%B6%E5%9B%BE%E7%89%87.png/600px-%E6%89%B9%E9%87%8F%E5%AE%9A%E5%88%B6%E5%9B%BE%E7%89%87.png)
 </Details>
 
 <Details summary=" Q: How to use SquareLine Studio to design interfaces?" className="faq-details" open>
