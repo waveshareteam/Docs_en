@@ -25,8 +25,8 @@ product_model:
 
 - **Official ESP32-P4 Chip Manuals**
 
-  - Datasheet: (https://files.waveshare.com/wiki/common/Esp32-p4_datasheet_en.pdf)
-  - Technical Manual: (https://files.waveshare.com/wiki/common/Esp32-p4_technical_reference_manual_en.pdf)
+  - Datasheet: [ESP32-P4-Datasheet](https://files.waveshare.com/wiki/common/Esp32-p4_datasheet_en.pdf)
+  - Technical Manual: [ESP32-P4 Technical Reference Manual](https://files.waveshare.com/wiki/common/Esp32-p4_technical_reference_manual_en.pdf)
 
 ## **3. Demo**
 

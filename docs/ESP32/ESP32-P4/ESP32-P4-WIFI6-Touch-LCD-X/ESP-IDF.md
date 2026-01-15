@@ -136,10 +136,10 @@ In ESP-IDF, the I2C bus must be configured using the `i2c_master_bus_config_t`:
 
 - `i2c_master_bus_config_t::clk_source` selects the source clock for the I2C bus. To use the default I2C clock source (which is typically recommended), set it to I2C_CLK_SRC_DEFAULT.
 - `i2c_master_bus_config_t::i2c_port` specifies the I2C port to be used by the controller. As mentioned earlier, the ESP32-P4 has two I2C interfaces. When two separate I2C buses need to operate simultaneously, this setting is used to distinguish between them.
-- `i2c_master_bus_config_t::scl_io_num` sets the GPIO number for the Serial Clock (SCL) line. On the ESP32-P4‑NANO, this is 8.
-- `i2c_master_bus_config_t::sda_io_num` sets the GPIO number for the Serial Data (SDA) line. On the ESP32-P4‑NANO, this is 7.
+- `i2c_master_bus_config_t::scl_io_num` sets the GPIO number for the Serial Clock (SCL) line. On the ESP32-P4-WIFI6-Touch-LCD-X, this is 8.
+- `i2c_master_bus_config_t::sda_io_num` sets the GPIO number for the Serial Data (SDA) line. On the ESP32-P4-WIFI6-Touch-LCD-X, this is 7.
 - `i2c_master_bus_config_t::glitch_ignore_cnt` defines the glitch period threshold for the Master Bus. Glitches on the line shorter than this value will be filtered out. A typical setting is 7.
-- `i2c_master_bus_config_t::enable_internal_pullup` enables internal pull-up resistors. On the ESP32-P4‑NANO, external I2C pull-ups are already provided, so internal pull-ups should not be enabled.
+- `i2c_master_bus_config_t::enable_internal_pullup` enables internal pull-up resistors. On the ESP32-P4-WIFI6-Touch-LCD-X, external I2C pull-ups are already provided, so internal pull-ups should not be enabled.
 
 Based on the above, the I2C configuration is defined as follows:
 
@@ -186,11 +186,11 @@ idf.py add-dependency espressif/esp_hosted==1.4.*
     3. After successful addition, an `idf_component.yml` file will appear in the main folder of the project. As explained in the ESP‑IDF project directory section, this file is used to manage project components.
     4. Opening this file, it can be seen that two components have been added: `espressif/esp_hosted: "1.4.*"` and `espressif/esp_wifi_remote: "0.14.*"`. These components will be included in the project during the build process.
 
-3. Next, click the <kbd>⚙️</kbd> button to open the settings. Search for Example and configure the **ssid** and **password** of the target Wi‑Fi network. **Note: The ESP32‑C6 supports 2.4 GHz Wi‑Fi 6. Make sure to select a Wi‑Fi network operating in the 2.4 GHz band. **After modifying the settings, remember to save them; otherwise, errors may occur.
+3. Next, click the <kbd>⚙️</kbd> button to open the settings. Search for Example and configure the  **ssid**  and  **password**  of the target Wi‑Fi network. **Note: The ESP32‑C6 supports 2.4 GHz Wi‑Fi 6. Make sure to select a Wi‑Fi network operating in the 2.4 GHz band.** After modifying the settings, remember to save them; otherwise, errors may occur.
 
    ![Configure Wi-Fi Information](https://www.waveshare.net/w/upload/c/c7/ESP32-P4-Nano-WiFistation_240907_02.png)
 
-4. Next, you can directly compile, flash, and monitor by clicking <kbd>🔥</kbd>. After completion, the terminal will display the following result, indicating that the ESP32‑P4‑NANO has successfully connected to the Wi‑Fi network and is online:
+4. Next, you can directly compile, flash, and monitor by clicking <kbd>🔥</kbd>. After completion, the terminal will display the following result, indicating that the ESP32-P4-WIFI6-Touch-LCD-X has successfully connected to the Wi‑Fi network and is online:
 
    ![Wi-Fi Networking Example Output](https://www.waveshare.net/w/upload/d/db/ESP32-P4-Nano-WiFistation_240907_03.png)
 
@@ -285,7 +285,7 @@ idf.py add-dependency "espressif/es8311"
 
    ![Configure Volume](https://www.waveshare.net/w/upload/a/a8/ESP32-P4-Nano-i2scodec_240909_02.png)
 
-3. Connect a speaker, you can directly compile, flash, and monitor by clicking <kbd>🔥</kbd>. After completion, the terminal will display the following result, indicating that the ESP32‑P4‑NANO is now playing audio.
+3. Connect a speaker, you can directly compile, flash, and monitor by clicking <kbd>🔥</kbd>. After completion, the terminal will display the following result, indicating that the ESP32-P4-WIFI6-Touch-LCD-X is now playing audio.
 
    ![I2S Audio Sample Output](https://www.waveshare.net/w/upload/c/c6/ESP32-P4-Nano-i2scodec_240909_03.png)
 
