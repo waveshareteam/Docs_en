@@ -44,5 +44,5 @@ A: This product is positioned as a development board, not a finished product. Th
 </Details>
 
 <Details summary=" Q: How to use SquareLine Studio to design interfaces?" className="faq-details" open>
-A: Please refer to **[SquareLine Studio Tutorial](https://www.waveshare.com/wiki/Waveshare_SquareLine_Studio).
+A: Please refer to **[SquareLine Studio Tutorial](https://www.waveshare.com/wiki/Waveshare_SquareLine_Studio)**.
 </Details>

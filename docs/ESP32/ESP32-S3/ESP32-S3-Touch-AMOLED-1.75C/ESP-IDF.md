@@ -8,16 +8,6 @@ product_model:
   - ESP32-S3-Touch-AMOLCD-1.75C
 ---
 
-import idf_demo_AXP2101 from './images/idf_demo_AXP2101.webp';
-import idf_demo_lvgl_demo_v9_1 from './images/idf_demo_lvgl_demo_v9_1.webp';
-import idf_demo_lvgl_demo_v9_2 from './images/idf_demo_lvgl_demo_v9_2.webp';
-import idf_demo_lvgl_demo_v9_3 from './images/idf_demo_lvgl_demo_v9_3.webp';
-import idf_demo_esp_brookesia_1 from './images/idf_demo_esp-brookesia_1.webp';
-import idf_demo_esp_brookesia_2 from './images/idf_demo_esp-brookesia_2.webp';
-import idf_demo_esp_brookesia_3 from './images/idf_demo_esp-brookesia_3.webp';
-import idf_demo_Immersive_block from './images/idf_demo_Immersive_block.webp';
-import idf_demo_Spec_Analyzer from './images/idf_demo_Spec_Analyzer.webp';
-
 # Working with ESP-IDF
 
 This chapter includes the following sections, please read as needed:
@@ -34,19 +24,19 @@ The following environment settings are applicable to Windows 10/11 systems. For 
 
 1. Download and install [Visual Studio Code](https://code.visualstudio.com/).
 
-2. In VS Code, open the **Extensions** view by clicking the ![Extensions icon](./images/VSCode-Extension-Icon.webp) in the VS Code sidebar or using the shortcut (<kbd>Ctrl+Shift+X</kbd>). Then, search for the [ESP-IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension) extension and install it.
+2. In VS Code, open the **Extensions** view by clicking the ![Extensions icon](../../../../static/img/VSCode-Extension-Icon.webp) in the VS Code sidebar or using the shortcut (<kbd>Ctrl+Shift+X</kbd>). Then, search for the [ESP-IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension) extension and install it.
 
-   ![Search and install ESP-IDF extension in VS Code](./images/VSCode-Install-ESP-IDF-Extension.webp)
+   ![Search and install ESP-IDF extension in VS Code](../../../../static/img/VSCode-Install-ESP-IDF-Extension.webp)
 
-3. After the extension is installed, the ![Espressif icon](./images/VSCode-ESP-IDF-Extension-Icon.webp) will appear in the activity bar on the left side of VS Code. Clicking this icon will view the basic command list for the ESP-IDF extension. Select **Configure ESP-IDF extension** under **Advanced**.
+3. After the extension is installed, the ![Espressif icon](../../../../static/img/VSCode-ESP-IDF-Extension-Icon.webp) will appear in the activity bar on the left side of VS Code. Clicking this icon will view the basic command list for the ESP-IDF extension. Select **Configure ESP-IDF extension** under **Advanced**.
 
    <!-- Alternatively, press <kbd>F1</kbd>, type `Configure ESP-IDF Extension`, and select the **ESP-IDF: Configure ESP-IDF Extension** option. -->
 
-   ![Select "Configure ESP-IDF Expansion"](./images/VSCode-ESP-IDF-Configuration-1.webp)
+   ![Select "Configure ESP-IDF Expansion"](../../../../static/img/VSCode-ESP-IDF-Configuration-1.webp)
 
 4. Choose **Express** to enter quick configuration mode:
 
-   ![Select Quick Configuration Mode](./images/VSCode-ESP-IDF-Configuration-2.webp)
+   ![Select Quick Configuration Mode](../../../../static/img/VSCode-ESP-IDF-Configuration-2.webp)
 
 5. Modify the following options as needed:
 
@@ -57,15 +47,15 @@ The following environment settings are applicable to Windows 10/11 systems. For 
    - **ESP-IDF Container Installation Path**: It is recommended to use the default path, or use a path that contains only English characters and no spaces.
    - **ESP-IDF Required Tools Installation Path**: It is recommended to use the default path, or use a path that contains only English characters and no spaces.
 
-   ![ESP-IDF Extension Quick Configuration Mode Options](./images/VSCode-ESP-IDF-Configuration-3.webp)
+   ![ESP-IDF Extension Quick Configuration Mode Options](../../../../static/img/VSCode-ESP-IDF-Configuration-3.webp)
 
 6. Click **Install** to start the installation. You will see a page displaying the installation progress, including the progress status of ESP-IDF download, ESP-IDF tool download and installation, as well as the creation of the Python virtual environment.
 
-   ![Installation Progress](./images/VSCode-ESP-IDF-Configuration-4.webp)
+   ![Installation Progress](../../../../static/img/VSCode-ESP-IDF-Configuration-4.webp)
 
 7. If installed correctly, you will see a prompt indicating that all settings have been configured successfully, and you can start using the extension.
 
-   ![Installation Successful](./images/VSCode-ESP-IDF-Configuration-5.webp)
+   ![Installation Successful](../../../../static/img/VSCode-ESP-IDF-Configuration-5.webp)
 
 :::warning
 Note: If ESP-IDF installation fails or needs to be reinstalled, you can try deleting the `C:\Users\%Username%\esp` and `C:\Users\%Username%\.espressif` folders and then retry.
@@ -107,7 +97,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 - This demo will not light up the screen
 - The serial port monitor displays the parameters: chip temperature, charging state, discharging state, standby state, Vbus connection, Vbus condition, charger status, battery voltage, Vbus voltage, system voltage, battery percentage
 
-<div style={{maxWidth:800}}> <img src={idf_demo_AXP2101}/></div>
+<div style={{maxWidth:800}}> <img src="./images/idf_demo_AXP2101.webp"/></div>
 
 ### 02_lvgl_demo_v9 {#Demo-2-lvgl_demo_v9}
 
@@ -121,7 +111,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 #### Operation Result
 
-| <div style={{maxWidth:800}}> <img src={idf_demo_lvgl_demo_v9_1}/></div> | <div style={{maxWidth:800}}> <img src={idf_demo_lvgl_demo_v9_2}/></div> | <div style={{maxWidth:800}}> <img src={idf_demo_lvgl_demo_v9_3}/></div> |
+| <div style={{maxWidth:800}}> <img src="./images/idf_demo_lvgl_demo_v9_1.webp"/></div> | <div style={{maxWidth:800}}> <img src="./images/idf_demo_lvgl_demo_v9_2"/></div> | <div style={{maxWidth:800}}> <img src="./images/idf_demo_lvgl_demo_v9_3.webp"/></div> |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 
 ### 03_esp-brookesia {#Demo-3-esp-brookesia}
@@ -136,7 +126,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 #### Operation Result
 
-| <div style={{maxWidth:800}}> <img src={idf_demo_esp_brookesia_1}/></div> | <div style={{maxWidth:800}}> <img src={idf_demo_esp_brookesia_2}/></div> | <div style={{maxWidth:800}}> <img src={idf_demo_esp_brookesia_3}/></div> |
+| <div style={{maxWidth:800}}> <img src="./images/idf_demo_esp-brookesia_1.webp"/></div> | <div style={{maxWidth:800}}> <img src="./images/idf_demo_esp-brookesia_2.webp"/></div> | <div style={{maxWidth:800}}> <img src="./images/idf_demo_esp-brookesia_3.webp"/></div> |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 
 ### 04_Immersive_block {#Demo-4-Immersive_block}
@@ -164,7 +154,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 #### Operation Result
 
-<div style={{maxWidth:350}}> <img src={idf_demo_Immersive_block}/></div>
+<div style={{maxWidth:350}}> <img src="./images/idf_demo_Immersive_block.webp"/></div>
 
 ### 05_Spec_Analyzer {#Demo-5-Spec_Analyzer}
 
@@ -190,4 +180,4 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 #### Expected Result
 
-<div style={{maxWidth:800}}> <img src={idf_demo_Spec_Analyzer}/></div>
+<div style={{maxWidth:800}}> <img src="./images/idf_demo_Spec_Analyzer.webp"/></div>

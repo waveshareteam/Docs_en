@@ -41,7 +41,7 @@ Please refer to the tutorial **[Installing and Configuring Arduino IDE Tutorial]
 - For most libraries, users can easily search and install them through the online Library Manager in the Arduino software. However, some open-source libraries or custom libraries are not synchronized to the Arduino Library Manager, so they cannot be acquired through online searches. In this case, users can only manually install these libraries offline.
 You can click [this link](https://github.com/waveshareteam/ESP32-S3-Touch-AMOLED-1.75C/tree/main/examples) to download the demo package for the ESP32-S3-Touch-AMOLED-1.75C board from the `Arduino` directory. The `Arduino\libraries` directory within the package already includes all the library files required for this tutorial.
 
-! Library/File Name  !!  Description  !!  Version  !!  Installation Method
+| Library/File Name  |  Description  |  Version  |  Installation Method |
 | :---------------------: | :----------------------------: | :----: | :--------------------: |
 | GFX Library for Arduino | ST7789 display driver graphics library | v1.6.4| Install via library manager or manually|
 | SensorLib | PCF85063, QMI8658 sensor driver library | v0.3.3 | Install via library manager or manually|
@@ -50,7 +50,7 @@ You can click [this link](https://github.com/waveshareteam/ESP32-S3-Touch-AMOLED
 |      Mylibrary          | Board pin macro definition                | ——     |   Install manually|
 |      lv_conf.h          | LVGL configuration file                   | ——     |Install manually|
 
-:::Warning Version Compatibility Description
+:::warning Version Compatibility Description
 
 There are strong dependencies between versions of LVGL and its driver libraries. For example, a driver written for LVGL v8 may not be compatible with LVGL v9. To ensure stable reproduction of the examples, it is recommended to use the specific versions listed in the table above. Mixing different library versions may cause compilation failures or runtime exceptions.
 :::
