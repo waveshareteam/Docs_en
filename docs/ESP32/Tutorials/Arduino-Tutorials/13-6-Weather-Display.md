@@ -16,7 +16,7 @@ The core logic of this tutorial applies to all ESP32 development boards. However
 
 ## Project Introduction
 
-This project demonstrates how to create a Network Weather Display using an ESP32. By connecting to a Wi-Fi network, the ESP32 will periodically fetch real-time weather data (weather conditions and temperature) for a specified city from the [Seniverse Weather API](https://seniverse.yuque.com/hyper_data/api_v3/nyiu3t?#%20%E3%80%8A%E5%A4%A9%E6%B0%94%E5%AE%9E%E5%86%B5%E3%80%8B) and display this information on a Waveshare 1.5inch OLED screen.
+This project demonstrates how to create a Network Weather Display using an ESP32. By connecting to a Wi-Fi network, the ESP32 will periodically fetch real-time weather data (weather conditions, temperature, and humidity) for a specified city from the [OpenWeather API](https://openweathermap.org/current#builtin) and display this information on a Waveshare 1.5inch OLED screen.
 
 ## Hardware Connection
 
@@ -50,22 +50,39 @@ This example uses the **SPI interface** to connect to the OLED display. This scr
 
 <div style={{maxWidth:500}}> <img src={ImgWeatherDisplayDiagram} alt="Wiring Diagram"/></div>
 
+## Getting an OpenWeather API Key
+
+OpenWeather is an online service owned by OpenWeather Ltd that provides [developer-friendly free tier access](https://openweathermap.org/full-price#current). Through its API, it delivers global weather data for any geographic location, including current weather conditions, forecasts, nowcasts, and historical weather data.
+
+1. Visit [OpenWeather](https://home.openweathermap.org/users/sign_in) to log in or create an account.
+
+2. Copy the API Key from the [API keys page](https://home.openweathermap.org/api_keys). You can also find your key in the "OpenWeatherMap API Instruction" email sent to your inbox.
+
+   :::info
+   Newly generated keys typically **take 10-60 minutes to become active**. If you encounter a 401 error when running the code immediately, please wait a while before trying again.
+   :::
+
 ## Code Implementation
 
-:::tip
+:::info[Libraries]
 This code example depends on the following libraries. Please install it via the Arduino IDE Library Manager:
 - **Adafruit SSD1327** (for driving the OLED screen)
 - **Adafruit GFX Library** (core graphics library)
 - **ArduinoJson** (for parsing JSON data)
 :::
 
+:::tip[Switching to Fahrenheit]
+By default, the API uses `units=metric` which returns temperature in Celsius. To get Fahrenheit instead, change the `apiUrlTemplate` parameter from `units=metric` to `units=imperial`.
+:::
+
 ```cpp
 /*
-  WiFi Weather Display
+  WiFi Weather Display (OpenWeatherMap)
   
-  This example demonstrates how to connect to Wi-Fi, fetch weather data in JSON format via HTTP, and display it on an SSD1327 OLED screen.
+  This example demonstrates how to connect to Wi-Fi, fetch weather data in JSON format 
+  via HTTP, and display it on an SSD1327 OLED screen.
   
-  API Provider: Seniverse Weather
+  API Provider: OpenWeatherMap (https://openweathermap.org/)
   
   Circuit Connection:
   - OLED SCK  -> GPIO 13
@@ -86,13 +103,16 @@ This code example depends on the following libraries. Please install it via the 
 const char* ssid = "Maker";
 const char* password = "12345678";
 
-// Seniverse Weather API Configuration (Please replace with your private key)
+// OpenWeatherMap API Configuration (Replace with your API Key)
 String apiKey = "your_api_key";
-// The city for which you want to query the weather
-String location = "shenzhen"; 
+
+// City to query (e.g., "Shenzhen", "New%20York,US", "London", "Stockholm")
+String location = "Stockholm"; 
 
 // API URL Template
-const String apiUrlTemplate = "https://api.seniverse.com/v3/weather/now.json?key=%s&location=%s&language=en&unit=c";
+// Get your key here: https://home.openweathermap.org/api_keys
+// Parameters: appid (Key), q (City), units (metric = Celsius)
+const String apiUrlTemplate = "http://api.openweathermap.org/data/2.5/weather?appid=%s&q=%s&units=metric";
 
 // Update interval: 30 minutes (in milliseconds)
 const unsigned long updateInterval = 1800000; 
@@ -186,7 +206,24 @@ void connectWiFi() {
   delay(2000);
 }
 
-void displayWeather(String city, String weather, String temperature) {
+void displayError(String message, String detail) {
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setTextColor(SSD1327_WHITE);
+
+  display.setCursor(5, 20);
+  display.print("Error: ");
+  display.println(message);
+
+  display.setCursor(5, 50);
+  display.print("Detail: ");
+  display.println(detail);
+
+  display.display();
+  Serial.printf("Error displayed: %s, %s\n", message.c_str(), detail.c_str());
+}
+
+void displayWeather(String city, String weather, String temperature, String humidity) {
   display.clearDisplay();
   display.setTextSize(1);
   display.setTextColor(SSD1327_WHITE);
@@ -203,13 +240,19 @@ void displayWeather(String city, String weather, String temperature) {
   display.println(weather);
 
   // Temperature
-  display.setCursor(5, 85);
+  display.setCursor(5, 80);
   display.print("Temp: ");
   display.print(temperature);
   display.println(" C");
 
+  // Humidity
+  display.setCursor(5, 100);
+  display.print("Humidity: ");
+  display.print(humidity);
+  display.println(" %");
+
   display.display();
-  Serial.printf("Display updated: %s, %s, %s C\n", city.c_str(), weather.c_str(), temperature.c_str());
+  Serial.printf("Display updated: %s, %s, %s C, %s%%\n", city.c_str(), weather.c_str(), temperature.c_str(), humidity.c_str());
 }
 
 void getWeather() {
@@ -242,23 +285,30 @@ void getWeather() {
         DeserializationError error = deserializeJson(doc, payload);
 
         if (!error) {
-          JsonObject result = doc["results"][0];
-          String locationName = result["location"]["name"].as<String>();
-          String weatherText = result["now"]["text"].as<String>();
-          String temperature = result["now"]["temperature"].as<String>();
+          // OpenWeatherMap JSON structure
+          String locationName = doc["name"].as<String>();
+          String weatherText = doc["weather"][0]["main"].as<String>();
+          float tempVal = doc["main"]["temp"].as<float>();
+          int humVal = doc["main"]["humidity"].as<int>();
+          
+          // Format temperature to 1 decimal place
+          String temperature = String(tempVal, 1);
+          String humidity = String(humVal);
 
-          displayWeather(locationName, weatherText, temperature);
+          displayWeather(locationName, weatherText, temperature, humidity);
         } else {
           Serial.print("deserializeJson() failed: ");
           Serial.println(error.c_str());
-          displayWeather("Error", "JSON Fail", "");
+          displayWeather("Error", "JSON Fail", "", "");
+          displayError("JSON Fail", error.c_str());
         }
       } else {
-        Serial.println("API Error: " + http.getString()); 
+        Serial.println("API Error: " + http.getString());
+        displayError("API Error", String(httpCode));
       }
     } else {
       Serial.printf("HTTP GET failed, error: %s\n", http.errorToString(httpCode).c_str());
-      displayWeather("Error", "HTTP Fail", "");
+      displayError("HTTP Fail", http.errorToString(httpCode).c_str());
     }
     http.end();
   } else {
@@ -278,7 +328,7 @@ void getWeather() {
 
 - **Configuration Parameters**:
   - `ssid` and `password`: Wi-Fi network credentials.
-  - `apiKey` and `location`: Seniverse Weather API key and city setting.
+  - `apiKey` and `location`: OpenWeather API key and city setting.
   - `SCK_PIN`, `MOSI_PIN`, etc.: Define the pin connections for the SPI interface.
 
 - **Object Initialization**:
@@ -293,8 +343,13 @@ void getWeather() {
   - Constructs the API request URL.
   - Sends the request using `http.GET()`.
   - Upon receiving the response, parses the JSON data using `deserializeJson()`.
-  - Extracts fields like `location`, `text` (weather condition), `temperature`.
+  - Extracts fields like `name` (city name), `weather[0].main` (weather condition), `main.temp` (temperature), and `main.humidity` (humidity).
   - Calls `displayWeather()` to update the display.
+
+- **`displayError()` Function**:
+  - Handles error display on the OLED screen.
+  - Takes two parameters: `message` (error type) and `detail` (specific error information).
+  - Displays formatted error messages to help with debugging connection or API issues.
 
 - **`displayWeather()` Function**:
   - Clears the screen using `display.clearDisplay()`.
@@ -310,4 +365,4 @@ void getWeather() {
 - [Section 9 Wi-Fi Networking Basics](./09-WiFi-Networking.md)
 - [ArduinoJson Library Documentation](https://arduinojson.org/)
 - [Adafruit SSD1327 Library Documentation](https://github.com/adafruit/Adafruit_SSD1327)
-- [Seniverse Weather API](https://seniverse.yuque.com/hyper_data/api_v3/nyiu3t)
+- [OpenWeather API Documentation](https://openweathermap.org/current#builtin)
