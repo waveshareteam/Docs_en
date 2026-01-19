@@ -2,7 +2,7 @@
 title: Weather Display
 slug: /ESP32-Arduino-Tutorials/13-6-Weather-Display
 id: 13-6
-product_serial:
+product_family:
   - ESP32
 ---
 

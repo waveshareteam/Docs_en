@@ -2,7 +2,7 @@
 title: Section 8 SPI Communication
 slug: /ESP32-Arduino-Tutorials/SPI-Communication
 id: 8
-product_serial:
+product_family:
   - ESP32
 ---
 

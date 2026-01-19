@@ -2,7 +2,7 @@
 title: Section 10 Web Server
 slug: /ESP32-Arduino-Tutorials/Web-Server
 id: 10
-product_serial:
+product_family:
   - ESP32
 ---
 

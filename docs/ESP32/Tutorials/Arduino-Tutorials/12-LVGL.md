@@ -2,7 +2,7 @@
 title: Section 12 LVGL Graphic Interface Development
 slug: /ESP32-Arduino-Tutorials/LVGL
 id: 12
-product_serial:
+product_family:
   - ESP32
 ---
 

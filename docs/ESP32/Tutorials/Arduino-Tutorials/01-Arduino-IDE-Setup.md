@@ -2,7 +2,7 @@
 title: Section 1 Install and Configure Arduino IDE
 slug: /ESP32-Arduino-Tutorials/Arduino-IDE-Setup
 id: 1
-product_serial:
+product_family:
   - ESP32
 ---
 

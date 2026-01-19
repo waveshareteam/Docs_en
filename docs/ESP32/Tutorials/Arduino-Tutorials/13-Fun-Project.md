@@ -3,7 +3,7 @@ title: Section 13  Comprehensive Projects
 slug: /ESP32-Arduino-Tutorials/Fun-Project
 id: 13
 toc_max_heading_level: 4
-product_serial:
+product_family:
   - ESP32
 ---
 

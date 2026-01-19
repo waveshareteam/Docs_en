@@ -2,7 +2,7 @@
 title: Section 9 Wi-Fi Networking Basics
 slug: /ESP32-Arduino-Tutorials/WiFi-Networking-Basic
 id: 9
-product_serial:
+product_family:
   - ESP32
 ---
 

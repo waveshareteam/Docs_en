@@ -2,7 +2,7 @@
 title: Section 11 Bluetooth
 slug: /ESP32-Arduino-Tutorials/Bluetooth-Communication
 id: 11
-product_serial:
+product_family:
   - ESP32
 ---
 

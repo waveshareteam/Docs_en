@@ -2,7 +2,7 @@
 title: Section 3 GPIO Digital Output / Input
 slug: /ESP32-Arduino-Tutorials/Digital-IO
 id: 3
-product_serial:
+product_family:
   - ESP32
 ---
 

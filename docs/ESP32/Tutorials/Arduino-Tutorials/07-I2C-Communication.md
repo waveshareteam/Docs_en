@@ -3,7 +3,7 @@ title: Section 7 I2C Communication
 slug: /ESP32-Arduino-Tutorials/I2C-Communication
 id: 7
 toc_max_heading_level: 4
-product_serial:
+product_family:
   - ESP32
 ---
 

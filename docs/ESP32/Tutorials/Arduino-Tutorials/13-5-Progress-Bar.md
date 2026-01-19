@@ -2,7 +2,7 @@
 title: Progress Bar
 slug: /ESP32-Arduino-Tutorials/13-5-Progress-Bar
 id: 13-5
-product_serial:
+product_family:
   - ESP32
 ---
 

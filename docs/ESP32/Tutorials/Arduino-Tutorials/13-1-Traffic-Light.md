@@ -2,7 +2,7 @@
 title: Traffic Light
 slug: /ESP32-Arduino-Tutorials/13-1-Traffic-Light
 id: 13-1
-product_serial:
+product_family:
   - ESP32
 ---
 

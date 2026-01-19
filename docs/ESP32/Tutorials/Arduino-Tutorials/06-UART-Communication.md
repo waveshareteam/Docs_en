@@ -3,7 +3,7 @@ title: Section 6 UART Communication
 slug: /ESP32-Arduino-Tutorials/UART-Communication
 id: 6
 toc_max_heading_level: 4
-product_serial:
+product_family:
   - ESP32
 ---
 

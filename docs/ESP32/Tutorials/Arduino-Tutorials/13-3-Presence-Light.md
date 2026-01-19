@@ -2,7 +2,7 @@
 title: Motion Sensor Light
 slug: /ESP32-Arduino-Tutorials/13-3-Presence-Light
 id: 13-3
-product_serial:
+product_family:
   - ESP32
 ---
 

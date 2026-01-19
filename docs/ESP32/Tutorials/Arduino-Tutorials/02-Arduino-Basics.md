@@ -2,7 +2,7 @@
 title: Section 2 Arduino Basics
 slug: /ESP32-Arduino-Tutorials/Arduino-Basics
 id: 2
-product_serial:
+product_family:
   - ESP32
 ---
 

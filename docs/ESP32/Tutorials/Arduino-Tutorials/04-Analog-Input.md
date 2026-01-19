@@ -2,7 +2,7 @@
 title: Section 4 ADC Analog Input
 slug: /ESP32-Arduino-Tutorials/Analog-Input
 id: 4
-product_serial:
+product_family:
   - ESP32
 ---
 

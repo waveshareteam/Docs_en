@@ -1,7 +1,7 @@
 ---
 slug: /ESP32-Arduino-Tutorials
 id: Arduino-Tutorial-Introduction
-product_serial:
+product_family:
   - ESP32
 ---
 

@@ -2,7 +2,7 @@
 title: Section 5 PWM Output
 slug: /ESP32-Arduino-Tutorials/PWM
 id: 5
-product_serial:
+product_family:
   - ESP32
 ---
 
