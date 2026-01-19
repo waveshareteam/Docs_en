@@ -137,7 +137,7 @@ import EspInstallButton from '@site/src/components/EspInstallButton';
     4. **Select firmware**: Configure the following parameters in the `Install MicroPython(esptool)` window:
 
        :::info
-       If the interface options are greyed out, wait for Thonny to update the firmware list via the internet. If the firmware list cannot be refreshed, please use the [**Via Thonny (Custom Firmware)**](?install-method=thonny-custom#install-micropython-firmware)  installation method.
+       If the interface options are greyed out, wait for Thonny to update the firmware list via the internet. If the firmware list cannot be refreshed, please use the [**Via Thonny (Custom Firmware)**](./?install-method=thonny-custom#install-micropython-firmware)  installation method.
        :::
       
        <div style={{maxWidth:600}}> <img src={ImgInstallFirmwareViaThonny3} alt="Install Firmware via Thonny Step 3"/></div>

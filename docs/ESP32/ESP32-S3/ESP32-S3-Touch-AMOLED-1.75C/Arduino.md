@@ -23,7 +23,7 @@ import arduino_demo_LVGL_Widgets from './images/arduino_demo_LVGL_Widgets.webp';
 
 This chapter includes the following sections, please read as needed:
 
-- [Arduino Getting Started](#arduino-getting-started)
+- [Arduino Getting Started](#arduino-tutorial-for-beginners)
 - [Setting Up Development Environment](#setting-up-development-environment)
 - [Demo](#demo)
 
@@ -66,7 +66,7 @@ There are strong dependencies between versions of LVGL and its driver libraries.
    You can also locate it within the Arduino IDE via **File > Preferences**, by checking the "**Sketchbook location**". **The library folder is the `libraries` folder under this path.**
    :::
 
-3. For other installation methods, please refer to: [Arduino Library Management Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/01-Arduino-IDE-Setup.md#ArduinoIDE-Installing-Libraries).
+3. For other installation methods, please refer to: [Arduino Library Management Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/01-Arduino-IDE-Setup.md#ArduinoIDE-Install-Libraries).
 
 ## Demo
 
