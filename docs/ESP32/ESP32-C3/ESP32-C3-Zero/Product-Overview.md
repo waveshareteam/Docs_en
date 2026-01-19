@@ -19,19 +19,26 @@ You are browsing the new documentation. If you are more familiar with the old ve
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
+<!-- Image References -->
+import ESP32C3ZeroImage from './images/ESP32-C3-Zero.webp';
+import ESP32C3ZeroMImage from './images/ESP32-C3-Zero-M.webp';
+import BasicKitImage from './images/ESP32-C3-Zero-Basic-Kit.webp';
+
+<Tabs queryString="variant">
   <TabItem value="ESP32-C3-Zero" label="ESP32-C3-Zero (Without header)">
-    [![ESP32-C3-Zero](./images/ESP32-C3-Zero.webp)](https://www.waveshare.com/esp32-c3-zero.htm?sku=25452)
+    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-c3-zero.htm?sku=25452" target="_blank"><img src={ESP32C3ZeroImage}/></a></div>
   </TabItem>
   <TabItem value="ESP32-C3-Zero-M" label="ESP32-C3-Zero-M (With pre-soldered header)" default>
-    [![ESP32-C3-Zero-M.](./images/ESP32-C3-Zero-M.webp)](https://www.waveshare.com/esp32-c3-zero.htm?sku=25532)
+    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-c3-zero.htm?sku=25532" target="_blank"><img src={ESP32C3ZeroMImage}/></a></div>
   </TabItem>
-  <TabItem value="ESP32-C3-Zero-Basic-Kit" label="ESP32-C3-Zero-Basic-Kit" default>
-    [![ESP32-C3-Zero](./images/ESP32-C3-Zero-Basic-Kit.webp)](https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33358)
+  <TabItem value="ESP32-C3-Zero-Basic-Kit" label="ESP32-C3-Zero-Basic-Kit (Basic Kit)" default>
+    <div style={{maxWidth:600}}> <a href="https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33358" target="_blank"><img src={BasicKitImage}/></a></div>
   </TabItem>
 </Tabs>
 
 The [ESP32-C3-Zero (Without header)](https://www.waveshare.com/esp32-c3-zero.htm?sku=25452) and [ESP32-C3-Zero-M (With pre-soldered header)](https://www.waveshare.com/esp32-c3-zero.htm?sku=25532) are compact modules featuring castellated holes, making them easy to integrate into other carrier boards. The ESP32-C3-Zero features an on-board Type-C USB connector and breaks out most available pins in a small form factor. It utilizes the ESP32-C3FH4, a System-on-Chip (SoC) that integrates low-power Wi-Fi and BLE 5, along with 4MB of Flash. Additionally, it includes hardware cryptographic accelerators, RNG, HMAC, and a Digital Signature module, meeting IoT security requirements and offering rich peripheral interfaces. Its various low-power operating states satisfy the power consumption needs of application scenarios such as the Internet of Things (IoT), mobile devices, wearable electronics, and smart homes.
+
+The [ESP32-C3-Zero-Basic-Kit (Basic Kit)](./?variant=ESP32-C3-Zero-Basic-Kit) includes the [ESP32-C3-Zero-M](https://www.waveshare.com/esp32-c3-zero.htm?sku=25532) and the [ESP32-XX-Basic-Kit-Acce kit](https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33355), equipped with a breadboard, wires, LEDs, resistors, a [1.5-inch OLED](https://www.waveshare.com/1.5inch-oled-module.htm), and other modules. It provides the core hardware needed to learn the [Waveshare ESP32 Arduino Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/index.md) and [Waveshare ESP32 MicroPython Tutorial](/docs/ESP32/Tutorials/MicroPython-Tutorials/index.md), making it suitable for getting started quickly with Arduino, MicroPython, and ESP-IDF programming. Relevant example programs and wiring diagrams can be downloaded here: [ESP32-C3-Zero-Basic-Kit-main.zip](https://github.com/waveshareteam/ESP32-C3-Zero-Basic-Kit/archive/refs/heads/main.zip) ([GitHub Repository](https://github.com/waveshareteam/ESP32-C3-Zero-Basic-Kit)).
 
 ## Features
 

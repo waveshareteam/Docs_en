@@ -20,23 +20,28 @@ You are browsing the new documentation. If you are more familiar with the old ve
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
+<!-- Image References -->
+import ESP32C6ZeroImage from './images/ESP32-C6-Zero.webp';
+import ESP32C6ZeroMImage from './images/ESP32-C6-Zero-M.webp';
+import BasicKitImage from './images/ESP32-C6-Zero-Basic-Kit.webp';
+
+<Tabs queryString="variant">
   <TabItem value="ESP32-C6-Zero" label="ESP32-C6-Zero (Without header)">
-    [![ESP32-C6-Zero](./images/ESP32-C6-Zero.webp)](https://www.waveshare.com/esp32-c6-zero.htm?sku=27035)
+    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-c6-zero.htm?sku=27035" target="_blank"><img src={ESP32C6ZeroImage}/></a></div>
   </TabItem>
-  <TabItem value="ESP32-C6-Zero-M" label="ESP32-C6-Zero-M (With pre-soldered header)" default>
-    [![ESP32-C6-Zero-M.](./images/ESP32-C6-Zero-M.webp)](https://www.waveshare.com/esp32-c6-zero.htm?sku=26976)
+  <TabItem value="ESP32-C6-Zero-M" label="ESP32-C6-Zero-M (With pre-soldered header)">
+    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-c6-zero.htm?sku=26976" target="_blank"><img src={ESP32C6ZeroMImage}/></a></div>
   </TabItem>
-  <TabItem value="ESP32-C6-Zero-Basic-Kit" label="ESP32-C6-Zero-Basic-Kit" default>
-    [![ESP32-C6-Zero](./images/ESP32-C6-Zero-Basic-Kit.webp)](https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33357)
+  <TabItem value="ESP32-C6-Zero-Basic-Kit" label="ESP32-C6-Zero-Basic-Kit">
+    <div style={{maxWidth:600}}> <a href="https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33357" target="_blank"><img src={BasicKitImage}/></a></div>
   </TabItem>
 </Tabs>
 
 The ESP32-C6-Zero is a compact microcontroller development board integrated with multiple digital interfaces.
 
-In terms of hardware, it adopts the ESP32-C6FH8 chip, equipped with a RISC-V 32-bit high-performance processor (HP Core) running at up to 160 MHz, and a 32-bit low-power coprocessor (LP Core) running at up to 20 MHz. The chip features built-in 8MB Flash, 320KB ROM, 512KB HP SRAM, and 16KB LP SRAM, allowing for convenient expansion of various peripherals.
+In terms of hardware, it adopts the ESP32-C6FH8 chip, equipped with a RISC-V 32-bit high-performance processor (HP Core) running at up to 160 MHz, and a 32-bit low-power coprocessor (LP Core) running at up to 20 MHz. The chip features built-in 8MB Flash, 320KB ROM, 512KB HP SRAM, and 16KB LP SRAM, allowing for convenient expansion of various peripherals.In terms of software, it supports development with the ESP-IDF environment or Arduino IDE, facilitating a quick start and application in actual products.
 
-In terms of software, it supports development with the ESP-IDF environment or Arduino IDE, facilitating a quick start and application in actual products.
+The [ESP32-C6-Zero-Basic-Kit (Basic Kit)](./?variant=ESP32-C6-Zero-Basic-Kit) includes the [ESP32-C6-Zero-M](https://www.waveshare.com/esp32-c6-zero.htm?sku=26976) and the [ESP32-XX-Basic-Kit-Acce kit](https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33355), equipped with a breadboard, wires, LEDs, resistors, a [1.5-inch OLED](https://www.waveshare.com/1.5inch-oled-module.htm), and other modules. It provides the core hardware needed to learn the [Waveshare ESP32 Arduino Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/index.md) and [Waveshare ESP32 MicroPython Tutorial](/docs/ESP32/Tutorials/MicroPython-Tutorials/index.md), making it suitable for getting started quickly with Arduino, MicroPython, and ESP-IDF programming. Relevant example programs and wiring diagrams can be downloaded here: [ESP32-C6-Zero-Basic-Kit-main.zip](https://github.com/waveshareteam/ESP32-C6-Zero-Basic-Kit/archive/refs/heads/main.zip) ([GitHub Repository](https://github.com/waveshareteam/ESP32-C6-Zero-Basic-Kit)).
 
 ## Features
 

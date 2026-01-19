@@ -7,10 +7,10 @@ product_family:
 
 # ESP32 Arduino Getting Started
 
-This tutorial series is based on the Waveshare [ESP32-S3-Zero Mini Development Board](https://www.waveshare.com/esp32-s3-zero.htm) and the Arduino IDE environment, aiming to help learners get started with ESP32 development. It is recommended to follow the chapters in order, but you can also choose specific chapters based on your interests. To ensure a consistent learning experience, it is recommended to use a development board based on the **ESP32-S3** chip.
+This tutorial series is based on the Waveshare [ESP32-S3-Zero Mini Development Board](https://www.waveshare.com/esp32-s3-zero.htm) and the Arduino IDE environment, aiming to help learners get started with ESP32 development. It is recommended to follow the chapters in order, but you can also choose specific chapters based on your interests.
 
 :::tip[Important Note on Board Compatibility]
-The core logic of this tutorial applies to all ESP32 development boards. However, all example code involving hardware operations is written for the [ESP32-S3-Zero Mini Development Board](https://www.waveshare.com/esp32-s3-zero.htm).
+The core logic of this tutorial applies to all ESP32 development boards. However, all example code involving hardware operations is written for the [ESP32-S3-Zero Mini Development Board](https://www.waveshare.com/esp32-s3-zero.htm). To ensure a consistent learning experience, it is recommended to use a development board based on the **ESP32-S3** chip.
 
 If you are using a different model of ESP32 development board, please note the following:
 
@@ -18,8 +18,14 @@ If you are using a different model of ESP32 development board, please note the f
 - **Different Onboard Resources**: For example, your board may use LEDs with different pins or may not have onboard RGB LEDs.
 
 **Before running any demo that interacts with hardware, be sure to check and modify the pin numbers in the code according to the pinout diagram of your specific development board to ensure the program runs correctly.**
-
 :::
+
+You can use any ESP32 development board you have on hand, paired with your own components, to follow along. If you wish to avoid the hassle of selecting accessories, we also provide the following learning kits, which include the core hardware required for this tutorial series:
+
+- [**ESP32-XX-Basic-Kit-Acce**](https://www.waveshare.net/shop/ESP32-XX-Basic-Kit-Acce.htm): Prepare your own development board and use this kit for learning.
+- [**ESP32-S3-Zero Basic Kit**](https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33356): Can be used to follow this tutorial directly. Example programs and wiring diagrams: [ESP32-S3-Zero-Basic-Kit-main.zip](https://files.waveshare.net/wiki/ESP32-S3-Zero-Basic-Kit/ESP32-S3-Zero-Basic-Kit-main.zip) ([GitHub](https://github.com/waveshareteam/ESP32-S3-Zero-Basic-Kit))
+- [**ESP32-C3-Zero Basic Kit**](https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33358): Requires wiring adjustments. Example programs and wiring diagrams: [ESP32-C3-Zero-Basic-Kit-main.zip](https://files.waveshare.net/wiki/ESP32-C3-Zero-Basic-Kit/ESP32-C3-Zero-Basic-Kit-main.zip) ([GitHub](https://github.com/waveshareteam/ESP32-C3-Zero-Basic-Kit))
+- [**ESP32-C6-Zero Basic Kit**](https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33357): Requires wiring adjustments. Example programs and wiring diagrams: [ESP32-C6-Zero-Basic-Kit-main.zip](https://files.waveshare.net/wiki/ESP32-C6-Zero-Basic-Kit/ESP32-C6-Zero-Basic-Kit-main.zip) ([GitHub](https://github.com/waveshareteam/ESP32-C6-Zero-Basic-Kit))
 
 ---
 

@@ -26,7 +26,7 @@ You are browsing the new documentation. If you are more familiar with the old ve
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
+<Tabs queryString="variant">
   <TabItem value="ESP32-S3-Zero" label="ESP32-S3-Zero (Without header)">
     <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-s3-zero.htm?sku=25081" target="_blank"><img src={ESP32S3ZeroImage}/></a></div>
   </TabItem>
@@ -39,6 +39,8 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 The [ESP32-S3-Zero (Without Header)](https://www.waveshare.com/esp32-s3-zero.htm?sku=25081) and [ESP32-S3-Zero-M (With pre-soldered header)](https://www.waveshare.com/esp32-s3-zero.htm?sku=25517) are compact in size and feature a castellated module design (half-hole process), making them easy to integrate into other mainboards. The ESP32-S3-Zero features an onboard Type-C USB port and breaks out most unused pins within a small form factor. It is equipped with the ESP32-FH4R2 chip, integrating Wi-Fi and BLE 5.0, along with 4MB Flash and 2MB PSRAM. Additionally, it features hardware encryption accelerators, RNG, HMAC, and Digital Signature modules to meet IoT security requirements and offers rich peripheral interfaces. Multiple low-power operating modes satisfy the power consumption needs of IoT, mobile devices, wearable electronics, smart homes, and other application scenarios.
+
+The [ESP32-S3-Zero-Basic-Kit (Basic Kit)](./?variant=ESP32-S3-Zero-Basic-Kit) includes the [ESP32-S3-Zero-M](https://www.waveshare.com/esp32-s3-zero.htm?sku=26976) and the [ESP32-XX-Basic-Kit-Acce kit](https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33355), equipped with a breadboard, wires, LEDs, resistors, a [1.5-inch OLED](https://www.waveshare.com/1.5inch-oled-module.htm), and other modules. It provides the core hardware needed to learn the [Waveshare ESP32 Arduino Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/index.md) and [Waveshare ESP32 MicroPython Tutorial](/docs/ESP32/Tutorials/MicroPython-Tutorials/index.md), making it suitable for getting started quickly with Arduino, MicroPython, and ESP-IDF programming. Relevant example programs and wiring diagrams can be downloaded here: [ESP32-S3-Zero-Basic-Kit-main.zip](https://github.com/waveshareteam/ESP32-S3-Zero-Basic-Kit/archive/refs/heads/main.zip) ([GitHub Repository](https://github.com/waveshareteam/ESP32-S3-Zero-Basic-Kit)).
 
 ## Features
 
