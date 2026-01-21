@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: ESP-IDF
+title: Working with ESP-IDF
 slug: /ESP32-S3-Zero/Development-Environment-Setup-ESP-IDF
 product_family:
   - ESP32

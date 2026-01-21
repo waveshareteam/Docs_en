@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Arduino
+title: Working with Arduino
 slug: /ESP32-C3-Zero/Development-Environment-Setup-Arduino
 product_family:
   - ESP32
@@ -16,7 +16,7 @@ import ArduinoTutorialIntro from '@site/docs/ESP32/snippets/ArduinoTutorialIntro
 import enableUsbcdc from './images/Enable-USBCDC.webp';
 import arduinoideEsp32c3zero from './images/ESP32-C3-Zero-Arduino.webp';
 
-# Arduino Development
+# Arduino
 
 This chapter includes the following sections; please read according to your needs:
 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: MicroPython
+title: Working with MicroPython
 slug: /ESP32-S3-Zero/Development-Environment-Setup-MicroPython
 product_family:
   - ESP32

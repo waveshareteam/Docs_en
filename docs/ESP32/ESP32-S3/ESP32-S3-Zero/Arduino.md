@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Arduino
+title: Working with Arduino
 slug: /ESP32-S3-Zero/Development-Environment-Setup-Arduino
 product_family:
   - ESP32

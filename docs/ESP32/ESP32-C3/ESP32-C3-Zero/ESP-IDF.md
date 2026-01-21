@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: ESP-IDF
+title: Working with ESP-IDF
 slug: /ESP32-C3-Zero/Development-Environment-Setup-ESPIDF
 toc_max_heading_level: 4
 product_family:
@@ -13,7 +13,7 @@ product_model:
 
 import EspidfTutorialIntro from '@site/docs/ESP32/snippets/EspidfTutorialIntro.mdx';
 
-# ESP-IDF Development
+# ESP-IDF
 
 This chapter includes the following sections; please read as needed:
 

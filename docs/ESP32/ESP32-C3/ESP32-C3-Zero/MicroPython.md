@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: MicroPython
+title: Working with MicroPython
 slug: /ESP32-C3-Zero/Development-Environment-Setup-MicroPython
 product_family:
   - ESP32
@@ -12,7 +12,7 @@ product_model:
 
 import MicroPythonTutorialIntro from '@site/docs/ESP32/snippets/MicroPythonTutorialIntro.mdx';
 
-# MicroPython Development
+# MicroPython
 
 This section covers the following topics. Please read according to your needs:
 
