@@ -101,6 +101,34 @@ const sidebars = {
         },
       ],
     },
+        {
+      type: "category",
+      label: "ESP-IDF Tutorials",
+      link: {
+        type: "doc",
+        id: "ESP32/Tutorials/ESP-IDF-Tutorials/ESP32-ESP-IDF-Tutorial-Introduction",
+      },
+      items: [
+        "ESP32/Tutorials/ESP-IDF-Tutorials/1",
+        "ESP32/Tutorials/ESP-IDF-Tutorials/2",
+        "ESP32/Tutorials/ESP-IDF-Tutorials/3",
+        "ESP32/Tutorials/ESP-IDF-Tutorials/4",
+        "ESP32/Tutorials/ESP-IDF-Tutorials/5",
+        "ESP32/Tutorials/ESP-IDF-Tutorials/6",
+        {
+          type: "category",
+          label: "Section 7 Peripheral",
+          link: { type: "doc", id: "ESP32/Tutorials/ESP-IDF-Tutorials/7" },
+          items: [
+            "ESP32/Tutorials/ESP-IDF-Tutorials/7-1",
+            "ESP32/Tutorials/ESP-IDF-Tutorials/7-2",
+            "ESP32/Tutorials/ESP-IDF-Tutorials/7-3",
+          ],
+        },
+        "ESP32/Tutorials/ESP-IDF-Tutorials/8",
+        "ESP32/Tutorials/ESP-IDF-Tutorials/9",
+      ],
+    },
     {
       type: "category",
       label: "MicroPython Tutorials",
