@@ -87,7 +87,7 @@ MicroPython's operation primarily relies on firmware (Firmware) flashed into the
 | Performance   | Medium      | High    | Highest |
 | Memory Footprint | Relatively High | Medium  | Controllable |
 
-## 2. Configuring the Development Environment
+## 2. Configuring the Development Environment{#setup-micropython}
 
 [Thonny](https://thonny.org/) is a beginner-friendly Python Integrated Development Environment (IDE). It has built-in, comprehensive support for MicroPython, allowing you to easily perform all operations such as firmware flashing, file management, and code debugging.
 
