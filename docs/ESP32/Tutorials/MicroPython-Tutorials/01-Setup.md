@@ -87,7 +87,7 @@ MicroPython's operation primarily relies on firmware (Firmware) flashed into the
 | Performance   | Medium      | High    | Highest |
 | Memory Footprint | Relatively High | Medium  | Controllable |
 
-## 2. Configuring the Development Environment{#setup-micropython}
+## 2. Setting up the Development Environment{#setup-micropython}
 
 [Thonny](https://thonny.org/) is a beginner-friendly Python Integrated Development Environment (IDE). It has built-in, comprehensive support for MicroPython, allowing you to easily perform all operations such as firmware flashing, file management, and code debugging.
 
@@ -96,10 +96,6 @@ The following content in this tutorial will be demonstrated using the **Thonny I
 :::
 
 ### 2.1 Installing Thonny
-
-:::tip Alternative Download (Image)
-If the download speed is slow or fails, you can download it from [**this link**](https://files.waveshare.com/wiki/common/Thonny.zip) (Windows).
-:::
 
 Go to the [Thonny website](https://thonny.org/) to download and install Thonny.
 
