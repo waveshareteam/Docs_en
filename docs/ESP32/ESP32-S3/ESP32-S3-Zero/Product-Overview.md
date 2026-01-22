@@ -99,3 +99,12 @@ Major development platforms include:
 - **[MicroPython](https://micropython.org/)**: A lean version of Python 3, containing core functionality and optimized for microcontroller environments. It supports instant execution without repeated compiling and flashing, offering an effective way for developers familiar with Python to get started with ESP32 quickly. 
 
 - **Other Development Methods**: The ESP32 development ecosystem is very rich. In addition to the platforms mentioned above, it also supports development via PlatformIO, Mongoose OS, Espruino (JavaScript), ESPHome, and others, satisfying the needs of developers with diverse technical backgrounds.
+
+
+## Related SKUs
+
+| SKU | Product | 
+| --- | --- | 
+| 25081 | ESP32-S3-Zero (Without header) |
+| 25517 | ESP32-S3-Zero-M (With pre-soldered header) |
+| 33356 | ESP32-S3-Zero-Basic-Kit |
