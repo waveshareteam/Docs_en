@@ -202,19 +202,6 @@ const config = {
             ],
           },
           {
-            title: "Purchase",
-            items: [
-              {
-                label: "Official Store",
-                href: "https://www.waveshare.com",
-              },
-              {
-                label: "Amazon (UK)",
-                href: "https://www.amazon.co.uk/stores/Waveshare/page/83E99F27-83F1-45D1-B549-7CBC42CD852C",
-              },
-            ],
-          },
-          {
             title: "About Waveshare",
             items: [
               {
