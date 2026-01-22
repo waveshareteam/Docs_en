@@ -8,6 +8,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const redirects = require('./redirects');
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "WaveShare Documentation Platform",
@@ -33,17 +35,13 @@ const config = {
     locales: ["en"],
   },
 
+
   plugins: [
     "docusaurus-plugin-image-zoom",
     [
       "@docusaurus/plugin-client-redirects",
       {
-        redirects: [
-          {
-            to: "/ESP32-S3-RLCD-4.2",
-            from: ["/wiki/ESP32-S3-RLCD-4.2"],
-          },
-        ],
+        redirects,
       },
     ],
   ],
