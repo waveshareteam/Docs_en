@@ -159,36 +159,13 @@
     padding: 16px;
   }
 
-  .faq-details.alert--info>summary::after {
-    display: none;
-  }
 }
 
-/* 确保在所有浏览器中隐藏默认箭头并移除焦点样式 */
-.faq-details.alert--info>summary {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+/* FAQ 内容区的链接使用主题链接色（=主题主色） */
+.faq-details.alert--info a {
+  color: var(--ifm-color-primary);
+  text-decoration: var(--ifm-link-decoration);
 }
-
-/* 移除所有 focus 相关的样式 */
-.faq-details.alert--info>summary:focus,
-.faq-details.alert--info>summary:focus-visible,
-.faq-details.alert--info>summary:active {
-  outline: none !important;
-  box-shadow: none !important;
-  border: none !important;
-}
-
-.faq-details.alert--info>summary:focus-visible {
-  background: var(--ifm-color-emphasis-200) !important;
-}
-
-/* 暗色模式下的 focus 状态 */
-[data-theme='dark'] .faq-details.alert--info>summary:focus-visible {
-  background: var(--ifm-color-emphasis-300) !important;
-}
-
 
 /* ==========================================================================
    自定义代码详情块 (Custom Code Details Block) 样式
