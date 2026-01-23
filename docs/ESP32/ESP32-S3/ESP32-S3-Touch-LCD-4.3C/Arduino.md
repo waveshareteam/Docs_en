@@ -39,7 +39,7 @@ import esp32S3Touchlcd4_3CIsolationIO_Img from './images/ESP32-Arduino-33.webp';
 
 This chapter includes the following sections, please read as needed:
 
-- [Arduino Getting Started](#arduino-getting-started)
+- [Arduino Getting Started](#arduino-tutorial-for-beginners)
 - [Setting Up Development Environment](#setting-up-development-environment)
 - [Demo](#demo)
 
@@ -78,7 +78,7 @@ There are strong dependencies between versions of LVGL and its driver libraries.
    You can also locate it within the Arduino IDE via **File > Preferences**, by checking the "**Sketchbook location**". **The library folder is the `libraries` folder under this path.**
    :::
 
-3. For other installation methods, please refer to: [Arduino Library Management Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/01-Arduino-IDE-Setup.md#ArduinoIDE-Installing-Libraries).
+3. For other installation methods, please refer to: [Arduino Library Management Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/01-Arduino-IDE-Setup.md#ArduinoIDE-Install-Libraries).
 
 ### 3. Arduino Project Parameter Settings
 
@@ -1779,7 +1779,7 @@ void loop() {
 
   <VideoPlayer src={esp32S3Touchlcd4_3CArduinoExample10} maxWidth="600px"/>
 
-### 12_lvgl_transplant {#Demo_lvgl_transplant}
+### 12_lvgl_transplant {#Demo-12_lvgl_transplant}
 
 This example demonstrates the porting of LVGL.
 
@@ -1866,7 +1866,7 @@ void loop() {
   - [Chinese Link](https://lvgl.100ask.net/8.4/)
   - [English Link](https://docs.lvgl.io/8.4/)
 
-### 13_lvgl_btn {#Demo_lvgl_btn}
+### 13_lvgl_btn {#Demo-13_lvgl_btn}
 
 #### Hardware Connection
 

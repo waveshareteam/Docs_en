@@ -31,7 +31,7 @@ import EspidfTutorialIntro from '@site/docs/ESP32/snippets/EspidfTutorialIntro.m
 
 This chapter includes the following sections:
 
-- [ESP-IDF Getting Started and Quick Configuration](#espidf-getting-started)
+- [ESP-IDF Getting Started and Quick Configuration](#espidf-getting-started-tutorial)
 - [Setting Up Development Environment (Windows)](#environment-setup)
 - [Common Example Descriptions (Brief Overview and Code Explanation)](#Demo-program)
 
@@ -715,7 +715,7 @@ void app_main()
     <img src={arduinoExample5} />
   </div>
 
-### 10_wifi_ap {#Demo_wifi_ap}
+### 10_wifi_ap {#Demo-10_wifi_ap}
 
 This example enables a `SoftAP` hotspot and displays information about connected devices (e.g., `MAC` address, connection count) on the screen.
 
@@ -801,7 +801,7 @@ int app_main(void)
     <img src={arduinoExample6} />
   </div>
 
-### 11_speaker_microphone {#Demo_speaker_microphone}
+### 11_speaker_microphone {#Demo-11_speaker_microphone}
 
 This example demonstrates the audio capture and playback pipeline, including `microphone recording` and `speaker playback` (`Codec + I2S`).
 
@@ -899,7 +899,7 @@ void app_main()
 
   <VideoPlayer src={esp32S3Touchlcd4_3CArduinoExample10} asGif />
 
-### 12_lvgl_transplant {#Demo_lvgl_transplant}
+### 12_lvgl_transplant {#Demo-12_lvgl_transplant}
 
 This example completes the basic `LVGL` port, verifies the display driver, touch input, and LVGL refresh pipeline, and runs the official demo.
 
@@ -957,7 +957,7 @@ void app_main()
     <img src={arduinoExample10} />
   </div>
 
-### 13_lvgl_codec {#Demo_lvgl_codec}
+### 13_lvgl_codec {#Demo-13_lvgl_codec}
 
 This example combines the `LVGL UI` with audio functionality, demonstrating interactions such as UI control of volume/playback status.
 
