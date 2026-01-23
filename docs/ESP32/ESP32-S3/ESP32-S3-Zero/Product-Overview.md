@@ -42,6 +42,12 @@ The [ESP32-S3-Zero (Without Header)](https://www.waveshare.com/esp32-s3-zero.htm
 
 The [ESP32-S3-Zero-Basic-Kit (Basic Kit)](./?variant=ESP32-S3-Zero-Basic-Kit) includes the [ESP32-S3-Zero-M](https://www.waveshare.com/esp32-s3-zero.htm?sku=26976) and the [ESP32-XX-Basic-Kit-Acce kit](https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33355), equipped with a breadboard, wires, LEDs, resistors, a [1.5-inch OLED](https://www.waveshare.com/1.5inch-oled-module.htm), and other modules. It provides the core hardware needed to learn the [Waveshare ESP32 Arduino Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/index.md) and [Waveshare ESP32 MicroPython Tutorial](/docs/ESP32/Tutorials/MicroPython-Tutorials/index.md), making it suitable for getting started quickly with Arduino, MicroPython, and ESP-IDF programming. Relevant example programs and wiring diagrams can be downloaded here: [ESP32-S3-Zero-Basic-Kit-main.zip](https://github.com/waveshareteam/ESP32-S3-Zero-Basic-Kit/archive/refs/heads/main.zip) ([GitHub Repository](https://github.com/waveshareteam/ESP32-S3-Zero-Basic-Kit)).
 
+| SKU | Product | 
+| --- | --- | 
+| 25081 | ESP32-S3-Zero (Without header) |
+| 25517 | ESP32-S3-Zero-M (With pre-soldered header) |
+| 33356 | ESP32-S3-Zero-Basic-Kit |
+
 ## Features
 
 - Powered by a high-performance Xtensa® 32-bit LX7 dual-core processor, running up to 240MHz.
@@ -99,12 +105,3 @@ Major development platforms include:
 - **[MicroPython](https://micropython.org/)**: A lean version of Python 3, containing core functionality and optimized for microcontroller environments. It supports instant execution without repeated compiling and flashing, offering an effective way for developers familiar with Python to get started with ESP32 quickly. 
 
 - **Other Development Methods**: The ESP32 development ecosystem is very rich. In addition to the platforms mentioned above, it also supports development via PlatformIO, Mongoose OS, Espruino (JavaScript), ESPHome, and others, satisfying the needs of developers with diverse technical backgrounds.
-
-
-## Related SKUs
-
-| SKU | Product | 
-| --- | --- | 
-| 25081 | ESP32-S3-Zero (Without header) |
-| 25517 | ESP32-S3-Zero-M (With pre-soldered header) |
-| 33356 | ESP32-S3-Zero-Basic-Kit |
