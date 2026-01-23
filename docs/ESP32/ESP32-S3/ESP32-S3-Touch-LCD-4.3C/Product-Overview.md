@@ -37,7 +37,7 @@ The ESP32-S3-Touch-LCD-4.3C is a low-cost, high-performance development board fr
 
 ## Onboard Resources
 
-<div style={{maxWidth:600}}> <img src={esp32S3TouchLcd4_3CProductExample2} alt="ESP32-S3-Touch-LCD-4.3C Onboard Resources Example 1"/></div>
+<div style={{maxWidth:1000}}> <img src={esp32S3TouchLcd4_3CProductExample2} alt="ESP32-S3-Touch-LCD-4.3C Onboard Resources Example 1"/></div>
 
 - **Onboard PCF85063 RTC Real-Time Clock Chip**: Enables timekeeping during power loss and alarm functionality.
 - **Onboard 4.3inch 800×480 Capacitive Touch LCD Screen**: Supports LVGL graphical interface display.

@@ -28,7 +28,7 @@ A: This can be caused by Chinese characters in the library installation path, wh
 A: You can refer to the following steps to run the example for comparison:
 1. Before running the program, install the [required libraries](https://www.waveshare.com/wiki/Arduino_Library_Manager_Tutorial).
 2. Install libraries [video reference](https://files.waveshare.com/wiki/common/ESP32-S3-7-lib.zip).
-3. Run and flash the [example programs](./Arduino.md#demo).
+3. Run and flash the [example programs](./Arduino.md#Demo).
 </Details>
 
 <Details summary="Q: When compiling an example in Arduino IDE, I get a fatal error: esp_memory_utils.h: No such file or directory" className="faq-details" open>
