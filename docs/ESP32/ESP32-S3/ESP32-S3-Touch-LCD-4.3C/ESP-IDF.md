@@ -897,7 +897,7 @@ void app_main()
 
 - Playback audio can be heard; the serial port outputs recording/playback status and audio parameters.
 
-  <VideoPlayer src={esp32S3Touchlcd4_3CArduinoExample10} asGif />
+  <VideoPlayer src={esp32S3Touchlcd4_3CArduinoExample10} />
 
 ### 12_lvgl_transplant {#Demo-12_lvgl_transplant}
 
