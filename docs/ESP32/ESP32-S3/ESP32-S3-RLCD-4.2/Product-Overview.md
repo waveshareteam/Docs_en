@@ -22,6 +22,11 @@ import esp32S3RLCD4_2UiInit from './images/ESP32-S3-RLCD-4.2-DocHeader.webp';
 
 This product is a fully reflective screen AIoT development board based on the ESP32-S3, supporting dual-mode communication with Wi-Fi and BLE. It features a 4.2inch fully reflective display (RLCD), low power consumption, display performance close to that of an e-Paper screen, and faster refresh response. It includes onboard audio codec circuitr, dual microphones, speaker, SHTC3 high-precision temperature and humidity sensor, TF card slot, RTC interface, and battery charge and discharge management circuit, etc. It also reserves USB, UART, I2C, and multiple GPIO interfaces for convenient expansion. It supports AI voice, temperature and humidity monitoring, and IoT control, and is suitable for DIY desktop smart ornaments, electronic calendars, AI agents, etc., and can also be used for product prototype development.
 
+| SKU | Product | 
+| --- | --- | 
+| 33298 | ESP32-S3-RLCD-4.2 (18650 Lithium Battery Included) |
+| 33507 | ESP32-S3-RLCD-4.2 (18650 Lithium Battery **NOT** Included) |
+
 ## Features
 
 - Equipped with a high-performance Xtensa® 32-bit LX7 dual-core processor clocked at up to 240MHz

@@ -40,6 +40,13 @@ The [ESP32-C3-Zero (Without header)](https://www.waveshare.com/esp32-c3-zero.htm
 
 The [ESP32-C3-Zero-Basic-Kit (Basic Kit)](./?variant=ESP32-C3-Zero-Basic-Kit) includes the [ESP32-C3-Zero-M](https://www.waveshare.com/esp32-c3-zero.htm?sku=25532) and the [ESP32-XX-Basic-Kit-Acce kit](https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33355), equipped with a breadboard, wires, LEDs, resistors, a [1.5-inch OLED](https://www.waveshare.com/1.5inch-oled-module.htm), and other modules. It provides the core hardware needed to learn the [Waveshare ESP32 Arduino Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/index.md) and [Waveshare ESP32 MicroPython Tutorial](/docs/ESP32/Tutorials/MicroPython-Tutorials/index.md), making it suitable for getting started quickly with Arduino, MicroPython, and ESP-IDF programming. Relevant example programs and wiring diagrams can be downloaded here: [ESP32-C3-Zero-Basic-Kit-main.zip](https://github.com/waveshareteam/ESP32-C3-Zero-Basic-Kit/archive/refs/heads/main.zip) ([GitHub Repository](https://github.com/waveshareteam/ESP32-C3-Zero-Basic-Kit)).
 
+
+| SKU | Product | 
+| --- | --- | 
+| 25452 | ESP32-C3-Zero |
+| 25532 | ESP32-C3-Zero-M |
+| 33358 | ESP32-C3-Zero-Basic-Kit |
+
 ## Features
 
 - Equipped with the ESP32-C3FH4 chip, featuring a RISC-V 32-bit single-core processor running at up to 160 MHz.

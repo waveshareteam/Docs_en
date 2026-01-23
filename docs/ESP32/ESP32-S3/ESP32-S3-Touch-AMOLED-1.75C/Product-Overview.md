@@ -12,10 +12,16 @@ product_model:
 # ESP32-S3-Touch-AMOLED-1.75C
 
 <div style={{maxWidth:400}}>
-[![ESP32-S3-Touch-AMOLED-1.75C](https://www.waveshare.net/photo/development-board/ESP32-S3-Touch-AMOLED-1.75C/ESP32-S3-Touch-AMOLED-1.75C-details-1.jpg)](https://www.waveshare.com/esp32-s3-touch-amolcd-1.75.htm)
+[![ESP32-S3-Touch-AMOLED-1.75C](https://www.waveshare.net/photo/development-board/ESP32-S3-Touch-AMOLED-1.75C/ESP32-S3-Touch-AMOLED-1.75C-details-1.jpg)](https://www.waveshare.com/esp32-s3-touch-amoled-1.75.htm)
 </div>
 
 The ESP32-S3-Touch-AMOLED-1.75C is a high-performance, highly integrated microcontroller development board designed by Waveshare. It features a compact and aesthetically pleasing CNC-machined aluminum alloy case in an electronic "badge" style, offering excellent build quality. The board integrates a 1.75inch high-definition capacitive AMOLED touchscreen, a highly integrated power management chip, a six-axis sensor (accelerometer + gyroscope), RTC, a low-power audio codec chip with echo cancellation circuitry, a built-in speaker, and space for a battery, providing robust support for rapid development and product prototyping.
+
+| SKU | Product | 
+| --- | --- | 
+| 31261 | ESP32-S3-Touch-AMOLED-1.75C (Standard version) |
+| 31264 | ESP32-S3-Touch-AMOLED-1.75C (GPS version) |
+| 31262 | ESP32-S3-Touch-AMOLED-1.75C (Standard version with protective case) |
 
 ## Features
 

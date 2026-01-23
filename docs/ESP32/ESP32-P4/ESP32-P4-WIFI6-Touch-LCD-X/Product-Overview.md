@@ -28,6 +28,16 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 This series is a high-performance development board based on the ESP32-P4 chip, featuring a dual-core plus single-core RISC-V architecture. It comes with a 7 / 8 / 10.1inch IPS touch display, supports rich human-machine interaction interfaces, includes MIPI-CSI (with an integrated Image Signal Processor, ISP), and also supports USB 2.0 OTG HS for high-speed connectivity. The ESP32-P4 chip integrates a digital signature peripheral and a dedicated key management unit to ensure data and operational security. It is designed for high performance and high security applications, and fully meets the higher requirements of embedded applications for human-computer interface support, edge computing capabilities and IO connection features.
+
+| SKU | Product | 
+| --- | --- | 
+| 30738 | ESP32-P4-WIFI6-Touch-LCD-7 |
+| 33147 | ESP32-P4-WIFI6-Touch-LCD-7-EN |
+| 33673 | ESP32-P4-WIFI6-Touch-LCD-8 |
+| 33149 | ESP32-P4-WIFI6-Touch-LCD-8-EN |
+| 33672 | ESP32-P4-WIFI6-Touch-LCD-10.1 |
+| 33150 | ESP32-P4-WIFI6-Touch-LCD-10.1-EN |  
+
 ## Features
 
 - Processor
