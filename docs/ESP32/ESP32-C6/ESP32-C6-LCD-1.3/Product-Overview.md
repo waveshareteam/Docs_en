@@ -13,7 +13,7 @@ product_model:
 import Interface_Definition from './images/Interface_Definition.webp';
 import Product_Size from './images/Product_Size.webp';
 import Resource_Overview from './images/Resource_Overview.webp';
-import product_photo from './images/product_photo.webp.png';
+import product_photo from './images/product_photo.webp.webp';
 
 
 

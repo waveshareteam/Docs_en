@@ -21,19 +21,22 @@ import Arduino_demo41 from './images/Arduino-demo41.webp';
 import Arduino_demo42 from './images/Arduino-demo42.webp';
 import Arduino_Set from './images/Arduino-Set.webp';
 import Arduino_Board from './images/Arduino-Board.webp';
-import arduino_config       from './images/ESP32-C6-Touch-AMOLED-1.8-demo-01.webp';
+import arduino_config from './images/ESP32-C6-Touch-AMOLED-1.8-demo-01.webp';
 
 
 # Working with Arduino
 
 This chapter includes the following sections, please read as needed:
 
-- [Arduino Getting Started](#arduino-getting-started)
+
+- [Arduino Getting Started Tutorial](#arduino-tutorial-for-beginners)
 - [Setting Up Development Environment](#setting-up-development-environment)
 - [Demo](#demo)
 
 <ArduinoTutorialIntro />
-  
+
+## Setting Up Development Environment
+
 ### 1. Installing and Configuring Arduino IDE
 
 Please refer to the tutorial **[Installing and Configuring Arduino IDE Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/01-Arduino-IDE-Setup.md)** to download and install the Arduino IDE and add ESP32 support.
@@ -73,8 +76,7 @@ There are strong dependencies between versions of LVGL and its driver libraries.
    You can also locate it within the Arduino IDE via **File > Preferences**, by checking the "**Sketchbook location**". **The library folder is the `libraries` folder under this path.**
    :::
 
-3. For other installation methods, please refer to: [Arduino Library Management Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/01-Arduino-IDE-Setup.md#ArduinoIDE-Installing-Libraries).
-
+3. For other installation methods, please refer to: [Arduino Library Management Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/01-Arduino-IDE-Setup.md#ArduinoIDE-Install-Libraries).
 
 ### 3. Installing ESP32 Development Board
 
