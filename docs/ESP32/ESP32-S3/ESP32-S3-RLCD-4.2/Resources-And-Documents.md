@@ -35,6 +35,22 @@ product_model:
   - [PCF85063 Datasheet](https://files.waveshare.com/wiki/common/Pcf85063atl1118-NdPQpTGE-loeW7GbZ7.pdf)
   - [SHTC3 Datasheet](https://files.waveshare.com/wiki/common/SHTC3_Datasheet.pdf)
 
-## **3. Demo**{#Demo}
+## **3. Waveshare Official Demo**{#Demo}
 
 - [ESP32-S3-RLCD-4.2 Demo (Github)](https://github.com/waveshareteam/ESP32-S3-RLCD-4.2.git)
+
+
+## **4. Community Showcase**
+
+:::info
+Check out these amazing projects created by the community! Please note these are independently maintained by their creators.
+:::
+
+### Volos Projects - Finally! An ESP32 Screen for Sunlight 
+
+import YoutubeEmbed from '@site/src/components/YoutubeEmbed';
+
+<YoutubeEmbed id="MziW1InJwa4" maxWidth="600px" />
+
+- Youtube：https://www.youtube.com/watch?v=MziW1InJwa4
+- Github：https://github.com/VolosR/waveshareLRCL
