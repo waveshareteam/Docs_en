@@ -23,5 +23,7 @@ module.exports = [
   { to: '/ESP32-C6-Touch-AMOLED-1.8', from: ['/33305'] },
   { to: '/ESP32-C6-Touch-AMOLED-1.8', from: ['/33366'] },
   { to: '/ESP32-C6-GEEK', from: ['/33675'] },
-  // ...
+  { to: '/RP2350-Touch-AMOLED-1.75', from: ['/33759'] },
+  { to: '/RP2350-Touch-AMOLED-1.75', from: ['/33733'] },
+  { to: '/RP2350-Touch-AMOLED-1.75', from: ['/33734'] },
 ];

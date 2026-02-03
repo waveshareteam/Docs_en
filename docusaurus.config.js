@@ -172,6 +172,20 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          {
+            position: "left",
+            label: "Raspberry Pi Pico",
+            items: [
+              {
+                label: "Basic Tutorials",
+                to: "/Raspberry-Pi-Pico-Tutorials-Intro",
+              },
+              {
+                label: "RP2350",
+                to: "/RP2350",
+              },
+            ],
+          },
         ],
       },
       footer: {
