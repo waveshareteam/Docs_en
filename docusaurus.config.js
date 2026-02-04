@@ -186,6 +186,16 @@ const config = {
               },
             ],
           },
+          {
+            position: "left",
+            label: "IoT / Communication",
+            items: [
+              {
+                label: "Long-Range Wireless",
+                to: "/Long-Range-Wireless",
+              },
+            ],
+          },
         ],
       },
       footer: {
