@@ -23,6 +23,13 @@ The ESP32-S3-Touch-AMOLED-1.75C is a high-performance, highly integrated microco
 | 31264 | ESP32-S3-Touch-AMOLED-1.75C (GPS version) |
 | 31262 | ESP32-S3-Touch-AMOLED-1.75C (Standard version with protective case) |
 
+## Back Cover Removal and Battery Installation Tutorial
+
+import VideoPlayer from '@site/src/components/VideoPlayer';
+import VideoReset from './videos/Esp32-S3-Touch-Amoled-1.75C-EN.mp4';
+
+<VideoPlayer src={VideoReset} />
+
 ## Features
 
 - Equipped with ESP32-S3R8 high-performance Xtensa 32-bit LX7 dual-core processor, with a clock frequency up to 240MHz
