@@ -35,7 +35,7 @@ New to ESP32 ESP-IDF development and want to get started quickly? We have prepar
 
 ## Setting up the Development Environment{#setting-up-the-development-environment}
 
-Please refer to **[Installing ESP-IDF Development Environment](/docs/ESP32/Tutorials/ESP-IDF-Tutorials/01-Setup.md#setup-esp-idf)**.
+Please refer to **[Installing ESP-IDF Development Environment](/docs/ESP32/Tutorials/ESP-IDF-Tutorials/01-Setup.md#esp-idf-setup)**.
 
 ## Running Espressif Official Examples{#running-espressif-official-examples}
 

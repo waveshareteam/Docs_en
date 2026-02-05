@@ -1,0 +1,54 @@
+---
+unlisted: true
+---
+
+:::note
+The following guide uses **Windows** as an example, demonstrating development using **VS Code + the ESP-IDF extension**. macOS and Linux users should refer to the **[official documentation](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/get-started/index.html)**.
+:::
+
+### Install the ESP-IDF Development Environment
+
+1. Download the installation manager from the [ESP-IDF Installation Manager](https://dl.espressif.com/dl/esp-idf/) page. This is Espressif's latest cross-platform installer. The following steps demonstrate how to use its offline installation feature.
+
+   Click the **Offline Installer** tab on the page, then select **Windows** as the operating system and choose your desired version from the filter bar.
+   
+   <div style={{maxWidth:600}}>![Download EIM and offline package](/img/esp32/esp-idf-setup/01-EIM-Offline-Installation-1.webp)</div>
+   
+   After confirming your selection, click the download button. The browser will automatically download two files: the **ESP-IDF Offline Package (.zst)** and the **ESP-IDF Installer (.exe)**.
+
+   <div style={{maxWidth:500}}>![Download EIM and offline package 2](/img/esp32/esp-idf-setup/01-EIM-Offline-Installation-2.webp)</div>
+   
+   Please wait for both files to finish downloading.
+
+2. Once the download is complete, double-click to run the **ESP-IDF Installer (eim-gui-windows-x64.exe)**.
+
+   The installer will automatically detect if the offline package exists in the same directory. Click **Install from archive**.
+
+   <div style={{maxWidth:800}}>![Auto-detect offline package](/img/esp32/esp-idf-setup/01-EIM-Offline-Installation-4.webp)</div>
+   
+   Next, select the installation path. We recommend using the default path. If you need to customize it, ensure the path does not contain Chinese characters or spaces. Click **Start installation** to proceed.
+
+   <div style={{maxWidth:800}}>![Select installation path](/img/esp32/esp-idf-setup/01-EIM-Offline-Installation-5.webp)</div>
+   
+3. When you see the following screen, the ESP-IDF installation is successful.
+
+   <div style={{maxWidth:800}}>![Installation successful](/img/esp32/esp-idf-setup/01-EIM-Offline-Installation-6.webp)</div>
+
+4. We recommend installing the drivers as well. Click **Finish installation**, then select **Install driver**.
+
+   <div style={{maxWidth:800}}>![Install drivers via ESP-IDF Installation Manager](/img/esp32/esp-idf-setup/01-EIM-Offline-Installation-7.webp)</div>
+   
+
+### Install Visual Studio Code and the ESP-IDF Extension
+
+1. Download and install [Visual Studio Code](https://code.visualstudio.com/).
+
+2. During installation, it is recommended to check **Add "Open with Code" action to Windows Explorer file context menu** to facilitate opening project folders quickly.
+
+3. In VS Code, click the **Extensions** icon ![Extensions Icon](/img/esp32/esp-idf-setup/01-VSCode-Extension-Icon.webp) in the Activity Bar on the side (or use the shortcut <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>) to open the **Extensions** view.
+
+4. Enter **ESP-IDF** in the search box, locate the [ESP-IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension) extension, and click Install.
+
+   ![Search and install ESP-IDF extension in VS Code](/img/esp32/esp-idf-setup/01-VSCode-Install-ESP-IDF-Extension.webp)
+
+5. For **ESP-IDF extension versions ≥ 2.0**, the extension will automatically detect and recognize the ESP-IDF environment installed in the previous steps, requiring no manual configuration.

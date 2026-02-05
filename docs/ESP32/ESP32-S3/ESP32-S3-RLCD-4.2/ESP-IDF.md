@@ -24,8 +24,27 @@ import esp32S3RLCD4_2ESPIDFExample10_1 from './images/ESP-IDF-Example-10-1.webp'
 import esp32S3RLCD4_2ESPIDFExample10_2 from './images/ESP-IDF-Example-10-2.webp';
 import esp32S3RLCD4_2ESPIDFExample10_3 from './images/ESP-IDF-Example-10-3.webp';
 
+import EspidfTutorialIntro from '@site/docs/ESP32/snippets/EspidfTutorialIntro.mdx';
+import EspidfSetup from '@site/docs/ESP32/snippets/EspidfSetup.mdx';
 
 # ESP-IDF
+
+This chapter includes the following sections; 
+
+- [ESP-IDF Getting Started and Quick Configuration](#espidf-getting-started-tutorial)
+- [Setting Up Development Environment](#esp-idf-setup)
+- [Demo](#demo)
+
+<EspidfTutorialIntro />
+
+## Setting up the Development Environment{#esp-idf-setup}
+
+:::info
+For the ESP32-S3-RLCD-4.2 development board, you need to use ESP-IDF V5.5.0 or higher.
+:::
+
+<EspidfSetup />
+
 
 ## Demo
 

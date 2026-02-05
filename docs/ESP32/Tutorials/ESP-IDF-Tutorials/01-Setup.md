@@ -30,75 +30,70 @@ Many developers start with ESP32 through platforms like Arduino or MicroPython, 
 - **High Performance and Component-Based Architecture**: ESP-IDF supports organizing code in "components." Developers can use the ESP Registry component management platform to conveniently search for, integrate, and maintain third-party or official components, improving development efficiency and project maintainability.
 - **Suitable for Mass Production and Commercial Product Development**: ESP-IDF supports OTA updates, secure boot, Flash encryption, partition management, and other features, facilitating mass production deployment and later maintenance of products, meeting the high requirements for security and maintainability in commercial products.
 
-## 3. Installing the ESP-IDF Development Environment{#setup-esp-idf}
+## 3. Setting Up the ESP-IDF Development Environment{#esp-idf-setup}
 
-![ESP-IDF Main Development Methods](./images/01-ESP-IDF-Development-Approach.webp)
+![Main ESP-IDF development approaches](./images/01-ESP-IDF-Development-Approach.webp)
 
-There are several primary methods for developing with ESP-IDF for ESP32:
+There are several main approaches to developing for the ESP32 using ESP-IDF:
 
-- **ESP-IDF Command-Line Tools**: Use the official [installer](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/windows-setup.html#esp-idf) or scripts to set up the command-line environment, then use the `idf.py` tool for project configuration, compilation, flashing, and monitoring. Code can be written using any text editor.
-- **Eclipse Plugin (Espressif-IDE)**: An integrated development environment based on Eclipse CDT, built-in with ESP-IDF toolchain and plugins. It supports one-stop development experience including project creation, compilation, flashing, debugging, and monitoring. Suitable for users with some embedded development experience who are accustomed to using Eclipse.
-- **VS Code Extension**: Install the official Espressif ESP-IDF extension in the Visual Studio Code editor. It integrates environment installation, project management, compilation, flashing, monitoring, debugging, and all other functions. Supports one-click configuration of ESP-IDF and related toolchains.
+- **ESP-IDF Command Line Tools**: Set up the command-line environment via the official [installer](https://docs.espressif.com/projects/esp-idf/zh_CN/stable/esp32/get-started/windows-setup.html#esp-idf) or scripts. Use the `idf.py` tool to configure, build, flash, and monitor projects, while writing code in any **text editor**.
+- **Eclipse Plugin (Espressif-IDE)**: An integrated development environment based on Eclipse CDT, featuring built-in ESP-IDF toolchains and plugins. It provides a one-stop experience for project creation, building, flashing, debugging, and monitoring. This is suitable for users with embedded development experience who prefer Eclipse.
+- **VS Code Extension**: Install the official Espressif ESP-IDF extension in Visual Studio Code. It integrates full functionality for project management, building, flashing, monitoring, and debugging, with support for automatically detecting ESP-IDF and its toolchains.
 
 :::info
-We recommend using **VS Code + ESP-IDF Extension**, which is currently the most mainstream and beginner-friendly method. For offline installation, please refer to **[this tutorial](./appendix/Offline-Installation.md)**.
+We recommend developing with **VS Code + ESP-IDF Extension**. This is currently the most popular method and the most beginner-friendly.
 :::
 
 :::note
-The following environment settings are applicable to Windows 10/11 systems. For Mac/Linux users, please refer to the **[official guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)**.
+The following environment setup applies to Windows 10/11 systems. Mac/Linux users should refer to the **[official documentation](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/get-started/index.html)**.
 :::
 
-### 3.1 Install Visual Studio Code
+### 3.1 Installing the ESP-IDF Development Environment
+
+1. Go to the [ESP-IDF Installation Manager](https://dl.espressif.com/dl/esp-idf/) page to download the tool. This is Espressif's latest cross-platform installer. The following steps demonstrate how to use its offline installation feature.
+
+   Click the **Offline Installer** tab on the page, then select **Windows** as the operating system and the latest stable version **v5.5** in the filter bar.
+   
+   <div style={{maxWidth:600}}>![Downloading EIM and the integrated package](./images/01-EIM-Offline-Installation-1.webp)</div>
+   
+   Verify your selection and click the download button. The browser will automatically download two files simultaneously: the **ESP-IDF Offline Integrated Package (.zst)** and the **ESP-IDF Installer (.exe)**.
+
+   <div style={{maxWidth:500}}>![Downloading EIM and the integrated package 2](./images/01-EIM-Offline-Installation-2.webp)</div>
+   
+   Please wait patiently for both files to finish downloading.
+
+2. Once downloaded, double-click to run the **ESP-IDF Installer (eim-gui-windows-x64.exe)**.
+
+   The installer will automatically detect if the offline integrated package exists in the same directory. Click **Install from Archive**.
+
+   <div style={{maxWidth:800}}>![Automatically detecting the integrated package](./images/01-EIM-Offline-Installation-4.webp)</div>
+   
+   Next, select the installation path. We recommend using the default path; if you need to customize it, ensure the path does not contain non-ASCII characters (e.g., Chinese characters) or spaces. Once confirmed, click **Start Installation**.
+
+   <div style={{maxWidth:800}}>![Selecting installation path](./images/01-EIM-Offline-Installation-5.webp)</div>
+   
+3. When you see the following screen, ESP-IDF has been successfully installed.
+
+   <div style={{maxWidth:800}}>![Installation successful](./images/01-EIM-Offline-Installation-6.webp)</div>
+
+4. It is recommended to install the drivers as well. Click **Complete Installation**, then click **Install Drivers**.
+
+   <div style={{maxWidth:800}}>![Installing drivers with ESP-IDF Installation Manager](./images/01-EIM-Offline-Installation-7.webp)</div>
+   
+
+### 3.2 Installing Visual Studio Code and the ESP-IDF Extension
 
 1. Download and install [Visual Studio Code](https://code.visualstudio.com/).
 
-2. During installation, it is recommended to check the option "Add 'Open with Code' action to Windows Explorer file context menu”.
+2. During installation, it is recommended to check **Add "Open with Code" action to Windows Explorer file context menu** to quickly open project folders.
 
-### 3.2 Install the ESP-IDF Extension
+3. In VS Code, click the **Extensions** icon ![Extensions Icon](./images/01-VSCode-Extension-Icon.webp) in the Activity Bar on the side (or use the shortcut <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>) to open the **Extensions** view.
 
-1. In VS Code, open the **Extensions** view by clicking the ![Extensions Icon](./images/01-VSCode-Extension-Icon.webp) in the VS Code sidebar's activity bar (or use the shortcut <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>).
+4. Type **ESP-IDF** in the search bar, locate the [ESP-IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension) extension, and click Install.
 
-2. Then, search for the [ESP-IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension) extension and install it.
+   ![Searching for and installing the ESP-IDF extension in VS Code](./images/01-VSCode-Install-ESP-IDF-Extension.webp)
 
-   ![Search and install ESP-IDF extension in VS Code](./images/01-VSCode-Install-ESP-IDF-Extension.webp)
-
-### 3.3 Run the Quick Configuration Wizard
-
-1. After installing the extension, the ![Espressif Icon](./images/01-VSCode-ESP-IDF-Extension-Icon.webp) icon will appear in the left activity bar of VS Code. Click this icon to view the basic command list of the ESP-IDF extension. Under **Advanced**, select **Configure ESP-IDF Extension**.
-
-   ![Select "Configure ESP-IDF Expansion"](./images/01-VSCode-ESP-IDF-Configuration-1.webp)
-
-2. Choose "**Express**" to enter the quick configuration mode:
-
-   ![Select Quick Configuration Mode](./images/01-VSCode-ESP-IDF-Configuration-2.webp)
-
-3. Modify the following options as needed.
-
-   ![ESP-IDF Extension Quick Configuration Mode Options](./images/01-VSCode-ESP-IDF-Configuration-3.webp)
-
-   - **Select download server**:
-     - Espressif: For users in China, use Espressif's China server for faster downloads.
-     - Github: Use the official GitHub release link.
-   - **ESP-IDF Version**: Typically, select the version required by the development board. If no specific requirement, it's recommended to use the latest stable version. For this tutorial, it is recommended that the Espressif IDF version be ≥ v5.5.
-   - **ESP-IDF Repository Installation Path**: It is recommended to use the default path or use a path in pure English without spaces.
-   - **ESP-IDF Tools Installation Path**: It is recommended to use the default path or use a path in pure English without spaces.
-     :::warning
-     Note that the **ESP-IDF Repository Installation Path** and the **ESP-IDF Tools Installation Path** **must not** be the same directory.
-     :::
-
-4. Click **Install** to start the installation. You will see a page displaying the installation progress, including the progress status of ESP-IDF download, ESP-IDF tool download and installation, as well as the creation of the Python virtual environment.
-
-   ![Installation Progress](./images/01-VSCode-ESP-IDF-Configuration-4.webp)
-
-5. If installed correctly, you will see a prompt indicating that all settings have been configured successfully, and you can start using the extension.
-
-   ![Installation Successful](./images/01-VSCode-ESP-IDF-Configuration-5.webp)
-
-   :::warning
-   If ESP-IDF installation fails or needs to be reinstalled, you can try deleting the `C:\Users\%Username%\esp` and `C:\Users\%Username%\.espressif` folders and then retry.
-   
-   If reinstallation still fails, please refer to **[this tutorial](./appendix/Offline-Installation.md)** for offline installation.
-   :::
+5. For **ESP-IDF extension versions ≥ 2.0**, the extension will automatically detect and recognize the ESP-IDF environment installed in the previous steps, requiring no manual configuration.
 
 ## 4. VS Code ESP-IDF Extension Interface Overview{#VsCode-ESP-IDF-ToolBar}
 

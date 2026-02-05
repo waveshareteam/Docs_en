@@ -29,7 +29,7 @@ This chapter includes the following sections; please read as needed:
 The following tutorial is based on the Windows development environment and uses VSCode for development.
 :::
 
-Please refer to **[Waveshare ESP-IDF Getting Started Tutorial - Section 1 Environment Setup](/docs/ESP32/Tutorials/ESP-IDF-Tutorials/01-Setup.md#setup-esp-idf)** to complete the ESP-IDF development environment configuration.
+Please refer to **[Waveshare ESP-IDF Getting Started Tutorial - Section 1 Environment Setup](/docs/ESP32/Tutorials/ESP-IDF-Tutorials/01-Setup.md#esp-idf-setup)** to complete the ESP-IDF development environment configuration.
 
 ## Running Espressif Official Examples{#running-espressif-official-examples}
 

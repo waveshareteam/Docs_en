@@ -34,7 +34,7 @@ The following tutorial is based on the Windows development environment and uses 
 Note: ESP-IDF only supports ESP32-C6 starting from version V5.1. **Please select V5.1 or higher when installing ESP-IDF.**
 :::
 
-Please refer to **[Waveshare ESP-IDF Getting Started Tutorial - Section 1 Environment Setup](/docs/ESP32/Tutorials/ESP-IDF-Tutorials/01-Setup.md#setup-esp-idf)** to complete the ESP-IDF development environment configuration.
+Please refer to **[Waveshare ESP-IDF Getting Started Tutorial - Section 1 Environment Setup](/docs/ESP32/Tutorials/ESP-IDF-Tutorials/01-Setup.md#esp-idf-setup)** to complete the ESP-IDF development environment configuration.
 
 ## Running Espressif Official Examples{#running-espressif-official-examples}
 
