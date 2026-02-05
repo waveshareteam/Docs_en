@@ -10,22 +10,23 @@ product_model:
 ---
 
 <!-- Image Reference -->
-
-import esp32S3TouchLcd4_3CProductExample1 from './images/Product-Example-1.webp';
 import esp32S3TouchLcd4_3CProductExample2 from './images/Product-Example-2.webp';
 import esp32S3TouchLcd4_3CProductExample3 from './images/Product-Example-3.webp';
 import esp32S3TouchLcd4_3CProductExample4 from './images/Product-Example-4.webp';
 
 
 # ESP32-S3-Touch-LCD-4.3C
-<!-- 
-:::tip Newly Upgraded
-You are browsing the brand-new documentation. If you are more familiar with the old version's browsing style, you can still access the corresponding **[Legacy Page](https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3C)**.
-:::
--->
-<div style={{maxWidth:600}}> <img src={esp32S3TouchLcd4_3CProductExample1}/></div>
+
+<div style={{maxWidth:600}}> 
+[![ESP32-S3-Touch-LCD-4.3C Product Example 1](./images/Product-Example-1.webp)](https://www.waveshare.com/esp32-s3-touch-lcd-4.3c.htm?sku=33799)
+</div>
 
 The ESP32-S3-Touch-LCD-4.3C is a low-cost, high-performance development board from Waveshare. It integrates 2.4GHz WiFi, BLE5, large-capacity Flash and PSRAM, and features an onboard 4.3-inch capacitive touch LCD for smooth LVGL GUI operation. It is equipped with an ES8311 audio codec and an ES7210 quad-channel ADC, supporting voice capture and playback. It also provides rich interfaces like I2C and wide-voltage IOs, making it suitable for applications in IoT, mobile devices, and smart homes.
+
+| SKU | Product | 
+| --- | --- | 
+| 33799 | ESP32-S3-Touch-LCD-4.3C (Without case) |
+| 33630 | ESP32-S3-Touch-LCD-4.3C (With plastic case) |
 
 ## Features
 

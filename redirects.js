@@ -26,4 +26,9 @@ module.exports = [
   { to: '/RP2350-Touch-AMOLED-1.75', from: ['/33759'] },
   { to: '/RP2350-Touch-AMOLED-1.75', from: ['/33733'] },
   { to: '/RP2350-Touch-AMOLED-1.75', from: ['/33734'] },
+  { to: '/MAX9296-GMSL-Deser-Module', from: ['/33623'] },
+  { to: '/ESP32-S3-Touch-LCD-4.3C', from: ['/33799'] },
+  { to: '/ESP32-S3-Touch-LCD-4.3C', from: ['/33630'] },
+  { to: '/ESP32-C6-LCD-1.3', from: ['/33643'] },
+  { to: '/ESP32-C6-LCD-1.3', from: ['/33644'] },
 ];

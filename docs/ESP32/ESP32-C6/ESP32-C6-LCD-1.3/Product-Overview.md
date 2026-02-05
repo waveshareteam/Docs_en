@@ -13,18 +13,19 @@ product_model:
 import Interface_Definition from './images/Interface_Definition.webp';
 import Product_Size from './images/Product_Size.webp';
 import Resource_Overview from './images/Resource_Overview.webp';
-import product_photo from './images/product_photo.webp.webp';
-
-
 
 # ESP32-C6-LCD-1.3
 
-
-<div style={{maxWidth:500}}> <img src={product_photo}/></div>
-
+<div style={{maxWidth:400}}> 
+[![ESP32-C6-LCD-1.3 Product Example 1](./images/product_photo.webp.webp)](https://www.waveshare.com/esp32-c6-lcd-1.3.htm?sku=33643)
+</div>
 
 [ESP32-C6-LCD-1.3 (Standard version)](https://www.waveshare.com/esp32-c6-lcd-1.3.htm?sku=33643) and [ESP32-C6-LCD-1.3 (With pre-soldered header)](https://www.waveshare.com/esp32-c6-lcd-1.3.htm?sku=33644) are microcontroller development boards based on the ESP32-C6FH4, supporting 2.4GHz Wi-Fi 6 and Bluetooth BLE 5. In a compact board size, they feature an onboard 1.3inch 262K color LCD screen, a lithium battery charging chip, a six-axis sensor (3-axis accelerometer and 3-axis gyroscope), an RGB LED, and a Wi-Fi/Bluetooth antenna, making them suitable for developing and embedding applications into products.
 
+| SKU | Product | 
+| --- | --- | 
+| 33643 | ESP32-C6-LCD-1.3 (Standard version) |
+| 33644 | ESP32-C6-LCD-1.3 (With pre-soldered header) |
 
 ## Features
 
