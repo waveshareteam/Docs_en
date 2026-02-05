@@ -13,7 +13,15 @@ product_model:
 
 # MAX9296-GMSL-Deser-Module
 
+<div style={{maxWidth:500}}>
+[![MAX9296-GMSL-Deser-Module 产品图](https://www.waveshare.com/img/devkit/accBoard/MAX9296-GMSL-DESER-MODULE/MAX9296-GMSL-DESER-MODULE-details-1.jpg)](https://www.waveshare.com/max9296-gmsl-deser-module.htm)
+</div>
+
 This is a GMSL camera expansion board featuring the MAX9296A deserializer. It supports connecting two GMSL camera inputs simultaneously to Raspberry Pi 5 or Jetson Orin Nano/NX mainboards. Software configuration allows compatibility with both GMSL1 and GMSL2 protocol interfaces. Utilizing the MAX9296A chip, it is designed for applications requiring high-bandwidth, low-latency video transmission. This expansion board is suitable for fields such as autonomous driving, machine vision, and intelligent security.
+
+| SKU | Product | 
+| --- | --- | 
+| 33623 | MAX9296-GMSL-Deser-Module |
 
 ## Specifications
 
