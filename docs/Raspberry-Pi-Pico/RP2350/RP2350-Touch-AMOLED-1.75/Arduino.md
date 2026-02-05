@@ -356,7 +356,7 @@ The character fonts that the GUI depends on are located in the directory: `c\lib
 
 **Operation Result**
 
-- Import and compile the 01_GUI project using VSCode. After compilation, flash the .uf2 file from the build directory, or directly flash 01_GUI.uf2 from the uf2 directory for quick verification.
+- Import and compile the 01_GUI project using VS Code. After compilation, flash the .uf2 file from the build directory, or directly flash 01_GUI.uf2 from the uf2 directory for quick verification.
     <div style={{maxWidth: 400}}>
         <img 
             src={rp2350TouchAmoled1_75VSCodeExample4} 
@@ -744,7 +744,7 @@ In LVGL, we can create various user interfaces. The basic components of the inte
 
 **Operation Result**
 
-- Use VSCode to import and compile the 05_LVGL project. After compilation, flash the .uf2 file from the build directory, or directly flash the 05_LVGL.uf2 file from the uf2 directory for quick verification.
+- Use VS Code to import and compile the 05_LVGL project. After compilation, flash the .uf2 file from the build directory, or directly flash the 05_LVGL.uf2 file from the uf2 directory for quick verification.
 
     <div style={{maxWidth: 400}}>
             <img 

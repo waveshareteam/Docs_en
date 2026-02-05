@@ -1,11 +1,13 @@
 ---
 sidebar_position: 2
-title: Working with Thonny
+title: Working with MicroPython
 slug: /RP2350-Touch-AMOLED-1.75/Development-Environment-Setup-Thonny
 product_family:
   - Raspberry-Pi-Pico
 product_model:
   - RP2350-Touch-AMOLED-1.75
+  - RP2350-Touch-AMOLED-1.75-B
+  - RP2350-Touch-AMOLED-1.75-G
 ---
 
 <!-- Example-related Image References -->
@@ -15,19 +17,19 @@ import rp2350TouchAmoled1_75MicropytonExample2 from './images/MicroPython-Exampl
 import rp2350TouchAmoled1_75MicropytonExample3 from './images/MicroPython-Example-3.webp';
 import rp2350TouchAmoled1_75MicropytonExample4 from './images/MicroPython-Example-4.webp';
 
-# Working with Thonny
+# Working with MicroPython
 
 This chapter includes the following sections, please read as needed:
 
-- [Thonny Getting Started Tutorials](#Thonny-getting-started)
+- [MicroPython Getting Started Tutorials](#MicroPython-getting-started)
 - [Setting Up Development Environment](#setting-up-development-environment)
 - [Demo](#demo)
 
-## Thonny Getting Started Tutorials {#Thonny-getting-started}
+## MicroPython Getting Started Tutorials {#MicroPython-getting-started}
 
-New to Pico Thonny IDE development and want to get started quickly? We have prepared a general introductory tutorial for you. These tutorial is designed to help developers quickly become familiar with Thonny IDE and start developing. The content covers environment setup, project creation, component usage, and peripheral programming, helping you take the first step in Thonny IDE programming.
+New to Pico MicroPython development and want to get started quickly? We have prepared a general introductory tutorial for you. These tutorial is designed to help developers quickly become familiar with Thonny IDE and start developing. The content covers environment setup, project creation, component usage, and peripheral programming, helping you take the first step in MicroPython programming.
 
-- [Section 1 Setting Up Environment](https://pico.wiki/index.php/2021/04/27/getting-started-with-raspberry-pi-pico-basic-intro.html)
+- [Section 1 Basic Introduction](https://pico.wiki/index.php/2021/04/27/getting-started-with-raspberry-pi-pico-basic-intro.html)
 - [Section 2 GPIO](https://pico.wiki/index.php/2021/04/06/getting-started-with-raspberry-pi-pico-gpio.html)
 - [Section 3 PWM](https://pico.wiki/index.php/2021/04/06/getting-started-with-raspberry-pi-pico-pwm.html)
 - [Section 4 ADC](https://pico.wiki/index.php/2021/04/06/getting-started-with-raspberry-pi-pico-adc.html)

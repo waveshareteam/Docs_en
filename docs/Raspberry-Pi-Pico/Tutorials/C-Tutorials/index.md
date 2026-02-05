@@ -1,7 +1,7 @@
 ---
-title: VSCode Getting Started
-slug: /Raspberry-Pi-Pico-VSCode-Tutorials
-id: Raspberry-Pi-Pico-VSCode-Tutorial-Introduction
+title: C/C++ Getting Started
+slug: /Raspberry-Pi-Pico-C-Tutorial
+id: Raspberry-Pi-Pico-C-Tutorial-Introduction
 product_family:
   - Raspberry-Pi-Pico
 ---
@@ -33,50 +33,57 @@ import ImgVscdeNewProject2 from './images/01-VSCode-New-Project-2.webp';
 import ImgVscdeRun from './images/01-VSCode-Run.webp';
 
 
-# Raspberry Pi Pico VSCode Getting Started Tutorials
+# Raspberry Pi Pico C/C++ Getting Started
 
-> This tutorial introduces Pico VSCode and guides you through setting up the VSCode development environment for Pico.
+> This tutorial will introduce how to use the Pico VS Code extension for C/C++ development and guide you through configuring a C/C++ development environment based on the Pico SDK.
 
 :::tip[Important Note: Development Board Compatibility]
 The core logic of this tutorial applies to all RP series development boards. However, all operational steps are explained using the [**Raspberry Pi Pico 2**](https://www.waveshare.com/raspberry-pi-pico-2.htm?sku=28568) as an example. If you are using a development board of another model, please modify the corresponding settings according to the actual situation.
 :::
 
-## 1. What is Pico VSCode
+## 1. What is Pico C/C++ Development
 
-Pico VSCode is an official Visual Studio Code extension released by Raspberry Pi, designed for developing with Pico series chips like RP2040 / RP2350, providing an integrated embedded development experience. This plugin integrates Pico SDK installation and management, project creation, compilation, flashing, and debugging functions. It enables rapid setup of a C/C++ development environment through a graphical wizard and seamlessly interfaces with OpenOCD and debuggers to achieve debugging capabilities such as breakpoints, single-stepping, and variable inspection. Leveraging VSCode's cross-platform nature, developers can use a unified toolchain on Windows, macOS, and Linux to efficiently complete application development for Pico series microcontrollers.
+C/C++ development for the Raspberry Pi Pico is based on the official **[Pico SDK](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html)**, a C/C++ software development kit specifically designed for Pico series chips such as the RP2040 and RP2350. The Pico SDK provides a rich set of API libraries for controlling peripherals such as GPIO, I2C, SPI, PWM, and ADC, as well as advanced features like multi-core processing, timers, and DMA.
 
-- This tutorial is applicable to Raspberry Pi Pico, Pico 2, and the RP series development boards developed by our company.
-- The installation instructions default to using Windows 11 as an example. For other environments, please refer to the [official Raspberry Pi tutorial](https://www.raspberrypi.com/news/pico-vscode-extension/) for installation.
+To simplify the setup and use of the C/C++ development environment, the Raspberry Pi team has released the **Pico VS Code extension**. This extension integrates the following features:
 
-## 2. Installing VSCode
+- **One-Click Installation:** Automatically installs and manages development dependencies such as the Pico SDK, CMake, and compiler toolchain.
+- **Project Management:** Quickly create, import, and configure C/C++ projects through a graphical wizard.
+- **Compilation and Building:** Integrates CMake and Ninja build systems for one-click compilation and UF2 firmware generation.
+- **Flashing and Debugging:** Supports UF2 firmware flashing and enables breakpoint debugging, single-step execution, and variable inspection via OpenOCD.
+- **Cross-Platform Support:** Provides a unified development experience on Windows, macOS, and Linux.
 
-1. First, download the [pico-vscode](https://drive.google.com/file/d/18-KDNrQlI0KuTMdS6W5iblUGaGm3FbVJ/view?usp=sharing) program package, extract it, open the package, and install VSCode.
-    <div style={{maxWidth: 600}}>
-        <img 
-            src={ImgVscdeInstall1} 
-            style={{width: '100%', height: 'auto'}}
-        />
-    </div>
+:::info[Scope of application]
+- This tutorial is applicable to the Raspberry Pi Pico, Pico 2, and all RP series development boards developed by Waveshare Electronics.
+- The installation tutorial uses Windows 11 as the default example. For other operating systems, please refer to the [official Raspberry Pi tutorial](https://www.raspberrypi.com/news/pico-vscode-extension/).
+:::
+
+## 2. Install the Visual Studio Code Editor
+
+1. Download and install [Visual Studio Code](https://code.visualstudio.com/).
+
+2. During installation, it is recommended to check the option "Add 'Open with Code' action to Windows Explorer file context menu”.
+
     :::tip
-    If VSCode is already installed, please check if the version is v1.87.0 or higher.
+    If VS Code is already installed, please check if the version is v1.87.0 or higher.
     :::
-    <div style={{maxWidth: 600}}>
+    <div style={{maxWidth: 590}}>
         <img 
             src={ImgVscdeInstall2} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
-    <div style={{maxWidth: 400}}>
+    <div style={{maxWidth: 352}}>
         <img 
             src={ImgVscdeInstall3} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
   
-## 3. Installing Extension
+## 3. Installing Pico Extension
 
 1. Click on Extensions and select "Install from VSIX".
-    <div style={{maxWidth: 600}}>
+    <div style={{maxWidth: 538}}>
         <img 
             src={ImgVscdeInstall4} 
             style={{width: '100%', height: 'auto'}}
@@ -84,23 +91,23 @@ Pico VSCode is an official Visual Studio Code extension released by Raspberry Pi
     </div>
 
 2. Select the software package with the .vsix extension and click Install.
-    <div style={{maxWidth: 600}}>
+    <div style={{maxWidth: 576}}>
         <img 
             src={ImgVscdeInstall5} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
 
-3. VSCode will then automatically install the raspberry-pi-pico extension and its dependencies. You can click Refresh to view the installation progress.
-    <div style={{maxWidth: 400}}>
+3. VS Code will then automatically install the raspberry-pi-pico extension and its dependencies. You can click Refresh to view the installation progress.
+    <div style={{maxWidth: 381}}>
         <img 
             src={ImgVscdeInstall6} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
 
-4. When "Completed installing extension." is shown in the bottom right corner, close VSCode.
-    <div style={{maxWidth: 600}}>
+4. When "Completed installing extension." is shown in the bottom right corner, close VS Code.
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeInstall7} 
             style={{width: '100%', height: 'auto'}}
@@ -108,17 +115,17 @@ Pico VSCode is an official Visual Studio Code extension released by Raspberry Pi
     </div>
 
 5. The extension version in the offline package is 0.15.2. After installation, update it to the latest version.
-    <div style={{maxWidth: 600}}>
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeUpdate} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
 
-## 4. Configuring the Extension
+## 4. Configuring the C/C++ Development Environment
 
 1.  Open the directory `C:\Users\YourUsername`, and copy the entire `.pico-sdk` folder to this directory.
-    <div style={{maxWidth: 600}}>
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeConfiguration1} 
             style={{width: '100%', height: 'auto'}}
@@ -126,15 +133,15 @@ Pico VSCode is an official Visual Studio Code extension released by Raspberry Pi
     </div>
 
 2. Copy completed.
-    <div style={{maxWidth: 600}}>
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeConfiguration2} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
 
-3. Open VSCode and configure the various paths in the Raspberry Pi Pico extension settings.
-    <div style={{maxWidth: 600}}>
+3. Open VS Code and configure the various paths in the Raspberry Pi Pico extension settings.
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeConfiguration3} 
             style={{width: '100%', height: 'auto'}}
@@ -157,8 +164,8 @@ Pico VSCode is an official Visual Studio Code extension released by Raspberry Pi
 
 ## 5. Creating a New Project
  
-1. After configuration is complete, test creating a new project. Enter the project name, select the path, then click "Create" to create a project and test the official example. You can click "Example" next to the project name to select one.
-    <div style={{maxWidth: 600}}>
+1. After the configuration is complete, you can create a new project for testing. Enter the project name, select the save path, and then click **Create** to create the project. If you want to use the official example code, you can click **Example** next to the project name to select it.
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeNewProject1} 
             style={{width: '100%', height: 'auto'}}
@@ -166,49 +173,53 @@ Pico VSCode is an official Visual Studio Code extension released by Raspberry Pi
     </div>
 
 2. A project successfully created.
-    <div style={{maxWidth: 600}}>
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeNewProject2} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
 
-## 6. Compiling the Project
+## 6. Compiling C/C++ Projects
 
-1. Select the SDK version.
-    <div style={{maxWidth: 600}}>
+1. When compiling for the first time, you need to select the Pico SDK version.
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeCompile1} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
 
-2. Select "Yes" for advanced configuration.
-    <div style={{maxWidth: 600}}>
+2. Select **Yes** for advanced configuration.
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeCompile2} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
 
-3. Select the cross-compilation toolchain. "13.2.Rel1" is suitable for the ARM core, "RISCV.13.3" is suitable for the RISCV core. You can choose either one based on your needs.
-    <div style={{maxWidth: 600}}>
+3. Select the cross-compilation toolchain:
+    - **13.2.Rel1**: Suitable for ARM cores (Pico, Pico W, etc.)
+    - **RISCV.13.3**: Suitable for RISC-V cores (RISC-V mode of Pico 2)
+
+    Choose the appropriate toolchain based on your development board and requirements.
+    <div style={{maxWidth: 631}}>
         <img 
             src={ImgVscdeCompile3} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
 
-4. For the CMake version, select "Default" (the path configured earlier).
-    <div style={{maxWidth: 600}}>
+4. Select the CMake version as **Default** (using the path configured previously).
+    <div style={{maxWidth: 627}}>
         <img 
             src={ImgVscdeCompile4} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
 
-5. For the Ninja version, select "Default".
-    <div style={{maxWidth: 600}}>
+5. Ninja build tool version selection: **Default**
+    <div style={{maxWidth: 623}}>
         <img 
             src={ImgVscdeCompile5} 
             style={{width: '100%', height: 'auto'}}
@@ -216,23 +227,23 @@ Pico VSCode is an official Visual Studio Code extension released by Raspberry Pi
     </div>
 
 6. Select the development board.
-    <div style={{maxWidth: 600}}>
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeCompile6} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
 
-7. Click "Compile" to start the compilation.
-    <div style={{maxWidth: 600}}>
+7. After completing the configuration, click the **Compile** button to start compiling.
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeCompile7} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
 
-8. Successfully compiled a .uf2 format file.
-    <div style={{maxWidth: 600}}>
+8. After successful compilation, a firmware file in `uf2` format will be generated in the `build` directory of the project.
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeCompile8} 
             style={{width: '100%', height: 'auto'}}
@@ -241,39 +252,39 @@ Pico VSCode is an official Visual Studio Code extension released by Raspberry Pi
 
 ## 7. Flashing the Firmware
 
-Two methods are provided for flashing the firmware.
+Two methods are available for flashing the compiled firmware onto the development board:
 
-1. Using the pico-vscode plugin to flash the firmware.
+1. **Flashing using the Pico VS Code plugin**
     Connect the development board to your computer and click "Run" to directly flash the firmware.
-    <div style={{maxWidth: 600}}>
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeRun} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
 
-2. Manually flashing the firmware.
+2. **Manually flashing the firmware**
     ```
     1. Press and hold the Boot button.
     2. Connect the development board to the computer.     
     3. Then the computer will recognize the development board as a USB device.
-    4. Copy the .uf2 format file to the USB drive. The device will then automatically reboot, completing the firmware flash.
+    4. Copy the uf2 format file to the USB drive. The device will then automatically reboot, completing the firmware flash.
     ```
 
-## 8. Importing a Project
+## 8. Importing C/C++ Project
 
-1. Select the project directory and import the project.
-    <div style={{maxWidth: 600}}>
+1. In the Pico VS Code extension, select "Import Project," and then choose the directory where your project is located.
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeImport1} 
             style={{width: '100%', height: 'auto'}}
         />
     </div>
 
-2. The CMake file of the imported project cannot contain Chinese characters (including comments), otherwise it may cause the import to fail.
+2. **Important Note:** The `CMakeLists.txt` file in the imported project must not contain any Chinese characters (including in comments), otherwise the import may fail.
 
-3. After importing a project, pay attention to whether the CMake file contains code to set the development board. It must include this line to properly switch between pico and pico 2. Otherwise, even if pico 2 is selected, the compiled firmware will still be for pico.
-    <div style={{maxWidth: 600}}>
+3. **Development Board Configuration:** After importing the project, you need to check if the `CMakeLists.txt` file contains the development board configuration code. The following configuration is required for proper switching between Pico and Pico 2:
+    <div style={{maxWidth: 630}}>
         <img 
             src={ImgVscdeImport2} 
             style={{width: '100%', height: 'auto'}}
@@ -283,6 +294,10 @@ Two methods are provided for flashing the firmware.
     set(PICO_BOARD pico2 CACHE STRING "Board type")
     ```
 
+    :::tip
+    If this configuration is not present in `CMakeLists.txt`, even if Pico 2 is selected in VS Code, the compiled firmware will still be for the original Pico.
+    :::
+
 ## 9. Reference Links
-- [Raspberry Pi Pico VSCode Extension Notes](https://www.raspberrypi.com/news/pico-vscode-extension/)
-- [Pico VSCode GitHub](https://github.com/raspberrypi/pico-vscode)
+- [Raspberry Pi Pico VS Code Extension Notes](https://www.raspberrypi.com/news/pico-vscode-extension/)
+- [Pico VS Code GitHub](https://github.com/raspberrypi/pico-vscode)

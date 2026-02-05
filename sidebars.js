@@ -230,10 +230,10 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "VSCode Basic Tutorial",
+      label: "C/C++ Basic Tutorial",
       link: {
         type: "doc",
-        id: "Raspberry-Pi-Pico/Tutorials/VSCode-Tutorials/Raspberry-Pi-Pico-VSCode-Tutorial-Introduction",
+        id: "Raspberry-Pi-Pico/Tutorials/C-Tutorials/Raspberry-Pi-Pico-C-Tutorial-Introduction",
       },
       items: [],
     },

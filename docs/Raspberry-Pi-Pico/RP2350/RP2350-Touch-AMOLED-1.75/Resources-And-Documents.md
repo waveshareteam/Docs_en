@@ -14,12 +14,12 @@ product_model:
 
 **Development Board Design File**
 
-- Pinout Diagram: [RP2350-Touch-AMOLED-1.75-details-intro.webp](images/RP2350-Touch-AMOLED-1.75-details-intro.webp)
-- Schematic Diagram: [RP2350-Touch-AMOLED-1.75.pdf](https://files.waveshare.com/wiki/RP2350-Touch-AMOLED-1.75/RP2350-Touch-AMOLED-1.75.pdf) 
+- [Pinout Diagram](images/RP2350-Touch-AMOLED-1.75-details-intro.webp)
+- [Schematic Diagram](https://files.waveshare.com/wiki/RP2350-Touch-AMOLED-1.75/RP2350-Touch-AMOLED-1.75.pdf) 
 
 ## **2. Technical Manuals**
 
-**Onboard Component Datasheets**
+**Datasheets**
 
 - [CO5300 Datasheet](https://files.waveshare.com/wiki/common/Co5300_Datasheet.pdf)
 - [QMI8658 Datasheet](https://files.waveshare.com/wiki/common/QMI8658C.pdf)

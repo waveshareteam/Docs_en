@@ -12,8 +12,8 @@ We are committed to providing detailed and easy-to-understand open-source hardwa
 Currently available tutorials:
 
 - **[Getting to Know Raspberry Pi Pico](/docs/Raspberry-Pi-Pico/Tutorials/Getting-To-Know-Raspberry-Pi-Pico.md)**
-- **[Arduino Getting Started Tutorials](/docs/Raspberry-Pi-Pico/Tutorials/Arduino-Tutorials/index.md)**
-- **[VSCode Getting Started Tutorials](/docs/Raspberry-Pi-Pico/Tutorials/VSCode-Tutorials/index.md)**
-- **[MicroPython Getting Started Tutorials](/docs/Raspberry-Pi-Pico/Tutorials/MicroPython-Tutorials/index.md)**
+- **[Arduino Getting Started Tutorial](/docs/Raspberry-Pi-Pico/Tutorials/Arduino-Tutorials/index.md)**
+- **[C/C++ Getting Started Tutorial](/docs/Raspberry-Pi-Pico/Tutorials/C-Tutorials/index.md)**
+- **[MicroPython Getting Started Tutorial](/docs/Raspberry-Pi-Pico/Tutorials/MicroPython-Tutorials/index.md)**
 
 More tutorials coming soon...

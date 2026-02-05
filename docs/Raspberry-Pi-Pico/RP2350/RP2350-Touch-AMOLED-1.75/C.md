@@ -1,7 +1,7 @@
 ---
 toc_max_heading_level: 4
 sidebar_position: 3
-title: Working with VSCode
+title: Working with C/C++
 slug: /RP2350-Touch-AMOLED-1.75/Development-Environment-Setup-VSCode
 product_family:
   - Raspberry-Pi-Pico
@@ -21,7 +21,7 @@ import rp2350TouchAmoled1_75VSCodeExample7 from './images/VSCode-Example-7.webp'
 import rp2350TouchAmoled1_75VSCodeExample8 from './images/VSCode-Example-8.webp';
 import rp2350TouchAmoled1_75VSCodeExample9 from './images/VSCode-Example-9.webp';
 
-# Working with VSCode
+# Working with C/C++
 
 This chapter includes the following sections, please read as needed:
 
@@ -30,11 +30,11 @@ This chapter includes the following sections, please read as needed:
 
 ## Setting Up Development Environment
 
-Please refer to the **[Install and Configure Pico VSCode Tutorial](/docs/Raspberry-Pi-Pico/Tutorials/VSCode-Tutorials/index.md)** to download and install the Pico VSCode.
+Please refer to the **[Install and Configure Pico C/C++ Development Environment Tutorial](/docs/Raspberry-Pi-Pico/Tutorials/C-Tutorials/index.md)** to download and install the Pico VS Code.
 
 ## Demo
 
-The VSCode demos are located in the `C` directory of the [demo package](./Resources-And-Documents.md#5-demo).
+The C/C++ demos are located in the `C` directory of the [demo package](./Resources-And-Documents.md#5-demo).
 
 | Demo | Basic Program Description | Dependency Library|
 | :--------------: | :-----------------------------------------:| :----------: |
@@ -358,7 +358,7 @@ The character fonts that the GUI depends on are located in the directory: `c\lib
 
 **Operation Result**
 
-- Import and compile the 01_GUI project using VSCode. After compilation, flash the .uf2 file from the build directory, or directly flash 01_GUI.uf2 from the uf2 directory for quick verification.
+- Import and compile the 01_GUI project using VS Code. After compilation, flash the .uf2 file from the build directory, or directly flash 01_GUI.uf2 from the uf2 directory for quick verification.
     <div style={{maxWidth: 400}}>
         <img 
             src={rp2350TouchAmoled1_75VSCodeExample4} 
@@ -391,7 +391,7 @@ The character fonts that the GUI depends on are located in the directory: `c\lib
 
 **Operation Result**
 
-- Use VSCode to import and compile the 02_ES8311 project. After compilation, flash the .uf2 file from the build directory, or directly flash the uf2 file from the `02_ES8311\uf2` directory for quick verification.
+- Use VS Code to import and compile the 02_ES8311 project. After compilation, flash the .uf2 file from the build directory, or directly flash the uf2 file from the `02_ES8311\uf2` directory for quick verification.
 
 ### 03_FatFs
 
@@ -507,7 +507,7 @@ The character fonts that the GUI depends on are located in the directory: `c\lib
 
 **Operation Result**
 
-- Use VSCode to import and compile the 04_GPS_I2C project. After compilation, flash the .uf2 file from the build directory, or directly flash the 04_GPS_I2C.uf2 file from the uf2 directory for quick verification.
+- Use VS Code to import and compile the 04_GPS_I2C project. After compilation, flash the .uf2 file from the build directory, or directly flash the 04_GPS_I2C.uf2 file from the uf2 directory for quick verification.
 
     <div style={{maxWidth: 800}}>
             <img 
@@ -861,7 +861,7 @@ In LVGL, we can create various user interfaces. The basic components of the inte
 
 **Operation Result**
 
-- Use VSCode to import and compile the 05_LVGL project. After compilation, flash the .uf2 file from the build directory, or directly flash the 05_LVGL.uf2 file from the uf2 directory for quick verification.
+- Use VS Code to import and compile the 05_LVGL project. After compilation, flash the .uf2 file from the build directory, or directly flash the 05_LVGL.uf2 file from the uf2 directory for quick verification.
 
     <div style={{maxWidth: 400}}>
             <img 

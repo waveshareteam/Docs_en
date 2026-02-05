@@ -1,6 +1,6 @@
 ---
 title: MicroPython Getting Started
-slug: /Raspberry-Pi-Pico-MicroPython-Tutorials
+slug: /Raspberry-Pi-Pico-MicroPython-Tutorial
 id: Raspberry-Pi-Pico-MicroPython-Tutorial-Introduction
 ---
 
@@ -14,7 +14,7 @@ import ImgMicropythonUpload4 from './images/01-MicroPython-Upload-4.webp';
 import ImgMicropythonUpload5 from './images/01-MicroPython-Upload-5.webp';
 import ImgMicropythonUpload6 from './images/01-MicroPython-Upload-6.webp'; 
 
-# Raspberry Pi Pico MicroPython Getting Started Tutorial
+# Raspberry Pi Pico MicroPython Getting Started
 
 > This tutorial introduces MicroPython and guides you through setting up the MicroPython development environment for Pico.
 
@@ -59,7 +59,7 @@ Simply put, MicroPython is a "miniature version" of Python that runs on microcon
 
 A comparison of using MicroPython with other development methods is as follows:
 
-| Feature      | MicroPython | Arduino | VSCode |
+| Feature      | MicroPython | Arduino | VS Code |
 | -------- | ----------- | ------- | ------- |
 | Learning Difficulty | Low          | Medium  | High   |
 | Development Efficiency | High         | Medium  | Low    |

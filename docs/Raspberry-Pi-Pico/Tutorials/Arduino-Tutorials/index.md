@@ -1,5 +1,5 @@
 ---
-slug: /Raspberry-Pi-Pico-Arduino-Tutorials
+slug: /Raspberry-Pi-Pico-Arduino-Tutorial
 id: Arduino-Tutorial-Introduction
 product_family:
   - Raspberry-Pi-Pico
@@ -21,7 +21,7 @@ import ImgArduinoUpload3 from './images/01-Arduino-Upload-3.webp';
 import ImgArduinoUpload4 from './images/01-Arduino-Upload-4.webp';
 import ImgArduinoUpload5 from './images/01-Arduino-Upload-5.webp';
 
-# Raspberry Pi Pico Arduino Getting Started Tutorial
+# Raspberry Pi Pico Arduino Getting Started
 
 > This tutorial introduces Arduino and guides you through setting up the Arduino development environment for Pico.
 
