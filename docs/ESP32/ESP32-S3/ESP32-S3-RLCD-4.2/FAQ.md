@@ -14,15 +14,15 @@ import Details from '@theme/Details';
 # ESP32-S3-RLCD-4.2 FAQ
 
 <Details 
-  summary=" Q: How to turn the device on and off?" 
-  className="faq-details" open>
-  - Press and hold the PWR button to turn off, and click the PWR button to turn on.
-</Details>
-
-<Details 
   summary=" Q: What should I pay attention to when replacing the 18650 battery?" 
   className="faq-details" open>
   - A rechargeable 18650 battery is required. Do not apply force to the screen during installation, as it is very fragile.
+</Details>
+
+<Details 
+  summary=" Q: How to turn the device on and off?" 
+  className="faq-details" open>
+  - Press and hold the PWR button to turn off, and click the PWR button to turn on.
 </Details>
 
 <Details 

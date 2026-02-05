@@ -27,6 +27,11 @@ This product is a fully reflective screen AIoT development board based on the ES
 | 33298 | ESP32-S3-RLCD-4.2 (18650 Lithium Battery Included) |
 | 33507 | ESP32-S3-RLCD-4.2 (18650 Lithium Battery **NOT** Included) |
 
+:::danger Caution
+1. The screen is a precision fragile component. Please handle with care during assembly and transportation; dropping or collision is strictly prohibited.
+2. Do not tap, squeeze, bend, or apply any external force to the screen display area (especially when installing or removing the lithium battery, be sure to avoid pressing the screen hard).
+3. Failures such as screen cracking or abnormal display caused by the aforementioned improper operations are not covered by the product warranty.
+:::
 ## Features
 
 - Equipped with a high-performance Xtensa® 32-bit LX7 dual-core processor clocked at up to 240MHz
