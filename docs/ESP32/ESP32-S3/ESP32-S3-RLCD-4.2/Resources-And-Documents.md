@@ -15,21 +15,16 @@ product_model:
 
 **Development Board Design File**
 
-- Schematic: [ESP32-S3-RLCD-4.2-Schematic.pdf](https://files.waveshare.com/wiki/ESP32-S3-RLCD-4.2/ESP32-S3-RLCD-4.2-schematic.pdf)
-- Structure and dimensions: [ESP32-S3-RLCD-4.2-3dFile.rar](https://files.waveshare.com/wiki/ESP32-S3-RLCD-4.2/ESP32-S3-RLCD-4.2-3dFile.rar)
+- [Schematic](https://files.waveshare.com/wiki/ESP32-S3-RLCD-4.2/ESP32-S3-RLCD-4.2-schematic.pdf)
+- [Structure and dimensions](https://files.waveshare.com/wiki/ESP32-S3-RLCD-4.2/ESP32-S3-RLCD-4.2-3dFile.rar)
 
 ## **2. Technical Manuals**
 
 - **Official ESP32-S3 Chip Manuals**
+  - Datasheets: [Chinese version](https://documentation.espressif.com/esp32-s3_datasheet_cn.pdf) | [English version](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf)
+  - Technical Manuals: [Chinese version](https://documentation.espressif.com/esp32-s3_technical_reference_manual_cn.pdf) | [English version](https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf)
 
-  - Datasheets:
-    - [Chinese version](https://documentation.espressif.com/esp32-s3_datasheet_cn.pdf)
-    - [English version](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf)
-  - Technical Manuals:
-    - [Chinese version](https://documentation.espressif.com/esp32-s3_technical_reference_manual_cn.pdf)
-    - [English version](https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf)
-
-- **Onboard Component Datasheets**
+- **Datasheets**
   - [ST7305 Datasheet](https://files.waveshare.com/wiki/common/ST_7305_V0_2.pdf)
   - [ES8311 Datasheet](https://files.waveshare.com/wiki/common/ES8311.DS.pdf)
   - [PCF85063 Datasheet](https://files.waveshare.com/wiki/common/Pcf85063atl1118-NdPQpTGE-loeW7GbZ7.pdf)

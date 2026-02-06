@@ -16,20 +16,16 @@ product_model:
 
 **Development Board Design Files**
 
-- Schematic: [ESP32-C3-Zero-Sch.pdf](https://www.waveshare.net/w/upload/d/dd/ESP32-C3-Zero-Sch.pdf)
+- [Schematic](https://www.waveshare.net/w/upload/d/dd/ESP32-C3-Zero-Sch.pdf)
 
 ## **2. Technical Manuals**
 
 - **ESP32-C3 Chip Manuals**
 
-  - Datasheet:
-    - [Chinese Version](https://documentation.espressif.com/esp32-c3_datasheet_cn.pdf)
-    - [English Version](https://documentation.espressif.com/esp32-c3_datasheet_en.pdf)
-  - Technical Reference Manual:
-    - [Chinese Version](https://documentation.espressif.com/esp32-c3_technical_reference_manual_cn.pdf)
-    - [English Version](https://documentation.espressif.com/esp32-c3_technical_reference_manual_en.pdf)
+  - Datasheet: [Chinese Version](https://documentation.espressif.com/esp32-c3_datasheet_cn.pdf) | [English Version](https://documentation.espressif.com/esp32-c3_datasheet_en.pdf)
+  - Technical Reference Manual: [Chinese Version](https://documentation.espressif.com/esp32-c3_technical_reference_manual_cn.pdf) | [English Version](https://documentation.espressif.com/esp32-c3_technical_reference_manual_en.pdf)
 
-- **Onboard Component Datasheets**
+- **Datasheets**
   - [WS2812B RGB LED Datasheet](https://files.waveshare.com/wiki/ESP32-C3-Zero/XL-0807RGBC-WS2812B.pdf)
 
 ## **3. Software Development Resources**

@@ -16,7 +16,9 @@ import esp32C6TouchAMoled1_8Size from './images/ESP32-C6-Touch-AMOLED-1.8-size.w
 
 # ESP32-C6-Touch-AMOLED-1.8
 
+<div style={{maxWidth:600}}> 
 [![ESP32-C6-Touch-AMOLED-1.8](https://www.waveshare.net/photo/development-board/ESP32-C6-Touch-AMOLED-1.8/ESP32-C6-Touch-AMOLED-1.8-1.jpg?v=1)](https://www.waveshare.com/esp32-c6-touch-amoled-1.8.htm)
+</div>
 
 The ESP32-C6-Touch-AMOLED-1.8 is a high-performance, highly integrated microcontroller development board designed by Waveshare. It is equipped with a 1.8inch capacitive high-definition AMOLED screen, a highly integrated Power Management Unit (PMU), a 6-axis IMU (3-axis accelerometer and 3-axis gyroscope), a RTC, a low-power audio codec chip and other peripherals in a smaller board size, which are convenient for development and embedding into the product.
 

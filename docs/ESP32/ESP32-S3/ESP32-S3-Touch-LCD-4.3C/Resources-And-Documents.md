@@ -14,22 +14,17 @@ product_model:
 
 **Development Board Design File**
 
-- Schematic: [ESP32-S3-Touch-LCD-4.3C-Schematics.pdf](https://github.com/waveshareteam/ESP32-S3-Touch-LCD-4.3C/blob/main/hardware/schematics/ESP32-S3-Touch-LCD-4.3C-Schematics.pdf)
-- Project Diagram: [ESP32-S3-Touch-LCD-4.3C-Drawing](https://github.com/waveshareteam/ESP32-S3-Touch-LCD-4.3C/tree/main/hardware/dimensions)
+- [Schematic](https://github.com/waveshareteam/ESP32-S3-Touch-LCD-4.3C/blob/main/hardware/schematics/ESP32-S3-Touch-LCD-4.3C-Schematics.pdf)
+- [Project Diagram](https://github.com/waveshareteam/ESP32-S3-Touch-LCD-4.3C/tree/main/hardware/dimensions)
 
 
 ## **2. Technical Manuals**
 
 - **Official ESP32-S3 Chip Manuals**
+  - Datasheets: [Chinese version](https://documentation.espressif.com/esp32-s3_datasheet_cn.pdf) | [English version](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf)
+  - Technical Manuals: [Chinese version](https://documentation.espressif.com/esp32-s3_technical_reference_manual_cn.pdf) | [English version](https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf)
 
-  - Datasheets:
-    - [Chinese version](https://documentation.espressif.com/esp32-s3_datasheet_cn.pdf)
-    - [English version](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf)
-  - Technical Manuals:
-    - [Chinese version](https://documentation.espressif.com/esp32-s3_technical_reference_manual_cn.pdf)
-    - [English version](https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf)
-
-- **Onboard Component Datasheets**
+- **Datasheets**
   - [ST7262 Datasheet](https://files.waveshare.com/wiki/common/ST7262.pdf)
   - [ES8311 Datasheet](https://files.waveshare.com/wiki/common/ES8311.DS.pdf)
   - [ES8311 User Manual](https://files.waveshare.com/wiki/common/ES8311.user.Guide.pdf)

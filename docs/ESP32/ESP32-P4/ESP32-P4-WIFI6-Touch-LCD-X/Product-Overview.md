@@ -17,13 +17,19 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="7inch" label="7inch Kit">
-    [![ESP32-P4-WIFI6-Touch-LCD-7](https://www.waveshare.net/photo/development-board/ESP32-P4-WIFI6-Touch-LCD-7/ESP32-P4-WIFI6-Touch-LCD-7-1.jpg)](https://www.waveshare.com/esp32-p4-wifi6-touch-lcd-7-8-10.1.htm?sku=33147)
+    <div style={{maxWidth:600}}> 
+      [![ESP32-P4-WIFI6-Touch-LCD-7](https://www.waveshare.net/photo/development-board/ESP32-P4-WIFI6-Touch-LCD-7/ESP32-P4-WIFI6-Touch-LCD-7-1.jpg)](https://www.waveshare.com/esp32-p4-wifi6-touch-lcd-7-8-10.1.htm?sku=33147)
+    </div>
   </TabItem>
   <TabItem value="8inch" label="8inch Kit">
-    [![ESP32-P4-WIFI6-Touch-LCD-8](https://www.waveshare.net/photo/development-board/ESP32-P4-WIFI6-Touch-LCD-7/ESP32-P4-WIFI6-Touch-LCD-8-1.jpg)](https://www.waveshare.com/esp32-p4-wifi6-touch-lcd-7-8-10.1.htm?sku=33149)
+    <div style={{maxWidth:600}}> 
+      [![ESP32-P4-WIFI6-Touch-LCD-8](https://www.waveshare.net/photo/development-board/ESP32-P4-WIFI6-Touch-LCD-7/ESP32-P4-WIFI6-Touch-LCD-8-1.jpg)](https://www.waveshare.com/esp32-p4-wifi6-touch-lcd-7-8-10.1.htm?sku=33149)
+    </div>
   </TabItem>
   <TabItem value="10.inch" label="10.1inch Kit">
-    [![ESP32-P4-WIFI6-Touch-LCD-10.1](https://www.waveshare.net/photo/development-board/ESP32-P4-WIFI6-Touch-LCD-7/ESP32-P4-WIFI6-Touch-LCD-10.1-1.jpg)](https://www.waveshare.com/esp32-p4-wifi6-touch-lcd-7-8-10.1.htm?sku=33150)
+    <div style={{maxWidth:600}}> 
+      [![ESP32-P4-WIFI6-Touch-LCD-10.1](https://www.waveshare.net/photo/development-board/ESP32-P4-WIFI6-Touch-LCD-7/ESP32-P4-WIFI6-Touch-LCD-10.1-1.jpg)](https://www.waveshare.com/esp32-p4-wifi6-touch-lcd-7-8-10.1.htm?sku=33150)
+    </div>
   </TabItem>
 </Tabs>
 

@@ -14,5 +14,5 @@ product_model:
 
 ## Driver Files
 
-- [Jetson orin Driver Package](https://files.waveshare.com/wiki/MAX9296-GMSL-Camera-Board/MAX9296-GMSL-Camera-Board-Driver.zip)
+- [Jetson Orin Driver Package](https://files.waveshare.com/wiki/MAX9296-GMSL-Camera-Board/MAX9296-GMSL-Camera-Board-Driver.zip)
 - [Raspberry Pi Driver Package](https://files.waveshare.com/wiki/MAX9296-GMSL-Deser-Module/ws-rpi5-gmsl.zip)

@@ -14,18 +14,13 @@ product_model:
 
 **Development Board Design File**
 
-- Schematic: [ESP32-C6-Touch-AMOLED-1.8-Schematic](https://files.waveshare.com/wiki/ESP32-C6-Touch-AMOLED-1.8/ESP32-C6-Touch-AMOLED-1.8-Schematic.pdf)
+- [Schematic](https://files.waveshare.com/wiki/ESP32-C6-Touch-AMOLED-1.8/ESP32-C6-Touch-AMOLED-1.8-Schematic.pdf)
 
 ## **2. Technical Manuals**
 
 - **Official ESP32-C6 Chip Manuals**
-
-  - Datasheets:
-    - [Chinese Version](https://documentation.espressif.com/esp32-c6_datasheet_cn.pdf)
-    - [English Version](https://documentation.espressif.com/esp32-c6_datasheet_en.pdf)
-  - Technical Manuals:
-    - [Chinese Version](https://documentation.espressif.com/esp32-c6_technical_reference_manual_cn.pdf)
-    - [English Version](https://documentation.espressif.com/esp32-c6_technical_reference_manual_en.pdf)
+  - Datasheets: [Chinese Version](https://documentation.espressif.com/esp32-c6_datasheet_cn.pdf) | [English Version](https://documentation.espressif.com/esp32-c6_datasheet_en.pdf)
+  - Technical Manuals: [Chinese Version](https://documentation.espressif.com/esp32-c6_technical_reference_manual_cn.pdf) | [English Version](https://documentation.espressif.com/esp32-c6_technical_reference_manual_en.pdf)
 
 - **Onboard Component Datasheets**
   - [QMI8658 Datasheet](https://files.waveshare.com/wiki/common/QMI8658C.pdf)
@@ -36,4 +31,4 @@ product_model:
 
 ## **3. Demo**
 
-- **GitHub Example Program Repository**: [ESP32-C6-Touch-AMOLED-1.8_Demo](https://github.com/waveshareteam/ESP32-C6-Touch-AMOLED-1.8)
+- **GitHub Repository**: [waveshareteam/ESP32-C6-Touch-AMOLED-1.8](https://github.com/waveshareteam/ESP32-C6-Touch-AMOLED-1.8)

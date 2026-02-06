@@ -14,20 +14,15 @@ product_model:
 
 **Development Board Design File**
 
-- Schematic: [ESP32-S3-Touch-AMOLED-1.75C-Schematic](https://files.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-1.75C/ESP32-S3-Touch-AMOLED-1.75C-schematic.pdf)
+- [Schematic](https://files.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-1.75C/ESP32-S3-Touch-AMOLED-1.75C-schematic.pdf)
 
 ## **2. Technical Manuals**
 
 - **Official ESP32-S3 Chip Manuals**
+  - Datasheets: [Chinese version](https://documentation.espressif.com/esp32-s3_datasheet_cn.pdf) | [English version](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf)
+  - Technical Manuals: [Chinese version](https://documentation.espressif.com/esp32-s3_technical_reference_manual_cn.pdf) | [English version](https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf)
 
-  - Datasheets:
-    - [Chinese version](https://documentation.espressif.com/esp32-s3_datasheet_cn.pdf)
-    - [English version](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf)
-  - Technical Manuals:
-    - [Chinese version](https://documentation.espressif.com/esp32-s3_technical_reference_manual_cn.pdf)
-    - [English version](https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf)
-
-- **Onboard Component Datasheets**
+- **Datasheets**
   - [QMI8658 Datasheet](https://files.waveshare.com/wiki/common/QMI8658C.pdf)
   - [AXP2101 Datasheet](https://files.waveshare.com/wiki/common/X-power-AXP2101_SWcharge_V1.0.pdf)
   - [ES8311 Datasheet](https://files.waveshare.com/wiki/common/ES8311.DS.pdf)
@@ -35,4 +30,4 @@ product_model:
 
 ## **3. Demo**
 
-- **Github GitHub Example Program Repository**: [ESP32-S3-Touch-AMOLED-1.75C](https://github.com/waveshareteam/ESP32-S3-Touch-AMOLED-1.75C)
+- **Github Repository**: [ESP32-S3-Touch-AMOLED-1.75C](https://github.com/waveshareteam/ESP32-S3-Touch-AMOLED-1.75C)

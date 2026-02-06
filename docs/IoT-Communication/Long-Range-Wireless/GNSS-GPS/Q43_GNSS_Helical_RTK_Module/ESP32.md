@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: ESP32 Development
+title: Working with ESP32
 slug: /Q43_GNSS_Helical_RTK_Module/ESP32
 ---
 

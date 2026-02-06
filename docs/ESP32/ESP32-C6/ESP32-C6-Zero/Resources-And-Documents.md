@@ -16,23 +16,15 @@ product_model:
 
 **Development Board Design Files**
 
-- Schematic: [ESP32-C6-Zero.pdf](https://files.waveshare.com/wiki/ESP32-C6-Zero/ESP32-C6-Zero-Sch.pdf)
-- 2D Drawing: [ESP32-C6-Zero-2D.zip](https://files.waveshare.com/wiki/ESP32-C6-Zero/ESP32-C6-Zero-2D.zip)
-- 3D Model: [ESP32-C6-Zero-3D.zip](https://files.waveshare.com/wiki/ESP32-C6-Zero/ESP32-C6-Zero-3D.zip)
+- [Schematic](https://files.waveshare.com/wiki/ESP32-C6-Zero/ESP32-C6-Zero-Sch.pdf)
+- [2D Drawing](https://files.waveshare.com/wiki/ESP32-C6-Zero/ESP32-C6-Zero-2D.zip)
+- [3D Model](https://files.waveshare.com/wiki/ESP32-C6-Zero/ESP32-C6-Zero-3D.zip)
 
 ## **2. Technical Manuals**
 
 - **ESP32-C6 Chip Manuals**
-
-  - Datasheet:
-
-    - [Chinese](https://documentation.espressif.com/esp32-c6_datasheet_cn.pdf)
-    - [English](https://documentation.espressif.com/esp32-c6_datasheet_en.pdf)
-
-  - Technical Reference Manual:
-
-    - [Chinese](https://documentation.espressif.com/esp32-c6_technical_reference_manual_cn.pdf)
-    - [English](https://documentation.espressif.com/esp32-c6_technical_reference_manual_en.pdf)
+  - Datasheet: [Chinese](https://documentation.espressif.com/esp32-c6_datasheet_cn.pdf) | [English](https://documentation.espressif.com/esp32-c6_datasheet_en.pdf)
+  - Technical Reference Manual: [Chinese](https://documentation.espressif.com/esp32-c6_technical_reference_manual_cn.pdf) | [English](https://documentation.espressif.com/esp32-c6_technical_reference_manual_en.pdf)
 
 ## **3. Software Development Resources**
 
