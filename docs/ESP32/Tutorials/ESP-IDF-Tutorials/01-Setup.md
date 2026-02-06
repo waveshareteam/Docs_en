@@ -50,7 +50,7 @@ The following environment setup applies to Windows 10/11 systems. Mac/Linux user
 
 ### 3.1 Installing the ESP-IDF Development Environment
 
-1. Go to the [ESP-IDF Installation Manager](https://dl.espressif.com/dl/esp-idf/) page to download the tool. This is Espressif's latest cross-platform installer. The following steps demonstrate how to use its offline installation feature.
+1. Go to the [ESP-IDF Installation Manager](https://dl.espressif.com/dl/eim/) page to download the tool. This is Espressif's latest cross-platform installer. The following steps demonstrate how to use its offline installation feature.
 
    Click the **Offline Installer** tab on the page, then select **Windows** as the operating system and the latest stable version **v5.5** in the filter bar.
    
