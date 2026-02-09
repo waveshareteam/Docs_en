@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-title: Support
+title: Technical Support
 slug: /ESP32-S3-RLCD-4.2/Technical-Support
 product_family:
   - ESP32

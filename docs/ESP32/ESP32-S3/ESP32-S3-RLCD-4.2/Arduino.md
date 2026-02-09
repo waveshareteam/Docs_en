@@ -105,7 +105,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 **Expected Result**
 
-- After the program is compiled and downloaded, you can view the printed ADC values and voltage output by opening the Serial Monitor, as shown in the following image:
+- After flashing the program and opening the serial terminal, if the device successfully connects to the hotspot, it will output the MAC address of the device, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
   		<img 
