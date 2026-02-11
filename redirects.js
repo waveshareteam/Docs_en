@@ -31,4 +31,7 @@ module.exports = [
   { to: '/ESP32-S3-Touch-LCD-4.3C', from: ['/33630'] },
   { to: '/ESP32-C6-LCD-1.3', from: ['/33643'] },
   { to: '/ESP32-C6-LCD-1.3', from: ['/33644'] },
+  { to: '/ESP32-S3-ePaper-3.97', from: ['/33552'] },
+  { to: '/ESP32-S3-ePaper-3.97', from: ['/33810'] },
+  { to: '/ESP32-S3-ePaper-3.97', from: ['/33811'] },
 ];
