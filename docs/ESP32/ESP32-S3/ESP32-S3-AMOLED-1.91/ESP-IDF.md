@@ -12,16 +12,6 @@ product_model:
 ---
 
 <!-- Example-related Image References -->
-import esp32S3Amoled1_91ESPIDFExample1 from './images/ESP-IDF-Example-1.webp';
-import esp32S3Amoled1_91ESPIDFExample2 from './images/ESP-IDF-Example-2.webp';
-import esp32S3Amoled1_91ESPIDFExample3 from './images/ESP-IDF-Example-3.webp';
-import esp32S3Amoled1_91ESPIDFExample4 from './images/ESP-IDF-Example-4.webp';
-import esp32S3Amoled1_91ESPIDFExample5 from './images/ESP-IDF-Example-5.webp';
-import esp32S3Amoled1_91ESPIDFExample6 from './images/ESP-IDF-Example-6.webp';
-import esp32S3Amoled1_91ESPIDFExample7_1 from './images/ESP-IDF-Example-7-1.webp';
-import esp32S3Amoled1_91ESPIDFExample7_2 from './images/ESP-IDF-Example-7-2.webp';
-import esp32S3Amoled1_91ESPIDFExample7_3 from './images/ESP-IDF-Example-7-3.webp';
-import esp32S3Amoled1_91ESPIDFExample7_4 from './images/ESP-IDF-Example-7-4.webp';
 
 
 import EspidfTutorialIntro from '@site/docs/ESP32/snippets/EspidfTutorialIntro.mdx';
@@ -79,10 +69,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - After the program is compiled and downloaded, you can view the printed ADC values and voltage output by opening the Serial Monitor, as shown in the following image:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3Amoled1_91ESPIDFExample1} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-1.webp)
   </div>
 
 ### 02_I2C_QMI8658
@@ -104,10 +91,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - After the program is compiled, downloaded, and running, open the Serial Monitor to see the attitude data sent by the QMI chip (Euler angles require conversion by the user), as shown below:
 
   <div style={{maxWidth: 800}}>
-  	<img 
-    	src={esp32S3Amoled1_91ESPIDFExample2} 
-    	style={{width: '100%', height: 'auto'}}
-  	/>
+  	![](./images/ESP-IDF-Example-2.webp)
   </div>
 
 ### 03_LVGL_V8_Test
@@ -162,10 +146,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - After the program is compiled and flashed, as shown in the figure:
 
   <div style={{maxWidth: 1200}}>
-  	<img 
-    	src={esp32S3Amoled1_91ESPIDFExample3} 
-    	style={{width: '100%', height: 'auto'}}
-  	/>
+  	![](./images/ESP-IDF-Example-3.webp)
   </div>
 
 ### 04_SD_Card
@@ -206,10 +187,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - Click on the serial port monitoring device, you can see the output information of the TF card, as shown in the figure below:
 
   <div style={{maxWidth: 800}}>
-  	<img 
-    	src={esp32S3Amoled1_91ESPIDFExample4} 
-    	style={{width: '100%', height: 'auto'}}
-  	/>
+  	![](./images/ESP-IDF-Example-4.webp)
   </div>
 
 ### 05_WIFI_STA
@@ -240,10 +218,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - After flashing the program, open the serial terminal, if the device is successfully connected to the hotspot, the IP address obtained will be output, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3Amoled1_91ESPIDFExample5} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-5.webp)
   </div>
 
 ### 06_WIFI_AP
@@ -270,10 +245,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - After flashing the program, open the serial terminal, if the device is successfully connected to the hotspot, the MAC address and IP address of the device will be output, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3Amoled1_91ESPIDFExample6} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-6.webp)
   </div>
 
 ### 07_FactoryProgram
@@ -299,10 +271,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - After the program is flashed, the main interface is displayed, as shown in the figure:
 
   <div style={{maxWidth: 500}}>
-  		<img 
-    		src={esp32S3Amoled1_91ESPIDFExample7_1} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-7-1.webp)
   </div>
   :::tip
   1. Touch versions support switching via the BOOT button or touch.
@@ -312,10 +281,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - Argument interface, as shown:
 
   <div style={{maxWidth: 500}}>
-  		<img 
-    		src={esp32S3Amoled1_91ESPIDFExample7_2} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-7-2.webp)
   </div>
   :::tip
   1. Click the BOOT button to switch to the Argument interface.
@@ -324,10 +290,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - Touch interface, as shown:
 
   <div style={{maxWidth: 500}}>
-  		<img 
-    		src={esp32S3Amoled1_91ESPIDFExample7_3} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-7-3.webp)
   </div>
   :::tip
   1. Click the BOOT button again to switch to the Touch interface.
@@ -336,10 +299,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - WIFI interface, as shown:
 
   <div style={{maxWidth: 500}}>
-  		<img 
-    		src={esp32S3Amoled1_91ESPIDFExample7_4} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-7-4.webp)
   </div>
   :::tip
   1. Click the BOOT button again to switch to the WIFI interface.

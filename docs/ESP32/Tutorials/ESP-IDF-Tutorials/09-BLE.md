@@ -7,11 +7,6 @@ product_family:
 ---
 
 <!-- Image Reference -->
-import ImgBleApp1 from './images/09-BLE-APP-1.webp';
-import ImgBleApp2 from './images/09-BLE-APP-2.webp';
-import ImgBleApp3 from './images/09-BLE-APP-3.webp';
-import ImgBleApp4 from './images/09-BLE-APP-4.webp';
-import ImgBleApp5 from './images/09-BLE-APP-5.webp';
 
 :::tip[Important Note: Development Board Compatibility]
 The core logic of this tutorial applies to all ESP32 boards, but all the operation steps are explained using the example of the [**Waveshare ESP32-S3-Zero mini development board**](https://www.waveshare.com/esp32-s3-zero.htm). If you are using a development board of another model, please modify the corresponding settings according to the actual situation.
@@ -135,7 +130,7 @@ Open LightBlue and follow these steps:
 
   First, search for "GATT" and find the "NimBLE_GATT" device. Click the button on the right to expand and view the advertising information, then click "Connect".
 
-  <div style={{maxWidth:600, margin: '0 auto'}}> <img src={ImgBleApp1} alt="Example App Operation 1"/></div>
+  <div style={{maxWidth:600, margin: '0 auto'}}> ![Example App Operation 1](./images/09-BLE-APP-1.webp)</div>
 
   On the device details page, you can see the device has two services, each with one characteristic. Both services use [standard Bluetooth SIG UUIDs](https://www.bluetooth.com/specifications/assigned-numbers/), so they are automatically recognized as "Heart Rate" and "Automation IO", providing heart rate data reading and LED control functions respectively.
 
@@ -143,11 +138,11 @@ Open LightBlue and follow these steps:
 
   Click to enter the "Heart Rate Measurement" characteristic. Then click "HEX" in the top right corner to set the data type. Set "Byte Limit" to 1, select "1 Byte Unsigned Integer", and save for easier data viewing later.
 
-  <div style={{maxWidth:800, margin: '0 auto'}}> <img src={ImgBleApp2} alt="Example App Operation 2"/></div>
+  <div style={{maxWidth:800, margin: '0 auto'}}> ![Example App Operation 2](./images/09-BLE-APP-2.webp)</div>
 
   After saving, return to the characteristic details page and click "Read" to read the data. You can also click "Subscribe" to subscribe to data; updates will be pushed automatically when the heart rate value changes.
 
-  <div style={{maxWidth:800, margin: '0 auto'}}> <img src={ImgBleApp3} alt="Example App Operation 3"/></div>
+  <div style={{maxWidth:800, margin: '0 auto'}}> ![Example App Operation 3](./images/09-BLE-APP-3.webp)</div>
 
 - **Control the LED**:
 
@@ -155,13 +150,13 @@ Open LightBlue and follow these steps:
   
   This UUID is not a Bluetooth SIG-defined standard UUID, so it is not automatically recognized and is displayed as the raw UUID. (In Nordic Semiconductor's nRF Connect for Mobile app, it can be recognized as an LED characteristic.)
 
-  <div style={{maxWidth:800, margin: '0 auto'}}> <img src={ImgBleApp4} alt="Example App Operation 4"/></div>
+  <div style={{maxWidth:800, margin: '0 auto'}}> ![Example App Operation 4](./images/09-BLE-APP-4.webp)</div>
 
   It is actually a UUID widely used in example code by several well-known vendors, particularly Nordic Semiconductor, typically representing an LED state characteristic. It accepts a 1-byte integer: writing `0x01` means "on", and writing `0x00` means "off".
   
   Click "Write new value", write the value 1, and the LED will light up. If you write the value 0, the LED will turn off.
 
-  <div style={{maxWidth:800, margin: '0 auto'}}> <img src={ImgBleApp5} alt="Example App Operation 5"/></div>
+  <div style={{maxWidth:800, margin: '0 auto'}}> ![Example App Operation 5](./images/09-BLE-APP-5.webp)</div>
 
   
 

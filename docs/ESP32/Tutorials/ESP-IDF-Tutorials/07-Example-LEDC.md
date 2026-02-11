@@ -7,7 +7,6 @@ product_family:
 ---
 
 <!-- Image Reference -->
-import ImgBlinkDiagram from './images/03-LED-Blink_bb.webp';
 
 :::tip[Important Note: Development Board Compatibility]
 The core logic of this tutorial applies to all ESP32 boards, but all the operation steps are explained using the example of the [**Waveshare ESP32-S3-Zero mini development board**](https://www.waveshare.com/esp32-s3-zero.htm). If you are using a development board of another model, please modify the corresponding settings according to the actual situation.
@@ -73,7 +72,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgBlinkDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/03-LED-Blink_bb.webp)</div>
 
 ### 2.2 Create Project
 

@@ -43,13 +43,10 @@ This product is a high-performance, highly integrated microcontroller developmen
 
 ## Onboard Resources
 
-import esp32S3ePaper_3_97_details_intro from './images/ESP32-S3-ePaper3.97-details-intro.webp';
 
 <div 
     style={{maxWidth:600}}> 
-    <img 
-        src={esp32S3ePaper_3_97_details_intro} 
-    />
+    ![](./images/ESP32-S3-ePaper3.97-details-intro.webp)
 </div>
 
 1. **ESP32-S3-WROOM-1-N16R8** Wi-Fi and Bluetooth SoC, up to 240MHz operating frequency, stacked with 16MB Flash and 8MB PSRAM
@@ -72,23 +69,17 @@ import esp32S3ePaper_3_97_details_intro from './images/ESP32-S3-ePaper3.97-detai
 
 ## Interfaces
 
-import esp32S3ePaper_3_97_port from './images/ESP32-S3-ePaper-3.97_port.webp';
 
 <div 
     style={{maxWidth:800}}> 
-    <img 
-        src={esp32S3ePaper_3_97_port} 
-    />
+    ![](./images/ESP32-S3-ePaper-3.97_port.webp)
 </div>
 
 ## Dimensions
-import esp32S3ePaper_3_97_details_size from './images/ESP32-S3-ePaper-3.97-details-size.webp';
 
 <div 
     style={{maxWidth:600}}> 
-    <img 
-        src={esp32S3ePaper_3_97_details_size} 
-    />
+    ![](./images/ESP32-S3-ePaper-3.97-details-size.webp)
 </div>
 
 ## Development Methods

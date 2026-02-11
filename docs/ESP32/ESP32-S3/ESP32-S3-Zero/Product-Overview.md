@@ -12,10 +12,6 @@ product_model:
 ---
 
 <!-- Image Imports -->
-import BoardSizeIamge from './images/Esp32-S3-Zero-Size.webp';
-import ESP32S3ZeroImage from './images/ESP32-S3-Zero.webp';
-import ESP32S3ZeroMImage from './images/ESP32-S3-Zero-M.webp';
-import BasicKitImage from './images/ESP32-S3-Zero-Basic-Kit.webp';
 
 # ESP32-S3-Zero
 
@@ -28,13 +24,13 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="variant">
   <TabItem value="ESP32-S3-Zero" label="ESP32-S3-Zero (Without header)">
-    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-s3-zero.htm?sku=25081" target="_blank"><img src={ESP32S3ZeroImage}/></a></div>
+    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-s3-zero.htm?sku=25081" target="_blank">![](./images/ESP32-S3-Zero.webp)</a></div>
   </TabItem>
   <TabItem value="ESP32-S3-Zero-M" label="ESP32-S3-Zero-M (With pre-soldered header)" default>
-    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-s3-zero.htm?sku=25517" target="_blank"><img src={ESP32S3ZeroMImage}/></a></div>
+    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-s3-zero.htm?sku=25517" target="_blank">![](./images/ESP32-S3-Zero-M.webp)</a></div>
   </TabItem>
   <TabItem value="ESP32-S3-Zero-Basic-Kit" label="ESP32-S3-Zero-Basic-Kit" default>
-    <div style={{maxWidth:600}}> <a href="https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33356" target="_blank"><img src={BasicKitImage}/></a></div>
+    <div style={{maxWidth:600}}> <a href="https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33356" target="_blank">![](./images/ESP32-S3-Zero-Basic-Kit.webp)</a></div>
   </TabItem>
 </Tabs>
 
@@ -73,7 +69,7 @@ The [ESP32-S3-Zero-Basic-Kit (Basic Kit)](./?variant=ESP32-S3-Zero-Basic-Kit) in
 
 ### Dimensions
 
-<div style={{maxWidth:400}}> <img src={BoardSizeIamge}/></div>
+<div style={{maxWidth:400}}> ![](./images/Esp32-S3-Zero-Size.webp)</div>
 
 ### Pinout
 

@@ -14,25 +14,6 @@ import Details from '@theme/Details';
 import ArduinoTutorialIntro from '@site/docs/ESP32/snippets/ArduinoTutorialIntro.mdx';
 
 <!-- Image Reference -->
-import arduino_config       from './images/ESP32-C6-Touch-AMOLED-1.8-demo-01.webp';
-import arduino_demo_HelloWorld from './images/ESP32-C6-Touch-AMOLCD-1.8-HelloWorld.webp';
-import arduino_demo02 from './images/ESP32-C6-Touch-AMOLED-1.8-demo02.webp';
-import arduino_demo03 from './images/ESP32-C6-Touch-AMOLED-1.8-demo03.webp';
-import arduino_demo041 from './images/ESP32-C6-Touch-AMOLED-1.8_demo041.webp';
-import arduino_demo042 from './images/ESP32-C6-Touch-AMOLED-1.8_demo042.webp';
-import arduino_demo043 from './images/ESP32-C6-Touch-AMOLED-1.8_demo043.webp';
-import arduino_demo05 from './images/ESP32-C6-Touch-AMOLED-1.8_demo05.webp';
-import arduino_demo06 from './images/ESP32-C6-Touch-AMOLED-1.8_demo06.webp';
-import arduino_demo07 from './images/ESP32-C6-Touch-AMOLED-1.8_demo07.webp';
-import arduino_demo08 from './images/ESP32-C6-Touch-AMOLED-1.8_demo08.webp';
-import arduino_demo091 from './images/ESP32-C6-Touch-AMOLED-1.8_demo091.webp';
-import arduino_demo092 from './images/ESP32-C6-Touch-AMOLED-1.8_demo092.webp';
-import arduino_demo10 from './images/ESP32-C6-Touch-AMOLED-1.8_demo10.webp';
-import arduino_demo11 from './images/ESP32-C6-Touch-AMOLED-1.8_demo11.webp';
-import arduino_demo121 from './images/ESP32-C6-Touch-AMOLED-1.8_demo121.webp';
-import arduino_demo122 from './images/ESP32-C6-Touch-AMOLED-1.8_demo122.webp';
-import arduino_demo141 from './images/ESP32-C6-Touch-AMOLED-1.8_demo141.webp';
-import arduino_demo142 from './images/ESP32-C6-Touch-AMOLED-1.8_demo142.webp';
 
 # Working with Arduino
 
@@ -111,7 +92,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 |  [14_LVGL_Sqprj](#Demo-14-LVGL_Sqprj)                           | SquareLine UI combined with LVGL example                                               | LVGL |
 
 - ESP32-C6-Touch-AMOLED-1.8 select model
-<div style={{maxWidth:800}}> <img src={arduino_config}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8-demo-01.webp)</div>
 
 ### 01_HelloWorld {#Demo-1-HelloWorld}
 
@@ -154,7 +135,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Execution Result
 
-<div style={{maxWidth:800}}> <img src={arduino_demo_HelloWorld}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLCD-1.8-HelloWorld.webp)</div>
 
 ### 02_Drawing_board {#Demo-2-Drawing_board}
 
@@ -214,7 +195,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Execution Result
 
-<div style={{maxWidth:800}}> <img src={arduino_demo02}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8-demo02.webp)</div>
 
 ### 03_GFX_AsciiTable {#Demo-3-GFX_AsciiTable}
 
@@ -264,7 +245,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Execution Result
 
-<div style={{maxWidth:800}}> <img src={arduino_demo03}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8-demo03.webp)</div>
 
 
 ### 04_GFX_FT3168_Image {#Demo-4-GFX_FT3168_Image}
@@ -300,7 +281,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Execution Result
 
-| <div style={{maxWidth:800}}> <img src={arduino_demo041}/></div> | <div style={{maxWidth:340}}> <img src={arduino_demo042}/></div> | <div style={{maxWidth:800}}> <img src={arduino_demo043}/></div>
+| <div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo041.webp)</div> | <div style={{maxWidth:340}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo042.webp)</div> | <div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo043.webp)</div>
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 
 ### 05_GFX_PCF85063_simpleTime {#Demo-5-GFX_PCF85063_simpleTime}
@@ -328,7 +309,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Execution Result
 
-<div style={{maxWidth:1000}}> <img src={arduino_demo05}/></div>
+<div style={{maxWidth:1000}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo05.webp)</div>
 
 ### 06_GFX_ESPWiFiAnalyzer {#Demo-6-GFX_ESPWiFiAnalyzer}
 
@@ -356,7 +337,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Execution Result
 
-<div style={{maxWidth:800}}> <img src={arduino_demo06}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo06.webp)</div>
 
 ### 07_GFX_Clock {#Demo-7-GFX_Clock}
 
@@ -383,7 +364,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Execution Result
 
-<div style={{maxWidth:800}}> <img src={arduino_demo07}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo07.webp)</div>
 
 ### 08_LVGL_Animation {#Demo-8-LVGL_Animation}
 
@@ -406,7 +387,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Execution Result
 
-<div style={{maxWidth:800}}> <img src={arduino_demo08}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo08.webp)</div>
 
 ### 09_LVGL_change_background {#Demo-9-LVGL_change_background}
 
@@ -435,7 +416,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Execution Result
 
-| <div style={{maxWidth:800}}> <img src={arduino_demo091}/></div> | <div style={{maxWidth:800}}> <img src={arduino_demo092}/></div>
+| <div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo091.webp)</div> | <div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo092.webp)</div>
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | 
 
 ### 10_LVGL_PCF85063_simpleTime {#Demo-10-LVGL_PCF85063_simpleTime}
@@ -462,7 +443,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Execution Result
 
-<div style={{maxWidth:800}}> <img src={arduino_demo10}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo10.webp)</div>
 
 ### 11_LVGL_QMI8658_ui {#Demo-11-LVGL_QMI8658_ui}
 
@@ -489,7 +470,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Execution Result
 
-<div style={{maxWidth:800}}> <img src={arduino_demo11}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo11.webp)</div>
 
 ### 12_LVGL_Widgets {#Demo-12-LVGL_Widgets}
 
@@ -516,7 +497,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Execution Result
 
-| <div style={{maxWidth:600}}> <img src={arduino_demo121}/></div> | <div style={{maxWidth:600}}> <img src={arduino_demo122}/></div>
+| <div style={{maxWidth:600}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo121.webp)</div> | <div style={{maxWidth:600}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo122.webp)</div>
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | 
 
 ### 13_ES8311 {#Demo-13-ES8311}
@@ -579,8 +560,8 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - The image content resources are large. You need to set: Tools -> Partition Scheme -> 16M Flash (3MB APP/9.9MB FATFS)
 - Modify to your available WiFi
 
-<div style={{maxWidth:800}}> <img src={arduino_demo141}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo141.webp)</div>
 
 #### Execution Result
 
-<div style={{maxWidth:800}}> <img src={arduino_demo142}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8_demo142.webp)</div>

@@ -10,17 +10,6 @@ product_model:
 
 <!-- Example-related Image References -->
 
-import esp32S3TouchAmoled1_32ESPIDFExample1 from './images/ESP-IDF-Example-1.webp';
-import esp32S3TouchAmoled1_32ESPIDFExample2 from './images/ESP-IDF-Example-2.webp';
-import esp32S3TouchAmoled1_32ESPIDFExample3 from './images/ESP-IDF-Example-3.webp';
-import esp32S3TouchAmoled1_32ESPIDFExample4 from './images/ESP-IDF-Example-4.webp';
-import esp32S3TouchAmoled1_32ESPIDFExample5 from './images/ESP-IDF-Example-5.webp';
-import esp32S3TouchAmoled1_32ESPIDFExample6 from './images/ESP-IDF-Example-6.webp';
-import esp32S3TouchAmoled1_32ESPIDFExample8_1 from './images/ESP-IDF-Example-8-1.webp';
-import esp32S3TouchAmoled1_32ESPIDFExample8_2 from './images/ESP-IDF-Example-8-2.webp';
-import esp32S3TouchAmoled1_32ESPIDFExample8_3 from './images/ESP-IDF-Example-8-3.webp';
-import esp32S3TouchAmoled1_32ESPIDFExample8_4 from './images/ESP-IDF-Example-8-4.webp';
-import esp32S3TouchAmoled1_32ESPIDFExample8_5 from './images/ESP-IDF-Example-8-5.webp';
 
 import EspidfTutorialIntro from '@site/docs/ESP32/snippets/EspidfTutorialIntro.mdx';
 import EspidfSetup from '@site/docs/ESP32/snippets/EspidfSetup.mdx';
@@ -78,10 +67,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - After the program is compiled and downloaded, you can view the printed ADC values and voltage output by opening the Serial Monitor, as shown in the following image:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3TouchAmoled1_32ESPIDFExample1} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-1.webp)
   </div>
   
 ### 02_WIFI_AP
@@ -108,10 +94,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - After flashing the program, open the serial terminal, if the device is successfully connected to the hotspot, the MAC address and IP address of the device will be output, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3TouchAmoled1_32ESPIDFExample2} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-2.webp)
   </div>
 
 ### 03_WIFI_STA
@@ -142,10 +125,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - After flashing the program, open the serial terminal, if the device is successfully connected to the hotspot, the IP address obtained will be output, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3TouchAmoled1_32ESPIDFExample3} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-3.webp)
   </div>
 
 ### 04_BATT_PWR_Test
@@ -175,10 +155,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
   :::
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3TouchAmoled1_32ESPIDFExample4} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-4.webp)
   </div>
 
 ### 05_Audio_Test
@@ -208,10 +185,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
   :::
 
   <div style={{maxWidth: 500}}>
-  		<img 
-    		src={esp32S3TouchAmoled1_32ESPIDFExample5} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-5.webp)
   </div>
 
 ### 06_LVGL_V8_Test
@@ -237,10 +211,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - After the program is flashed, the device operation result is as follows:
 
   <div style={{maxWidth: 500}}>
-  		<img 
-    		src={esp32S3TouchAmoled1_32ESPIDFExample6} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-6.webp)
   </div>
 
 ### 07_LVGL_V9_Test
@@ -266,10 +237,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - After the program is flashed, the device operation result is as follows:
 
   <div style={{maxWidth: 500}}>
-		<img 
-  		src={esp32S3TouchAmoled1_32ESPIDFExample6} 
-  		style={{width: '100%', height: 'auto'}}
-		/>
+		![](./images/ESP-IDF-Example-6.webp)
   </div>
 
 ### 08_FactoryProgram
@@ -287,28 +255,19 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
 - The display screen transitions through red, green, and blue colors (with a transition interval of 1.5 seconds), as shown in the figure:
 
   <div style={{maxWidth: 900}}>
-		<img 
-  		src={esp32S3TouchAmoled1_32ESPIDFExample8_1} 
-  		style={{width: '100%', height: 'auto'}}
-		/>
+		![](./images/ESP-IDF-Example-8-1.webp)
   </div>
 
 - After the system finishes displaying the above colors, it will automatically enter the onboard hardware information interface, as shown in the figure:
 
   <div style={{maxWidth: 400}}>
-		<img 
-  		src={esp32S3TouchAmoled1_32ESPIDFExample8_2} 
-  		style={{width: '100%', height: 'auto'}}
-		/>
+		![](./images/ESP-IDF-Example-8-2.webp)
   </div>
 
 - Click the BOOT button on the onboard hardware information interface to enter the backlight debugging interface,  where the screen backlight can be controlled via the slider, as shown in the figure:
 
   <div style={{maxWidth: 400}}>
-  		<img 
-    		src={esp32S3TouchAmoled1_32ESPIDFExample8_3} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-8-3.webp)
   </div>
 
 - Click the BOOT button again to exit the backlight control interface, then click the PWR button to enter the Touch interface, as shown in the figure:
@@ -316,10 +275,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
   Touch coordinates are displayed on the screen.
 
   <div style={{maxWidth: 400}}>
-		<img 
-  		src={esp32S3TouchAmoled1_32ESPIDFExample8_4} 
-  		style={{width: '100%', height: 'auto'}}
-		/>
+		![](./images/ESP-IDF-Example-8-4.webp)
   </div>
 
 - Use the audio function in a simple way, and the speaker wiring is as shown:<br/>
@@ -330,10 +286,7 @@ The ESP-IDF demo is located in the <code>ESP-IDF</code> directory of the [https:
   :::
 
   <div style={{maxWidth: 800}}>
-		<img 
-  		src={esp32S3TouchAmoled1_32ESPIDFExample8_5} 
-  		style={{width: '100%', height: 'auto'}}
-		/>
+		![](./images/ESP-IDF-Example-8-5.webp)
   </div>
 
 - When using the lithium battery for power supply alone, the PWR button controls the power:

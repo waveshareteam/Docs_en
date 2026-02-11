@@ -8,7 +8,6 @@ product_family:
 
 <!--Image Reference -->
 
-import ImgTrafficLightDiagram from './images/13-1-Traffic-Light_bb.webp';
 
 :::tip[Important Note on Board Compatibility]
 The core logic of this tutorial applies to all ESP32 development boards. However, all operational steps are explained using the [**Waveshare ESP32-S3-Zero Mini Development Board**](https://www.waveshare.com/esp32-s3-zero.htm) as an example. If you are using a different model of development board, please modify the relevant settings according to your actual situation.
@@ -36,7 +35,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgTrafficLightDiagram} alt="Wiring Diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring Diagram](./images/13-1-Traffic-Light_bb.webp)</div>
 
 ## Code Implementation
 

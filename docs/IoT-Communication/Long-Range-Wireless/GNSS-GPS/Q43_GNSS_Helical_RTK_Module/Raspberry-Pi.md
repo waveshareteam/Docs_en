@@ -4,11 +4,6 @@ title: Working with Raspberry Pi
 slug: /Q43_GNSS_Helical_RTK_Module/Raspberry-Pi
 ---
 
-import q43Compass from './images/Q43-Compass.webp';
-import q43UartI2c from './images/Q43-UART-I2C.webp';
-import q43RpiRover from './images/Q43-RPI-ROVER.webp';
-import q43RpiBase from './images/Q43-RPI-BSAE.webp';
-import q43GnssRtkRpi from './images/Q43-GNSS-RTK-RPI.webp';
 
 # Working with Raspberry Pi
 

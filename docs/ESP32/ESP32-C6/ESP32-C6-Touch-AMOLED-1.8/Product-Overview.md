@@ -10,9 +10,6 @@ product_model:
 ---
 
 <!-- Image Reference -->
-import esp32C6TouchAMoled1_8Intro from './images/ESP32-C6-Touch-AMOLED-1.8-intro.webp';
-import esp32C6TouchAMoled1_8Intf from './images/ESP32-C6-Touch-AMOLED-1.8-IntfIntro.webp';
-import esp32C6TouchAMoled1_8Size from './images/ESP32-C6-Touch-AMOLED-1.8-size.webp';
 
 # ESP32-C6-Touch-AMOLED-1.8
 
@@ -48,10 +45,7 @@ The ESP32-C6-Touch-AMOLED-1.8 is a high-performance, highly integrated microcont
 
 <div
     style={{maxWidth:600}}> 
-    <img 
-        src={esp32C6TouchAMoled1_8Intro} 
-        alt="ESP32-C6-Touch-AMOLED-1.8 Hardware Resources"
-    />
+    ![ESP32-C6-Touch-AMOLED-1.8 Hardware Resources](./images/ESP32-C6-Touch-AMOLED-1.8-intro.webp)
 </div>
 
 1. **ESP32-C6** Supports Wi-Fi and Bluetooth SoC, with a 160MHz operating frequency
@@ -74,20 +68,14 @@ The ESP32-C6-Touch-AMOLED-1.8 is a high-performance, highly integrated microcont
 
 <div
     style={{maxWidth:600}}> 
-    <img 
-        src={esp32C6TouchAMoled1_8Intf} 
-        alt="ESP32-C6-Touch-AMOLED-1.8 Pin Definitions"
-    />
+    ![ESP32-C6-Touch-AMOLED-1.8 Pin Definitions](./images/ESP32-C6-Touch-AMOLED-1.8-IntfIntro.webp)
 </div>
 
 ## Dimensions
 
 <div
     style={{maxWidth:600}}> 
-    <img 
-        src={esp32C6TouchAMoled1_8Size} 
-        alt="ESP32-C6-Touch-AMOLED-1.8 Product Dimensions"
-    />
+    ![ESP32-C6-Touch-AMOLED-1.8 Product Dimensions](./images/ESP32-C6-Touch-AMOLED-1.8-size.webp)
 </div>
 
 ## Development Methods

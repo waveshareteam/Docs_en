@@ -10,18 +10,6 @@ product_model:
 
 <!-- Image Reference -->
 
-import arduinoExample1 from './images/Arduino-Example-1.webp';
-import arduinoExample2 from './images/Arduino-Example-2.webp';
-import arduinoExample3 from './images/Arduino-Example-3.webp';
-import arduinoExample4 from './images/Arduino-Example-4.webp';
-import arduinoExample5 from './images/Arduino-Example-5.webp';
-import arduinoExample6 from './images/Arduino-Example-6.webp';
-import arduinoExample7 from './images/Arduino-Example-7.webp';
-import arduinoExample8 from './images/Arduino-Example-8.webp';
-import arduinoExample9 from './images/Arduino-Example-9.webp';
-import arduinoExample10 from './images/Arduino-Example-10.webp';
-import arduinoExample11 from './images/Arduino-Example-11.webp';
-import esp32S3Touchlcd4_3CIsolationIO_Img from './images/ESP32-Arduino-33.webp';
 import VideoPlayer from '@site/src/components/VideoPlayer';
 import esp32S3Touchlcd4_3CArduinoExample9 from './videos/Arduino-Example-9.mp4';
 import esp32S3Touchlcd4_3CArduinoExample10 from './videos/Arduino-Example-10.mp4';
@@ -221,7 +209,7 @@ void app_main()
 - The serial port or screen displays the current time; outputs a prompt message when the alarm triggers.
 
   <div style={{maxWidth:650}}> 
-    <img src={arduinoExample1} />
+    ![](./images/Arduino-Example-1.webp)
   </div>
 
 ### 03_lcd {#Demo-03_lcd}
@@ -292,7 +280,7 @@ This example verifies the isolation I/O functionality.
 - Connect the board to the computer using a USB cable;
 - Connect the DO/DI pins as described in the example to test the isolation function.
   <div style={{maxWidth:650}}> 
-    <img src={esp32S3Touchlcd4_3CIsolationIO_Img} />
+    ![](./images/ESP32-Arduino-33.webp)
   </div>
 
 #### Code
@@ -413,7 +401,7 @@ void app_main()
 - The screen indicates successful/failed mounting and displays card capacity, file list, or test file read/write results.
 
   <div style={{maxWidth:650}}> 
-    <img src={arduinoExample3} />
+    ![](./images/Arduino-Example-3.webp)
   </div>
 
 ### 06_touch {#Demo-06_touch}
@@ -554,7 +542,7 @@ void app_main()
 - BMP images from the TF card are displayed on the screen; the serial port outputs image information and loading time.
 
   <div style={{maxWidth:650}}> 
-    <img src={arduinoExample2} />
+    ![](./images/Arduino-Example-2.webp)
   </div>
 
 ### 08_wifi_scan {#Demo-08_wifi_scan}
@@ -712,7 +700,7 @@ void app_main()
 - The screen displays a successful connection and the assigned IP address; prompts reconnection status upon disconnection.
 
   <div style={{maxWidth:650}}> 
-    <img src={arduinoExample5} />
+    ![](./images/Arduino-Example-5.webp)
   </div>
 
 ### 10_wifi_ap {#Demo-10_wifi_ap}
@@ -798,7 +786,7 @@ int app_main(void)
 
 - The screen displays hotspot status and information of connected devices; the serial port simultaneously outputs connection/disconnection logs..
   <div style={{maxWidth:650}}> 
-    <img src={arduinoExample6} />
+    ![](./images/Arduino-Example-6.webp)
   </div>
 
 ### 11_speaker_microphone {#Demo-11_speaker_microphone}
@@ -954,7 +942,7 @@ void app_main()
 
 - The screen displays the LVGL demo interface with touch interaction; the serial port outputs LVGL initialization and refresh information.
   <div style={{maxWidth:650}}> 
-    <img src={arduinoExample10} />
+    ![](./images/Arduino-Example-10.webp)
   </div>
 
 ### 13_lvgl_codec {#Demo-13_lvgl_codec}
@@ -1039,7 +1027,7 @@ void app_main()
 - The screen displays an audio control interface that can be operated; playback status and volume changes take effect in real-time.
 
   <div style={{maxWidth:650}}> 
-    <img src={arduinoExample11} />
+    ![](./images/Arduino-Example-11.webp)
   </div>
 
 ### 14_tcp_udp_ntp {#Demo-14_tcp_udp_ntp}
@@ -1106,5 +1094,5 @@ void peripheral_init(void)
 - The serial port outputs connection information; basic data interaction is possible using a network debug assistant set to the corresponding IP address and port number; the screen displays network status and the current time.
 
   <div style={{maxWidth:650}}> 
-    <img src={arduinoExample9} />
+    ![](./images/Arduino-Example-9.webp)
   </div>

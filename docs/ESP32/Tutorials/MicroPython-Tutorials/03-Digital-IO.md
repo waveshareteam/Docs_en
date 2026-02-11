@@ -9,11 +9,6 @@ product_family:
 
 <!-- Image Reference -->
 
-import ImgBlinkDiagram from './images/03-LED-Blink_bb.webp';
-import ImgButtonDiagram from './images/03-Button_bb.webp';
-import ImgButtonPullDiagram from './images/03-Button-10k_bb.webp';
-import ImgButtonLEDDiagram from './images/03-Button-LED_bb.webp';
-import ImgDigialSignalSvg from './images/03-Digial-Signal.svg';
 
 <!-- Video reference -->
 
@@ -73,7 +68,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgBlinkDiagram} alt="Wiring Diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring Diagram](./images/03-LED-Blink_bb.webp)</div>
 
 #### Circuit Working Principle
 
@@ -411,7 +406,7 @@ Same as before, the counter increments by 1 each time the button is released. Be
 
 **Wiring Diagram**:
 
-<div style={{maxWidth:500}}> <img src={ImgButtonLEDDiagram} alt="Wiring Diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring Diagram](./images/03-Button-LED_bb.webp)</div>
 
 **Code**:
 
@@ -451,7 +446,7 @@ while True:
 
 **Wiring Diagram**:
 
-<div style={{maxWidth:500}}> <img src={ImgButtonLEDDiagram} alt="Wiring Diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring Diagram](./images/03-Button-LED_bb.webp)</div>
 
 **Code**:
 
@@ -501,4 +496,3 @@ while True:
 - [MicroPython - machine.Pin class](https://docs.micropython.org/en/latest/library/machine.Pin.html)
 - [MicroPython - time.sleep](https://docs.micropython.org/en/latest/library/time.html#time.sleep)
 - [PEP 8 - Style Guide for Python Code](https://peps.python.org/pep-0008/)
-

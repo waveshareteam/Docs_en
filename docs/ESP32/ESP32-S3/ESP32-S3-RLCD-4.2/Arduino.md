@@ -15,15 +15,6 @@ import Details from '@theme/Details';
 import ArduinoTutorialIntro from '@site/docs/ESP32/snippets/ArduinoTutorialIntro.mdx';
 
 <!-- Example-related Image References -->
-import esp32S3RLCD4_2ArduinoExample1 from './images/Arduino-Example-1.webp';
-import esp32S3RLCD4_2ArduinoExample2 from './images/Arduino-Example-2.webp';
-import esp32S3RLCD4_2ArduinoExample3 from './images/Arduino-Example-3.webp';
-import esp32S3RLCD4_2ArduinoExample4 from './images/Arduino-Example-4.webp';
-import esp32S3RLCD4_2ArduinoExample5 from './images/Arduino-Example-5.webp';
-import esp32S3RLCD4_2ArduinoExample6 from './images/Arduino-Example-6.webp';
-import esp32S3RLCD4_2ArduinoExample7 from './images/Arduino-Example-7.webp';
-import esp32S3RLCD4_2ArduinoExample8 from './images/Arduino-Example-8.webp';
-import esp32S3RLCD4_2ArduinoExample9 from './images/Arduino-Example-9.webp';
 
 # Working with Arduino
 
@@ -59,13 +50,10 @@ There are strong dependencies between versions of LVGL and its driver libraries.
 
 ### 3. Arduino Project Parameter Settings
 
-import esp32S3RLCD4_2ArduinoToolCfg from './images/ESP32-S3-RLCD-4.2-ArduinoToolCfg.webp';
 
 <div 
     style={{maxWidth:600}}> 
-    <img 
-        src={esp32S3RLCD4_2ArduinoToolCfg} 
-    />
+    ![](./images/ESP32-S3-RLCD-4.2-ArduinoToolCfg.webp)
 </div>
 
 ## Demo
@@ -108,10 +96,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - After flashing the program and opening the serial terminal, if the device successfully connects to the hotspot, it will output the MAC address of the device, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ArduinoExample1} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/Arduino-Example-1.webp)
   </div>
 
 ### 02_WIFI_STA
@@ -138,10 +123,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - After flashing the program, open the serial terminal, if the device is successfully connected to the hotspot, the IP address obtained will be output, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-		<img 
-  		src={esp32S3RLCD4_2ArduinoExample2} 
-  		style={{width: '100%', height: 'auto'}}
-		/>
+		![](./images/Arduino-Example-2.webp)
   </div>
 
 ### 03_ADC_Test
@@ -166,10 +148,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - After the program is compiled and downloaded, you can view the printed ADC values and voltage output by opening the Serial Monitor, as shown in the following image:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ArduinoExample3} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/Arduino-Example-3.webp)
   </div>
 
 ### 04_I2C_PCF85063
@@ -209,10 +188,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - After the program is compiled and downloaded, open the serial port monitoring to see the RTC time of the printout, as shown in the following figure:<br />
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ArduinoExample4} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/Arduino-Example-4.webp)
   </div>
 
 ### 05_I2C_SHTC3
@@ -251,10 +227,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - Open the serial port monitor, you can see the printed temperature and humidity data, as shown in the figure below:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ArduinoExample5} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/Arduino-Example-5.webp)
   </div>
 
 ### 06_SD_Card
@@ -304,10 +277,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - Click on the serial port monitoring device, you can see the output information of the TF card, as shown in the figure below:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ArduinoExample6} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/Arduino-Example-6.webp)
   </div>
 
 ### 07_Audio_Test
@@ -332,10 +302,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - After the program is flashed, as shown in the figure:
 
   <div style={{maxWidth: 500}}>
-  		<img 
-    		src={esp32S3RLCD4_2ArduinoExample7} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/Arduino-Example-7.webp)
   </div>
 
   :::tip
@@ -382,10 +349,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - After the program is flashed, it is displayed alternately at intervals of 1.5 seconds, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ArduinoExample8} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/Arduino-Example-8.webp)
   </div>
 
 ### 09_LVGL_V9_Test
@@ -425,8 +389,5 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - After the program is flashed, it is displayed alternately at intervals of 1.5 seconds, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ArduinoExample9} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/Arduino-Example-9.webp)
   </div>

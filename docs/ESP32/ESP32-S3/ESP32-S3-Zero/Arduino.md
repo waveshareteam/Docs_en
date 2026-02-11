@@ -13,9 +13,7 @@ product_model:
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- Image References -->
-import arduinoideEsp32s3zero from './images/ArduinoIDE-ESP32-S3-Zero.webp';
-import enableUsbcdc from './images/Enable-USBCDC.webp';
+
 
 # Arduino
 
@@ -53,7 +51,7 @@ Please refer to the **[Arduino IDE Setup Tutorial](/docs/ESP32/Tutorials/Arduino
 
 1. The ESP32-S3-Zero is directly supported in the Arduino IDE. Select "Waveshare ESP32-S3-Zero".
 
-   <div style={{maxWidth:650}}> <img src={arduinoideEsp32s3zero} alt="Select ESP32-S3-Zero in Arduino IDE"/></div>
+   <div style={{maxWidth:650}}> ![Select ESP32-S3-Zero in Arduino IDE](./images/ArduinoIDE-ESP32-S3-Zero.webp)</div>
 
 2. The ESP32-S3-Zero uses the ESP32-S3 native USB interface, not a UART-to-USB bridge. For serial communication:
 
@@ -68,6 +66,6 @@ Please refer to the **[Arduino IDE Setup Tutorial](/docs/ESP32/Tutorials/Arduino
         :::note
         As shown below, the "USB CDC On Boot" option should be set to `Enabled` under correct configuration.
    
-        <div style={{maxWidth:600}}> <img src={enableUsbcdc} alt="Enable USB CDC"/></div>
+        <div style={{maxWidth:600}}> ![Enable USB CDC](./images/Enable-USBCDC.webp)</div>
    
         :::

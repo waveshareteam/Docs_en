@@ -12,13 +12,6 @@ import TabItem from '@theme/TabItem';
 import Details from '@theme/Details';
 import ArduinoTutorialIntro from '@site/docs/ESP32/snippets/ArduinoTutorialIntro.mdx';
 
-import Ard_02_e_paper from './images/Ard_02_e_paper.webp';
-import Ard_03_I2C_PCF85063 from './images/Ard_03_I2C_PCF85063.webp';
-import Ard_04_I2C_SHTC3 from './images/Ard_04_I2C_SHTC3.webp';
-import Ard_05_SD_Test_01 from './images/Ard_05_SD_Test_01.webp';
-import Ard_05_SD_Test_02 from './images/Ard_05_SD_Test_02.webp';
-import Ard_05_SD_Test_03 from './images/Ard_05_SD_Test_03.webp';
-import Ard_06_QMI8658A from './images/Ard_06_QMI8658A.webp';
 
 # Working with Arduino
 
@@ -48,13 +41,10 @@ Please refer to the tutorial **[Installing and Configuring Arduino IDE Tutorial]
 
 ### 3. Arduino Project Parameter Settings
 
-import esp32S3ePaper_3_97ArduinoToolCfg from './images/Arduino_tools_Configuration.webp';
 
 <div 
     style={{maxWidth:600}}> 
-    <img 
-        src={esp32S3ePaper_3_97ArduinoToolCfg} 
-    />
+    ![](./images/Arduino_tools_Configuration.webp)
 </div>
 
 ## Demo
@@ -172,9 +162,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
   
   <div 
       style={{maxWidth:600}}> 
-      <img 
-          src={Ard_02_e_paper} 
-      />
+      ![](./images/Ard_02_e_paper.webp)
   </div>
 
 ### 03_I2C_PCF85063
@@ -222,9 +210,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
   <div 
       style={{maxWidth:400}}> 
-      <img 
-          src={Ard_03_I2C_PCF85063} 
-      />
+      ![](./images/Ard_03_I2C_PCF85063.webp)
   </div>
 
 ### 04_I2C_SHTC3
@@ -273,9 +259,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
   <div 
       style={{maxWidth:400}}> 
-      <img 
-          src={Ard_04_I2C_SHTC3} 
-      />
+      ![](./images/Ard_04_I2C_SHTC3.webp)
   </div>
 
 ### 05_SD_Test
@@ -343,9 +327,9 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 - Reads and displays images from the TF card.
 
-  <div style={{maxWidth:400}}> <img src={Ard_05_SD_Test_01}/></div>
-  <div style={{maxWidth:400}}> <img src={Ard_05_SD_Test_02}/></div>
-  <div style={{maxWidth:400}}> <img src={Ard_05_SD_Test_03}/></div>
+  <div style={{maxWidth:400}}> ![](./images/Ard_05_SD_Test_01.webp)</div>
+  <div style={{maxWidth:400}}> ![](./images/Ard_05_SD_Test_02.webp)</div>
+  <div style={{maxWidth:400}}> ![](./images/Ard_05_SD_Test_03.webp)</div>
 
 ### 06_QMI8658A
 
@@ -383,7 +367,5 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
   <div 
       style={{maxWidth:400}}> 
-      <img 
-          src={Ard_06_QMI8658A} 
-      />
+      ![](./images/Ard_06_QMI8658A.webp)
   </div>

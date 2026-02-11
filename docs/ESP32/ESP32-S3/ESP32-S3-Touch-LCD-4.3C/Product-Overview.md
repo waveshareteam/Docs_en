@@ -10,9 +10,6 @@ product_model:
 ---
 
 <!-- Image Reference -->
-import esp32S3TouchLcd4_3CProductExample2 from './images/Product-Example-2.webp';
-import esp32S3TouchLcd4_3CProductExample3 from './images/Product-Example-3.webp';
-import esp32S3TouchLcd4_3CProductExample4 from './images/Product-Example-4.webp';
 
 
 # ESP32-S3-Touch-LCD-4.3C
@@ -38,7 +35,7 @@ The ESP32-S3-Touch-LCD-4.3C is a low-cost, high-performance development board fr
 
 ## Onboard Resources
 
-<div style={{maxWidth:1000}}> <img src={esp32S3TouchLcd4_3CProductExample2} alt="ESP32-S3-Touch-LCD-4.3C Onboard Resources Example 1"/></div>
+<div style={{maxWidth:1000}}> ![ESP32-S3-Touch-LCD-4.3C Onboard Resources Example 1](./images/Product-Example-2.webp)</div>
 
 - **Onboard PCF85063 RTC Real-Time Clock Chip**: Enables timekeeping during power loss and alarm functionality.
 - **Onboard 4.3inch 800×480 Capacitive Touch LCD Screen**: Supports LVGL graphical interface display.
@@ -184,11 +181,11 @@ When using the ESP32-S3-Touch-LCD-4.3C, it's important to understand the hardwar
 
 ### Without Case
 
-<div style={{maxWidth:600}}> <img src={esp32S3TouchLcd4_3CProductExample3} alt="ESP32-S3-Touch-LCD-4.3C Onboard Resources Example 2"/></div>
+<div style={{maxWidth:600}}> ![ESP32-S3-Touch-LCD-4.3C Onboard Resources Example 2](./images/Product-Example-3.webp)</div>
 
 ### With Case
 
-<div style={{maxWidth:600}}> <img src={esp32S3TouchLcd4_3CProductExample4} alt="ESP32-S3-Touch-LCD-4.3C Onboard Resources Example 2"/></div>
+<div style={{maxWidth:600}}> ![ESP32-S3-Touch-LCD-4.3C Onboard Resources Example 2](./images/Product-Example-4.webp)</div>
 
 ## Development Methods
 <!-- 
@@ -210,4 +207,3 @@ Each method has its advantages, and developers can select based on their needs a
 - **Arduino IDE** is a convenient, flexible, and easy-to-use open-source electronics prototyping platform. It requires minimal foundational knowledge, allowing for rapid development after a short learning period. Arduino has a vast global community that provides a wealth of open-source code, project examples, tutorials, and rich libraries that encapsulate complex functionalities, enabling developers to implement various features quickly. You can refer to the **[Working with Arduino](./Arduino.md)** to complete the initial setup, and the tutorial also provides related demos for reference.
 
 - **ESP-IDF** (Espressif IoT Development Framework) is a professional development framework released by Espressif for its ESP series chips. It is developed based on the C language, including a compiler, debugger, and flashing tool, etc. It supports development via command line or an Integrated Development Environment (such as Visual Studio Code with the Espressif IDF plugin), which provides features like code navigation, project management, and debugging, etc. We recommend using VS Code for development. For the specific configuration process, please refer to the **[Working with ESP-IDF](./ESP-IDF.md)**. The tutorial also provides relevant demos for reference.
-

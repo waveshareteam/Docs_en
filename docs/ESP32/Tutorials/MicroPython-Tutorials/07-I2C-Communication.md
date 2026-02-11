@@ -12,9 +12,6 @@ import TabItem from '@theme/TabItem';
 
 <!-- Image Reference -->
 
-import ImgI2CDiagram from './images/07-I2C_2_bb.webp';
-import ImgI2CScannerDiagram from './images/07-I2C-Scanner_bb.webp';
-import ImgI2COLED from './images/07-I2C-OLED.webp';
 
 # I2C Communication
 
@@ -93,7 +90,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:800}}> <img src={ImgI2CScannerDiagram} alt="Wiring Diagram"/></div>
+<div style={{maxWidth:800}}> ![Wiring Diagram](./images/07-I2C-Scanner_bb.webp)</div>
 
 :::info Circuit Diagram Note
 The 4.7kΩ pull-up resistors in the circuit diagram are the standard connection for I2C. Since the [OLED Module](https://www.waveshare.com/1.5inch-oled-module.htm) used in this tutorial has built-in pull-up resistors, the circuit can still function normally without these external resistors.
@@ -240,7 +237,7 @@ oled.show()
 
 The OLED screen will light up, displaying "Hello, MicroPython!" and "ESP32", surrounded by a rectangular frame.
 
-<div style={{maxWidth:300}}> <img src={ImgI2COLED} alt="Example 2 Output"/></div>
+<div style={{maxWidth:300}}> ![Example 2 Output](./images/07-I2C-OLED.webp)</div>
 
 ## 4. Common Issues and Notes
 

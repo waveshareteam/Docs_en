@@ -7,8 +7,6 @@ product_family:
 ---
 
 <!-- Image referencing -->
-import ImgPWMLightDiagram from './images/03-LED-Blink_bb.webp';
-import ImgPotentiometerLEDDiagram from './images/05-Potentiometer-LED_bb.webp';
 
 # Pulse Width Modulation (PWM)
 
@@ -73,7 +71,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgPWMLightDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/03-LED-Blink_bb.webp)</div>
 
 ## 4. ESP32 PWM Example Code Using `analogWrite()`
 
@@ -176,7 +174,7 @@ void loop() {
 
 **Wiring diagram:**
 
-<div style={{maxWidth:500}}> <img src={ImgPotentiometerLEDDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/05-Potentiometer-LED_bb.webp)</div>
 
 **Code:**
 

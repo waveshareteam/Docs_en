@@ -112,11 +112,8 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 #### Operation Result
 
-import idf_demo_lvgl_demo_v9_1 from './images/idf_demo_lvgl_demo_v9_1.webp';
-import idf_demo_lvgl_demo_v9_2 from './images/idf_demo_lvgl_demo_v9_2.webp';
-import idf_demo_lvgl_demo_v9_3 from './images/idf_demo_lvgl_demo_v9_3.webp';
 
-| <div style={{maxWidth:800}}> <img src={idf_demo_lvgl_demo_v9_1}/></div> | <div style={{maxWidth:800}}> <img src={idf_demo_lvgl_demo_v9_2}/></div> | <div style={{maxWidth:800}}> <img src={idf_demo_lvgl_demo_v9_3}/></div> |
+| <div style={{maxWidth:800}}> ![](./images/idf_demo_lvgl_demo_v9_1.webp)</div> | <div style={{maxWidth:800}}> ![](./images/idf_demo_lvgl_demo_v9_2.webp)</div> | <div style={{maxWidth:800}}> ![](./images/idf_demo_lvgl_demo_v9_3.webp)</div> |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 
 ### 03_esp-brookesia {#Demo-3-esp-brookesia}
@@ -131,11 +128,8 @@ import idf_demo_lvgl_demo_v9_3 from './images/idf_demo_lvgl_demo_v9_3.webp';
 
 #### Operation Result
 
-import idf_demo_esp_brookesia_1 from './images/idf_demo_esp-brookesia_1.webp';
-import idf_demo_esp_brookesia_2 from './images/idf_demo_esp-brookesia_2.webp';
-import idf_demo_esp_brookesia_3 from './images/idf_demo_esp-brookesia_3.webp';
 
-| <div style={{maxWidth:800}}> <img src={idf_demo_esp_brookesia_1}/></div> | <div style={{maxWidth:800}}> <img src={idf_demo_esp_brookesia_2}/></div> | <div style={{maxWidth:800}}> <img src={idf_demo_esp_brookesia_3}/></div> |
+| <div style={{maxWidth:800}}> ![](./images/idf_demo_esp-brookesia_1.webp)</div> | <div style={{maxWidth:800}}> ![](./images/idf_demo_esp-brookesia_2.webp)</div> | <div style={{maxWidth:800}}> ![](./images/idf_demo_esp-brookesia_3.webp)</div> |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 
 ### 04_Immersive_block {#Demo-4-Immersive_block}

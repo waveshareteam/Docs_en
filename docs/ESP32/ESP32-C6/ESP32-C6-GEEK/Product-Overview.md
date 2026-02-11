@@ -12,9 +12,6 @@ product_model:
 ---
 
 <!-- Image Reference -->
-import esp32C6GEEK_MAIN from './images/ESP32-C6-GEEK-mian.webp';
-import esp32C6GEEKSize from './images/ESP32-C6-GEEK-details-size.webp';
-import esp32C6GEEKIntro1 from './images/ESP32-C6-GEEK-details-intro.webp';
 
 # ESP32-C6-GEEK
 
@@ -42,7 +39,7 @@ The ESP32-C6-GEEK is a development board designed by Waveshare for geeks. It fea
 
 ## Onboard Resources
 
-<div style={{maxWidth:600}}> <img src={esp32C6GEEKIntro1} alt="ESP32-C6-GEEK Hardware Resources 1"/></div>
+<div style={{maxWidth:600}}> ![ESP32-C6-GEEK Hardware Resources 1](./images/ESP32-C6-GEEK-details-intro.webp)</div>
 
 1. **ESP32-C6** supports Wi-Fi and Bluetooth SoC, operating at 160MHz
 2. **16MB NOR-Flash** for data storage
@@ -87,7 +84,7 @@ As can be seen from the diagram, data transmission begins at the first falling e
 
 ## Dimensions
 
-<div style={{maxWidth:600}}> <img src={esp32C6GEEKSize} alt="ESP32-C6-GEEK Product Dimensions"/></div>
+<div style={{maxWidth:600}}> ![ESP32-C6-GEEK Product Dimensions](./images/ESP32-C6-GEEK-details-size.webp)</div>
 
 ## Development Methods
 

@@ -10,11 +10,6 @@ product_model:
 ---
 
 <!-- Image Reference -->
-import rp2350TouchAmoled1_75Product from './images/RP2350-Touch-AMOLED-1.75-1.webp';
-import rp2350TouchAmoled1_75Intro2 from './images/RP2350-Touch-AMOLED-1.75-details-intro-2.webp';
-import rp2350TouchAmoled1_75Intro1 from './images/RP2350-Touch-AMOLED-1.75-details-intro.webp';
-import rp2350TouchAmoled1_75Size1 from './images/RP2350-Touch-AMOLED-1.75-details-size-1.webp';
-import rp2350TouchAmoled1_75Size2 from './images/RP2350-Touch-AMOLED-1.75-details-size-2.webp';
 
 # RP2350-Touch-AMOLED-1.75
 
@@ -51,7 +46,7 @@ This product is a high-performance, highly integrated microcontroller developmen
 
 ## Onboard Resources
 
-<div style={{maxWidth:600}}> <img src={rp2350TouchAmoled1_75Intro2} alt="RP2350-Touch-AMOLED-1.75 Hardware Resources 1"/></div>
+<div style={{maxWidth:600}}> ![RP2350-Touch-AMOLED-1.75 Hardware Resources 1](./images/RP2350-Touch-AMOLED-1.75-details-intro-2.webp)</div>
 
 1. **RP2350A** Dual-core, dual-architecture processor, up to 150MHz operating frequency  
 2. **Debug Interface** Convenient for program downloading and online debugging  
@@ -73,17 +68,17 @@ This product is a high-performance, highly integrated microcontroller developmen
 
 ## Interfaces
 
-<div style={{maxWidth:600}}> <img src={rp2350TouchAmoled1_75Intro1} alt="RP2350-Touch-AMOLED-1.75 Pin Definitions"/></div>
+<div style={{maxWidth:600}}> ![RP2350-Touch-AMOLED-1.75 Pin Definitions](./images/RP2350-Touch-AMOLED-1.75-details-intro.webp)</div>
 
 ## Dimensions
 
 ### Without Case
 
-<div style={{maxWidth:600}}> <img src={rp2350TouchAmoled1_75Size1} alt="RP2350-Touch-AMOLED-1.75 Product Dimensions"/></div>
+<div style={{maxWidth:600}}> ![RP2350-Touch-AMOLED-1.75 Product Dimensions](./images/RP2350-Touch-AMOLED-1.75-details-size-1.webp)</div>
 
 ### With Case
 
-<div style={{maxWidth:600}}> <img src={rp2350TouchAmoled1_75Size2} alt="RP2350-Touch-AMOLED-1.75 Product Dimensions"/></div>
+<div style={{maxWidth:600}}> ![RP2350-Touch-AMOLED-1.75 Product Dimensions](./images/RP2350-Touch-AMOLED-1.75-details-size-2.webp)</div>
 
 ## Development Methods
 
@@ -96,4 +91,3 @@ Each of the three development methods has its own advantages. Developers can cho
 - **VS Code + Pico SDK (C/C++ Development)**: VS Code is a powerful cross-platform code editor. By installing the Pico VS Code extension, you can quickly build a complete C/C++ development environment. This extension integrates the Pico SDK toolchain, CMake build system, and flashing and debugging tools, supporting graphical operations for high development efficiency. C/C++ development allows you to fully utilize hardware performance, making it suitable for projects with high performance requirements and professional developers, and is especially suitable for complex embedded application development. You can refer to the **[Working with C/C++](./C.md)** for initial setup; the tutorial provides detailed environment configuration steps and example programs.
 
 - **Arduino IDE (Arduino Development)**: Arduino IDE is a convenient, flexible, and easy-to-use open-source electronic prototyping platform. Arduino boasts a large global user community, providing a vast amount of open-source code, project examples, and tutorials, as well as a wealth of library resources. These libraries encapsulate complex functionalities, allowing developers to quickly implement various features without delving into low-level details. It's ideal for rapid development and prototyping, significantly shortening development cycles. You can refer to the **[Working with Arduino](./Arduino.md)** for initial setup; the tutorial provides detailed environment configuration steps and example programs.
-

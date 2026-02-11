@@ -13,10 +13,6 @@ product_model:
 ---
 
 <!-- Image Reference -->
-import Esp32s3Amoled1_91DocHeader_1 from './images/ESP32-S3-AMOLED-1.91-DocHeader-1.webp';
-import Esp32s3Amoled1_91DocHeader_2 from './images/ESP32-S3-AMOLED-1.91-DocHeader-2.webp';
-import Esp32s3Amoled1_91DocHeader_3 from './images/ESP32-S3-AMOLED-1.91-DocHeader-3.webp';
-import Esp32s3Amoled1_91DocHeader_4 from './images/ESP32-S3-AMOLED-1.91-DocHeader-4.webp';
 
 # ESP32-S3-AMOLED-1.91
 
@@ -25,16 +21,16 @@ import TabItem from '@theme/TabItem';
 
 <Tabs queryString="variant">
   <TabItem value="ESP32-S3-AMOLED-1.91" label="ESP32-S3-AMOLED-1.91 (Without touch, without header)">
-    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-s3-amoled-1.91.htm?sku=28872" target="_blank"><img src={Esp32s3Amoled1_91DocHeader_1}/></a></div>
+    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-s3-amoled-1.91.htm?sku=28872" target="_blank">![](./images/ESP32-S3-AMOLED-1.91-DocHeader-1.webp)</a></div>
   </TabItem>
   <TabItem value="ESP32-S3-AMOLED-1.91-M" label="ESP32-S3-AMOLED-1.91-M (Without touch, with header)" default>
-    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-s3-amoled-1.91.htm?sku=28873" target="_blank"><img src={Esp32s3Amoled1_91DocHeader_2}/></a></div>
+    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-s3-amoled-1.91.htm?sku=28873" target="_blank">![](./images/ESP32-S3-AMOLED-1.91-DocHeader-2.webp)</a></div>
   </TabItem>
   <TabItem value="ESP32-S3-Touch-AMOLED-1.91" label="ESP32-S3-Touch-AMOLED-1.91 (With touch, without header)" default>
-    <div style={{maxWidth:600}}> <a href="https://www.waveshare.com/esp32-s3-amoled-1.91.htm?sku=28596" target="_blank"><img src={Esp32s3Amoled1_91DocHeader_3}/></a></div>
+    <div style={{maxWidth:600}}> <a href="https://www.waveshare.com/esp32-s3-amoled-1.91.htm?sku=28596" target="_blank">![](./images/ESP32-S3-AMOLED-1.91-DocHeader-3.webp)</a></div>
   </TabItem>
   <TabItem value="ESP32-S3-Touch-AMOLED-1.91-M" label="ESP32-S3-Touch-AMOLED-1.91-M (With touch, with header)" default>
-    <div style={{maxWidth:600}}> <a href="https://www.waveshare.com/esp32-s3-amoled-1.91.htm?sku=28871" target="_blank"><img src={Esp32s3Amoled1_91DocHeader_4}/></a></div>
+    <div style={{maxWidth:600}}> <a href="https://www.waveshare.com/esp32-s3-amoled-1.91.htm?sku=28871" target="_blank">![](./images/ESP32-S3-AMOLED-1.91-DocHeader-4.webp)</a></div>
   </TabItem>
 </Tabs>
 

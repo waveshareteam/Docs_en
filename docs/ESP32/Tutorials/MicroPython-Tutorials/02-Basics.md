@@ -8,22 +8,6 @@ product_family:
 
 <!-- Image Reference -->
 
-import ImgThonnyFileView1 from './images/02-Thonny-File-1.webp';
-import ImgThonnyFileView2 from './images/02-Thonny-File-2.webp';
-import ImgREPL from './images/02-REPL-Example.webp';
-import ImgRunScript from './images/02-Run-Script.webp';
-import ImgStopIcon from './images/02-Stop-Icon.webp';
-import ImgKeyboardInterrupt from './images/02-KeyboardInterrupt.webp';
-import ImgStopAndSave from './images/02-Stop-And-Save.webp';
-import ImgSaveFile1 from './images/02-Save-File-1.webp';
-import ImgSaveFile2 from './images/02-Save-File-2.webp';
-import ImgSaveFile3 from './images/02-Save-File-3.webp';
-import ImgSaveToMain1 from './images/02-Save-To-Main-1.webp';
-import ImgSaveToMain3 from './images/02-Save-To-Main-3.webp';
-import ImgMain from './images/02-Main.webp';
-import ImgThonnyDefaultBehavior from './images/02-Thonny-Default-Behavior.webp';
-import ImgUploadFileToESP321 from './images/02-Upload-File-To-ESP32-1.webp';
-import ImgUploadFileToESP322 from './images/02-Upload-File-To-ESP32-2.webp';
 
 > This section will guide you to further understand MicroPython and become familiar with the usage of the Thonny IDE.
 
@@ -37,11 +21,11 @@ In embedded development, it's often necessary to transfer and manage files betwe
 
 1. **Open the file view**: Open Thonny, select `View` -> `Files` from the top menu bar.
 
-   <div style={{maxWidth:550}}> <img src={ImgThonnyFileView1} alt="Opening Thonny File View"/></div>
+   <div style={{maxWidth:550}}> ![Opening Thonny File View](./images/02-Thonny-File-1.webp)</div>
 
 2. **Interface layout**: The left sidebar will now show two areas:
 
-   <div style={{maxWidth:550}}> <img src={ImgThonnyFileView2} alt="Thonny File View"/></div>
+   <div style={{maxWidth:550}}> ![Thonny File View](./images/02-Thonny-File-2.webp)</div>
 
    - **Top section (Local Files)**: Displays files stored locally on your computer.
    - **Bottom section (MicroPython device)**: Displays files in the ESP32's internal storage.
@@ -74,7 +58,7 @@ print(f"Device Info: {sys.platform}\nCPU Freq: {freq} MHz")
 
 The Shell window will output the platform name of the current device and the operating frequency of the CPU.
 
-<div style={{maxWidth:550}}> <img src={ImgREPL} alt="Shell window output showing platform name and CPU frequency"/></div>
+<div style={{maxWidth:550}}> ![Shell window output showing platform name and CPU frequency](./images/02-REPL-Example.webp)</div>
 
 ### 2.2 Script Execution
 
@@ -103,18 +87,18 @@ Script execution is the standard way to develop complex programs. It involves wr
 
 2. **Run the script**: Click the green `Run` button on the toolbar (or press <kbd>F5</kbd>).
 
-   <div style={{maxWidth:550}}> <img src={ImgRunScript} alt="Running the script"/></div>
+   <div style={{maxWidth:550}}> ![Running the script](./images/02-Run-Script.webp)</div>
 
 3. **Observe the output**: The Shell window at the bottom will start outputting device information and the loop count.
 
    :::tip How to stop the program?
    Since the code above contains a `while True` infinite loop, the Shell will be occupied, preventing other operations like saving files. To stop the program, click the red Stop button on the toolbar, or press <kbd>Ctrl</kbd> + <kbd>C</kbd> in the Shell.
 
-   <div style={{maxWidth:400}}> <img src={ImgStopIcon} alt="Stop button"/></div>
+   <div style={{maxWidth:400}}> ![Stop button](./images/02-Stop-Icon.webp)</div>
 
    ***
 
-   <div style={{maxWidth:500}}> <img src={ImgKeyboardInterrupt} alt="KeyboardInterrupt error"/></div>
+   <div style={{maxWidth:500}}> ![KeyboardInterrupt error](./images/02-KeyboardInterrupt.webp)</div>
 
    Forcibly interrupting may cause the Shell to throw a `KeyboardInterrupt` error. To implement more robust exit handling, you can wrap the main logic in a try-except structure to catch the exception:
 
@@ -150,19 +134,19 @@ Script execution is the standard way to develop complex programs. It involves wr
 
    - Stop the program, then click the `Save` button on the toolbar (or press <kbd>Ctrl</kbd> + <kbd>S</kbd>).
 
-     <div style={{maxWidth:400}}> <img src={ImgStopAndSave} alt="Stop and Save"/></div>
+     <div style={{maxWidth:400}}> ![Stop and Save](./images/02-Stop-And-Save.webp)</div>
 
    - The system will prompt you to choose a save location. Select **MicroPython device**.
 
-     <div style={{maxWidth:180}}> <img src={ImgSaveFile1} alt="Select MicroPython device"/></div>
+     <div style={{maxWidth:180}}> ![Select MicroPython device](./images/02-Save-File-1.webp)</div>
 
    - Then enter a filename (e.g., `test_print.py`) and click OK.
 
-     <div style={{maxWidth:400}}> <img src={ImgSaveFile2} alt="Save the filename"/></div>
+     <div style={{maxWidth:400}}> ![Save the filename](./images/02-Save-File-2.webp)</div>
 
    - After saving, you can see `test_print.py`  in the MicroPython device area of the left file view.
 
-     <div style={{maxWidth:550}}> <img src={ImgSaveFile3} alt="Save successful"/></div>
+     <div style={{maxWidth:550}}> ![Save successful](./images/02-Save-File-3.webp)</div>
 
 ## 3. ESP32 Boot Mechanism
 
@@ -197,20 +181,20 @@ If you want the program to run automatically in an offline state (connected only
 1. **Locate the file**: In the `MicroPython device` area at the bottom left of Thonny, double-click to open the `test_print.py` saved in the previous step.
 2. **Save as main.py**: Click `File` - `Save copy` in Thonny's menu bar, choose to save to the `MicroPython device`, and set the filename to `main.py`.
 
-   <div style={{maxWidth:550}}> <img src={ImgSaveToMain1} alt="Saving as main.py"/></div>
+   <div style={{maxWidth:550}}> ![Saving as main.py](./images/02-Save-To-Main-1.webp)</div>
 
-   <div style={{maxWidth:180}}> <img src={ImgSaveFile1} alt="Selecting MicroPython device"/></div>
+   <div style={{maxWidth:180}}> ![Selecting MicroPython device](./images/02-Save-File-1.webp)</div>
 
-   <div style={{maxWidth:400}}> <img src={ImgSaveToMain3} alt="Setting the filename"/></div>
+   <div style={{maxWidth:400}}> ![Setting the filename](./images/02-Save-To-Main-3.webp)</div>
 
 3. **Verify**: Press <kbd>Ctrl</kbd> + <kbd>D</kbd> (soft reboot) in the Shell window to verify if `main.py` runs automatically after the device restarts.
 
-   <div style={{maxWidth:550}}> <img src={ImgMain} alt="Viewing the auto-run effect"/></div>
+   <div style={{maxWidth:550}}> ![Viewing the auto-run effect](./images/02-Main.webp)</div>
 
    :::info Why press Ctrl+D?
    When Thonny establishes a connection with the ESP32, it sends an interrupt signal by default, stopping the currently running program and entering REPL mode. (This behavior can be changed in the settings.)
 
-   <div style={{maxWidth:550}}> <img src={ImgThonnyDefaultBehavior} alt="Setting to interrupt running program on connect"/></div>
+   <div style={{maxWidth:550}}> ![Setting to interrupt running program on connect](./images/02-Thonny-Default-Behavior.webp)</div>
 
    This means that even if the ESP32 automatically runs `main.py` on power-up, the program stops immediately once connected by Thonny, resulting in no output in the Shell window.
    
@@ -226,11 +210,11 @@ To transfer a file from your computer to the ESP32, follow these steps:
 1. Locate the target file (e.g., `ssd1327.py`) in the top-left section (Local files).
 2. **Right-click** the file and select `Upload to /`.
 
-   <div style={{maxWidth:550}}> <img src={ImgUploadFileToESP321} alt="Upload file operation"/></div>
+   <div style={{maxWidth:550}}> ![Upload file operation](./images/02-Upload-File-To-ESP32-1.webp)</div>
 
 3. The file will be copied to the ESP32's file system. You can then use it in your code via `import ssd1327`.
 
-   <div style={{maxWidth:550}}> <img src={ImgUploadFileToESP322} alt="File upload result"/></div>
+   <div style={{maxWidth:550}}> ![File upload result](./images/02-Upload-File-To-ESP32-2.webp)</div>
 
 ## 6. Overview of Common Built-in Modules
 

@@ -21,19 +21,6 @@ import esp32S3Touchlcd4_3CArduinoExample10 from './videos/Arduino-Example-10.mp4
 
 <!-- Image Reference -->
 
-import esp32S3Touchlcd4_3CArduinoToolCfg from './images/ESP32-S3-Touch-LCD-4.3C-ArduinoToolCfg.webp';
-import enableUsbcdc from './images/Enable-USBCDC.webp';
-import esp32S3Touchlcd4_3CArduinoExample1_Img from './images/Arduino-Example-1.webp';
-import esp32S3Touchlcd4_3CArduinoExample2_Img from './images/Arduino-Example-2.webp';
-import esp32S3Touchlcd4_3CArduinoExample3_Img from './images/Arduino-Example-3.webp';
-import esp32S3Touchlcd4_3CArduinoExample4_Img from './images/Arduino-Example-4.webp';
-import esp32S3Touchlcd4_3CArduinoExample5_Img from './images/Arduino-Example-5.webp';
-import esp32S3Touchlcd4_3CArduinoExample6_Img from './images/Arduino-Example-6.webp';
-import esp32S3Touchlcd4_3CArduinoExample7_Img from './images/Arduino-Example-7.webp';
-import esp32S3Touchlcd4_3CArduinoExample8_Img from './images/Arduino-Example-8.webp';
-import esp32S3Touchlcd4_3CArduinoExample9_Img from './images/Arduino-Example-9.webp';
-import esp32S3Touchlcd4_3CArduinoExample10_Img from './images/Arduino-Example-10.webp';
-import esp32S3Touchlcd4_3CIsolationIO_Img from './images/ESP32-Arduino-33.webp';
 
 # Working with Arduino
 
@@ -83,9 +70,7 @@ There are strong dependencies between versions of LVGL and its driver libraries.
 ### 3. Arduino Project Parameter Settings
 
    <div style={{maxWidth:650}}> 
-    <img 
-     src={esp32S3Touchlcd4_3CArduinoToolCfg}
-    />
+    ![](./images/ESP32-S3-Touch-LCD-4.3C-ArduinoToolCfg.webp)
    </div>
 
 ## Demo
@@ -259,9 +244,7 @@ void loop() {
 - Open the serial port debugging assistant to send a message to the ESP32-S3-Touch-LCD-4.3C device, and the device will return the received message to the serial port debugging assistant
 
    <div style={{maxWidth:650}}> 
-   <img 
-     src={esp32S3Touchlcd4_3CArduinoExample1_Img}
-    />
+   ![](./images/Arduino-Example-1.webp)
    </div>
 
 ### 03_lcd {#Demo-03_lcd}
@@ -511,9 +494,7 @@ This example verifies the isolation I/O functionality using the display.
 - Connect the board to the computer using a USB cable
 - Connect DO0 -> DI0 and DO1 -> DI1 on the back of the development board.
    <div style={{maxWidth:650}}> 
-    <img 
-      src={esp32S3Touchlcd4_3CIsolationIO_Img}
-    />
+    ![](./images/ESP32-Arduino-33.webp)
    </div>
 
 #### Code
@@ -761,9 +742,7 @@ void loop() {
 - After successful flashing, the screen displays the TF card capacity. If no TF card is inserted, it displays\* TF Card Fail!
 
    <div style={{maxWidth:650}}> 
-   <img 
-     src={esp32S3Touchlcd4_3CArduinoExample3_Img}
-    />
+   ![](./images/Arduino-Example-3.webp)
    </div>
 
 ### 06_touch {#Demo-06_touch}
@@ -1201,9 +1180,7 @@ void loop() {
 - After successful flashing, tapping the left/right navigation arrow areas switches the display to the previous or next BMP image and updates the navigation arrow graphics.
 
    <div style={{maxWidth:650}}> 
-   <img 
-     src={esp32S3Touchlcd4_3CArduinoExample2_Img}
-    />
+   ![](./images/Arduino-Example-2.webp)
    </div>
 
 ### 08_wifi_scan {#Demo-08_wifi_scan}
@@ -1319,9 +1296,7 @@ void loop() {
 - After successful flashing, the scanned Wi-Fi names are displayed on the screen.
 
    <div style={{maxWidth:650}}> 
-   <img 
-     src={esp32S3Touchlcd4_3CArduinoExample4_Img}
-    />
+   ![](./images/Arduino-Example-4.webp)
    </div>
 
 ### 09_wifi_sta {#Demo-09_wifi_sta}
@@ -1429,9 +1404,7 @@ void loop() {
 - After successful flashing, the right side of the screen updates to display the IP address, Wi-Fi name, etc., or a connection failure message after a successful or failed connection.
 
    <div style={{maxWidth:650}}> 
-   <img 
-     src={esp32S3Touchlcd4_3CArduinoExample5_Img}
-    />
+   ![](./images/Arduino-Example-5.webp)
    </div>
 
 ### 10_wifi_ap {#Demo-10_wifi_ap}
@@ -1578,7 +1551,7 @@ void loop() {
 - After successful flashing, the Wi-Fi connection count and MAC addresses of devices are displayed.
 
   <div style={{maxWidth:650}}> 
-    <img src={esp32S3Touchlcd4_3CArduinoExample6_Img} />
+    ![](./images/Arduino-Example-6.webp)
   </div>
 
 ### 11_speaker_microphone {#Demo-11_speaker_microphone}
@@ -1854,9 +1827,7 @@ void loop() {
 - After successful flashing, the LVGL sample program is displayed.
 
    <div style={{maxWidth:650}}> 
-    <img 
-     src={esp32S3Touchlcd4_3CArduinoExample10_Img}
-    />
+    ![](./images/Arduino-Example-10.webp)
    </div>
 
 #### Other Notes
@@ -1877,9 +1848,7 @@ void loop() {
 <Details summary="13_lvgl_btn.ino" className="code-details" >
 
    <div style={{maxWidth:650}}> 
-    <img 
-     src={esp32S3Touchlcd4_3CArduinoExample10_Img}
-    />
+    ![](./images/Arduino-Example-10.webp)
    </div>
 
 ```cpp
@@ -1982,9 +1951,7 @@ void loop() {
 - After successful flashing, a button will be displayed in the center of the screen. Open the Serial Monitor, and when interacting with the button, the monitor will output "Button Pressed.”.
 
    <div style={{maxWidth:650}}> 
-   <img 
-     src={esp32S3Touchlcd4_3CArduinoExample7_Img}
-    />
+   ![](./images/Arduino-Example-7.webp)
    </div>
 
 ### 14_lvgl_slider {#Demo-14_lvgl_slider}
@@ -2181,9 +2148,7 @@ void loop() {
 - After successful flashing, a slider control and battery information are displayed. The brightness of the image can be controlled by moving the slider component.
 
    <div style={{maxWidth:650}}> 
-   <img 
-     src={esp32S3Touchlcd4_3CArduinoExample8_Img}
-    />
+   ![](./images/Arduino-Example-8.webp)
    </div>
 
 ### 15_udp_tcp_ntp {#Demo-15_udp_tcp_ntp}
@@ -2265,9 +2230,7 @@ void loop() {
 - After successful flashing, the screen displays system initialization information. After a successful network connection, it will retrieve and continuously update the display with the current date and time via NTP.
 
   <div style={{maxWidth:650}}> 
-    <img 
-      src={esp32S3Touchlcd4_3CArduinoExample9_Img}
-    />
+    ![](./images/Arduino-Example-9.webp)
   </div>
 
 <!-- #### Code

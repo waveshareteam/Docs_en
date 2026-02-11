@@ -8,7 +8,6 @@ product_family:
 
 <!-- Image Reference -->
 
-import ImgWeatherDisplayDiagram from './images/08-SPI_bb.webp';
 
 :::tip[Important Note on Board Compatibility]
 The core logic of this tutorial applies to all ESP32 development boards. However, all operational steps are explained using the [**Waveshare ESP32-S3-Zero Mini Development Board**](https://www.waveshare.com/esp32-s3-zero.htm) as an example. If you are using a different model of development board, please modify the relevant settings according to your actual situation.
@@ -48,7 +47,7 @@ This example uses the **SPI interface** to connect to the OLED display. This scr
 | 3.3V         | VCC       | Power Positive |
 | GND        | GND       | Power Ground |
 
-<div style={{maxWidth:500}}> <img src={ImgWeatherDisplayDiagram} alt="Wiring Diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring Diagram](./images/08-SPI_bb.webp)</div>
 
 ## Getting an OpenWeather API Key
 

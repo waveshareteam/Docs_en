@@ -12,9 +12,7 @@ product_model:
 
 import ArduinoTutorialIntro from '@site/docs/ESP32/snippets/ArduinoTutorialIntro.mdx';
 
-<!-- Image References -->
-import enableUsbcdc from './images/Enable-USBCDC.webp';
-import arduinoideEsp32c6zero from './images/ESP32-C6-Zero-Arduino.webp';
+
 
 # Arduino
 
@@ -35,7 +33,7 @@ Please refer to the **[Arduino IDE Setup Tutorial](/docs/ESP32/Tutorials/Arduino
 
 1. The ESP32-C6-Zero supports direct model selection in the Arduino IDE. Select "Waveshare ESP32-C6-Zero".
 
-   <div style={{maxWidth:650}}> <img src={arduinoideEsp32c6zero} alt="Select ESP32-C6-Zero in Arduino IDE"/></div>
+   <div style={{maxWidth:650}}> ![Select ESP32-C6-Zero in Arduino IDE](./images/ESP32-C6-Zero-Arduino.webp)</div>
 
 2. The ESP32-C6-Zero uses the ESP32-C6 native USB interface, not a UART-to-USB bridge. For serial communication:
 
@@ -50,6 +48,6 @@ Please refer to the **[Arduino IDE Setup Tutorial](/docs/ESP32/Tutorials/Arduino
         :::note
         As shown in the figure below, the "USB CDC On Boot" option should be `Enabled` under the correct configuration.
    
-        <div style={{maxWidth:600}}> <img src={enableUsbcdc} alt="Enable USB CDC"/></div>
+        <div style={{maxWidth:600}}> ![Enable USB CDC](./images/Enable-USBCDC.webp)</div>
    
         :::

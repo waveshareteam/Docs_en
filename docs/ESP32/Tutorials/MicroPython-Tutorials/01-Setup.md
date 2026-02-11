@@ -8,25 +8,6 @@ product_family:
 
 <!-- Image Reference -->
 
-import ImgInstallFirmwareViaFDT1 from './images/01-Install-Firmware-FDT-1.webp';
-import ImgInstallFirmwareViaFDT2 from './images/01-Install-Firmware-FDT-2.webp';
-import ImgInstallFirmwareViaFDT3 from './images/01-Install-Firmware-FDT-3.webp';
-import ImgInstallFirmwareViaFDT4 from './images/01-Install-Firmware-FDT-4.webp';
-import ImgInstallFirmwareViaFDT5 from './images/01-Install-Firmware-FDT-5.webp';
-import ImgVerifyMpyEnvironment1 from './images/01-Verify-Mpy-Environment-1.webp';
-import ImgVerifyMpyEnvironment2 from './images/01-Verify-Mpy-Environment-2.webp';
-import ImgVerifyMpyEnvironment3 from './images/01-Verify-Mpy-Environment-3.webp';
-import ImgVerifyMpyEnvironment4 from './images/01-Verify-Mpy-Environment-4.webp';
-import ImgInstallFirmwareViaThonny1 from './images/01-Install-Firmware-Thonny-1.webp';
-import ImgInstallFirmwareViaThonny2 from './images/01-Install-Firmware-Thonny-2.webp';
-import ImgInstallFirmwareViaThonny3 from './images/01-Install-Firmware-Thonny-3.webp';
-import ImgInstallFirmwareViaThonny4 from './images/01-Install-Firmware-Thonny-4.webp';
-import ImgInstallFirmwareViaThonnyC1 from './images/01-Install-Firmware-Thonny-C-1.webp';
-import ImgInstallFirmwareViaThonnyC2 from './images/01-Install-Firmware-Thonny-C-2.webp';
-import ImgInstallFirmwareViaThonnyC3 from './images/01-Install-Firmware-Thonny-C-3.webp';
-import ImgInstallFirmwareViaEWT1 from './images/01-Install-Firmware-EWT-1.webp';
-import ImgInstallFirmwareViaEWT2 from './images/01-Install-Firmware-EWT-2.webp';
-import ImgInstallFirmwareViaEWT3 from './images/01-Install-Firmware-EWT-3.webp';
 
 > This tutorial will introduce MicroPython and guide you through configuring the MicroPython development environment for ESP32.
 
@@ -124,11 +105,11 @@ import EspInstallButton from '@site/src/components/EspInstallButton';
        :::
     2. **Configure the interpreter**: Open Thonny, click the interpreter status box in the bottom right corner (initially it may show 'Local Python'), then select `Configure interpreter`.
 
-       <div style={{maxWidth:700}}> <img src={ImgInstallFirmwareViaThonny1} alt="Install Firmware via Thonny Step  1"/></div>
+       <div style={{maxWidth:700}}> ![Install Firmware via Thonny Step  1](./images/01-Install-Firmware-Thonny-1.webp)</div>
 
     3. **Open the firmware flashing tool**: In the pop-up window, select the `MicroPython(ESP32)` interpreter and the corresponding port for your development board. Then, click the `Install or update MicroPython(esptool)` link in the bottom right.
 
-       <div style={{maxWidth:550}}> <img src={ImgInstallFirmwareViaThonny2} alt="Install Firmware via Thonny Step  2"/></div>
+       <div style={{maxWidth:550}}> ![Install Firmware via Thonny Step  2](./images/01-Install-Firmware-Thonny-2.webp)</div>
 
     4. **Select firmware**: Configure the following parameters in the `Install MicroPython(esptool)` window:
 
@@ -136,7 +117,7 @@ import EspInstallButton from '@site/src/components/EspInstallButton';
        If the interface options are greyed out, wait for Thonny to update the firmware list via the internet. If the firmware list cannot be refreshed, please use the [**Via Thonny (Custom Firmware)**](/docs/ESP32/Tutorials/MicroPython-Tutorials/01-Setup.md?install-method=thonny-custom#install-micropython-firmware)  installation method.
        :::
       
-       <div style={{maxWidth:600}}> <img src={ImgInstallFirmwareViaThonny3} alt="Install Firmware via Thonny Step 3"/></div>
+       <div style={{maxWidth:600}}> ![Install Firmware via Thonny Step 3](./images/01-Install-Firmware-Thonny-3.webp)</div>
 
        - **Target port**: Select the port corresponding to your ESP32 device (if unsure, unplug and replug the device to see which port disappears and reappears).
        - **MicroPython family**: Choose the chip model according to your actual hardware.
@@ -145,7 +126,7 @@ import EspInstallButton from '@site/src/components/EspInstallButton';
 
     5. **Start flashing**: Click `Install`. Thonny will automatically erase the flash memory and flash the new MicroPython firmware. Wait for the progress bar to complete until you see the `Done!` prompt.
 
-       <div style={{maxWidth:600}}> <img src={ImgInstallFirmwareViaThonny4} alt="Install Firmware via Thonny Step 4"/></div>
+       <div style={{maxWidth:600}}> ![Install Firmware via Thonny Step 4](./images/01-Install-Firmware-Thonny-4.webp)</div>
 
   </TabItem>
   <TabItem value="thonny-custom" label="Via Thonny (Custom Firmware)" default>
@@ -156,8 +137,8 @@ import EspInstallButton from '@site/src/components/EspInstallButton';
 
     1. **Download the firmware**: Go to the [MicroPython official website firmware download page](https://micropython.org/download/?port=esp32). Select and download the latest stable version `.bin` firmware corresponding to your ESP32 chip model (e.g., ESP32, ESP32-S2, ESP32-S3) to your local machine.
 
-       <div style={{maxWidth:550}}> <img src={ImgInstallFirmwareViaFDT1} alt="Select ESP32 S3"/></div>
-       <div style={{maxWidth:550}}> <img src={ImgInstallFirmwareViaFDT2} alt="Select the latest stable .bin firmware"/></div>
+       <div style={{maxWidth:550}}> ![Select ESP32 S3](./images/01-Install-Firmware-FDT-1.webp)</div>
+       <div style={{maxWidth:550}}> ![Select the latest stable .bin firmware](./images/01-Install-Firmware-FDT-2.webp)</div>
 
     2. **Connect the development board**: Connect the ESP32 development board to your computer using a USB cable.
 
@@ -167,20 +148,20 @@ import EspInstallButton from '@site/src/components/EspInstallButton';
 
     3. **Configure the interpreter**: Open Thonny, click the interpreter status box in the bottom right corner (initially it may show 'Local Python'), then select `Configure interpreter`.
 
-       <div style={{maxWidth:700}}> <img src={ImgInstallFirmwareViaThonny1} alt="Install Firmware via Thonny Step 1"/></div>
+       <div style={{maxWidth:700}}> ![Install Firmware via Thonny Step 1](./images/01-Install-Firmware-Thonny-1.webp)</div>
 
     4. **Open the firmware flashing tool**: In the pop-up window, select the `MicroPython(ESP32)` interpreter and the corresponding port for your development board. Then, click the `Install or update MicroPython(esptool)` link in the bottom right.
 
-       <div style={{maxWidth:550}}> <img src={ImgInstallFirmwareViaThonny2} alt="Install Firmware via Thonny Step 2"/></div>
+       <div style={{maxWidth:550}}> ![Install Firmware via Thonny Step 2](./images/01-Install-Firmware-Thonny-2.webp)</div>
 
     5. **Select local firmware**: In the `Install MicroPython(esptool)` window, click the `☰` button in the bottom right corner, then click `Select local MicroPython image` to choose a local firmware file.
 
-       <div style={{maxWidth:650}}> <img src={ImgInstallFirmwareViaThonnyC1} alt="Select local firmware"/></div>
+       <div style={{maxWidth:650}}> ![Select local firmware](./images/01-Install-Firmware-Thonny-C-1.webp)</div>
 
     6. **Start flashing**: Click `Install`. Thonny will automatically erase the flash memory and flash the new MicroPython firmware. Wait for the progress bar to complete until you see the `Done!` prompt.
 
-       <div style={{maxWidth:600}}> <img src={ImgInstallFirmwareViaThonnyC2} alt="Click Install"/></div>
-       <div style={{maxWidth:600}}> <img src={ImgInstallFirmwareViaThonnyC3} alt="Installation complete"/></div>
+       <div style={{maxWidth:600}}> ![Click Install](./images/01-Install-Firmware-Thonny-C-2.webp)</div>
+       <div style={{maxWidth:600}}> ![Installation complete](./images/01-Install-Firmware-Thonny-C-3.webp)</div>
 
   </TabItem>
   <TabItem value="esp_web_tools" label="Web Quick Flash">
@@ -201,15 +182,15 @@ import EspInstallButton from '@site/src/components/EspInstallButton';
 
   2. Select the corresponding serial port in the top-left corner of the browser.
 
-     <div style={{maxWidth:400}}> <img src={ImgInstallFirmwareViaEWT1} alt="Select serial port"/></div>
+     <div style={{maxWidth:400}}> ![Select serial port](./images/01-Install-Firmware-EWT-1.webp)</div>
 
   3. Click the "Install MicroPython Firmware" button, then click the "Install" button again in the pop-up window to confirm flashing the firmware.
 
-     <div style={{maxWidth:700}}> <img src={ImgInstallFirmwareViaEWT2} alt="Install and confirm installation"/></div>
+     <div style={{maxWidth:700}}> ![Install and confirm installation](./images/01-Install-Firmware-EWT-2.webp)</div>
    
   4. Wait for the flashing to complete until you see the "Installation completed!" prompt. You can close the flashing window after completion.
 
-     <div style={{maxWidth:700}}> <img src={ImgInstallFirmwareViaEWT3} alt="Installation complete"/></div>
+     <div style={{maxWidth:700}}> ![Installation complete](./images/01-Install-Firmware-EWT-3.webp)</div>
   
   </TabItem>
   <TabItem value="flash_download_tool" label="Via Espressif Flash Download Tool">
@@ -224,14 +205,14 @@ import EspInstallButton from '@site/src/components/EspInstallButton';
 
     1. **Download the firmware**: Go to the [MicroPython official website firmware download page](https://micropython.org/download/?port=esp32). Choose the latest stable version `.bin` firmware corresponding to your ESP32 chip model (e.g., ESP32, ESP32-S2, ESP32-S3) and download it to your local machine.
 
-       <div style={{maxWidth:550}}> <img src={ImgInstallFirmwareViaFDT1} alt="Select ESP32 S3"/></div>
-       <div style={{maxWidth:550}}> <img src={ImgInstallFirmwareViaFDT2} alt="Select the latest stable .bin firmware"/></div>
+       <div style={{maxWidth:550}}> ![Select ESP32 S3](./images/01-Install-Firmware-FDT-1.webp)</div>
+       <div style={{maxWidth:550}}> ![Select the latest stable .bin firmware](./images/01-Install-Firmware-FDT-2.webp)</div>
 
     2. **Download the flashing tool**: Download the official Espressif [Flash Download Tool](https://dl.espressif.com/public/flash_download_tool.zip).
 
     3. **Configure the tool**: Unzip and run `flash_download_tool.exe`.
 
-       <div style={{maxWidth:200}}> <img src={ImgInstallFirmwareViaFDT3}/></div>
+       <div style={{maxWidth:200}}> ![](./images/01-Install-Firmware-FDT-3.webp)</div>
 
        - Select `ESP32-S3` (or the corresponding model) in `ChipType`.
        - Select `Develop` in `WorkMode`.
@@ -241,7 +222,7 @@ import EspInstallButton from '@site/src/components/EspInstallButton';
 
     4. **Set up the file to flash**: 
 
-       <div style={{maxWidth:350}}> <img src={ImgInstallFirmwareViaFDT4}/></div>
+       <div style={{maxWidth:350}}> ![](./images/01-Install-Firmware-FDT-4.webp)</div>
 
        - Click the `...` button and select the downloaded `.bin` firmware file.
        - Enter `0` in the address (`@`) field.
@@ -252,7 +233,7 @@ import EspInstallButton from '@site/src/components/EspInstallButton';
 
     5. **Execute the flashing**: Select the correct `COM` port, set the `BAUD` baud rate (recommend `921600` or higher for speed), then click `START`. Wait until `FINISH` is displayed in the bottom right corner of the tool, indicating the flashing is complete.
 
-       <div style={{maxWidth:350}}> <img src={ImgInstallFirmwareViaFDT5}/></div>
+       <div style={{maxWidth:350}}> ![](./images/01-Install-Firmware-FDT-5.webp)</div>
 
        :::caution
        This method has many configuration items. Be absolutely sure the chip model, firmware file, and flash address are correct. For daily development, Thonny is still recommended.
@@ -271,15 +252,15 @@ After flashing, the next step is to verify if the environment configuration is s
    After flashing the MicroPython firmware, the corresponding COM port number for the device might change (especially when using native USB interfaces like those on ESP32-S3/C3). If the connection fails, click the bottom right corner to reselect the correct port.
    :::
 
-   <div style={{maxWidth:500}}> <img src={ImgVerifyMpyEnvironment1}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Verify-Mpy-Environment-1.webp)</div>
 
 2. **Restart the interpreter**: If the **Shell** window at the bottom is unresponsive, you can click the red **Stop** button on the toolbar to restart the onboard interpreter.
 
-   <div style={{maxWidth:500}}> <img src={ImgVerifyMpyEnvironment2}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Verify-Mpy-Environment-2.webp)</div>
 
 3. **Check the prompt**: Upon successful connection, the Shell window should display the MicroPython version information, development board info, and the `>>>` prompt. This indicates you have successfully entered the MicroPython REPL environment on the ESP32.
 
-   <div style={{maxWidth:500}}> <img src={ImgVerifyMpyEnvironment3}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Verify-Mpy-Environment-3.webp)</div>
 
 4. **Run test code**: At the `>>>` prompt, enter your first line of MicroPython code and press Enter:
 
@@ -287,7 +268,7 @@ After flashing, the next step is to verify if the environment configuration is s
    print('Hello, ESP32!')
    ```
 
-   <div style={{maxWidth:500}}> <img src={ImgVerifyMpyEnvironment4}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Verify-Mpy-Environment-4.webp)</div>
 
    You should immediately see the ESP32 return the message `Hello, ESP32!`.
 

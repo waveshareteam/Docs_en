@@ -8,8 +8,6 @@ product_family:
 
 <!-- Image Reference -->
 
-import ImgSPIDiagram from './images/08-SPI_bb.webp';
-import ImgI2COLED from './images/07-I2C-OLED.webp';
 
 # SPI Communication
 
@@ -130,7 +128,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:800}}> <img src={ImgSPIDiagram} alt="Wiring Diagram"/></div>
+<div style={{maxWidth:800}}> ![Wiring Diagram](./images/08-SPI_bb.webp)</div>
 
 | ESP32 Pin | OLED Module | Module              |
 | --------- | ----------- | ------------------- |
@@ -230,7 +228,7 @@ After uploading and running the code, the OLED display will show the following:
 - The third line shows "ESP32" at low brightness.
 - A rectangular frame and an inscribed circle will also be displayed on the screen.
 
-<div style={{maxWidth:300}}> <img src={ImgI2COLED} alt="Example Output"/></div>
+<div style={{maxWidth:300}}> ![Example Output](./images/07-I2C-OLED.webp)</div>
 
 ## 3. Related Links
 

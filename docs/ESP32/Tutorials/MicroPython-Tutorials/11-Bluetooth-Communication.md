@@ -9,9 +9,6 @@ product_family:
 
 <!-- Image Reference -->
 
-import ImgPotentiometerDiagram from './images/04-Potentiometer_bb.webp';
-import ImgBlinkDiagram from './images/03-LED-Blink_bb.webp';
-import ImgBLE2Diagram from './images/11-BLE_bb.webp';
 
 # Bluetooth
 
@@ -143,7 +140,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgPotentiometerDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/04-Potentiometer_bb.webp)</div>
 
 ### 3.2 Code
 
@@ -312,7 +309,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgBlinkDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/03-LED-Blink_bb.webp)</div>
 
 ### 4.2 Code
 
@@ -451,7 +448,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:600}}> <img src={ImgBLE2Diagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:600}}> ![Wiring diagram](./images/11-BLE_bb.webp)</div>
 
 ### 5.2 Code
 

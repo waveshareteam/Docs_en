@@ -7,7 +7,6 @@ product_family:
 ---
 
 <!-- Image Reference -->
-import ImgWS2812SequenceChart from './images/07-WS2812-Sequence-Chart.webp';
 
 > This tutorial demonstrates how to use the Espressif ESP-IDF framework to drive the onboard WS2812 addressable LED on the [**Waveshare ESP32-S3-Zero Mini Development Board**](https://www.waveshare.com/esp32-s3-zero.htm) using the RMT peripheral, enabling functions such as turning the LED on and switching its color.
 
@@ -27,7 +26,7 @@ Controlling WS2812 LEDs relies on a single-wire timing protocol based on pulse w
 
 - **Data Transmission**: Data is transmitted by sending a sequence of high and low-level pulses representing "0" and "1" codes. A complete cycle is approximately 1.25µs (TH+TL=1.25µs±600ns).
 
-  <div style={{maxWidth:260}}> <img src={ImgWS2812SequenceChart} alt="WS2812 Timing Diagram"/></div>
+  <div style={{maxWidth:260}}> ![WS2812 Timing Diagram](./images/07-WS2812-Sequence-Chart.webp)</div>
 
   | Parameter | Description           | Time       | Tolerance   |
   | :--- | :--------------- | :-------- | :----- |

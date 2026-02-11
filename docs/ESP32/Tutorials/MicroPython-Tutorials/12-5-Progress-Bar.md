@@ -8,7 +8,6 @@ product_family:
 
 <!-- Image Reference -->
 
-import ImgProgressBarDiagram from './images/12-5-Progress-Bar_bb.webp';
 
 :::tip[Important: About board compatibility]
 The core logic of this tutorial applies to all ESP32 boards, but all the operation steps are explained using the example of the [**Waveshare ESP32-S3-Zero mini development board**](https://www.waveshare.com/esp32-s3-zero.htm). If you are using a development board of another model, please modify the corresponding settings according to the actual situation.
@@ -50,7 +49,7 @@ The following uses the SPI interface to connect the OLED display. This screen al
 | 5V       | VCC       | Power positive terminal                                |
 | GND        | GND       | Power negative terminal                                 |
 
-<div style={{maxWidth:700}}> <img src={ImgProgressBarDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:700}}> ![Wiring diagram](./images/12-5-Progress-Bar_bb.webp)</div>
 
 ## Code Implementation
 

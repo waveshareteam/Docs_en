@@ -20,20 +20,17 @@ You are browsing the new documentation. If you are more familiar with the old ve
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- Image References -->
-import ESP32C6ZeroImage from './images/ESP32-C6-Zero.webp';
-import ESP32C6ZeroMImage from './images/ESP32-C6-Zero-M.webp';
-import BasicKitImage from './images/ESP32-C6-Zero-Basic-Kit.webp';
+
 
 <Tabs queryString="variant">
   <TabItem value="ESP32-C6-Zero" label="ESP32-C6-Zero (Without header)">
-    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-c6-zero.htm?sku=27035" target="_blank"><img src={ESP32C6ZeroImage}/></a></div>
+    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-c6-zero.htm?sku=27035" target="_blank">![](./images/ESP32-C6-Zero.webp)</a></div>
   </TabItem>
   <TabItem value="ESP32-C6-Zero-M" label="ESP32-C6-Zero-M (With pre-soldered header)">
-    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-c6-zero.htm?sku=26976" target="_blank"><img src={ESP32C6ZeroMImage}/></a></div>
+    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-c6-zero.htm?sku=26976" target="_blank">![](./images/ESP32-C6-Zero-M.webp)</a></div>
   </TabItem>
   <TabItem value="ESP32-C6-Zero-Basic-Kit" label="ESP32-C6-Zero-Basic-Kit">
-    <div style={{maxWidth:600}}> <a href="https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33357" target="_blank"><img src={BasicKitImage}/></a></div>
+    <div style={{maxWidth:600}}> <a href="https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33357" target="_blank">![](./images/ESP32-C6-Zero-Basic-Kit.webp)</a></div>
   </TabItem>
 </Tabs>
 

@@ -10,15 +10,10 @@ product_model:
   - ESP32-S3-RLCD-4.2-EN
 ---
 
-import esp32S3RLCD4_2UiInit from './images/ESP32-S3-RLCD-4.2-DocHeader.webp';
 
 # ESP32-S3-RLCD-4.2
 
-[<img 
-    src={esp32S3RLCD4_2UiInit}
-    alt="ESP32-S3-RLCD-4.2"
-    width="540"
-/>](https://www.waveshare.com/esp32-s3-rlcd-4.2.htm)
+[![ESP32-S3-RLCD-4.2](./images/ESP32-S3-RLCD-4.2-DocHeader.webp)](https://www.waveshare.com/esp32-s3-rlcd-4.2.htm)
 
 This product is a fully reflective screen AIoT development board based on the ESP32-S3, supporting dual-mode communication with Wi-Fi and BLE. It features a 4.2inch fully reflective display (RLCD), low power consumption, display performance close to that of an e-Paper screen, and faster refresh response. It includes onboard audio codec circuitr, dual microphones, speaker, SHTC3 high-precision temperature and humidity sensor, TF card slot, RTC interface, and battery charge and discharge management circuit, etc. It also reserves USB, UART, I2C, and multiple GPIO interfaces for convenient expansion. It supports AI voice, temperature and humidity monitoring, and IoT control, and is suitable for DIY desktop smart ornaments, electronic calendars, AI agents, etc., and can also be used for product prototype development.
 
@@ -47,13 +42,10 @@ This product is a fully reflective screen AIoT development board based on the ES
 
 ## Onboard Resources
 
-import esp32S3RLCD4_2HW from './images/ESP32-S3-RLCD-4.2-HW.webp';
 
 <div 
     style={{maxWidth:600}}> 
-    <img 
-        src={esp32S3RLCD4_2HW} 
-    />
+    ![](./images/ESP32-S3-RLCD-4.2-HW.webp)
 </div>
 
 1. **ESP32-S3-WROOM-1-N16R8** Wi-Fi and Bluetooth SoC, up to 240MHz operating frequency, stacked with 16MB Flash and 8MB PSRAM
@@ -76,24 +68,18 @@ import esp32S3RLCD4_2HW from './images/ESP32-S3-RLCD-4.2-HW.webp';
 
 ## Interfaces
 
-import esp32S3RLCD4_2IntfIntro from './images/ESP32-S3-RLCD-4.2-IntfIntro.webp';
 
 <div 
     style={{maxWidth:600}}> 
-    <img 
-        src={esp32S3RLCD4_2IntfIntro} 
-    />
+    ![](./images/ESP32-S3-RLCD-4.2-IntfIntro.webp)
 </div>
 
 ## Dimensions
 
-import esp32S3RLCD4_2ProductSize from './images/ESP32-S3-RLCD-4.2-ProductSize.webp';
 
 <div 
     style={{maxWidth:600}}> 
-    <img 
-        src={esp32S3RLCD4_2ProductSize} 
-    />
+    ![](./images/ESP32-S3-RLCD-4.2-ProductSize.webp)
 </div>
 
 ## Development Methods

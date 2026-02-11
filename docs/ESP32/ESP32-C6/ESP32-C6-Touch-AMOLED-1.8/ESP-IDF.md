@@ -8,17 +8,6 @@ product_model:
   - ESP32-C6-Touch-AMOLCD-1.8
 ---
 
-import IDF_demo1 from './images/ESP32-C6-Touch-AMOLED-1.8-demo-VS01.webp';
-import IDF_demo2 from './images/ESP32-C6-Touch-AMOLED-1.8-demo-VS02.webp';
-import IDF_demo4 from './images/ESP32-C6-Touch-AMOLED-1.8-demo-VS04.webp';
-import IDF_demo51 from './images/ESP32-C6-Touch-AMOLED-1.8-demo-VS51.webp';
-import IDF_demo52 from './images/ESP32-C6-Touch-AMOLED-1.8-demo-VS52.webp';
-import IDF_demo31 from './images/ESP32-C6-Touch-AMOLED-1.8-demo-VS31.webp';
-import IDF_demo32 from './images/ESP32-C6-Touch-AMOLED-1.8-demo-VS32.webp';
-import IDF_demo33 from './images/ESP32-C6-Touch-AMOLED-1.8-demo-VS33.webp';
-import IDF_demo34 from './images/ESP32-C6-Touch-AMOLED-1.8-demo-VS34.webp';
-import IDF_demo35 from './images/ESP32-C6-Touch-AMOLED-1.8-demo-VS35.webp';
-import IDF_demo36 from './images/ESP32-C6-Touch-AMOLED-1.8-demo-VS36.webp';
 
 # Working with ESP-IDF
 
@@ -109,7 +98,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 - This demo will not light up the screen
 - The serial port monitor displays the parameters: chip temperature, charging state, discharging state, standby state, Vbus connection, Vbus condition, charger status, battery voltage, Vbus voltage, system voltage, battery percentage
-<div style={{maxWidth:800}}> <img src={IDF_demo1}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8-demo-VS01.webp)</div>
 
 ### 02_PCF85063 {#Demo-2-PCF85063}
 
@@ -137,7 +126,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 - This demo will not light up the screen
 - The serial port monitor prints time information
-<div style={{maxWidth:800}}> <img src={IDF_demo2}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8-demo-VS02.webp)</div>
 
 ### 03_esp_brookesia {#Demo-3-esp-brookesia}
 
@@ -151,7 +140,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 #### Expected Result
 
-| <div style={{maxWidth:360}}> <img src={IDF_demo31}/></div> | <div style={{maxWidth:800}}> <img src={IDF_demo32}/></div> | <div style={{maxWidth:800}}> <img src={IDF_demo33}/></div> 
+| <div style={{maxWidth:360}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8-demo-VS31.webp)</div> | <div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8-demo-VS32.webp)</div> | <div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8-demo-VS33.webp)</div> 
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | 
 
 
@@ -183,7 +172,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 - This demo will not light up the screen
 - The serial port monitor prints sensor data
-<div style={{maxWidth:800}}> <img src={IDF_demo4}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8-demo-VS04.webp)</div>
 
 ### 05_LVGL_WITH_RAM {#Demo-5-LVGL_WITH_RAM}
 
@@ -207,5 +196,5 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 #### Expected Result
 
-| <div style={{maxWidth:800}}> <img src={IDF_demo51}/></div> | <div style={{maxWidth:800}}> <img src={IDF_demo52}/></div>
+| <div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8-demo-VS51.webp)</div> | <div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8-demo-VS52.webp)</div>
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | 

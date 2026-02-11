@@ -11,18 +11,6 @@ product_model:
 
 <!-- Example-related Image References -->
 
-import esp32S3RLCD4_2ESPIDFExample1 from './images/ESP-IDF-Example-1.webp';
-import esp32S3RLCD4_2ESPIDFExample2 from './images/ESP-IDF-Example-2.webp';
-import esp32S3RLCD4_2ESPIDFExample3 from './images/ESP-IDF-Example-3.webp';
-import esp32S3RLCD4_2ESPIDFExample4 from './images/ESP-IDF-Example-4.webp';
-import esp32S3RLCD4_2ESPIDFExample5 from './images/ESP-IDF-Example-5.webp';
-import esp32S3RLCD4_2ESPIDFExample6 from './images/ESP-IDF-Example-6.webp';
-import esp32S3RLCD4_2ESPIDFExample7 from './images/ESP-IDF-Example-7.webp';
-import esp32S3RLCD4_2ESPIDFExample8 from './images/ESP-IDF-Example-8.webp';
-import esp32S3RLCD4_2ESPIDFExample9 from './images/ESP-IDF-Example-9.webp';
-import esp32S3RLCD4_2ESPIDFExample10_1 from './images/ESP-IDF-Example-10-1.webp';
-import esp32S3RLCD4_2ESPIDFExample10_2 from './images/ESP-IDF-Example-10-2.webp';
-import esp32S3RLCD4_2ESPIDFExample10_3 from './images/ESP-IDF-Example-10-3.webp';
 
 import EspidfTutorialIntro from '@site/docs/ESP32/snippets/EspidfTutorialIntro.mdx';
 import EspidfSetup from '@site/docs/ESP32/snippets/EspidfSetup.mdx';
@@ -86,10 +74,7 @@ The ESP-IDF demo is located in the `ESP-IDF` directory of the [example](https://
 - After flashing the program, open the serial terminal, if the device is successfully connected to the hotspot, the MAC address and IP address of the device will be output, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ESPIDFExample1} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-1.webp)
   </div>
 
 ### 02_WIFI_STA
@@ -120,10 +105,7 @@ The ESP-IDF demo is located in the `ESP-IDF` directory of the [example](https://
 - After flashing the program, open the serial terminal, if the device is successfully connected to the hotspot, the IP address obtained will be output, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ESPIDFExample2} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-2.webp)
   </div>
 
 ### 03_ADC_Test
@@ -148,10 +130,7 @@ The ESP-IDF demo is located in the `ESP-IDF` directory of the [example](https://
 - After the program is compiled and downloaded, you can view the printed ADC values and voltage output by opening the Serial Monitor, as shown in the following image:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ESPIDFExample3} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-3.webp)
   </div>
 
 ### 04_I2C_PCF85063
@@ -173,10 +152,7 @@ The ESP-IDF demo is located in the `ESP-IDF` directory of the [example](https://
 - After the program is compiled and downloaded, open the serial port monitoring to see the RTC time of the printout, as shown in the following figure:<br />
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ESPIDFExample4} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-4.webp)
   </div>
 
 ### 05_I2C_STHC3
@@ -198,10 +174,7 @@ The ESP-IDF demo is located in the `ESP-IDF` directory of the [example](https://
 - Open the serial port monitor, you can see the printed temperature and humidity data, as shown in the figure below:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ESPIDFExample5} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-5.webp)
   </div>
 
 ### 06_SD_Card
@@ -223,10 +196,7 @@ The ESP-IDF demo is located in the `ESP-IDF` directory of the [example](https://
 - Click on the serial port monitoring device, you can see the output information of the TF card, as shown in the figure below:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ESPIDFExample6} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-6.webp)
   </div>
 
 ### 07_Audio_Test
@@ -251,10 +221,7 @@ The ESP-IDF demo is located in the `ESP-IDF` directory of the [example](https://
 - After the program is flashed, as shown in the figure:
 
   <div style={{maxWidth: 500}}>
-  		<img 
-    		src={esp32S3RLCD4_2ESPIDFExample7} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-7.webp)
   </div>
 
   :::tip
@@ -301,10 +268,7 @@ The ESP-IDF demo is located in the `ESP-IDF` directory of the [example](https://
 - After the program is flashed, it is displayed alternately at intervals of 1.5 seconds, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ESPIDFExample8} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-8.webp)
   </div>
 
 ### 09_LVGL_V9_Test
@@ -344,10 +308,7 @@ The ESP-IDF demo is located in the `ESP-IDF` directory of the [example](https://
 - After the program is flashed, it is displayed alternately at intervals of 1.5 seconds, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3RLCD4_2ESPIDFExample9} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-9.webp)
   </div>
 
 ### 10_FactoryProgram
@@ -382,10 +343,7 @@ The ESP-IDF demo is located in the `ESP-IDF` directory of the [example](https://
 - After the program is flashed, the main interface is displayed, as shown in the figure:
 
   <div style={{maxWidth: 500}}>
-  		<img 
-    		src={esp32S3RLCD4_2ESPIDFExample10_1} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-10-1.webp)
   </div>
   :::tip
   1. Long press the KEY button to enter the image display interface
@@ -395,10 +353,7 @@ The ESP-IDF demo is located in the `ESP-IDF` directory of the [example](https://
 - Image display interface, as shown in the figure:
 
   <div style={{maxWidth: 500}}>
-  		<img 
-    		src={esp32S3RLCD4_2ESPIDFExample10_3} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-10-3.webp)
   </div>
   :::tip
   1. Long press the KEY button to return to the main interface
@@ -407,10 +362,7 @@ The ESP-IDF demo is located in the `ESP-IDF` directory of the [example](https://
 - Music playback interface, as shown in the figure:
 
   <div style={{maxWidth: 500}}>
-  		<img 
-    		src={esp32S3RLCD4_2ESPIDFExample10_2} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/ESP-IDF-Example-10-2.webp)
   </div>
   :::tip
   1. Double-click the BOOT button to enter recording mode, speak into the MIC, and it will automatically end after 3 seconds

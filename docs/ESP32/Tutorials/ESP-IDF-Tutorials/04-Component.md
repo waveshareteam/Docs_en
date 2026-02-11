@@ -7,7 +7,6 @@ product_family:
 ---
 
 <!-- Image Reference -->
-import ImgBlinkDiagram from './images/04-Button_bb.webp';
 
 :::tip[Important: About board compatibility]
 The core logic of this tutorial applies to all ESP32 boards, but all the operation steps are explained using the example of the [**Waveshare ESP32-S3-Zero mini development board**](https://www.waveshare.com/esp32-s3-zero.htm). If you are using a development board of another model, please modify the corresponding settings according to the actual situation.
@@ -120,7 +119,7 @@ Components required:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgBlinkDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/04-Button_bb.webp)</div>
 
 ### 5.2 Include the GPIO Library
 
@@ -266,7 +265,7 @@ Components required:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgBlinkDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/04-Button_bb.webp)</div>
 
 ### 6.2 Include the Button Component
 

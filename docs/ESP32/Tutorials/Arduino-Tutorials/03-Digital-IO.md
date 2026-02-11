@@ -7,11 +7,6 @@ product_family:
 ---
 
 <!-- Image referencing -->
-import ImgBlinkDiagram from './images/03-LED-Blink_bb.webp';
-import ImgButtonDiagram from './images/03-Button_bb.webp';
-import ImgButtonPullDiagram from './images/03-Button-10k_bb.webp';
-import ImgButtonLEDDiagram from './images/03-Button-LED_bb.webp';
-import ImgDigialSignalSvg from './images/03-Digial-Signal.svg';
 
 <!-- Video referencing -->
 import VideoBlink from './videos/03-Blink.mp4';
@@ -77,7 +72,7 @@ Connect the circuit according to the wiring diagram below:
 </Details>
 
 
-<div style={{maxWidth:500}}> <img src={ImgBlinkDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/03-LED-Blink_bb.webp)</div>
 
 #### Circuit Operating Principle
 
@@ -345,7 +340,7 @@ As above, each time the button is released, the counter increases by 1, and beca
 
 **Wiring diagram:**
 
-<div style={{maxWidth:500}}> <img src={ImgButtonLEDDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/03-Button-LED_bb.webp)</div>
 
 **Code:**
 
@@ -377,7 +372,7 @@ void loop() {
 
 **Wiring diagram:**
 
-<div style={{maxWidth:500}}> <img src={ImgButtonLEDDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/03-Button-LED_bb.webp)</div>
 
 **Code:**
 

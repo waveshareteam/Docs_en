@@ -9,17 +9,6 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <!-- Image Reference -->
-import ImgDownloadArduinoIDE from './images/01-Download-Arduino-IDE.webp';
-import ImgArduinoInit from './images/01-Arduino-Init.webp';
-import ImgOpenArduinoPreference from './images/01-Open-Arduino-Preference.webp';
-import ImgArduinoPreferenceLanguage from './images/01-Arduino-Preference-Language.webp';
-import ImgArduinoAddPico from './images/01-Arduino-Configuration-1.webp';
-import ImgArduinoInstallPico from './images/01-Arduino-Configuration-2.webp';
-import ImgArduinoUpload1 from './images/01-Arduino-Upload-1.gif';
-import ImgArduinoUpload2 from './images/01-Arduino-Upload-2.webp';
-import ImgArduinoUpload3 from './images/01-Arduino-Upload-3.webp';
-import ImgArduinoUpload4 from './images/01-Arduino-Upload-4.webp';
-import ImgArduinoUpload5 from './images/01-Arduino-Upload-5.webp';
 
 # Raspberry Pi Pico Arduino Getting Started
 
@@ -51,15 +40,15 @@ The Arduino IDE is an open-source development environment. In addition to suppor
 
 2. Upon the first launch, the IDE may automatically download and install core library files and drivers. If the operating system prompts for driver installation or network security permissions, it is recommended to allow them. The output window information shown in the figure below indicates the installation process and is normal; no action is required.
 
-   <div style={{maxWidth:500}}> <img src={ImgArduinoInit}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Arduino-Init.webp)</div>
 
 3. The Arduino IDE displays the English interface by default, but supports switching to other languages. Click "File -> Preferences" to open the settings.
 
-   <div style={{maxWidth:500}}> <img src={ImgOpenArduinoPreference}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Open-Arduino-Preference.webp)</div>
 
    In the settings interface, find the "Language" option, select your preferred language, and then click "OK". The Arduino IDE will automatically restart and switch to the selected language interface.
 
-   <div style={{maxWidth:500}}> <img src={ImgArduinoPreferenceLanguage}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Arduino-Preference-Language.webp)</div>
 
 4. In addition, you can also adjust the interface scale, font size, theme style, and default save location of sketches(program files) in "Preferences".
 
@@ -76,7 +65,7 @@ To develop for RP series boards using the Arduino IDE, you need to add the relev
    ```
    https://github.com/earlephilhower/arduino-pico/releases/download/4.5.2/package_rp2040_index.json
    ```
-   <div style={{maxWidth:500}}> <img src={ImgArduinoAddPico}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Arduino-Configuration-1.webp)</div>
 
    :::warning
    If you already have an ESP32 board URL, you can separate the URLs with a comma, as shown below:
@@ -88,7 +77,7 @@ To develop for RP series boards using the Arduino IDE, you need to add the relev
 
 - Open the "Board Manager", search for "pico" and install it. After installation, restart the Arduino IDE to use it
 
-   <div style={{maxWidth:500}}> <img src={ImgArduinoInstallPico}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Arduino-Configuration-2.webp)</div>
 
 ## 5. First Program Upload
 
@@ -98,7 +87,7 @@ To develop for RP series boards using the Arduino IDE, you need to add the relev
    Development boards with the RP2040 chip will be recognized as **RPI-RP2**, while those with the RP2350 chip will be recognized as **RP2350**.
    :::
 
-   <div style={{maxWidth:800}}> <img src={ImgArduinoUpload1}/></div>
+   <div style={{maxWidth:800}}> ![](./images/01-Arduino-Upload-1.gif)</div>
 
 2. Download the example program and open the path:
 
@@ -106,18 +95,18 @@ To develop for RP series boards using the Arduino IDE, you need to add the relev
 
 3. Click "Tools" -> "Port", and note the existing COM ports (do not select one yet).
 
-   <div style={{maxWidth:500}}> <img src={ImgArduinoUpload2}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Arduino-Upload-2.webp)</div>
    
 4. Connect the development board with a USB cable. Go to "Tools" -> "Port" again. For the first connection, select the **UF2 Board**.
 
-   <div style={{maxWidth:500}}> <img src={ImgArduinoUpload3}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Arduino-Upload-3.webp)</div>
    
 5. Click "Tools" -> "Board" -> "Raspberry Pi Pico", and select the corresponding model based on your development board (e.g., Raspberry Pi Pico, Raspberry Pi Pico 2, etc.).
 
-   <div style={{maxWidth:500}}> <img src={ImgArduinoUpload4}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Arduino-Upload-4.webp)</div>
 
 6. After the settings are complete, click the **➡** button in the top-left corner to flash the program.
 
-   <div style={{maxWidth:500}}> <img src={ImgArduinoUpload5}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Arduino-Upload-5.webp)</div>
 
 7. After the flashing is complete, click "Tools" -> "Port" again and connect to the newly added COM port.

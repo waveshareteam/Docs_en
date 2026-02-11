@@ -7,7 +7,6 @@ product_family:
 ---
 
 <!-- Image referencing -->
-import ImgBlinkDiagram from './images/03-LED-Blink_bb.webp';
 
 # Web Server
 
@@ -132,7 +131,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgBlinkDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/03-LED-Blink_bb.webp)</div>
 
 ### 3.2 Code
 
@@ -297,7 +296,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgBlinkDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/03-LED-Blink_bb.webp)</div>
 
 ### 4.2 Code
 

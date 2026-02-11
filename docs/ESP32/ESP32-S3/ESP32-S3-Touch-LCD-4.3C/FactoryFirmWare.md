@@ -10,22 +10,6 @@ product_model:
 
 <!-- Image Reference -->
 
-import esp32S3Touchlcd4_3CFactoryFirmWare1_Img from './images/FactoryFirmWare-1.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare2_Img from './images/FactoryFirmWare-2.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare3_Img from './images/FactoryFirmWare-3.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare4_Img from './images/FactoryFirmWare-4.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare5_Img from './images/FactoryFirmWare-5.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare6_Img from './images/FactoryFirmWare-6.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare7_Img from './images/FactoryFirmWare-7.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare8_Img from './images/FactoryFirmWare-8.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare9_Img from './images/FactoryFirmWare-9.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare10_Img from './images/FactoryFirmWare-10.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare11_Img from './images/FactoryFirmWare-11.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare12_Img from './images/FactoryFirmWare-12.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare13_Img from './images/FactoryFirmWare-13.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare14_Img from './images/FactoryFirmWare-14.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare15_Img from './images/FactoryFirmWare-15.webp';
-import esp32S3Touchlcd4_3CFactoryFirmWare16_Img from './images/FactoryFirmWare-16.webp';
 
 # Using Factory Firmware
 
@@ -71,11 +55,11 @@ This example directly runs a squareline demo.
   flexWrap: 'wrap',
   gap: 8   
   }}>
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare13_Img} style={{ width: 'calc((100% - 32px) / 5)', marginBottom: 8 }} />
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare14_Img} style={{ width: 'calc((100% - 32px) / 5)', marginBottom: 8 }} />
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare3_Img} style={{ width: 'calc((100% - 32px) / 5)', marginBottom: 8 }} />
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare7_Img} style={{ width: 'calc((100% - 32px) / 5)', marginBottom: 8 }} />
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare4_Img} style={{ width: 'calc((100% - 32px) / 5)', marginBottom: 8 }} />
+   ![](./images/FactoryFirmWare-13.webp)
+   ![](./images/FactoryFirmWare-14.webp)
+   ![](./images/FactoryFirmWare-3.webp)
+   ![](./images/FactoryFirmWare-7.webp)
+   ![](./images/FactoryFirmWare-4.webp)
  </div>
 
 ### DrawPanel
@@ -90,7 +74,7 @@ This example tests if the touchscreen is functioning properly.
   flexWrap: 'wrap',
   gap: 8   
   }}>
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare12_Img} style={{ width: '20%', marginBottom: 8 }} />
+   ![](./images/FactoryFirmWare-12.webp)
  </div>
 
 ### Gallery
@@ -105,7 +89,7 @@ This example reads and displays image files from the TF card.
   flexWrap: 'wrap',
   gap: 8   
   }}>
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare15_Img} style={{ width: '20%', marginBottom: 8 }} />
+   ![](./images/FactoryFirmWare-15.webp)
  </div>
 
 ### MusicPlayer
@@ -120,7 +104,7 @@ This example plays music from the TF card. The volume can be adjusted using the 
   flexWrap: 'wrap',
   gap: 8   
   }}>
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare6_Img} style={{ width: '20%', marginBottom: 8 }} />
+   ![](./images/FactoryFirmWare-6.webp)
  </div>
 
 ### AIChats
@@ -135,7 +119,7 @@ This example runs XiaoZhi AI. After configuring XiaoZhi, you can say "Return to 
   flexWrap: 'wrap',
   gap: 8   
   }}>
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare10_Img} style={{ width: '30%', marginBottom: 8 }} />
+   ![](./images/FactoryFirmWare-10.webp)
  </div>
 
 ### Settings
@@ -159,7 +143,7 @@ This widget demonstrates Wi-Fi functionality. The specific operations are as fol
   flexWrap: 'wrap',
   gap: 8   
   }}>
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare1_Img} style={{ width: '20%', marginBottom: 8 }} />
+   ![](./images/FactoryFirmWare-1.webp)
  </div>
 
 #### Sound & Display
@@ -174,7 +158,7 @@ These widgets demonstrate sound adjustment and brightness adjustment.
   flexWrap: 'wrap',
   gap: 8   
   }}>
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare5_Img} style={{ width: '20%', marginBottom: 8 }} />
+   ![](./images/FactoryFirmWare-5.webp)
  </div>
 
 #### Battery
@@ -189,7 +173,7 @@ This widget displays the CPU temperature and current battery voltage.
   flexWrap: 'wrap',
   gap: 8   
   }}>
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare9_Img} style={{ width: '20%', marginBottom: 8 }} />
+   ![](./images/FactoryFirmWare-9.webp)
  </div>
 
 #### Isolationio
@@ -204,7 +188,7 @@ This widget demonstrates the isolation I/O test. You need to connect DI0 to DO0 
   flexWrap: 'wrap',
   gap: 8   
   }}>
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare8_Img} style={{ width: '20%', marginBottom: 8 }} />
+   ![](./images/FactoryFirmWare-8.webp)
  </div>
 
 ### SpecAnalyzer
@@ -219,7 +203,7 @@ This example tests if the microphone is working properly by capturing sound and 
   flexWrap: 'wrap',
   gap: 8   
   }}>
-   <img src={esp32S3Touchlcd4_3CFactoryFirmWare11_Img} style={{ width: '30%', marginBottom: 8 }} />
+   ![](./images/FactoryFirmWare-11.webp)
  </div>
 
 ## Factory Reset
@@ -233,7 +217,7 @@ If you have flashed other programs and cannot test the factory firmware, you can
 3. Connect the development board to the computer. Check the COM port via Device Manager, then select the corresponding COM port in the Flash Tool and click Start. After the flashing is successful, press the RESET button.
 
    <div style={{maxWidth: 800,}}>
-     <img src={esp32S3Touchlcd4_3CFactoryFirmWare16_Img} style={{ width: '50%', marginBottom: 8 }} />
+     ![](./images/FactoryFirmWare-16.webp)
    </div>
 
    ①. Add the firmware file.

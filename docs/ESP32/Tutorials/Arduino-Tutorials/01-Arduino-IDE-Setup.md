@@ -10,12 +10,6 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <!-- Image referencing -->
-import ImgDownloadArduinoIDE from './images/01-Download-Arduino-IDE.webp';
-import ImgArduinoInit from './images/01-Arduino-Init.webp';
-import ImgOpenArduinoPreference from './images/01-Open-Arduino-Preference.webp';
-import ImgArduinoPreferenceLanguage from './images/01-Arduino-Preference-Language.webp';
-import ImgArduinoInstallESP32 from './images/01-Arduino-Install-ESP32.webp';
-import ImgArduinoAddESP32Global from './images/01-Arduino-Add-ESP32-Global.webp';
 
 # Install and Configure Arduino IDE
 
@@ -43,15 +37,15 @@ The Arduino IDE is an [open-source](https://github.com/arduino/arduino-ide) deve
 
 2. Upon the first launch, the IDE may automatically download and install core library files and drivers. If the operating system prompts for driver installation or network security permissions, it is recommended to allow them. The output window information shown in the figure below indicates the installation process and is normal; no action is required.
 
-   <div style={{maxWidth:500}}> <img src={ImgArduinoInit}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Arduino-Init.webp)</div>
 
 3. The Arduino IDE displays the English interface by default, but supports switching to other languages. Click “File -> Preferences” to open the settings.
 
-   <div style={{maxWidth:500}}> <img src={ImgOpenArduinoPreference}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Open-Arduino-Preference.webp)</div>
 
    In the settings interface, find the "Language" option, select your preferred language, and then click "OK". The Arduino IDE will automatically restart and switch to the selected language interface.
 
-   <div style={{maxWidth:500}}> <img src={ImgArduinoPreferenceLanguage}/></div>
+   <div style={{maxWidth:500}}> ![](./images/01-Arduino-Preference-Language.webp)</div>
 
 4. In addition, you can also adjust the interface scale, font size, theme style, and default save location of sketches(program files) in "Preferences".
 
@@ -69,11 +63,11 @@ To develop for the ESP32 using the Arduino IDE, you need to add the ESP32 board 
   https://espressif.github.io/arduino-esp32/package_esp32_index.json
   ```
 
-  <div style={{maxWidth:500}}> <img src={ImgArduinoAddESP32Global}/></div>
+  <div style={{maxWidth:500}}> ![](./images/01-Arduino-Add-ESP32-Global.webp)</div>
 
 - Open the "Board Manager", search for "ESP32" and install it. After installation, restart the Arduino IDE to use it
 
-  <div style={{maxWidth:500}}> <img src={ImgArduinoInstallESP32}/></div>
+  <div style={{maxWidth:500}}> ![](./images/01-Arduino-Install-ESP32.webp)</div>
 
 ## 4. Install Libraries (As Needed){#ArduinoIDE-Install-Libraries}
 

@@ -11,9 +11,6 @@ product_model:
   - MAX9296-GMSL-Deser-Module
 ---
 
-import connectpi from './images/MAX9296-GMSL-DESER-MODULE-7.webp';
-import connectpower from './images/MAX9296-GMSL-DESER-MODULE-5.webp';
-import cfgsetting from './images/MAX9296-GMSL-DESER-MODULE-6.webp';
 
 # Working with Raspberry Pi
 
@@ -25,15 +22,15 @@ Although the deserializer board's form factor is designed for the Jetson Orin/NX
   <table style={{ width: '100%', borderCollapse: 'collapse' }}>
     <tr>
       <td rowSpan="2" style={{ width: '65%', padding: '8px' }}>
-        <img src={connectpi} alt="Connect to Raspberry Pi 5 Mainboard" />
+        ![Connect to Raspberry Pi 5 Mainboard](./images/MAX9296-GMSL-DESER-MODULE-7.webp)
       </td>
       <td style={{ padding: '8px' }}>
-        <img src={connectpower} alt="Power Wiring" />
+        ![Power Wiring](./images/MAX9296-GMSL-DESER-MODULE-5.webp)
       </td>
     </tr>
     <tr>
       <td style={{ padding: '8px' }}>
-        <img src={cfgsetting} alt="CFG Configuration" />
+        ![CFG Configuration](./images/MAX9296-GMSL-DESER-MODULE-6.webp)
       </td>
     </tr>
   </table>

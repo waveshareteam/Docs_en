@@ -7,9 +7,6 @@ product_family:
 ---
 
 <!-- Image referencing -->
-import ImgLVGLLogo from './images/12-LVGL-Logo.webp';
-import ImgLVGLLayer from './images/12-LVGL-Layer.webp';
-import ImgS3TouchLCD169 from './images/12-ESP32-S3-Touch-LCD-1.69-1.webp';
 
 # LVGL Graphic Interface Development
 
@@ -19,7 +16,7 @@ import ImgS3TouchLCD169 from './images/12-ESP32-S3-Touch-LCD-1.69-1.webp';
 
 LVGL separates graphics processing logic from specific hardware operations through its Hardware Abstraction Layer (HAL). This means the LVGL library itself does not directly control any specific hardware (such as display driver chips or touch controllers).
 
-<div style={{maxWidth:500, margin: '0 auto'}}> <img src={ImgLVGLLayer} alt="LVGL Layer"/></div>
+<div style={{maxWidth:500, margin: '0 auto'}}> ![LVGL Layer](./images/12-LVGL-Layer.webp)</div>
 
 LVGL connects to hardware by registering driver functions. These driver functions form the bridge between LVGL and the specific hardware. LVGL calls these pre-registered functions when needed (e.g., to refresh the screen or read input), thereby indirectly controlling the hardware. This design grants LVGL good portability, allowing it to adapt to a wide variety of hardware platforms.
 
@@ -47,7 +44,7 @@ It mainly consists of the following three parts:
   
   <div style={{maxWidth:500}}> 
     <a href='https://www.waveshare.com/esp32-s3-touch-lcd-1.69.htm' target="_blank">
-    <img src={ImgS3TouchLCD169} alt="ESP32-S3-Touch-LCD-1.69"/>
+    ![ESP32-S3-Touch-LCD-1.69](./images/12-ESP32-S3-Touch-LCD-1.69-1.webp)
     </a>  
   </div>
   

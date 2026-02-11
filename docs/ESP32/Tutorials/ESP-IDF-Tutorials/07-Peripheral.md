@@ -19,7 +19,7 @@ This article will use the ESP32-S3 chip as an example.
 :::
 
 <figure>
-  <img src={require('./images/07-ESP32S3-Functional-Block-Diagram.webp').default} alt="ESP32-S3 Functional Block Diagram" />
+  ![ESP32-S3 Functional Block Diagram](./images/07-ESP32S3-Functional-Block-Diagram.webp)
   <figcaption>ESP32-S3 Functional Block Diagram</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ The ESP32-S3 chip features 45 physical General-Purpose Input/Output (GPIO) pins.
 IO MUX (Input/Output Multiplexer) and the GPIO Matrix are the two core mechanisms in the ESP32 series chips for achieving pin multiplexing and flexible peripheral signal assignment.
 
 <figure>
-  <img src={require('./images/07-ESP32S3-IO-MUX-Matrix.webp').default} alt="ESP32-S3 MUX, RTC IO MUX, and GPIO Matrix Block Diagram" />
+  ![ESP32-S3 MUX, RTC IO MUX, and GPIO Matrix Block Diagram](./images/07-ESP32S3-IO-MUX-Matrix.webp)
   <figcaption>ESP32-S3 MUX, RTC IO MUX, and GPIO Matrix Block Diagram</figcaption>
 </figure>
 

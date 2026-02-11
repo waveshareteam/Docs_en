@@ -8,10 +8,6 @@ product_family:
 
 <!-- Image referencing -->
 
-import ImgPotentiometerDiagram from './images/04-Potentiometer_bb.webp';
-import ImgADCDiagram from './images/04-ADC.webp';
-import ImgSerialMonitor from './images/04-Serial-Monitor.gif';
-import ImgSerialPlotter from './images/04-Serial-Plotter.gif';
 
 # Analog Input
 
@@ -40,7 +36,7 @@ The ESP32 ADC is usually **12 bits**, which means that it can be divided into **
 - The input voltage is **0V**, and the ADC reading is approximately **0**.
 - When the input voltage **varies continuously from 0V to 3.3V**, the ADC readings **varies accordingly from 0 to 4095**.
 
-<div style={{maxWidth:600, margin: '0 auto'}}> <img src={ImgADCDiagram} alt="ADC"/></div>
+<div style={{maxWidth:600, margin: '0 auto'}}> ![ADC](./images/04-ADC.webp)</div>
 
 Thus, the ESP32 program can obtain an integer between 0~4095 using `analogRead()`, which directly corresponds to the voltage level on the input pin.
 
@@ -75,7 +71,7 @@ Components required:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgPotentiometerDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/04-Potentiometer_bb.webp)</div>
 
 **Circuit analysis**
 
@@ -127,11 +123,11 @@ After flashing the code to the ESP32 development board, open the serial monitor 
 
 - Serial monitor:
 
-  <div style={{maxWidth:700}}> <img src={ImgSerialMonitor} alt="Run result - Serial monitor"/></div>
+  <div style={{maxWidth:700}}> ![Run result - Serial monitor](./images/04-Serial-Monitor.gif)</div>
 
 - Serial plotter:
 
-  <div style={{maxWidth:700}}> <img src={ImgSerialPlotter} alt="Run result - Serial plotter"/></div>
+  <div style={{maxWidth:700}}> ![Run result - Serial plotter](./images/04-Serial-Plotter.gif)</div>
 
 :::tip[Advanced understanding: Why doesn't the maximum reading exactly correspond to 3.3V?]
 You may find that the `analogRead()` value reaches 4095 even before the input voltage reaches 3.3V.

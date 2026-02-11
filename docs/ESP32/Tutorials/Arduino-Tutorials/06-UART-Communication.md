@@ -8,8 +8,6 @@ product_family:
 ---
 
 <!-- Image referencing -->
-import ImgUARTExample1Diagram from './images/03-LED-Blink_bb.webp';
-import ImgUARTExample2Diagram from './images/06-UART_bb.webp';
 
 <!-- Video -->
 import VideoUARTExample1 from './videos/06-UART-Example-1.mp4';
@@ -111,7 +109,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgUARTExample1Diagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring diagram](./images/03-LED-Blink_bb.webp)</div>
 
 ### 2.2 Code
 
@@ -187,7 +185,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:600}}> <img src={ImgUARTExample2Diagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:600}}> ![Wiring diagram](./images/06-UART_bb.webp)</div>
 
 | Transmitter (Board A) | Receiver (Board B) | Description                       |
 | ------------------ | ------------------ | -------------------------- |

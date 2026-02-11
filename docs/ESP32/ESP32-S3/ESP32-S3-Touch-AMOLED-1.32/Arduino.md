@@ -15,12 +15,6 @@ import ArduinoTutorialIntro from '@site/docs/ESP32/snippets/ArduinoTutorialIntro
 
 <!-- Example-related Image References -->
 
-import esp32S3TouchAmoled1_32ArduinoExample1 from './images/Arduino-Example-1.webp';
-import esp32S3TouchAmoled1_32ArduinoExample2 from './images/Arduino-Example-2.webp';
-import esp32S3TouchAmoled1_32ArduinoExample3 from './images/Arduino-Example-3.webp';
-import esp32S3TouchAmoled1_32ArduinoExample4 from './images/Arduino-Example-4.webp';
-import esp32S3TouchAmoled1_32ArduinoExample5 from './images/Arduino-Example-5.webp';
-import esp32S3TouchAmoled1_32ArduinoExample6 from './images/Arduino-Example-6.webp';
 
 # Working with Arduino
 
@@ -55,13 +49,10 @@ There are strong dependencies between versions of LVGL and its driver libraries.
 
 ### 3. Arduino Project Parameter Settings
 
-import esp32S3TouchAmoled1_32ArduinoToolCfg from './images/ESP32-S3-Touch-AMOLED-1.32-ArduinoToolCfg.webp';
 
 <div 
     style={{maxWidth:600}}> 
-    <img 
-        src={esp32S3TouchAmoled1_32ArduinoToolCfg} 
-    />
+    ![](./images/ESP32-S3-Touch-AMOLED-1.32-ArduinoToolCfg.webp)
 </div>
 
 ## Demo
@@ -99,10 +90,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - After flashing the program and opening the serial terminal, if the device successfully connects to the hotspot, it will output the MAC address of the device, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3TouchAmoled1_32ArduinoExample1} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/Arduino-Example-1.webp)
   </div>
 
 ### 02_WIFI_AP
@@ -129,10 +117,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - After the program is compiled and downloaded, you can view the printed ADC values and voltage output by opening the Serial Monitor, as shown in the following image:
 
   <div style={{maxWidth: 800}}>
-  		<img 
-    		src={esp32S3TouchAmoled1_32ArduinoExample2} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/Arduino-Example-2.webp)
   </div>
 
 ### 03_WIFI_STA
@@ -159,10 +144,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - After flashing the program, open the serial terminal, if the device is successfully connected to the hotspot, the IP address obtained will be output, as shown in the figure:
 
   <div style={{maxWidth: 800}}>
-		<img 
-  		src={esp32S3TouchAmoled1_32ArduinoExample3} 
-  		style={{width: '100%', height: 'auto'}}
-		/>
+		![](./images/Arduino-Example-3.webp)
   </div>
 
 ### 04_BATT_PWR_Test
@@ -192,10 +174,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
   :::
 
   <div style={{maxWidth: 800}}>
-		<img 
-  		src={esp32S3TouchAmoled1_32ArduinoExample4} 
-  		style={{width: '100%', height: 'auto'}}
-		/>
+		![](./images/Arduino-Example-4.webp)
   </div>
 
 ### 05_Audio_Test
@@ -225,10 +204,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
   :::
 
   <div style={{maxWidth: 500}}>
-		<img 
-  		src={esp32S3TouchAmoled1_32ArduinoExample5} 
-  		style={{width: '100%', height: 'auto'}}
-		/>
+		![](./images/Arduino-Example-5.webp)
   </div>
 
 ### 06_LVGL_V8_Test
@@ -254,10 +230,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - After the program is flashed, the device operation result is as follows:
 
   <div style={{maxWidth: 500}}>
-  		<img 
-    		src={esp32S3TouchAmoled1_32ArduinoExample6} 
-    		style={{width: '100%', height: 'auto'}}
-  		/>
+  		![](./images/Arduino-Example-6.webp)
   </div>
 
 ### 07_LVGL_V9_Test
@@ -283,8 +256,5 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 - After the program is flashed, the device operation result is as follows:
 
   <div style={{maxWidth: 500}}>
-		<img 
-  		src={esp32S3TouchAmoled1_32ArduinoExample6} 
-  		style={{width: '100%', height: 'auto'}}
-		/>
+		![](./images/Arduino-Example-6.webp)
   </div>

@@ -8,8 +8,6 @@ product_family:
 
 <!-- Image Reference -->
 
-import ImgPWMLightDiagram from './images/03-LED-Blink_bb.webp';
-import ImgPotentiometerLEDDiagram from './images/05-Potentiometer-LED_bb.webp';
 
 # Pulse Width Modulation (PWM)
 
@@ -65,7 +63,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgPWMLightDiagram} alt="Wiring Diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring Diagram](./images/03-LED-Blink_bb.webp)</div>
 
 ## 4. REPL Interaction
 
@@ -190,7 +188,7 @@ while True:
 
 **Wiring Diagram**:
 
-<div style={{maxWidth:500}}> <img src={ImgPotentiometerLEDDiagram} alt="Wiring Diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring Diagram](./images/05-Potentiometer-LED_bb.webp)</div>
 
 **Code**:
 

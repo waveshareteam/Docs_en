@@ -16,62 +16,6 @@ import Details from '@theme/Details';
 import ArduinoTutorialIntro from '@site/docs/ESP32/snippets/ArduinoTutorialIntro.mdx';
 
 <!-- Image Reference -->
-import arduino_config       from './images/ESP32-C6-Touch-LCD-1.83-arduino_config.webp';
-import arduino_demo_Button_test from './images/300px-ESP32-S3-GEEK-ArDemo-Button-01.webp';
-import arduino_demo_adc_test from './images/ESP32-C6-GEEK-demo-02.webp';
-import arduino_demo_IIC from './images/450px-ESP32-C6-GEEK-ArDemo-IIC-01.webp';
-import arduino_demo_03 from './images/ESP32-C6-GEEK-demo-01.webp';
-import arduino_demo_04 from './images/ESP32-C6-GEEK-demo-04.webp';
-import arduino_demo_UART from './images/450px-ESP32-C6-GEEK-ArDemo-UART-01.webp';
-import arduino_demo_LCD_Button from './images/300px-ESP32-C6-GEEK-ArDemo-LCD_Button-02.webp';
-import arduino_demo_time from './images/ESP32-S3-GEEK-demo-03.webp';
-import arduino_demo_time_1 from './images/ESP32-S3-GEEK-ArDemo-LCD_Time-01.webp';
-import arduino_demo_sd from './images/ESP32-S3-GEEK-demo-sd.webp';
-import arduino_demo_09 from './images/Arduino_09_1.webp';
-import arduino_demo_0902 from './images/Arduino_0902.webp';
-import arduino_demo_0903 from './images/Arduino_0903.webp';
-import arduino_demo_0904 from './images/Arduino_0904.webp';
-import arduino_demo_0905 from './images/Arduino_0905.webp';
-import arduino_demo_0906 from './images/Arduino_0906.webp';
-import arduino_demo_0907 from './images/Arduino_0907.webp';
-import arduino_demo_0908 from './images/Arduino_0908.webp';
-import arduino_demo_0909 from './images/Arduino_0909.webp';
-import arduino_demo_1201 from './images/Arduino_1201.webp';
-import arduino_demo_1202 from './images/Arduino_1202.webp';
-import arduino_demo_1203 from './images/Arduino_1203.webp';
-import arduino_demo_1301 from './images/Arduino_1301.webp';
-import arduino_demo_1302 from './images/Arduino_1302.webp';
-import arduino_demo_1303 from './images/Arduino_1303.webp';
-import arduino_demo_1304 from './images/Arduino_1304.webp';
-import arduino_demo_1305_1 from './images/Arduino_1305_1.webp';
-import arduino_demo_1305_2 from './images/Arduino_1305_2.webp';
-import arduino_demo_1306 from './images/Arduino_1306.webp';
-import arduino_demo_1401 from './images/Arduino_1401.webp';
-import arduino_demo_1402 from './images/Arduino_1402.webp';
-import arduino_demo_1403 from './images/Arduino_1403.webp';
-import arduino_demo_1501 from './images/Arduino_1501.webp';
-import arduino_demo_1502 from './images/Arduino_1502.webp';
-import arduino_demo_1503 from './images/Arduino_1503.webp';
-import arduino_demo_1601 from './images/Arduino_1601.webp';
-import arduino_demo_1602 from './images/Arduino_1602.webp';
-import arduino_demo_1603 from './images/Arduino_1603.webp';
-import arduino_demo_1604 from './images/Arduino_1604.webp';
-import arduino_demo_1605 from './images/Arduino_1605.webp';
-import arduino_demo_1606 from './images/Arduino_1606.webp';
-import arduino_demo_1607 from './images/Arduino_1607.webp';
-import arduino_demo_1608 from './images/Arduino_1608.webp';
-import arduino_demo_1609 from './images/Arduino_1609.webp';
-import arduino_demo_1610 from './images/Arduino_1610.webp';
-import arduino_demo_1701 from './images/Arduino_1701.webp';
-import arduino_demo_1702 from './images/Arduino_1702.webp';
-import arduino_demo_1703 from './images/Arduino_1703.webp';
-import arduino_demo_1704 from './images/Arduino_1704.webp';
-import arduino_demo_1705 from './images/Arduino_1705.webp';
-import arduino_demo_1706 from './images/Arduino_1706.webp';
-import arduino_demo_1707 from './images/Arduino_1707.webp';
-import arduino_demo_1708 from './images/Arduino_1708.webp';
-import arduino_demo_1709 from './images/Arduino_1709.webp';
-import arduino_demo_1710 from './images/Arduino_1710.webp';
 
 # Working with Arduino
 
@@ -124,7 +68,7 @@ There are strong dependencies between versions of LVGL and its driver libraries.
 
 ### 3. Other Tips
 You need to select and configure the development board for ESP32-C6-GEEK.
-   <div style={{maxWidth:650}}> <img src={arduino_config}/></div>
+   <div style={{maxWidth:650}}> ![](./images/ESP32-C6-Touch-LCD-1.83-arduino_config.webp)</div>
 
 1. Select the ESP32C6 Dev Module for ESP32-C6-GEEK.
 2. Select the USB port.
@@ -163,7 +107,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 This example demonstrates how to use the ESP32-C6-GEEK's Boot button as a multi-function button, capable of performing different actions such as single-click, double-click, or long-press. It is suitable for learning ESP32-C6 button interaction and LCD display. You can observe LCD changes through button operations to test its reliability.
 
-<div style={{maxWidth:800}}> <img src={arduino_demo_Button_test}/></div>
+<div style={{maxWidth:800}}> ![](./images/300px-ESP32-S3-GEEK-ArDemo-Button-01.webp)</div>
 
 #### Code
 
@@ -271,7 +215,7 @@ This example demonstrates how to use the ESP32-C6-GEEK's Boot button as a multi-
 ### 02_ADC_Read {#Demo-02-ADC_Read}
 
 This example uses the GPIO interface of the ESP32-C6-GEEK to perform ADC sampling, reading voltages within the 3.3V range. Pay attention to common grounding and do not exceed the measurement range during use. It is suitable for learning analog input on the ESP32-C6. You can read analog values from specific pins, observe changes, and test stability.
-<div style={{maxWidth:800}}> <img src={arduino_demo_adc_test}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-GEEK-demo-02.webp)</div>
 
 #### Hardware Connection
 
@@ -353,11 +297,11 @@ void loop() {
 
 This example uses the I2C hardware interface of the ESP32-C6-GEEK to drive an I2C module. The example demonstrates using a BME680 sensor, printing data output via the serial port. It is suitable for learning how the ESP32-C6 interacts with BME68X sensors. You can set pins and communication modes, read various data, and test compatibility and stability.
 
-<div style={{maxWidth:800}}> <img src={arduino_demo_03}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-GEEK-demo-01.webp)</div>
 
 #### Hardware Connection
 
-<div style={{maxWidth:600}}> <img src={arduino_demo_IIC}/></div>
+<div style={{maxWidth:600}}> ![](./images/450px-ESP32-C6-GEEK-ArDemo-IIC-01.webp)</div>
 
 #### Code
 
@@ -510,11 +454,11 @@ void loop(void)
 
 This example opens the **UART0** serial port on the ESP32-C6-GEEK. By opening a serial debug assistant, serial communication can be performed. It is suitable for learning serial communication on the ESP32-C6, receiving data and outputting it.
 
-<div style={{maxWidth:800}}> <img src={arduino_demo_04}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-GEEK-demo-04.webp)</div>
 
 #### Hardware Connection
 
-<div style={{maxWidth:400}}> <img src={arduino_demo_UART}/></div>
+<div style={{maxWidth:400}}> ![](./images/450px-ESP32-C6-GEEK-ArDemo-UART-01.webp)</div>
 
 #### Code
 
@@ -590,7 +534,7 @@ void loop() {
 
 This example uses the Boot button of the ESP32-C6-GEEK to achieve a short press to turn on the LCD and switch to the next image, and a long press to turn off the LCD. It is suitable for learning button interaction and LCD image display on the ESP32-C6. You can switch images and control the backlight through button operations to test stability.
 
-<div style={{maxWidth:800}}> <img src={arduino_demo_LCD_Button}/></div>
+<div style={{maxWidth:800}}> ![](./images/300px-ESP32-C6-GEEK-ArDemo-LCD_Button-02.webp)</div>
 
 #### Code
 
@@ -689,12 +633,12 @@ void Click(void *oneButton)
 
 This example uses the ESP32-C6-GEEK to connect to Wi-Fi, obtain the current time, and display the time and date on both the LCD and a serial debug assistant. It is suitable for learning Wi-Fi connection and time synchronization on the ESP32-C6. You can connect to a specific network, synchronize time, display the date and time on the LCD, and test stability and accuracy.
 
-<div style={{maxWidth:800}}> <img src={arduino_demo_time}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-S3-GEEK-demo-03.webp)</div>
 
 #### Additional Preparation
 
 Use a PC to open a hotspot. Set the network band to "Any available frequency". Modify `ssid` and `password` to the Wi-Fi name and password you want to connect to. `utcOffsetInSeconds` is the time zone for which we need to obtain the time. For example, Beijing, UTC+8 (East 8th zone), is 8 * 60 *60=28800.
-<div style={{maxWidth:800}}> <img src={arduino_demo_time_1}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-S3-GEEK-ArDemo-LCD_Time-01.webp)</div>
 **Note:** When the ESP32-C6-GEEK operates in STA mode and connects to the same Wi-Fi network as the PC, the Wi-Fi network the ESP32-C6-GEEK connects to must have a 2.4GHz band. If there is no 2.4GHz band, set the network band to "Any available frequency". Here, we directly choose "Any available frequency".
 
 #### Code
@@ -846,7 +790,7 @@ void extractDateAndTime(const char* timeString, char* dateTimeStr, char* timeStr
 
 This example uses the TF card slot of the ESP32-C6-GEEK. Insert a TF card into the slot and open a serial debug assistant. You will see the ESP32-C6-GEEK performing file operations (create, read, update, delete) on the TF card. It is suitable for learning TF card interaction on the ESP32-C6, performing various file operations, and testing stability and reliability.
 
-<div style={{maxWidth:800}}> <img src={arduino_demo_sd}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-S3-GEEK-demo-sd.webp)</div>
 
 #### Code
 
@@ -1578,21 +1522,21 @@ void loop()
 
 #### Operation Result
 `Waveshare_ESP32C6_GEEK` in `BLEDevice::init("Waveshare_ESP32C6_GEEK")` is the Bluetooth name.
-<div style={{maxWidth:800}}> <img src={arduino_demo_09}/></div>
+<div style={{maxWidth:800}}> ![](./images/Arduino_09_1.webp)</div>
 
 - Use the mobile phone's Bluetooth debug assistant to scan and connect to the device.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_0902}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_0902.webp)</div>
 - Use the mobile Bluetooth debug assistant to send a Bluetooth message to the ESP32-C6-GEEK. Upon receiving the message, the ESP32-C6-GEEK will display it on the LCD, and the serial debug assistant will print the message content.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_0903}/></div>
-  <div style={{maxWidth:800}}> <img src={arduino_demo_0904}/></div>
-  <div style={{maxWidth:800}}> <img src={arduino_demo_0905}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_0903.webp)</div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_0904.webp)</div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_0905.webp)</div>
 
 - In the mobile Bluetooth debug assistant, open the receive settings. Connect the ESP32-C6-GEEK to a PC using a [USB to UART adapter](https://www.waveshare.com/ch343-usb-uart-board.htm?sku=21440). Open a serial debug assistant on the PC. Send a serial message converted to a Bluetooth message to the phone. Note: When sending, check "AddCrLf". The sent message content will be displayed on the LCD. Observe on the mobile phone whether the Bluetooth message is received.
 
-  <div style={{maxWidth:800}}> <img src={arduino_demo_0906}/></div>
-  <div style={{maxWidth:800}}> <img src={arduino_demo_0907}/></div>
-  <div style={{maxWidth:800}}> <img src={arduino_demo_0908}/></div>
-  <div style={{maxWidth:800}}> <img src={arduino_demo_0909}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_0906.webp)</div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_0907.webp)</div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_0908.webp)</div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_0909.webp)</div>
 
 ### 10_BLE_UART {#Demo-10_BLE_UART}
 
@@ -1696,7 +1640,7 @@ Check if the Bluetooth keyboard is connected. If connected:
 ### 12_WIFI_AP_LCD {#Demo-12_WIFI_AP_LCD}
 
 This example enables the Wi-Fi AP mode on the ESP32-C6-GEEK. After a PC connects to its Wi-Fi, you can log in to the IP address and control the LCD display of the ESP32-C6-GEEK via a web interface to show images. It is suitable for learning how the ESP32-C6-GEEK interacts with Wi-Fi and LCD, acting as a Wi-Fi Access Point to communicate with clients and display content on the LCD, testing stability and reliability.
-<div style={{maxWidth:800}}> <img src={arduino_demo_adc_test}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-GEEK-demo-02.webp)</div>
 
 #### Code
 
@@ -1770,15 +1714,15 @@ void loop()
 
 #### Operation Result
 The `ssid` is the AP name (ESP32-C6-GEEK) created by the ESP32-C6-GEEK, and the `password` is the password (Waveshare) to connect to the AP.
-<div style={{maxWidth:800}}> <img src={arduino_demo_1201}/></div>
+<div style={{maxWidth:800}}> ![](./images/Arduino_1201.webp)</div>
 
 - Use a PC to connect to the AP of the ESP32-C6-GEEK, and enter the password **Waveshare**.
 - If the program is successfully flashed but the PC cannot detect the Wi-Fi, power cycle the development board and try again.
 - The LCD will display the IP address of the HTTP server.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1202}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1202.webp)</div>
 
 Use a browser to log in to the IP: 192.168.4.1. Control the LCD of the ESP32-C6-GEEK via buttons on the server. Press different buttons and observe the changes on the LCD. For more LCD display functions, refer to the [LCD Program Description](https://www.waveshare.com/wiki/1.5inch_LCD_Module#ESP_Software_Description).
-<div style={{maxWidth:800}}> <img src={arduino_demo_1203}/></div>
+<div style={{maxWidth:800}}> ![](./images/Arduino_1203.webp)</div>
 
 ### 13_WIFI_TCP_Client {#Demo-13_WIFI_TCP_Client}
 
@@ -1788,7 +1732,7 @@ This example enables the STA mode of Wi-Fi on the ESP32-C6-GEEK. After connectin
 
 1. Use a PC to open a hotspot, set the network band to "Any available frequency". Ensure the `ssid` and `password` in the program match the Wi-Fi name and password you want to connect to.
 2. Download the [Network Debug Assistant](https://files.waveshare.com/wiki/common/NetAssist.zip), and modify it to your local IP address (the following 192.168.137.1 is an example IP address).
-    <div style={{maxWidth:800}}> <img src={arduino_demo_1301}/></div>
+    <div style={{maxWidth:800}}> ![](./images/Arduino_1301.webp)</div>
 
 #### Code
 
@@ -1916,18 +1860,18 @@ void loop()
 #### Operation Result
 - The LCD screen shows an attempt to connect, and after a few moments it shows that it is connected
 - Modify the `NetAssist` parameters: set the protocol type to TCP Server, the local IP address to match the one in the program, and the local port to 8080. Click "Open" to establish a connection and TCP communication with the ESP32-C6-GEEK (TCP Client).
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1302}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1302.webp)</div>
 - After a successful connection, the TCP Server will receive the TCP message "Hello world" sent by the ESP32-C6-GEEK, and the LCD will display "Access successful".
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1303}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1303.webp)</div>
 - Send a TCP message from the PC-side TCP Server to the ESP32-C6-GEEK. If sent successfully, the ESP32-C6-GEEK, acting as a TCP Client, will receive the message and display its content on the LCD.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1304}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1304.webp)</div>
 - You can also use a mobile phone to open a hotspot. The hotspot name and password should be the same as above, and select the 2.4GHz band.
 - After opening the hotspot, use a TCP debug assistant on the phone to perform TCP communication with the ESP32-C6-GEEK.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1305_1}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1305_1.webp)</div>
 - Modify the serverIP in the code to the IP address (192.168.6.123) of the TCP server created by the mobile phone at last.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1305_2}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1305_2.webp)</div>
 - After flashing the code and a successful connection, the TCP Server will receive the TCP message "Hello world" sent by the ESP32-C6-GEEK, and the LCD will display "Access successful". You can send TCP messages from the mobile TCP Server to the ESP32-C6-GEEK. If sent successfully, the ESP32-C6-GEEK, acting as a TCP Client, will receive the message and display its content on the LCD.
-  <div style={{maxWidth:1000}}> <img src={arduino_demo_1306}/></div>
+  <div style={{maxWidth:1000}}> ![](./images/Arduino_1306.webp)</div>
 
 ### 14_WIFI_TCP_Server {#Demo-14_WIFI_TCP_Server}
 
@@ -2056,15 +2000,15 @@ void loop()
   ```
 #### Operation Result
 - After successful flashing, the LCD displays:
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1401}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1401.webp)</div>
 - After Wi-Fi connection, the LCD will display the TCP Server IP. Open a TCP Client in a serial debug assistant to connect and communicate with the ESP32-C6-GEEK (TCP Server).
   - ①. Modify the port name to "TCPClient", set the remote address to the IP displayed on the LCD screen, port **8080**, and click **Connect**.
   - ②. Check **AddCrLf**.
   - ③. Enter the message.
   - ①. Click **Send**.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1402}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1402.webp)</div>
 - After the message is sent successfully, the LCD screen displays:
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1403}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1403.webp)</div>
 
 ### 15_WIFI_Web_Server {#Demo-15_WIFI_Web_Server}
 
@@ -2073,7 +2017,7 @@ This example enables the AP mode of Wi-Fi on the ESP32-C6-GEEK. After a PC conne
 #### Hardware Connection
 
 - Connect the UART interface of the ESP32-C6-GEEK to a PC using a USB to UART tool, and open a serial debug assistant.
-  <div style={{maxWidth:400}}> <img src={arduino_demo_UART}/></div>
+  <div style={{maxWidth:400}}> ![](./images/450px-ESP32-C6-GEEK-ArDemo-UART-01.webp)</div>
 
 #### Code
 
@@ -2140,9 +2084,9 @@ void loop()
 - The LCD will display the IP address of the HTTP server. Use a browser to log in to the IP: 192.168.4.1.
 - Connect the UART interface of the ESP32-C6-GEEK to a PC using a USB to UART tool, and open a serial debug assistant.
 - You can enter text content on the HTTP Web page and send an HTTP request to the ESP32-C6-GEEK. The received content will be displayed on both the serial debug assistant and the LCD.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1501}/></div>
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1502}/></div>
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1503}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1501.webp)</div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1502.webp)</div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1503.webp)</div>
 
 ### 16_MQTT_sub_pub {#Demo-16_MQTT_sub_pub}
 
@@ -2373,22 +2317,22 @@ void sendJsonData() {
 The hotspot name and password you open must match those in the code.
 After registering an account and creating a device on the [Waveshare Cloud Platform](https://www.waveshare.com/wiki/ESP32-S3-Relay-1CH-Waveshare_Cloud), you can view the device's `Client ID, Pub Topic, Sub Topic` from the "View Address" of the newly created device on the platform. Write these into the example program for assignment, so the ESP32-C6-GEEK can connect to your own cloud platform device.
 
-<div style={{maxWidth:800}}> <img src={arduino_demo_1601}/></div>
-<div style={{maxWidth:800}}> <img src={arduino_demo_1602}/></div>
+<div style={{maxWidth:800}}> ![](./images/Arduino_1601.webp)</div>
+<div style={{maxWidth:800}}> ![](./images/Arduino_1602.webp)</div>
 In the callback function, you can modify the recognized identifier to the device property identifier you created on the cloud platform.
-<div style={{maxWidth:800}}> <img src={arduino_demo_1603}/></div>
-<div style={{maxWidth:800}}> <img src={arduino_demo_1604}/></div>
+<div style={{maxWidth:800}}> ![](./images/Arduino_1603.webp)</div>
+<div style={{maxWidth:800}}> ![](./images/Arduino_1604.webp)</div>
 
 #### Operation Result
 - Flash the code. After connecting to Wi-Fi, check if the device enters the online state on the Waveshare Cloud Platform. If not, try refreshing the webpage or using a [USB to UART adapter](https://www.waveshare.com/ch343-usb-uart-board.htm?sku=21440) to connect to a PC and view the Wi-Fi and MQTT connection status via a serial debug assistant. The connection status of Wi-Fi and MQTT will also be displayed on the LCD screen.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1605}/></div>
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1606}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1605.webp)</div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1606.webp)</div>
 - After the ESP32-C6-GEEK successfully connects to the Waveshare Cloud, you can send MQTT messages via the Dashboard.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1607}/></div>
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1608}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1607.webp)</div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1608.webp)</div>
 - We can see different feedback on the LCD and serial debug assistant for changes in the device property value (e.g., "key"). Also, in the device's received values on the Waveshare Cloud, we can see the data sent by the ESP32-C6-GEEK to the cloud device (the received value is your own Client ID; you can later send back the return value of "key" or status to the Waveshare Cloud). This achieves MQTT data uplink and downlink, topic subscription and publication.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1609}/></div>
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1610}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1609.webp)</div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1610.webp)</div>
 
 ### 17_MQTT_BLE_Keyboard {#Demo-17_MQTT_BLE_Keyboard}
 
@@ -2617,22 +2561,22 @@ void Screen_OFF(){
 - The hotspot name and password you open must match those in the code (2.4GHz or Any available frequency).
 After registering an account and creating a device on the [Waveshare Cloud Platform](https://www.waveshare.com/wiki/ESP32-S3-Relay-1CH-Waveshare_Cloud), you can view the device's `Client ID, Sub Topic` from the "View Address" of the newly created device on the platform. Write these into the example program for assignment, so the ESP32-C6-GEEK can connect to your own cloud platform device.
 - The Bluetooth name and password you connect to must match those in the code.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1701}/></div>
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1702}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1701.webp)</div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1702.webp)</div>
 - In the callback function, you can modify the recognized identifier to the [device property identifier](https://mqtt.waveshare.cloud/en/wavesharecloud-wiki.html) you created on the cloud platform.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1703}/></div>
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1704}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1703.webp)</div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1704.webp)</div>
 - Modify to the text or password you want to input.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1705}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1705.webp)</div>
 
 #### Operation Result
 - Flash the code. After connecting to Wi-Fi, turn on the PC's Bluetooth function to pair and connect the device. Check if the device enters the online state on the Waveshare Cloud Platform. If not, try refreshing the webpage or using a USB to UART adapter to connect to a PC and view the Wi-Fi and MQTT connection status via a serial debug assistant. The connection status of Wi-Fi and MQTT will also be displayed on the LCD screen.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1706}/></div>
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1707}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1706.webp)</div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1707.webp)</div>
 - After the ESP32-C6-GEEK successfully connects to the Waveshare Cloud, you can log in to the Waveshare Cloud Dashboard via a mobile phone for remote control.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1708}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1708.webp)</div>
 - We can see different feedback on the LCD and serial debug assistant for changes in the device property value (e.g., "key"). Later, you can also modify the keys in the callback function to combinations like **Ctrl+C, Ctrl+V**, etc., to DIY your own remote-control Bluetooth keyboard.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1709}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1709.webp)</div>
 - You can also test which keys are pressed by the Bluetooth control of the ESP32-C6-GEEK using the [Keyboard Tester](https://www.zfrontier.com/lab/keyboardTester) website.
 - Open the keyboard tester interface on your PC, control it via your mobile phone, and the keyboard tester interface will display which keys are being pressed.
-  <div style={{maxWidth:800}}> <img src={arduino_demo_1710}/></div>
+  <div style={{maxWidth:800}}> ![](./images/Arduino_1710.webp)</div>

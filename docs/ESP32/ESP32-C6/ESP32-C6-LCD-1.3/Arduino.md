@@ -14,14 +14,6 @@ import Details from '@theme/Details';
 import ArduinoTutorialIntro from '@site/docs/ESP32/snippets/ArduinoTutorialIntro.mdx';
 
 <!-- Image Reference -->
-import Arduino_demo1 from './images/Arduino-demo1.webp';
-import Arduino_demo31 from './images/Arduino-demo31.webp';
-import Arduino_demo32 from './images/Arduino-demo32.webp';
-import Arduino_demo41 from './images/Arduino-demo41.webp';
-import Arduino_demo42 from './images/Arduino-demo42.webp';
-import Arduino_Set from './images/Arduino-Set.webp';
-import Arduino_Board from './images/Arduino-Board.webp';
-import arduino_config from './images/ESP32-C6-Touch-AMOLED-1.8-demo-01.webp';
 
 
 # Working with Arduino
@@ -102,7 +94,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 |                [03_Video_demo](#Demo-3-Video_demo)               |              Prints ASCII characters in rows and columns on the display according to the screen size                  |                   GFX_Library_for_Arduino                   |
 
 **ESP32-C6-LCD-1.3 Model Selection**
-<div style={{maxWidth:800}}> <img src={arduino_config}/></div>
+<div style={{maxWidth:800}}> ![](./images/ESP32-C6-Touch-AMOLED-1.8-demo-01.webp)</div>
 
 
 
@@ -131,7 +123,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Operation Result
 
-<div style={{maxWidth:800}}> <img src={Arduino_demo1}/></div>
+<div style={{maxWidth:800}}> ![](./images/Arduino-demo1.webp)</div>
 
 ### 02_LVGL_WeatherClock {#Demo-2-LVGL_WeatherClock}
 
@@ -157,7 +149,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Operation Result
 
-| <div style={{maxWidth:800}}> <img src={Arduino_demo31}/></div> | <div style={{maxWidth:800}}> <img src={Arduino_demo32}/></div> |
+| <div style={{maxWidth:800}}> ![](./images/Arduino-demo31.webp)</div> | <div style={{maxWidth:800}}> ![](./images/Arduino-demo32.webp)</div> |
 | -------------------------------------------------------------- | -------------------------------------------------------------- |
 
 
@@ -183,5 +175,5 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Operation Result
 
-| <div style={{maxWidth:360}}> <img src={Arduino_demo41}/></div> | <div style={{maxWidth:800}}> <img src={Arduino_demo42}/></div> |
+| <div style={{maxWidth:360}}> ![](./images/Arduino-demo41.webp)</div> | <div style={{maxWidth:800}}> ![](./images/Arduino-demo42.webp)</div> |
 | -------------------------------------------------------------- | -------------------------------------------------------------- |

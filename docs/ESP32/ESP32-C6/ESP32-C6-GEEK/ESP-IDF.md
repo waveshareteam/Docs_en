@@ -11,11 +11,6 @@ product_model:
   - ESP32-C6-GEEK-Basic-Kit
 ---
 
-import espidfExample0101 from './images/Idf_0101.webp';
-import espidfExample0201 from './images/Idf_0201.webp';
-import espidfExample0301 from './images/Idf_0301.webp';
-import arduino_demo_Button_test from './images/300px-ESP32-S3-GEEK-ArDemo-Button-01.webp';
-import espidfExample0501 from './images/Idf_0501.webp';
 
 # Working with ESP-IDF
 
@@ -77,7 +72,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 This demo demonstrates how to use ESP32-C6-GEEK to test the read and write functions of the TF card
 
-<div style={{maxWidth:800}}> <img src={espidfExample0101} alt="ESP32-C6-GEEK ESP-IDF Example 1 Figure 1"/></div>
+<div style={{maxWidth:800}}> ![ESP32-C6-GEEK ESP-IDF Example 1 Figure 1](./images/Idf_0101.webp)</div>
 
 **Additional Preparation**
 - Insert the TF card into the card slot (TF card needs to be formatted as FAT32)
@@ -100,7 +95,7 @@ This demo demonstrates how to use ESP32-C6-GEEK to test the read and write funct
 
 This demo can set the development board as a hotspot, allowing phones or other devices in STA mode to connect to the development board.
 
-<div style={{maxWidth:800}}> <img src={espidfExample0201} alt="ESP32-C6-GEEK ESP-IDF Example 2 Figure 1"/></div>
+<div style={{maxWidth:800}}> ![ESP32-C6-GEEK ESP-IDF Example 2 Figure 1](./images/Idf_0201.webp)</div>
 
 **Code Analysis**
 - In the file `softap_example_main.c`, find `SSID` and `PASSWORD`, and then your phone or other device in STA mode can use the `SSID` and `PASSWORD` to connect to the development board.
@@ -114,7 +109,7 @@ This demo can set the development board as a hotspot, allowing phones or other d
 
 This example can configure the development board as a STA device to connect to a router, thereby enabling access to the system network.
 
-<div style={{maxWidth:800}}> <img src={espidfExample0301} alt="ESP32-C6-GEEK ESP-IDF Example 3 Figure 1"/></div>
+<div style={{maxWidth:800}}> ![ESP32-C6-GEEK ESP-IDF Example 3 Figure 1](./images/Idf_0301.webp)</div>
 
 **Code Analysis**
 In the file `esp_wifi_bsp.c`, find `ssid` and `password`, then modify them to the `SSID` and `Password` of an available router in your current environment.
@@ -132,7 +127,7 @@ In the file `esp_wifi_bsp.c`, find `ssid` and `password`, then modify them to th
 
 This example demonstrates how to use the Boot button as a multi-functional button, capable of performing different actions such as single-click, double-click, or long-press.
 
-<div style={{maxWidth:600}}> <img src={arduino_demo_Button_test} alt="ESP32-C6-GEEK ESP-IDF Example 4 Figure 1"/></div>
+<div style={{maxWidth:600}}> ![ESP32-C6-GEEK ESP-IDF Example 4 Figure 1](./images/300px-ESP32-S3-GEEK-ArDemo-Button-01.webp)</div>
 
 **Code Analysis**
 
@@ -160,7 +155,7 @@ This example demonstrates how to use the Boot button as a multi-functional butto
 
 Implement some multi-functional GUI interfaces on the screen by porting LVGL.
 
-<div style={{maxWidth:800}}> <img src={espidfExample0501} alt="ESP32-C6-GEEK ESP-IDF Example 5 Figure 1"/></div>
+<div style={{maxWidth:800}}> ![ESP32-C6-GEEK ESP-IDF Example 5 Figure 1](./images/Idf_0501.webp)</div>
 
 **Code Analysis**
 

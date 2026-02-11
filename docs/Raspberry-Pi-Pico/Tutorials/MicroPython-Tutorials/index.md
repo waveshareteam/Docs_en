@@ -5,14 +5,6 @@ id: Raspberry-Pi-Pico-MicroPython-Tutorial-Introduction
 ---
 
 <!-- Image Reference -->
-import ImgMicropyDownloadThonny from './images/01-Download-Thonny.webp';
-import ImgMicropythonShell from './images/01-MicroPython-Shell.webp';
-import ImgMicropythonUpload1 from './images/01-MicroPython-Upload-1.gif';
-import ImgMicropythonUpload2 from './images/01-MicroPython-Upload-2.webp';
-import ImgMicropythonUpload3 from './images/01-MicroPython-Upload-3.webp';
-import ImgMicropythonUpload4 from './images/01-MicroPython-Upload-4.webp';
-import ImgMicropythonUpload5 from './images/01-MicroPython-Upload-5.webp';
-import ImgMicropythonUpload6 from './images/01-MicroPython-Upload-6.webp'; 
 
 # Raspberry Pi Pico MicroPython Getting Started
 
@@ -73,10 +65,7 @@ The operation of MicroPython relies primarily on the firmware flashed onto the d
 1. **Interactive Interpreter (REPL)**:
    When the MicroPython firmware starts, it runs a miniature Python interpreter and enters a standby state. At this point, through a serial connection, the user can enter the **REPL** (Read-Eval-Print Loop) environment. Python commands sent in this environment are executed immediately and return results. This immediate feedback mechanism significantly improves debugging efficiency.
     <div style={{maxWidth: 600}}>
-        <img 
-            src={ImgMicropythonShell} 
-            style={{width: '100%', height: 'auto'}}
-        />
+        ![](./images/01-MicroPython-Shell.webp)
     </div>
 2. **File Execution Mechanism**:
    In addition to interactive input, MicroPython also supports running code saved in the file system. When the device boots, it attempts to run `boot.py` (the system boot script) and `main.py` (the user's main program) in sequence. Saving your code as `main.py` enables the program to run automatically upon device power-up.
@@ -112,17 +101,11 @@ Go to the [Thonny official website](https://thonny.org/) to download and install
 After installation, configure the language and board environment on the first run. Since we are using RP series development boards, make sure to select the Raspberry Pi option for the board environment.
 1.  First, connect the development board to your computer. Left-click the "Configure interpreter" option in the bottom-right corner of Thonny.
     <div style={{maxWidth: 500}}>
-        <img 
-            src={ImgMicropythonUpload2} 
-            style={{width: '100%', height: 'auto'}}
-        />
+        ![](./images/01-MicroPython-Upload-2.webp)
     </div>
 2. In the pop-up window, select MicroPython (Raspberry Pi Pico), and choose the corresponding port
     <div style={{maxWidth: 500}}>
-        <img 
-            src={ImgMicropythonUpload3} 
-            style={{width: '100%', height: 'auto'}}
-        />
+        ![](./images/01-MicroPython-Upload-3.webp)
     </div>
 
 ### 2.3 Flashing Firmware
@@ -135,26 +118,17 @@ After installation, configure the language and board environment on the first ru
     - [RP2350B Firmware](https://files.waveshare.com/wiki/common/WAVESHARE_RP2350B.zip)
     :::
     <div style={{maxWidth: 600}}>
-        <img 
-            src={ImgMicropythonUpload1} 
-            style={{width: '100%', height: 'auto'}}
-        />
+        ![](./images/01-MicroPython-Upload-1.gif)
     </div>
 
 2. **Restart the Interpreter**: After successful flashing, click the red **Stop** button on the toolbar to restart the on-board interpreter.
     <div style={{maxWidth: 400}}>
-        <img 
-            src={ImgMicropythonUpload4} 
-            style={{width: '100%', height: 'auto'}}
-        />
+        ![](./images/01-MicroPython-Upload-4.webp)
     </div>
 
 3. **Check the Prompt**: After successful connection, the MicroPython version information, board information, and the `>>>` prompt should appear in the Shell window, indicating that you have successfully entered the board's MicroPython REPL environment.
     <div style={{maxWidth: 600}}>
-        <img 
-            src={ImgMicropythonUpload5} 
-            style={{width: '100%', height: 'auto'}}
-        />
+        ![](./images/01-MicroPython-Upload-5.webp)
     </div>
 
 ### 2.4 Verifying the Development Environment
@@ -165,10 +139,7 @@ After installation, configure the language and board environment on the first ru
    print('Hello, Raspberry Pi Pico!')
    ```
     <div style={{maxWidth: 600}}>
-        <img 
-            src={ImgMicropythonUpload6} 
-            style={{width: '100%', height: 'auto'}}
-        />
+        ![](./images/01-MicroPython-Upload-6.webp)
     </div>
 
    You should immediately see Raspberry Pi Pico return the message `Hello, Raspberry Pi Pico!`.
@@ -181,4 +152,3 @@ At this point, the Raspberry Pi Pico MicroPython development environment has bee
 - [MicroPython Official Documentation](https://docs.micropython.org/en/latest/reference/index.html)
 - [MicroPython GitHub Wiki](https://github.com/micropython/micropython/wiki)
 - [Raspberry Pi MicroPython Notes](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html)
-

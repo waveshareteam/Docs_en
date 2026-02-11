@@ -19,20 +19,17 @@ You are browsing the new documentation. If you are more familiar with the old ve
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- Image References -->
-import ESP32C3ZeroImage from './images/ESP32-C3-Zero.webp';
-import ESP32C3ZeroMImage from './images/ESP32-C3-Zero-M.webp';
-import BasicKitImage from './images/ESP32-C3-Zero-Basic-Kit.webp';
+
 
 <Tabs queryString="variant">
   <TabItem value="ESP32-C3-Zero" label="ESP32-C3-Zero (Without header)">
-    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-c3-zero.htm?sku=25452" target="_blank"><img src={ESP32C3ZeroImage}/></a></div>
+    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-c3-zero.htm?sku=25452" target="_blank">![](./images/ESP32-C3-Zero.webp)</a></div>
   </TabItem>
   <TabItem value="ESP32-C3-Zero-M" label="ESP32-C3-Zero-M (With pre-soldered header)" default>
-    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-c3-zero.htm?sku=25532" target="_blank"><img src={ESP32C3ZeroMImage}/></a></div>
+    <div style={{maxWidth:400}}> <a href="https://www.waveshare.com/esp32-c3-zero.htm?sku=25532" target="_blank">![](./images/ESP32-C3-Zero-M.webp)</a></div>
   </TabItem>
   <TabItem value="ESP32-C3-Zero-Basic-Kit" label="ESP32-C3-Zero-Basic-Kit (Basic Kit)" default>
-    <div style={{maxWidth:600}}> <a href="https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33358" target="_blank"><img src={BasicKitImage}/></a></div>
+    <div style={{maxWidth:600}}> <a href="https://www.waveshare.com/esp32-xx-basic-kit.htm?sku=33358" target="_blank">![](./images/ESP32-C3-Zero-Basic-Kit.webp)</a></div>
   </TabItem>
 </Tabs>
 

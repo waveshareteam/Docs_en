@@ -12,10 +12,6 @@ product_model:
 
 <!-- Example-related Image References -->
 
-import rp2350TouchAmoled1_75MicropytonExample1 from './images/MicroPython-Example-1.webp';
-import rp2350TouchAmoled1_75MicropytonExample2 from './images/MicroPython-Example-2.webp';
-import rp2350TouchAmoled1_75MicropytonExample3 from './images/MicroPython-Example-3.webp';
-import rp2350TouchAmoled1_75MicropytonExample4 from './images/MicroPython-Example-4.webp';
 
 # Working with MicroPython
 
@@ -74,10 +70,7 @@ The Micropython demos are located in the `Micropython` directory of the [demo pa
 - Upload all py files from the 01_SD folder to the development board via Thonny and reset the board. After resetting, the development board will automatically mount the TF card to the sd directory according to the boot.py program.
 
     <div style={{maxWidth: 600}}>
-        <img 
-            src={rp2350TouchAmoled1_75MicropytonExample1} 
-            style={{width: '100%', height: 'auto'}}
-        />
+        ![](./images/MicroPython-Example-1.webp)
     </div>
 
 ### 02_RTC
@@ -104,10 +97,7 @@ The Micropython demos are located in the `Micropython` directory of the [demo pa
 - Run the py files in the 02_RTC folder using Thonny.
 
     <div style={{maxWidth: 600}}>
-        <img 
-            src={rp2350TouchAmoled1_75MicropytonExample2} 
-            style={{width: '100%', height: 'auto'}}
-        />
+        ![](./images/MicroPython-Example-2.webp)
     </div>
 
 ### 03_IMU
@@ -130,10 +120,7 @@ The Micropython demos are located in the `Micropython` directory of the [demo pa
 - Run the py files in the 03_IMU folder using Thonny.
 
     <div style={{maxWidth: 400}}>
-        <img 
-            src={rp2350TouchAmoled1_75MicropytonExample3} 
-            style={{width: '100%', height: 'auto'}}
-        />
+        ![](./images/MicroPython-Example-3.webp)
     </div>
 
 ### 04_GPS_UART
@@ -159,11 +146,7 @@ The Micropython demos are located in the `Micropython` directory of the [demo pa
 - Upload all directories and files from the 04_GPS_UART folder to the development board using Thonny, then run the `coordinates_converted.py` file in the example folder.
 
     <div style={{maxWidth: 600}}>
-        <img 
-            src={rp2350TouchAmoled1_75MicropytonExample4} 
-            style={{width: '100%', height: 'auto'}}
-        />
+        ![](./images/MicroPython-Example-4.webp)
     </div>
-
 
 

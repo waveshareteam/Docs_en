@@ -11,9 +11,6 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <!-- Image referencing -->
-import ImgI2CDiagram from './images/07-I2C_2_bb.webp';
-import ImgI2CScannerDiagram from './images/07-I2C-Scanner_bb.webp';
-import ImgI2COLED from './images/07-I2C-OLED.webp';
 
 # I2C Communication
 
@@ -97,7 +94,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:800}}> <img src={ImgI2CScannerDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:800}}> ![Wiring diagram](./images/07-I2C-Scanner_bb.webp)</div>
 
 :::info Circuit diagram description
 The 4.7k Ω pull-up resistor in the circuit diagram is the standard connection for I2C. Since the [OLED module](https://www.waveshare.com/1.5inch-oled-module.htm) used in this tutorial has a built-in pull-up resistor, the circuit can still work properly without connecting these two resistors.
@@ -202,7 +199,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:800}}> <img src={ImgI2CScannerDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:800}}> ![Wiring diagram](./images/07-I2C-Scanner_bb.webp)</div>
 
 :::info Circuit diagram description
 The 4.7k Ω pull-up resistor in the circuit diagram is the standard connection for I2C. Since the [OLED module](https://www.waveshare.com/1.5inch-oled-module.htm) used in this tutorial has a built-in pull-up resistor, the circuit can still work properly without connecting these two resistors.
@@ -353,7 +350,7 @@ This process leverages the flexibility of the ESP32 Arduino core library, allowi
 
 1. The OLED screen will light up and display the following:
 
-   <div style={{maxWidth:250}}> <img src={ImgI2COLED} alt="Example 2 Running results"/></div>
+   <div style={{maxWidth:250}}> ![Example 2 Running results](./images/07-I2C-OLED.webp)</div>
 
    - The first line is "Hello," in white font.
    - The second line is the inverted color display "World!" (i.e. black text with white background).
@@ -380,7 +377,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:800}}> <img src={ImgI2CDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:800}}> ![Wiring diagram](./images/07-I2C_2_bb.webp)</div>
 
 :::info Pull-up resistor connection:
 

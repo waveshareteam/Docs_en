@@ -10,7 +10,6 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <!-- Image referencing -->
-import ImgSPIDiagram from './images/08-SPI_bb.webp';
 
 # SPI Communication
 
@@ -105,7 +104,7 @@ Connect the circuit according to the wiring diagram below:
 
 </Details>
 
-<div style={{maxWidth:800}}> <img src={ImgSPIDiagram} alt="Wiring diagram"/></div>
+<div style={{maxWidth:800}}> ![Wiring diagram](./images/08-SPI_bb.webp)</div>
 
 | ESP32 pin | OLED module |                   Description                 |
 | ---------- | --------- | ------------- |

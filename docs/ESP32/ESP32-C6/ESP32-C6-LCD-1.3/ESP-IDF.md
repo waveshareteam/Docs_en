@@ -12,14 +12,6 @@ import EspidfTutorialIntro from '@site/docs/ESP32/snippets/EspidfTutorialIntro.m
 
 <!-- Image Reference -->
 
-import Demo_Blue from './images/ESP-C6-LCD-1.3-Demo-Blue.webp';
-import Demo_Orange from './images/ESP-C6-LCD-1.3-Demo-Orange.webp';
-import Demo_Purple from './images/ESP-C6-LCD-1.3-Demo-Purple.webp';
-import Demo_Green from './images/ESP-C6-LCD-1.3-Demo-Green.webp';
-import IDF_demo1 from './images/IDF-demo1.webp';
-import IDF_demo2 from './images/IDF-demo2.webp';
-import IDF_demo3 from './images/IDF-demo3.webp';
-import IDF_demo4 from './images/IDF-demo4.webp';
 
 # Working with ESP-IDF
 
@@ -93,5 +85,5 @@ Note: If ESP-IDF installation fails or needs to be reinstalled, you can try dele
 - LCD Display: After the device powers on, the LCD lights up automatically, showing the UI interface drawn by LVGL with a stable refresh rate (typically 30-60 fps).
 - RGB LED Effect: By default, it displays preset colors. The RGB LED dynamically switches between colors like red, green, yellow, etc., using a breathing light animation effect.
 
-| <div style={{maxWidth:800}}> <img src={Demo_Blue}/></div> | <div style={{maxWidth:800}}> <img src={Demo_Orange}/></div> | <div style={{maxWidth:800}}> <img src={Demo_Purple}/></div> | <div style={{maxWidth:800}}> <img src={Demo_Green}/></div> |
+| <div style={{maxWidth:800}}> ![](./images/ESP-C6-LCD-1.3-Demo-Blue.webp)</div> | <div style={{maxWidth:800}}> ![](./images/ESP-C6-LCD-1.3-Demo-Orange.webp)</div> | <div style={{maxWidth:800}}> ![](./images/ESP-C6-LCD-1.3-Demo-Purple.webp)</div> | <div style={{maxWidth:800}}> ![](./images/ESP-C6-LCD-1.3-Demo-Green.webp)</div> |
 | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- |

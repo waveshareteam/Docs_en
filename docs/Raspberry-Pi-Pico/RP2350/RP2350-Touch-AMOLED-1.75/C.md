@@ -11,15 +11,6 @@ product_model:
 
 <!-- Example-related Image References -->
 
-import rp2350TouchAmoled1_75VSCodeExample1 from './images/VSCode-Example-1.webp';
-import rp2350TouchAmoled1_75VSCodeExample2 from './images/VSCode-Example-2.webp';
-import rp2350TouchAmoled1_75VSCodeExample3 from './images/VSCode-Example-3.webp';
-import rp2350TouchAmoled1_75VSCodeExample4 from './images/VSCode-Example-4.webp';
-import rp2350TouchAmoled1_75VSCodeExample5 from './images/VSCode-Example-5.webp';
-import rp2350TouchAmoled1_75VSCodeExample6 from './images/VSCode-Example-6.webp';
-import rp2350TouchAmoled1_75VSCodeExample7 from './images/VSCode-Example-7.webp';
-import rp2350TouchAmoled1_75VSCodeExample8 from './images/VSCode-Example-8.webp';
-import rp2350TouchAmoled1_75VSCodeExample9 from './images/VSCode-Example-9.webp';
 
 # Working with C/C++
 
@@ -85,19 +76,13 @@ We have encapsulated the hardware operations at a low level. Due to differences 
 For the screen, what if you need to paint, display Chinese and English characters, display pictures, etc., these are all done by the upper layer applications. Many users have asked about graphical processing. We provide some basic functionalities in the GUI, located in the directory: `c\lib\GUI\GUI_Paint.c(.h)`
 
 <div style={{maxWidth: 800}}>
-    <img 
-        src={rp2350TouchAmoled1_75VSCodeExample1} 
-        style={{width: '100%', height: 'auto'}}
-    />
+    ![](./images/VSCode-Example-1.webp)
 </div>
 
 The character fonts that the GUI depends on are located in the directory: `c\lib\Fonts`
  
 <div style={{maxWidth: 800}}>
-    <img 
-        src={rp2350TouchAmoled1_75VSCodeExample2} 
-        style={{width: '100%', height: 'auto'}}
-    />
+    ![](./images/VSCode-Example-2.webp)
 </div>
 
 - Create Image Attribute: Create a new image attribute, which includes the name, width, height, rotation angle, and color of the image cache.
@@ -127,10 +112,7 @@ The character fonts that the GUI depends on are located in the directory: `c\lib
     :::tip 
     The starting pixel for coordinates differs under different rotation angles. Taking 1.14 as an example, the four images correspond to 0°, 90°, 180°, and 270° in order. This is for reference only.
     <div style={{maxWidth: 800}}>
-        <img 
-            src={rp2350TouchAmoled1_75VSCodeExample3} 
-            style={{width: '100%', height: 'auto'}}
-        />
+        ![](./images/VSCode-Example-3.webp)
     </div>
     :::
 
@@ -360,10 +342,7 @@ The character fonts that the GUI depends on are located in the directory: `c\lib
 
 - Import and compile the 01_GUI project using VS Code. After compilation, flash the .uf2 file from the build directory, or directly flash 01_GUI.uf2 from the uf2 directory for quick verification.
     <div style={{maxWidth: 400}}>
-        <img 
-            src={rp2350TouchAmoled1_75VSCodeExample4} 
-            style={{width: '100%', height: 'auto'}}
-        />
+        ![](./images/VSCode-Example-4.webp)
     </div>
 
 ### 02_ES8311
@@ -510,10 +489,7 @@ The character fonts that the GUI depends on are located in the directory: `c\lib
 - Use VS Code to import and compile the 04_GPS_I2C project. After compilation, flash the .uf2 file from the build directory, or directly flash the 04_GPS_I2C.uf2 file from the uf2 directory for quick verification.
 
     <div style={{maxWidth: 800}}>
-            <img 
-                src={rp2350TouchAmoled1_75VSCodeExample5} 
-                style={{width: '100%', height: 'auto'}}
-            />
+            ![](./images/VSCode-Example-5.webp)
     </div>
 
 ### 05_LVGL
@@ -534,19 +510,13 @@ The character fonts that the GUI depends on are located in the directory: `c\lib
 - LVGL library related settings are in `examples\inc\lv_conf.h` of the project folder, where you can set display refresh rate, system data usage, etc.
 
     <div style={{maxWidth: 600}}>
-            <img 
-                src={rp2350TouchAmoled1_75VSCodeExample6} 
-                style={{width: '100%', height: 'auto'}}
-            />
+            ![](./images/VSCode-Example-6.webp)
     </div>
 
 - The application code for the LVGL library is located in `examples\src\LVGL_example.c` of the project folder.
 
     <div style={{maxWidth: 600}}>
-                <img 
-                    src={rp2350TouchAmoled1_75VSCodeExample7} 
-                    style={{width: '100%', height: 'auto'}}
-                />
+                ![](./images/VSCode-Example-7.webp)
     </div>
 
 #### LVGL Initialization
@@ -827,10 +797,7 @@ In LVGL, we can create various user interfaces. The basic components of the inte
     lv_obj_align(sw, LV_ALIGN_CENTER, -45, 0);
     ```
     <div style={{maxWidth: 800}}>
-            <img 
-                src={rp2350TouchAmoled1_75VSCodeExample8} 
-                style={{width: '100%', height: 'auto'}}
-            />
+            ![](./images/VSCode-Example-8.webp)
     </div>
 
 - LVGL Widget Font Size Switching 
@@ -864,8 +831,5 @@ In LVGL, we can create various user interfaces. The basic components of the inte
 - Use VS Code to import and compile the 05_LVGL project. After compilation, flash the .uf2 file from the build directory, or directly flash the 05_LVGL.uf2 file from the uf2 directory for quick verification.
 
     <div style={{maxWidth: 400}}>
-            <img 
-                src={rp2350TouchAmoled1_75VSCodeExample9} 
-                style={{width: '100%', height: 'auto'}}
-            />
+            ![](./images/VSCode-Example-9.webp)
     </div>

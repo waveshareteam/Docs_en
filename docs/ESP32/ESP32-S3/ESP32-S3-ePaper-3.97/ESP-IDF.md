@@ -11,37 +11,8 @@ product_model:
 import EspidfTutorialIntro from '@site/docs/ESP32/snippets/EspidfTutorialIntro.mdx';
 import EspidfSetup from '@site/docs/ESP32/snippets/EspidfSetup.mdx';
 
-import Ard_02_e_paper from './images/Ard_02_e_paper.webp';
-import Idf_02_Mic_test from './images/Idf_02_Mic_test.webp';
-import Ard_05_SD_Test_01 from './images/Ard_05_SD_Test_01.webp';
-import Ard_05_SD_Test_02 from './images/Ard_05_SD_Test_02.webp';
-import Ard_05_SD_Test_03 from './images/Ard_05_SD_Test_03.webp';
-import Ard_06_QMI8658A from './images/Ard_06_QMI8658A.webp';
-import Idf_06_I2C_PCF85063 from './images/Idf_06_I2C_PCF85063.webp';
-import Ard_04_I2C_SHTC3 from './images/Ard_04_I2C_SHTC3.webp';
 
-import idf_08_wifi from './images/idf_08_wifi.webp';
-import idf_08_main from './images/idf_08_main.webp';
-import idf_0801 from './images/idf_0801.webp';
-import idf_0802 from './images/idf_0802.webp';
-import idf_0802_timezone from './images/idf_0802_timezone.webp';
-import idf_0803 from './images/idf_0803.webp';
-import idf_0804_1 from './images/idf_0804_1.webp';
-import idf_0804_2 from './images/idf_0804_2.webp';
-import idf_0804_3 from './images/idf_0804_3.webp';
-import idf_weather_show from './images/idf_weather_show.webp';
-import Weather_set from './images/Weather_set.webp';
-import Idf_wifi from './images/Idf_wifi.webp';
-import idf_0807_1 from './images/idf_0807_1.webp';
-import idf_0807_2 from './images/idf_0807_2.webp';
-import idf_0807_3 from './images/idf_0807_3.webp';
-import idf_0808_1 from './images/idf_0808_1.webp';
-import idf_0808_2 from './images/idf_0808_2.webp';
-import idf_0808_3 from './images/idf_0808_3.webp';
-import idf_0808_4 from './images/idf_0808_4.webp';
 
-import idf_0810_QMI from './images/idf_0810_QMI.webp';
-import idf_0810_sd from './images/idf_0810_sd.webp';
 
 # ESP-IDF
 
@@ -138,9 +109,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 <div 
     style={{maxWidth:600}}> 
-    <img 
-        src={Ard_02_e_paper} 
-    />
+    ![](./images/Ard_02_e_paper.webp)
 </div>
 
 ### 02_Mic_test {#Demo-02_Mic_test}
@@ -168,9 +137,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
   <div 
       style={{maxWidth:600}}> 
-      <img 
-          src={Idf_02_Mic_test} 
-      />
+      ![](./images/Idf_02_Mic_test.webp)
   </div>
 
 ### 03_Music {#Demo-03_Music}
@@ -218,9 +185,9 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
 - Reads and displays images from the TF card.
 
-  <div style={{maxWidth:400}}> <img src={Ard_05_SD_Test_01}/></div>
-  <div style={{maxWidth:400}}> <img src={Ard_05_SD_Test_02}/></div>
-  <div style={{maxWidth:400}}> <img src={Ard_05_SD_Test_03}/></div>
+  <div style={{maxWidth:400}}> ![](./images/Ard_05_SD_Test_01.webp)</div>
+  <div style={{maxWidth:400}}> ![](./images/Ard_05_SD_Test_02.webp)</div>
+  <div style={{maxWidth:400}}> ![](./images/Ard_05_SD_Test_03.webp)</div>
 
 ### 05_QMI8658A {#Demo-05_QMI8658A}
 
@@ -248,9 +215,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
   <div 
       style={{maxWidth:400}}> 
-      <img 
-          src={Ard_06_QMI8658A} 
-      />
+      ![](./images/Ard_06_QMI8658A.webp)
   </div>
 
 ### 06_I2C_PCF85063 {#Demo-06_I2C_PCF85063}
@@ -278,9 +243,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
   <div 
       style={{maxWidth:400}}> 
-      <img 
-          src={Idf_06_I2C_PCF85063} 
-      />
+      ![](./images/Idf_06_I2C_PCF85063.webp)
   </div>
 
 ### 07_I2C_SHTC3 {#Demo-07_I2C_SHTC3}
@@ -307,9 +270,7 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 
   <div 
       style={{maxWidth:400}}> 
-      <img 
-          src={Ard_04_I2C_SHTC3} 
-      />
+      ![](./images/Ard_04_I2C_SHTC3.webp)
   </div>
 
 ### 08_ESP32-S3_e-Paper-3.97 {#Demo-08_ESP32-S3_e-Paper-3.97}
@@ -344,82 +305,82 @@ The ESP-IDF demos are located in the `ESP-IDF` directory of the [demo package](h
 #### Operation Result
 
 - After the program is flashed, it enters the network configuration interface. Configure the network by connecting to the WiFi name displayed on the e-Paper.
-  <div style={{maxWidth:400}}> <img src={idf_08_wifi}/></div>
+  <div style={{maxWidth:400}}> ![](./images/idf_08_wifi.webp)</div>
 
 - After network configuration is complete, it enters the main page. Control is via the rotary encoder button and the BOOT and PWR side buttons. The e-Paper automatically sleeps after 60 seconds of inactivity and soft shuts down after 10 minutes of inactivity.
-  <div style={{maxWidth:400}}> <img src={idf_08_main}/></div>
+  <div style={{maxWidth:400}}> ![](./images/idf_08_main.webp)</div>
 
 1. File Browser Module
    - Reads all directories and files on the TF card. Only folders, .txt text files, and audio files can be opened; other format files cannot be opened.
-     <div style={{maxWidth:400}}> <img src={idf_0801}/></div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0801.webp)</div>
    - Use the rotary encoder up/down (↑↓) to select files/directories. A single click confirms to enter/open.
    - Double-click confirm or press Boot to return to the previous directory. Long press the middle of the rotary encoder to perform a global refresh.
 
 2. Clock Module
    - Refreshes and displays temperature, humidity, time, and battery level.
-     <div style={{maxWidth:400}}> <img src={idf_0802}/></div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0802.webp)</div>
    - Supports timezone selection function: Click confirm to enter the timezone selection interface. The e-Paper displays operation prompts. Use the rotary encoder up/down (↑↓) to select the timezone, then click confirm to apply.
-     <div style={{maxWidth:400}}> <img src={idf_0802_timezone}/></div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0802_timezone.webp)</div>
 
 3. Calendar Module 
    - Refreshes and displays the calendar (based on the domestic API in China, which may load slowly for users outside China), including the Gregorian date, Chinese lunar date/solar term/festivals. The current date is highlighted.
-     <div style={{maxWidth:500}}> <img src={idf_0803}/></div>
+     <div style={{maxWidth:500}}> ![](./images/idf_0803.webp)</div>
    - Supports manual refresh: Long press the middle of the rotary encoder to fetch the latest date data from the network again. It automatically updates once per day.
    - Low power and wake-up rules: Automatically shuts down after 10 minutes of inactivity. By default, the RTC wakes up once every hour. If an alarm is detected as set on the current page, it changes to waking up once per minute.
 
 4. Alarm Module
    - Main interface of the alarm module, supporting up to 5 alarm settings.
-     <div style={{maxWidth:400}}> <img src={idf_0804_1}/></div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0804_1.webp)</div>
 
    - After deleting an alarm, the time resets to 00:00 by default and the status is OFF. Click confirm to enter alarm editing mode. Use the rotary encoder up/down (↑↓) to select the content to edit (hour/minute/switch).
-     <div style={{maxWidth:400}}> <img src={idf_0804_2}/></div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0804_2.webp)</div>
    - Hour/Minute editing: Click confirm to enter value adjustment. The rotary encoder up/down (↑↓) buttons allow single-step adjustment or continuous adjustment when held. Switch editing: Click confirm to toggle the ON/OFF state once. Double-click confirm or press Boot to exit editing mode.
-     <div style={{maxWidth:400}}> <img src={idf_0804_3}/></div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0804_3.webp)</div>
 
    - Alarm trigger: When the set alarm time arrives, it automatically plays a built-in audio. Press any button to stop playback. Double-click confirm or press Boot to exit the alarm module and return to the main page.
 
 5. Weather Module (Requires WiFi connection to be enabled first. It uses a Chinese weather service API and code tables, and is currently in the testing phase for adaptation to an English API.)
    - Main interface of the weather module, showing the date, temperature/humidity, and weather information for the next 4 days.
-     <div style={{maxWidth:500}}> <img src={idf_weather_show}/></div>
+     <div style={{maxWidth:500}}> ![](./images/idf_weather_show.webp)</div>
    - Automatically updates weather data at four fixed times daily (4:00, 9:00, 14:00, 20:00). Long press the rotary encoder to manually fetch the latest weather from the network.
    - Automatically shuts down after 10 minutes of inactivity. By default, the RTC wakes up once every hour. If an alarm is detected as set on the current page, it changes to waking up once per minute.
    - The weather module's icon files are stored in: sdcard\Weather_img\Weather_img. Supports adding/modifying weather images:
      - Add new weather images in the sdcard\Weather_img\Weather_img folder.
      - Open Weather.txt, add the name to display and the corresponding image.
-       <div style={{maxWidth:600}}> <img src={Weather_set}/></div>
+       <div style={{maxWidth:600}}> ![](./images/Weather_set.webp)</div>
 
 6. Network Configuration Module
    - Supports turning WiFi ON/OFF and re-configuring the network. When WiFi is OFF, only "Turn ON WiFi" and "Return to Main Menu" are displayed. When WiFi is ON, "Turn OFF WiFi", "Re-configure Network", and "Return to Main Menu" are displayed.
-     <div style={{maxWidth:400}}> <img src={Idf_wifi}/></div>
+     <div style={{maxWidth:400}}> ![](./images/Idf_wifi.webp)</div>
    - After selecting network configuration, it enters STA mode. In this mode, auto-shutdown is not triggered; only the e-Paper enters sleep state, while the ESP32 continues to work. Connect a device to the WiFi name displayed on the e-Paper to complete the configuration.
    - It attempts to connect to the configured WiFi for 30 seconds, during which no other operations are possible. If the connection fails, it exits configuration. Upon successful connection, it automatically obtains an IP address, and the e-Paper prompts that configuration was successful.
 
 7. Audio Playback Module
    - Supports three audio modes: Built-in audio, TF card audio, and Recording. Use the rotary encoder up/down (↑↓) to select the mode, then click confirm to enter. TF card audio reads files from the music folder in the TF card root directory. Recorded audio files are also automatically saved to this folder.
-     <div style={{maxWidth:400}}> <img src={idf_0807_1}/></div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0807_1.webp)</div>
    - For built-in audio, click confirm to play directly. For recording mode, click confirm to start recording immediately. In TF card audio mode, click confirm to select and play an audio file. There is no volume control function.
-     <div style={{maxWidth:400}}> <img src={idf_0807_2}/></div>
-     <div style={{maxWidth:400}}> <img src={idf_0807_3}/></div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0807_2.webp)</div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0807_3.webp)</div>
    - After selecting an audio file, click confirm to enter the operation selection interface. Double-click confirm or press Boot to return to the previous level. Long press the middle of the rotary encoder performs a global refresh.
 
 8. E-reader Module
    - Main interface of the e-reader module.
-     <div style={{maxWidth:400}}> <img src={idf_0808_1}/></div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0808_1.webp)</div>
 
    - Reads .txt text files from the fiction folder in the TF card root directory. Use the rotary encoder up/down (↑↓) to select a file, then click confirm to start reading. While reading, use the rotary encoder up/down (↑↓) to turn pages.
-     <div style={{maxWidth:400}}> <img src={idf_0808_2}/></div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0808_2.webp)</div>
 
    - Double-click the rotary encoder to enter the font selection interface. Click confirm to select a font and apply it.
-     <div style={{maxWidth:400}}> <img src={idf_0808_3}/></div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0808_3.webp)</div>
 
    - Click the rotary encoder to enter the bookmark management interface. Click again to perform a bookmark operation. Double-click confirm to add a bookmark. Reading progress and bookmarks are automatically saved to the bookmarks folder on the TF card.
-     <div style={{maxWidth:400}}> <img src={idf_0808_4}/></div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0808_4.webp)</div>
 
 9. System Settings Module
    - Entry method: On the main page, long press the Boot button to enter the settings interface. Use the rotary encoder up/down (↑↓) to select a function item. Click confirm to view. Double-click confirm or press Boot to return to the main page.
    - Currently supports two major functions: Memory Display (shows the device's current memory status) and QMI8658 6-axis Status Display (real-time display of acceleration, angular velocity, etc.).
-     <div style={{maxWidth:400}}> <img src={idf_0810_sd}/></div>
-     <div style={{maxWidth:400}}> <img src={idf_0810_QMI}/></div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0810_sd.webp)</div>
+     <div style={{maxWidth:400}}> ![](./images/idf_0810_QMI.webp)</div>
    - Supports global refresh: Long press the middle of the rotary encoder to perform a global refresh of the e-Paper, following the low-power rules of 60-second sleep and 10-minute shutdown.
 
 10. System Power ON/OFF

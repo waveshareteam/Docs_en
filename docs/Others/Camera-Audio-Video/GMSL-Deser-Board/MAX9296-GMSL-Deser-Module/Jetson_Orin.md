@@ -11,9 +11,6 @@ product_model:
   - MAX9296-GMSL-Deser-Module
 ---
 
-import connectorin from './images/MAX9296-GMSL-DESER-MODULE-details-7.webp';
-import connectpower from './images/MAX9296-GMSL-DESER-MODULE-5.webp';
-import cfgsetting from './images/MAX9296-GMSL-DESER-MODULE-6.webp';
 
 # Working with Jetson Orin
 
@@ -25,15 +22,15 @@ This module is designed based on the Jetson Orin form factor, allowing users to 
   <table style={{ width: '100%', borderCollapse: 'collapse' }}>
     <tr>
       <td rowSpan="2" style={{ width: '65%', padding: '8px' }}>
-        <img src={connectorin} alt="Connect to Jetson Orin Developer Kit" />
+        ![Connect to Jetson Orin Developer Kit](./images/MAX9296-GMSL-DESER-MODULE-details-7.webp)
       </td>
       <td style={{ padding: '8px' }}>
-        <img src={connectpower} alt="Power Wiring" />
+        ![Power Wiring](./images/MAX9296-GMSL-DESER-MODULE-5.webp)
       </td>
     </tr>
     <tr>
       <td style={{ padding: '8px' }}>
-        <img src={cfgsetting} alt="CFG Configuration" />
+        ![CFG Configuration](./images/MAX9296-GMSL-DESER-MODULE-6.webp)
       </td>
     </tr>
   </table>

@@ -8,8 +8,6 @@ product_family:
 
 <!-- Image Reference -->
 
-import ImgPotentiometerDiagram from './images/04-Potentiometer_bb.webp';
-import ImgADCDiagram from './images/04-ADC.webp';
 
 # Analog Input
 
@@ -36,7 +34,7 @@ The ESP32's ADC is typically **12-bit**, meaning it can be divided into **2¹² 
 - When the input voltage is **0V**, the ADC reading is approximately **0**.
 - When the input voltage **changes continuously from 0V to 3.3V**, the ADC reading will correspondingly **change continuously from 0 to 4095**.
 
-<div style={{maxWidth:600, margin: '0 auto'}}> <img src={ImgADCDiagram} alt="ADC"/></div>
+<div style={{maxWidth:600, margin: '0 auto'}}> ![ADC](./images/04-ADC.webp)</div>
 
 This way, the MicroPython program can obtain an integer between 0~4095 via `adc.read()`. This value directly corresponds to the voltage level on the input pin.
 
@@ -71,7 +69,7 @@ The components required are:
 
 </Details>
 
-<div style={{maxWidth:500}}> <img src={ImgPotentiometerDiagram} alt="Wiring Diagram"/></div>
+<div style={{maxWidth:500}}> ![Wiring Diagram](./images/04-Potentiometer_bb.webp)</div>
 
 **Circuit Analysis**
 

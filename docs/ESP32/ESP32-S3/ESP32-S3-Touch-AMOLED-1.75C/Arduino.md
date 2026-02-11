@@ -13,11 +13,6 @@ import TabItem from '@theme/TabItem';
 import Details from '@theme/Details';
 import ArduinoTutorialIntro from '@site/docs/ESP32/snippets/ArduinoTutorialIntro.mdx';
 
-import arduino_demo_HelloWorld from './images/arduino_demo_HelloWorld.webp';
-import arduino_demo_GFX_AsciiTable from './images/arduino_demo_GFX_AsciiTable.webp';
-import arduino_demo_LVGL_AXP2101_ADC_Data from './images/arduino_demo_LVGL_AXP2101_ADC_Data.webp';
-import arduino_demo_LVGL_QMI8658_ui from './images/arduino_demo_LVGL_QMI8658_ui.webp';
-import arduino_demo_LVGL_Widgets from './images/arduino_demo_LVGL_Widgets.webp';
 
 # Working with Arduino
 
@@ -122,7 +117,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Expected Result
 
-<div style={{maxWidth:400}}> <img src={arduino_demo_HelloWorld}/></div>
+<div style={{maxWidth:400}}> ![](./images/arduino_demo_HelloWorld.webp)</div>
 
 ### 02_GFX_AsciiTable {#Demo-2-GFX_AsciiTable}
 
@@ -175,7 +170,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Expected Result
 
-<div style={{maxWidth:400}}> <img src={arduino_demo_GFX_AsciiTable}/></div>
+<div style={{maxWidth:400}}> ![](./images/arduino_demo_GFX_AsciiTable.webp)</div>
 
 ### 03_LVGL_AXP2101_ADC_Data {#Demo-3-LVGL_AXP2101_ADC_Data}
 
@@ -210,7 +205,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
   ```
 #### Expected Result
 
-<div style={{maxWidth:400}}> <img src={arduino_demo_LVGL_AXP2101_ADC_Data}/></div>
+<div style={{maxWidth:400}}> ![](./images/arduino_demo_LVGL_AXP2101_ADC_Data.webp)</div>
 
 ### 04_LVGL_QMI8658_ui {#Demo-4-LVGL_QMI8658_ui}
 
@@ -237,7 +232,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Expected Result
 
-<div style={{maxWidth:400}}> <img src={arduino_demo_LVGL_QMI8658_ui}/></div>
+<div style={{maxWidth:400}}> ![](./images/arduino_demo_LVGL_QMI8658_ui.webp)</div>
 
 ### 05_LVGL_Widgets {#Demo-5-LVGL_Widgets}
 
@@ -263,7 +258,7 @@ The Arduino demos are located in the `Arduino/examples` directory of the [demo p
 
 #### Expected Result
 
-<div style={{maxWidth:400}}> <img src={arduino_demo_LVGL_Widgets}/></div>
+<div style={{maxWidth:400}}> ![](./images/arduino_demo_LVGL_Widgets.webp)</div>
 
 ### 06_ES7210 {#Demo-6-ES7210}
 

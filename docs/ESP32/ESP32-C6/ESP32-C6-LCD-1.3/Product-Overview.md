@@ -10,9 +10,6 @@ product_model:
 ---
 
 <!-- Image Reference -->
-import Interface_Definition from './images/Interface_Definition.webp';
-import Product_Size from './images/Product_Size.webp';
-import Resource_Overview from './images/Resource_Overview.webp';
 
 # ESP32-C6-LCD-1.3
 
@@ -51,12 +48,12 @@ import Resource_Overview from './images/Resource_Overview.webp';
 ## Interface Definition
 
 Supports expansion of various peripherals; more external devices can be connected via the GPIO pin headers.
-<div style={{maxWidth:800}}> <img src={Interface_Definition}/></div>
+<div style={{maxWidth:800}}> ![](./images/Interface_Definition.webp)</div>
 
 
 ## Onboard Resources
 
-<div style={{maxWidth:800}}> <img src={Resource_Overview}/></div>
+<div style={{maxWidth:800}}> ![](./images/Resource_Overview.webp)</div>
 
 - ①  RESET Button  
 - ②  Type-C Interface   Used for program flashing and log printing
@@ -67,7 +64,7 @@ Supports expansion of various peripherals; more external devices can be connecte
 
 ## Dimensions
 
-<div style={{maxWidth:800}}> <img src={Product_Size}/></div>
+<div style={{maxWidth:800}}> ![](./images/Product_Size.webp)</div>
 
 ## Development Methods
 

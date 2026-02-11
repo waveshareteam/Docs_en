@@ -316,7 +316,11 @@ ESP32-P4-WIFI6-Touch-LCD-X Any Kit
 
 1. The compatible screen driver has been packaged as a component, available in the [ESP Component Registry](https://components.espressif.com/components?q=namespace:waveshare)
 2. Open the corresponding project, select the esp32p4 target, then proceed by clicking <kbd>🔥</kbd> to compile, flash, and monitor. Upon completion, you can observe that the screen has lit up and is displaying color bars.
-<img src="https://www.waveshare.net/w/upload/f/fa/ESP32-P4-WIFI6-Touch-LCD-7-260109-01.jpg" width="400"/>
+   
+   <div style={{maxWidth:400}}>
+   ![ESP32-P4-WIFI6-Touch-LCD-7-260109-01](https://www.waveshare.net/w/upload/f/fa/ESP32-P4-WIFI6-Touch-LCD-7-260109-01.jpg)
+   </div>
+
 ---
 
 ### 8. LVGL HMI Human-Machine Interface
@@ -333,8 +337,8 @@ ESP32-P4-WIFI6-Touch-LCD-X Any Kit
 2. After opening the project, configure the relevant parameters in menuconfig under the Display settings. Select the esp32p4 target, then proceed by clicking <kbd>🔥</kbd> to compile, flash, and monitor. Upon completion, the display will show the rendered images.
 
 
-|<img src="https://www.waveshare.net/w/upload/d/d8/ESP32-P4-WIFI6-Touch-LCD-7-260109-02.jpg" width="400"/>   | <img src="https://www.waveshare.net/w/upload/5/55/ESP32-P4-WIFI6-Touch-LCD-7-260109-03.jpg" width="400"/>  |  <img src="https://www.waveshare.net/w/upload/9/94/ESP32-P4-WIFI6-Touch-LCD-7-260109-04.jpg" width="400"/> |
-|---|---|---|
+| <div style={{maxWidth:400}}> ![ESP32-P4-WIFI6-Touch-LCD-7-260109-02](https://www.waveshare.net/w/upload/d/d8/ESP32-P4-WIFI6-Touch-LCD-7-260109-02.jpg) </div>   | <div style={{maxWidth:400}}> ![ESP32-P4-WIFI6-Touch-LCD-7-260109-03](https://www.waveshare.net/w/upload/5/55/ESP32-P4-WIFI6-Touch-LCD-7-260109-03.jpg) </div>  |  <div style={{maxWidth:400}}> ![ESP32-P4-WIFI6-Touch-LCD-7-260109-04](https://www.waveshare.net/w/upload/9/94/ESP32-P4-WIFI6-Touch-LCD-7-260109-04.jpg) </div> |
+|---|---|---|  
 
 ### 9. Camera LCD Display
 This example showcases ESP32-P4's robust image processing power by capturing video from a camera via the MIPI CSI interface and displaying it in real-time on a screen via the MIPI DSI interface.
@@ -382,5 +386,5 @@ This example is based on [ESP_Brookesia](https://github.com/espressif/esp-brooke
 
 1. After opening the project, select esp32p4 core, and you can directly click <kbd>🔥</kbd> to compile, flash, and monitor. Upon completion, the display will show the rendered images.
 
-|<img src="https://www.waveshare.net/w/upload/8/82/ESP32-P4-WIFI6-Touch-LCD-7-260109-07.jpg" width="400"/>   | <img src="https://www.waveshare.net/w/upload/b/b0/ESP32-P4-WIFI6-Touch-LCD-7-260109-06.jpg" width="400"/>  |  <img src="https://www.waveshare.net/w/upload/d/dc/ESP32-P4-WIFI6-Touch-LCD-7-260109-05.jpg" width="400"/> |
+|<div style={{maxWidth:400}}>![ESP32-P4-WIFI6-Touch-LCD-7-260109-08](https://www.waveshare.net/w/upload/8/82/ESP32-P4-WIFI6-Touch-LCD-7-260109-07.jpg)</div>   | <div style={{maxWidth:400}}>![ESP32-P4-WIFI6-Touch-LCD-7-260109-09](https://www.waveshare.net/w/upload/b/b0/ESP32-P4-WIFI6-Touch-LCD-7-260109-06.jpg)</div>  |  <div style={{maxWidth:400}}>![ESP32-P4-WIFI6-Touch-LCD-7-260109-10](https://www.waveshare.net/w/upload/d/dc/ESP32-P4-WIFI6-Touch-LCD-7-260109-05.jpg)</div> |
 |---|---|---|
