@@ -24,6 +24,8 @@ This chapter includes the following sections, please read as needed:
 - [Setting Up Development Environment](#setting-up-development-environment)
 - [Demo](#demo)
 
+## Arduino Getting Started Tutorial{#arduino-tutorial-for-beginners}
+
 <ArduinoTutorialIntro />
 
 ## Setting Up Development Environment

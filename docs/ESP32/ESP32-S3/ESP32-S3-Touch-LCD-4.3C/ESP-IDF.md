@@ -23,6 +23,8 @@ This chapter includes the following sections:
 - [Setting Up Development Environment (Windows)](#environment-setup)
 - [Common Example Descriptions (Brief Overview and Code Explanation)](#Demo-program)
 
+## ESP-IDF Getting Started Tutorial {#espidf-getting-started-tutorial}
+
 <EspidfTutorialIntro />
 
 ## Setting Up Development Environment{#environment-setup}

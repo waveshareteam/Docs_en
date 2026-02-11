@@ -22,6 +22,8 @@ This chapter includes the following sections;
 - [Setting Up Development Environment](#esp-idf-setup)
 - [Demo](#demo)
 
+## ESP-IDF Getting Started Tutorial {#espidf-getting-started-tutorial}
+
 <EspidfTutorialIntro />
 
 ## Setting up the Development Environment{#esp-idf-setup}

@@ -16,52 +16,17 @@ product_model:
 
 This chapter includes the following sections, please read as needed:
 
-- [Setting Up Development Environment](#setting-up-development-environment)
+- [Setting Up Development Environment](#esp-idf-setup)
 
-## Setting Up Development Environment
+## Setting up the Development Environment{#esp-idf-setup}
 
-:::note
-The following environment settings are applicable to Windows 10/11 systems. For Mac/Linux users, please refer to the **[official instructions](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)**
+:::info
+For the ESP32-P4-WIFI6-Touch-LCD development board, it is recommended to use ESP-IDF V5.5.0 or higher.
 :::
 
-1. Download and install [Visual Studio Code](https://code.visualstudio.com/).
+import EspidfSetup from '@site/docs/ESP32/snippets/EspidfSetup.mdx';
 
-2. In VS Code, open the **Extensions** view by clicking the ![Extensions icon](../../../../static/img/VSCode-Extension-Icon.webp) in the VS Code sidebar or using the shortcut (<kbd>Ctrl+Shift+X</kbd>). Then, search for the [ESP-IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension) extension and install it.
-
-   ![Search and install ESP-IDF extension in VS Code](../../../../static/img/VSCode-Install-ESP-IDF-Extension.webp)
-
-3. After the extension is installed, the ![Espressif icon](../../../../static/img/VSCode-ESP-IDF-Extension-Icon.webp) will appear in the activity bar on the left side of VS Code. Clicking this icon will view the basic command list for the ESP-IDF extension. Select **Configure ESP-IDF extension** under **Advanced**.
-
-   <!-- Alternatively, press <kbd>F1</kbd>, type `Configure ESP-IDF Extension`, and select the **ESP-IDF: Configure ESP-IDF Extension** option. -->
-
-   ![Select "Configure ESP-IDF Expansion"](../../../../static/img/VSCode-ESP-IDF-Configuration-1.webp)
-
-4. Choose **Express** to enter quick configuration mode:
-
-   ![Select Quick Configuration Mode](../../../../static/img/VSCode-ESP-IDF-Configuration-2.webp)
-
-5. Modify the following options as needed:
-
-   - **Select download server**:
-     - Espressif: Use a suitable Espressif server for faster download speeds.
-     - Github: Use the official GitHub release link.
-   - **ESP-IDF Version**: Typically, select the version required by the development board. If no specific requirement, it's recommended to use the latest stable version. For **ESP32-P4**, it is recommended to use the Espressif IDF version ≥ v5.5.
-   - **ESP-IDF Container Installation Path**: It is recommended to use the default path, or use a path that contains only English characters and no spaces.
-   - **ESP-IDF Required Tools Installation Path**: It is recommended to use the default path, or use a path that contains only English characters and no spaces.
-
-   ![ESP-IDF Expansion Quick Configuration Mode Options](../../../../static/img/VSCode-ESP-IDF-Configuration-3.webp)
-
-6. Click **Install** to start the installation. You will see a page displaying the installation progress, including the progress status of ESP-IDF download, ESP-IDF tool download and installation, as well as the creation of the Python virtual environment.
-
-   ![Installation Progress](../../../../static/img/VSCode-ESP-IDF-Configuration-4.webp)
-
-7. If installed correctly, you will see a prompt indicating that all settings have been configured successfully, and you can start using the extension.
-
-   ![Installation Successful](../../../../static/img/VSCode-ESP-IDF-Configuration-5.webp)
-
-:::warning
-Note: If ESP-IDF installation fails or needs to be reinstalled, you can try deleting the `C:\Users\%Username%\esp` and `C:\Users\%Username%\.espressif` folders and then retry.
-:::
+<EspidfSetup />
 
 ## Demo
 

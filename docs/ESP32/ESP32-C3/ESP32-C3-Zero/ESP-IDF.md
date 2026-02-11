@@ -18,18 +18,18 @@ import EspidfTutorialIntro from '@site/docs/ESP32/snippets/EspidfTutorialIntro.m
 This chapter includes the following sections; please read as needed:
 
 - [ESP-IDF Getting Started Tutorial](#espidf-getting-started-tutorial)
-- [Setting up the Development Environment](#setting-up-the-development-environment)
+- [Setting up the Development Environment](#esp-idf-setup)
 - [Running Espressif Official Examples](#running-espressif-official-examples)
+
+## ESP-IDF Getting Started Tutorial {#espidf-getting-started-tutorial}
 
 <EspidfTutorialIntro />
 
-## Setting up the Development Environment{#setting-up-the-development-environment}
+## Setting up the Development Environment{#esp-idf-setup}
 
-:::note
-The following tutorial is based on the Windows development environment and uses VSCode for development.
-:::
+import EspidfSetup from '@site/docs/ESP32/snippets/EspidfSetup.mdx';
 
-Please refer to **[Waveshare ESP-IDF Getting Started Tutorial - Section 1 Environment Setup](/docs/ESP32/Tutorials/ESP-IDF-Tutorials/01-Setup.md#esp-idf-setup)** to complete the ESP-IDF development environment configuration.
+<EspidfSetup />
 
 ## Running Espressif Official Examples{#running-espressif-official-examples}
 

@@ -23,12 +23,14 @@ This chapter includes the following sections;
 - [Setting Up Development Environment](#esp-idf-setup)
 - [Demo](#demo)
 
+## ESP-IDF Getting Started Tutorial {#espidf-getting-started-tutorial}
+
 <EspidfTutorialIntro />
 
 ## Setting up the Development Environment{#esp-idf-setup}
 
 :::info
-For the ESP32-S3-RLCD-4.2 development board, you need to use ESP-IDF V5.5.0 or higher.
+For the ESP32-S3-RLCD-4.2 development board, it is recommended to use ESP-IDF V5.5.0 or higher.
 :::
 
 <EspidfSetup />

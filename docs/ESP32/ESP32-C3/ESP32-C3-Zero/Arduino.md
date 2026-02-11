@@ -21,6 +21,8 @@ This chapter includes the following sections; please read according to your need
 - [Arduino Tutorial for Beginners](#arduino-tutorial-for-beginners)
 - [Environment Setup](#environment-setup)
 
+## Arduino Getting Started Tutorial{#arduino-tutorial-for-beginners}
+
 <ArduinoTutorialIntro />
 
 ## Environment Setup
