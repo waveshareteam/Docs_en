@@ -37,4 +37,6 @@ module.exports = [
   { to: '/ESP32-C6-Touch-AMOLED-1.32', from: ['/32766'] },
   { to: '/ESP32-S3-ePaper-1.54', from: ['/32298'] },
   { to: '/ESP32-S3-ePaper-1.54', from: ['/32299'] },
+  { to: '/ESP32-C6-Touch-AMOLED-1.43', from: ['/31897'] },
+  { to: '/ESP32-C6-Touch-AMOLED-1.43', from: ['/31905'] },
 ];
