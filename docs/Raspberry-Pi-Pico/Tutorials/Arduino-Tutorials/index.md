@@ -79,7 +79,7 @@ To develop for RP series boards using the Arduino IDE, you need to add the relev
 
    <div style={{maxWidth:500}}> ![](./images/01-Arduino-Configuration-2.webp)</div>
 
-## 5. First Program Upload
+## 5. First Program Upload{#5-First-Program-Upload}
 
 1. Hold down the **BOOTSET** button on the Pico board, connect the Pico to your computer via Micro USB, and release the button after a removable disk is recognized.
 

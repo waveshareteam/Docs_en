@@ -182,6 +182,10 @@ const config = {
                 to: "/Raspberry-Pi-Pico-Tutorials-Intro",
               },
               {
+                label: "RP2040",
+                to: "/RP2040",
+              },
+              {
                 label: "RP2350",
                 to: "/RP2350",
               },

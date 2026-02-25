@@ -10,9 +10,6 @@ product_model:
   - RP2350-Touch-AMOLED-1.75-G
 ---
 
-<!-- Example-related Image References -->
-
-
 # Working with MicroPython
 
 This chapter includes the following sections, please read as needed:
@@ -40,7 +37,7 @@ Please refer to the **[Install and Configure Thonny IDE Tutorial](/docs/Raspberr
 
 ## Demo
 
-The Micropython demos are located in the `Micropython` directory of the [demo package](./Resources-And-Documents.md#5-demo).
+The Micropython demos are located in the `examples\Micropython` directory of the [demo package](./Resources-And-Documents.md#5-demo).
 
 | Demo | Basic Program Description | Dependency Library|
 | :--------------: | :-----------------------------------------:| :----------: |

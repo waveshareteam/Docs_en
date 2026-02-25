@@ -2,15 +2,12 @@
 toc_max_heading_level: 4
 sidebar_position: 3
 title: Working with C/C++
-slug: /RP2350-Touch-AMOLED-1.75/Development-Environment-Setup-VSCode
+slug: /RP2350-Touch-AMOLED-1.75/C
 product_family:
   - Raspberry-Pi-Pico
 product_model:
   - RP2350-Touch-AMOLED-1.75
 ---
-
-<!-- Example-related Image References -->
-
 
 # Working with C/C++
 
@@ -25,7 +22,7 @@ Please refer to the **[Install and Configure Pico C/C++ Development Environment 
 
 ## Demo
 
-The C/C++ demos are located in the `C` directory of the [demo package](./Resources-And-Documents.md#5-demo).
+The C/C++ demos are located in the `examples\C` directory of the [demo package](./Resources-And-Documents.md#5-demo).
 
 | Demo | Basic Program Description | Dependency Library|
 | :--------------: | :-----------------------------------------:| :----------: |
@@ -49,7 +46,7 @@ The C/C++ demos are located in the `C` directory of the [demo package](./Resourc
 
 #### Underlying Hardware Interface
 
-We have encapsulated the hardware operations at a low level. Due to differences in hardware platforms, the internal implementations vary. If you need to understand the internal implementation, you can check the corresponding directory. Many definitions can be seen in `DEV_Config.c(.h)` under the directory: `c\lib\Config`.
+We have encapsulated the hardware operations at a low level. Due to differences in hardware platforms, the internal implementations vary. If you need to understand the internal implementation, you can check the corresponding directory. Many definitions can be seen in `DEV_Config.c(.h)` under the directory: `lib\Config`.
 
 - Module initialization and exit handling
     ```c
@@ -73,13 +70,13 @@ We have encapsulated the hardware operations at a low level. Due to differences 
 
 #### Upper Layer Applications
 
-For the screen, what if you need to paint, display Chinese and English characters, display pictures, etc., these are all done by the upper layer applications. Many users have asked about graphical processing. We provide some basic functionalities in the GUI, located in the directory: `c\lib\GUI\GUI_Paint.c(.h)`
+For the screen, what if you need to paint, display Chinese and English characters, display pictures, etc., these are all done by the upper layer applications. Many users have asked about graphical processing. We provide some basic functionalities in the GUI, located in the directory: `lib\GUI\GUI_Paint.c(.h)`
 
 <div style={{maxWidth: 800}}>
     ![](./images/VSCode-Example-1.webp)
 </div>
 
-The character fonts that the GUI depends on are located in the directory: `c\lib\Fonts`
+The character fonts that the GUI depends on are located in the directory: `lib\Fonts`
  
 <div style={{maxWidth: 800}}>
     ![](./images/VSCode-Example-2.webp)
