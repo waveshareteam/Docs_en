@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
-This product is a high-performance, highly integrated microcontroller development board designed by Waveshare, with an external high-capacity Flash. It features a 1.43inch HD AMOLED display, highly integrated RTC, IMU, TF card slot, low-power audio codec chip, dual MIC circuit, and lithium battery charging and discharging peripherals. It also reserves USB, UART, I2C, and GPIO interfaces, providing flexible expandability for development and easy integration into products.
+This product is a high-performance, highly integrated microcontroller development board designed by Waveshare, with onboard high-capacity Flash memory. It features a 1.43inch HD AMOLED display, highly integrated RTC, IMU, TF card slot, low-power audio codec chip, dual MIC circuit, and lithium battery charging and discharging peripherals. It also reserves USB, UART, I2C, and GPIO interfaces, providing flexible expandability for development and easy integration into products.
 
 | SKU | Product |
 | ------ |   ------------------ |
@@ -40,12 +40,12 @@ This product is a high-performance, highly integrated microcontroller developmen
 - Equipped with dual digital microphone arrays, supporting advanced voice interaction functions, suitable for precise speech recognition and near-field/far-field voice wake-up applications
 - Onboard QMI8658 six-axis inertial measurement unit (3-axis accelerometer, 3-axis gyroscope) for motion posture detection, step counting, etc.
 - Onboard PCF85063 RTC chip for convenient RTC functionality implementation
-- Onboard two side buttons, PWR and BOOT, with customizable functions for convenient custom button operation development
+- Onboard two side buttons, PWR and BOOT, with customizable functions for user-defined operations
 - Onboard 3.7V MX1.25 lithium battery charge/discharge interface
 - Onboard TF card slot for flexible storage expansion and fast data transfer, suitable for data logging and media playback, simplifying circuit design
 - Exposed UART and I2C SH1.0 4PIN interfaces, with reserved 2 × 4PIN 2.54mm pitch headers
 - AMOLED screen offers higher contrast, wider viewing angles, rich colors, and fast response times for superior visual effects, along with advantages such as slim design, low power consumption, and flexibility
-- Optional CNC-machined enclosure with elegant design, clearly labeled interface descriptions, overall aesthetic appeal, and portability
+- Optional precision CNC-machined case with a sleek design, clearly labeled ports, making the unit both attractive and portable
 
 ## Onboard Resources
 
@@ -70,7 +70,7 @@ This product is a high-performance, highly integrated microcontroller developmen
 15. **ES8311 DAC Audio Codec** High-performance, low-power audio digital-to-analog converter  
 16. **QMI8658** 3-axis accelerometer + 3-axis gyroscope for posture sensing, motion recognition, etc  
 17. **TCA9554PWR** 8-bit I2C GPIO expander chip  
-18. **TF Card Slot ** Supports FAT32-formatted TF card for data expansion
+18. **TF Card Slot** Supports FAT32-formatted TF card for data expansion
 
 ## Interfaces
 
@@ -94,7 +94,7 @@ This product is a high-performance, highly integrated microcontroller developmen
 
 ### AMOLED Display Specifications
 
-<div style={{maxWidth:600}}> 
+<div style={{maxWidth:800}}> 
 ![AMOLED Screen Parameters](./images/ESP32-C6-Touch-AMOLED-1.43-ScreenParameters.webp)
 </div>
 
@@ -102,7 +102,7 @@ This product is a high-performance, highly integrated microcontroller developmen
 
 The ESP32-C6-Touch-AMOLED-1.43 supports two development frameworks: Arduino IDE and ESP-IDF, providing flexibility for developers to choose the tool that best fits their project requirements and personal preference.
 
-Each method has its advantages, and developers can select based on their needs and skill level. Arduino is simple to learn and easy to get started with, suitable for beginners and non-professionals; ESP-IDF provides more advanced development tools and stronger control capabilities, suitable for developers with professional backgrounds or those with higher performance requirements, and is more suitable for complex project development.
+Each method has its advantages, and developers can choose based on their needs and skill level. Arduino is simple to learn and easy to get started with, suitable for beginners and non-professionals; ESP-IDF provides more advanced development tools and stronger control capabilities, suitable for developers with professional backgrounds or those with higher performance requirements, and is more suitable for complex project development.
 
 - **Arduino IDE** is a convenient, flexible, and easy-to-use open-source electronics prototyping platform. It requires minimal foundational knowledge, allowing for rapid development after a short learning period. Arduino has a vast global community that provides a wealth of open-source code, project examples, tutorials, and rich libraries that encapsulate complex functionalities, enabling developers to implement various features quickly. You can refer to the **[Working with Arduino](./Arduino.md)** to complete the initial setup, and the tutorial also provides related demos for reference.
 
