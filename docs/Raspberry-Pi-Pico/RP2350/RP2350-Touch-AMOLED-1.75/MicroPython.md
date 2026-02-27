@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Working with MicroPython
-slug: /RP2350-Touch-AMOLED-1.75/Development-Environment-Setup-Thonny
+slug: /RP2350-Touch-AMOLED-1.75/MicroPython
 product_family:
   - Raspberry-Pi-Pico
 product_model:
