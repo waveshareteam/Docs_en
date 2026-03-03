@@ -25,7 +25,6 @@ product_model:
 ## **3. Software Development Resources**
 
 - **Demo**
-  - [Demo](https://files.waveshare.com/wiki/ESP32-P4-WIFI6-Touch-LCD-4.3/Esp32-p4-wifi6-touch-lcd-4.3-main.zip)
   - [Github Demo](https://github.com/waveshareteam/ESP32-P4-WIFI6-Touch-LCD-4.3)
 
 - **Software Tools**
