@@ -7,25 +7,15 @@ product_family:
   - Raspberry-Pi-Pico
 product_model:
   - RP2350-Touch-AMOLED-1.75
-  - RP2350-Touch-AMOLED-1.75-G
-  - RP2350-Touch-AMOLED-1.75-B
 ---
 
 <!-- Image Reference -->
 
 # RP2350-Touch-AMOLED-1.75
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs queryString="variant">
-  <TabItem value="RP2350-Touch-AMOLED-1.75" label="RP2350-Touch-AMOLED-1.75（Without Case）">
-    <div style={{maxWidth:500}}> [![RP2350-Touch-AMOLED-1.75 Product Image](./images/RP2350-Touch-AMOLED-1.75.webp)](https://www.waveshare.com/rp2350-touch-amoled-1.75.htm)</div>
-  </TabItem>
-  <TabItem value="RP2350-Touch-AMOLED-1.75-B" label="RP2350-Touch-AMOLED-1.75-B（With Case）" default>
-    <div style={{maxWidth:500}}> [![RP2350-Touch-AMOLED-1.75-B Product Image](./images/RP2350-Touch-AMOLED-1.75-B.webp)](https://www.waveshare.com/rp2350-touch-amoled-1.75.htm?sku=33734)</div>
-  </TabItem>
-</Tabs>
+<div style={{maxWidth:600}}>
+[![RP2350-Touch-AMOLED-1.75 Product Image](./images/RP2350-Touch-AMOLED-1.75-1.webp)](https://www.waveshare.com/rp2350-touch-amoled-1.75.htm?sku=33733)
+</div>
 
 This product is a high-performance, highly integrated microcontroller development board designed by Waveshare. In a compact board size, it incorporates a 1.75inch capacitive high-definition AMOLED screen, a highly integrated power management chip, a 6-axis sensor (3-axis accelerometer and 3-axis gyroscope), RTC, low-power audio codec chip, and other peripherals, making it convenient for development and integration into products.
 
@@ -92,11 +82,12 @@ This product is a high-performance, highly integrated microcontroller developmen
 
 ## Development Methods
 
-The RP2350-Touch-AMOLED-1.75 supports three programming languages: MicroPython, C/C++, and Arduino, offering developers flexible choices. You can select the appropriate development tools and programming methods based on project requirements and personal preference:
+The RP2350-Touch-AMOLED-1.75 supports three programming languages: MicroPython, C/C++, and Arduino, offering developers flexible choices. You can select the appropriate development tools and programming methods based on your project requirements and personal preferences:
 
-- **Thonny IDE (Working with MicroPython)**: Thonny is a lightweight Python Integrated Development Environment designed for beginners and educational scenarios, now widely used for MicroPython / CircuitPython development. Its interface is simple and intuitive, featuring a built-in Python interpreter, support for serial REPL, code flashing, and debugging, with a straightforward setup process. MicroPython is easy to learn and runs without compilation, making it ideal for beginners to quickly start embedded development. You can refer to the **[Working with MicroPython](./MicroPython.md)** for initial setup, which provides detailed environment configuration steps and example programs.
+Each of the three development methods has its own advantages. Developers can choose based on their needs and skill level. MicroPython is simple to learn and quick to get started with, suitable for beginners and non-professionals. Arduino and VS Code provide more advanced development tools and stronger control capabilities, suitable for developers with a professional background or higher performance requirements, and are more suitable for complex project development.
 
-- **VS Code + Pico SDK (Working with C/C++)**: VS Code is a powerful cross-platform code editor. By installing the Pico VSCode extension, a complete C/C++ development environment can be quickly set up. This extension integrates the Pico SDK toolchain, CMake build system, flashing and debugging tools, supports graphical operations, and offers high development efficiency. C/C++ development fully utilizes hardware performance, making it suitable for projects with higher performance requirements and professional developers, and is more applicable for complex embedded applications. You can refer to the **[Working with C/C++](./C.md)** for initial setup, which provides detailed environment configuration steps and example programs.
+- **Thonny IDE (MicroPython Development)**: Thonny is a lightweight Python integrated development environment (IDE) designed for beginners and educational purposes. It is now widely used for MicroPython/CircuitPython development. It features a simple and intuitive interface, a built-in Python interpreter, and supports serial port REPL, code flashing, and debugging. The configuration process is straightforward. MicroPython is easy to learn and runs without compilation, making it ideal for beginners to quickly get started with embedded development. You can refer to the **[Working with MicroPython](./MicroPython.md)** for initial setup instructions. The tutorial provides detailed environment configuration steps and example programs.
 
-- **Arduino IDE (Working with Arduino)**: The Arduino IDE is a convenient, flexible, and easy-to-use open-source electronics prototyping platform. Arduino boasts a vast global user community, offering a massive library of open-source code, project examples, tutorials, and rich library resources. These libraries encapsulate complex functionalities, allowing developers to implement various features quickly without delving into low-level details. It is well-suited for rapid development and prototype verification, significantly shortening development cycles. You can refer to the **[Working with Arduino](./Arduino.md)** for initial setup, which provides detailed environment configuration steps and example programs.
+- **VS Code + Pico SDK (C/C++ Development)**: VS Code is a powerful cross-platform code editor. By installing the Pico VS Code extension, you can quickly build a complete C/C++ development environment. This extension integrates the Pico SDK toolchain, CMake build system, and flashing and debugging tools, supporting graphical operations for high development efficiency. C/C++ development allows you to fully utilize hardware performance, making it suitable for projects with high performance requirements and professional developers, and is especially suitable for complex embedded application development. You can refer to the **[Working with C/C++](./C.md)** for initial setup; the tutorial provides detailed environment configuration steps and example programs.
 
+- **Arduino IDE (Arduino Development)**: Arduino IDE is a convenient, flexible, and easy-to-use open-source electronic prototyping platform. Arduino boasts a large global user community, providing a vast amount of open-source code, project examples, and tutorials, as well as a wealth of library resources. These libraries encapsulate complex functionalities, allowing developers to quickly implement various features without delving into low-level details. It's ideal for rapid development and prototyping, significantly shortening development cycles. You can refer to the **[Working with Arduino](./Arduino.md)** for initial setup; the tutorial provides detailed environment configuration steps and example programs.

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Working with MicroPython
-slug: /RP2350-Touch-AMOLED-1.75/MicroPython
+slug: /RP2350-Touch-AMOLED-1.75/Development-Environment-Setup-Thonny
 product_family:
   - Raspberry-Pi-Pico
 product_model:
@@ -9,6 +9,9 @@ product_model:
   - RP2350-Touch-AMOLED-1.75-B
   - RP2350-Touch-AMOLED-1.75-G
 ---
+
+<!-- Example-related Image References -->
+
 
 # Working with MicroPython
 
@@ -37,7 +40,7 @@ Please refer to the **[Install and Configure Thonny IDE Tutorial](/docs/Raspberr
 
 ## Demo
 
-The Micropython demos are located in the `examples\Micropython` directory of the [demo package](./Resources-And-Documents.md#5-demo).
+The Micropython demos are located in the `Micropython` directory of the [demo package](./Resources-And-Documents.md#5-demo).
 
 | Demo | Basic Program Description | Dependency Library|
 | :--------------: | :-----------------------------------------:| :----------: |

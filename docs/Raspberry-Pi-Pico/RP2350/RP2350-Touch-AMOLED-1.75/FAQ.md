@@ -4,7 +4,7 @@ sidebar_position: 5
 title: FAQ
 slug: /RP2350-Touch-AMOLED-1.75/FAQ
 product_family:
-  - RRaspberry-Pi-Pico
+  - RP20XX
 product_model:
   - RP2350-Touch-AMOLED-1.75
 ---

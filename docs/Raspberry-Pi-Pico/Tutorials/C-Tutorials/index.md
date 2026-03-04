@@ -52,29 +52,27 @@ To simplify the setup and use of the C/C++ development environment, the Raspberr
   
 ## 3. Installing Pico Extension
 
-1. Download and extract the [pico-vscode package](https://drive.google.com/file/d/18-KDNrQlI0KuTMdS6W5iblUGaGm3FbVJ/view?usp=sharing).
-
-2. Click on Extensions and select "Install from VSIX".
+1. Click on Extensions and select "Install from VSIX".
     <div style={{maxWidth: 538}}>
         ![](./images/01-VSCode-Install-4.webp)
     </div>
 
-3. Select the software package with the .vsix extension and click Install.
+2. Select the software package with the .vsix extension and click Install.
     <div style={{maxWidth: 576}}>
         ![](./images/01-VSCode-Install-5.webp)
     </div>
 
-4. VS Code will then automatically install the raspberry-pi-pico extension and its dependencies. You can click Refresh to view the installation progress.
+3. VS Code will then automatically install the raspberry-pi-pico extension and its dependencies. You can click Refresh to view the installation progress.
     <div style={{maxWidth: 381}}>
         ![](./images/01-VSCode-Install-6.webp)
     </div>
 
-5. When "Completed installing extension." is shown in the bottom right corner, close VS Code.
+4. When "Completed installing extension." is shown in the bottom right corner, close VS Code.
     <div style={{maxWidth: 630}}>
         ![](./images/01-VSCode-Install-7.webp)
     </div>
 
-6. The extension version in the offline package is 0.15.2. After installation, update it to the latest version.
+5. The extension version in the offline package is 0.15.2. After installation, update it to the latest version.
     <div style={{maxWidth: 630}}>
         ![](./images/01-VSCode-Import-Update.webp)
     </div>

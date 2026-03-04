@@ -55,6 +55,5 @@ product_model:
 
 ## **5. Demo**
 
-- [RP2350-Touch-AMOLED-1.75 Sample Program (Github Repository)](https://github.com/waveshareteam/RP2350-Touch-AMOLED-1.75)
-- [RP2350-Touch-AMOLED-1.75 Sample Program (Gitee Repository)](https://gitee.com/waveshare/rp2350-touch-amoled-1.75)
+- **Demo (C/C++, MicroPython)**: [RP2350-Touch-AMOLED-1.75-Demo.zip](https://files.waveshare.com/wiki/RP2350-Touch-AMOLED-1.75/RP2350-Touch-AMOLED-1.75-Demo.zip)
 
