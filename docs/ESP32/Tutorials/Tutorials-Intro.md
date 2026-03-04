@@ -13,5 +13,6 @@ Currently available tutorials:
 
 - **[Getting to Know the ESP32](/docs/ESP32/Tutorials/Getting-To-Know-Esp32.md)**
 - **[Arduino Getting Started Tutorial](/docs/ESP32/Tutorials/Arduino-Tutorials/index.md)**
+- **[AI Getting Started Tutorial](/docs/ESP32/Tutorials/AI-Tutorials/index.md)**
 
 More tutorials are coming soon...

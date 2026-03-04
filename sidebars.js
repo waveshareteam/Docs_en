@@ -212,6 +212,17 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: "category",
+      label: "AI Tutorials",
+      link: {
+        type: "doc",
+        id: "ESP32/Tutorials/AI-Tutorials/AI-Tutorial-Introduction",
+      },
+      items: [
+        "ESP32/Tutorials/AI-Tutorials/1",
+      ],
+    },
   ],
   CameraAudioVideoSidebar: [
     {
