@@ -63,8 +63,8 @@ const config = {
           routeBasePath: "/",
           sidebarPath: "./sidebars.js",
           editUrl: "https://github.com/waveshareteam/Docs_en/tree/main/",
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
+          // showLastUpdateAuthor: true,
+          // showLastUpdateTime: true,
         },
         blog: false,
         theme: {
