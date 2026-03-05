@@ -16,6 +16,6 @@ deploy_to_test_server:
     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
   script:
     - npm config set registry https://registry.npmmirror.com
-    - npm ci --verbose --prefer-offline
+    - npm ci ${NPM_VERBOSE:+--verbose} --prefer-offline
     - npm run build
     - rsync -avz --delete -e "ssh -p $SSH_PORT" build/ $SSH_USER@$SSH_HOST:$TARGET_DIR

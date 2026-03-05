@@ -1,7 +1,7 @@
 pr_build_test:
   stage: build
   image: node:22
-  
+
   rules:
     - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
       changes:
@@ -11,5 +11,5 @@ pr_build_test:
         
   script:
     - npm config set registry https://registry.npmmirror.com
-    - npm ci --verbose --prefer-offline
+    - npm ci ${NPM_VERBOSE:+--verbose} --prefer-offline
     - npm run build
