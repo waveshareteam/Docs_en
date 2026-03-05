@@ -16,8 +16,6 @@ import TabItem from '@theme/TabItem';
 import Details from '@theme/Details';
 import ArduinoTutorialIntro from '@site/docs/ESP32/snippets/ArduinoTutorialIntro.mdx';
 
-<!-- Example-related Image References -->
-
 
 # Working with Arduino
 
