@@ -46,6 +46,13 @@ const config = {
     ],
   ],
 
+  scripts: [
+    {
+      src: '/js/custom.js',
+      async: true,
+    },
+  ],
+
   markdown: {
     remarkRehypeOptions: {
       footnoteLabel: "Footnotes",
