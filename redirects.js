@@ -37,4 +37,6 @@ module.exports = [
   { to: '/ISX031-GMSL-Camera-HX', from: ['/33902'] },
   { to: '/ISX031-GMSL-Camera-HX', from: ['/33903'] },
   { to: '/PS5268-2MP-USB-Camera-A', from: ['/33897'] },
+  { to: '/ESP32-S3-Touch-LCD-1.28', from: ['/25098'] },
+  { to: '/ESP32-S3-Touch-LCD-1.28', from: ['/26959'] },
 ];
