@@ -41,3 +41,18 @@ product_model:
   - [Android TCP Debug Assistant](https://dl.espressif.com/public/flash_download_tool.zip)
 - Firmware Flashing Tool:
   - [Flash_download_tool](https://code.visualstudio.com/download)
+
+## **5. Community Showcase**
+
+:::info
+Check out these amazing projects created by the community! Please note these are independently maintained by their creators.
+:::
+
+### That Project -The Ultimate Animated Face for ESP32 | 17+ Expressions
+
+import YoutubeEmbed from '@site/src/components/YoutubeEmbed';
+
+<YoutubeEmbed id="iCm50dTcAtc" maxWidth="700px" />
+
+- Youtube: https://www.youtube.com/watch?v=iCm50dTcAtc
+- Github: https://github.com/0015/lvgl_kawaii_face
