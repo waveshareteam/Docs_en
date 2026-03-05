@@ -34,4 +34,7 @@ module.exports = [
   { to: '/ESP32-S3-ePaper-3.97', from: ['/33552'] },
   { to: '/ESP32-S3-ePaper-3.97', from: ['/33810'] },
   { to: '/ESP32-S3-ePaper-3.97', from: ['/33811'] },
+  { to: '/ISX031-GMSL-Camera-HX', from: ['/33902'] },
+  { to: '/ISX031-GMSL-Camera-HX', from: ['/33903'] },
+  { to: '/PS5268-2MP-USB-Camera-A', from: ['/33897'] },
 ];
