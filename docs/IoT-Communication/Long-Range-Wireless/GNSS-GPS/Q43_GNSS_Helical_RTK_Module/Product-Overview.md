@@ -13,6 +13,10 @@ id: Q43_GNSS_Helical_RTK_Module-Overview
 
 The Q43 GNSS Helical RTK Module is an integrated RTK intelligent positioning antenna module that combines an RTK positioning engine, helical antenna, and geomagnetic sensor into a compact unit. The product supports multi-constellation, multi-frequency GNSS signal reception, features dual-frequency RTK positioning capability, and provides stable and reliable high-precision positioning performance. It is an ideal choice for high-precision navigation application scenarios such as smart robots, precision agriculture, mining, surveying and mapping, and autonomous driving.
 
+| SKU   | Product                     |
+| ----- | --------------------------- |
+| 33870 | Q43 GNSS Helical RTK Module |
+
 ## Specifications
 
 <div style={{ width: '100%', overflowX: 'auto' }}>
