@@ -13,6 +13,10 @@ id: ESP32-S3-A7670E-4G-Overview
 
 The ESP32-S3-A7670E-4G (hereinafter referred to as the development board) is a versatile, high-performance microcontroller development board designed by Waveshare. It features an onboard A7670E 4G communication module, a universal OV camera interface, a TF card slot, an RGB LED, an 18650 battery holder, a battery voltage measurement IC, and a solar charging interface, among other peripherals. At its core is the ESP32-S3R2, a system-on-chip (SoC) that integrates low-power Wi-Fi and Bluetooth LE 5.0, supplemented by external 16MB Flash and 2MB PSRAM. The SoC's built-in hardware encryption accelerators, RNG, HMAC, and Digital Signature modules meet the security requirements of IoT applications. The onboard A7670E 4G communication module provides cellular network connectivity, which, combined with the ESP32-S3R2, enables applications such as portable Wi-Fi hotspots and IoT data transmission. Multiple low-power operating states cater to the power consumption needs of various application scenarios, including the Internet of Things (IoT), mobile devices, outdoor surveillance, and smart home solutions.
 
+| SKU   | Product            |
+| ----- | ------------------ |
+| 26749 | ESP32-S3-A7670E-4G-EN |
+
 ## Features
 
 - Equipped with a high-performance Xtensa® 32-bit LX7 dual-core processor clocked at up to 240 MHz
