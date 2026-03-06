@@ -50,4 +50,8 @@ module.exports = [
   { to: '/PS5268-2MP-USB-Camera-A', from: ['/33897'] },
   { to: '/ESP32-S3-Touch-LCD-1.28', from: ['/25098'] },
   { to: '/ESP32-S3-Touch-LCD-1.28', from: ['/26959'] },
+  { to: '/ESP32-S3-Touch-LCD-3.49', from: ['/32373'] },
+  { to: '/ESP32-S3-Touch-LCD-3.49', from: ['/32374'] },
+  { to: '/ESP32-S3-Touch-LCD-3.49', from: ['/32375'] },   
+  { to: '/ESP32-S3-Touch-LCD-3.49', from: ['/32376'] },
 ];
