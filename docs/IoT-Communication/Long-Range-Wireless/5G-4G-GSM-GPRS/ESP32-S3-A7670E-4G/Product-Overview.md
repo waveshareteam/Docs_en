@@ -15,7 +15,7 @@ The ESP32-S3-A7670E-4G (hereinafter referred to as the development board) is a v
 
 | SKU   | Product            |
 | ----- | ------------------ |
-| 26635 | ESP32-S3-A7670E-4G |
+| 26749 | ESP32-S3-A7670E-4G-EN |
 
 ## Features
 
