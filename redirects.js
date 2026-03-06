@@ -54,4 +54,6 @@ module.exports = [
   { to: '/ESP32-S3-Touch-LCD-3.49', from: ['/32374'] },
   { to: '/ESP32-S3-Touch-LCD-3.49', from: ['/32375'] },   
   { to: '/ESP32-S3-Touch-LCD-3.49', from: ['/32376'] },
+  { to: '/Q43_GNSS_Helical_RTK_Module', from: ['/33870'] },
+  { to: '/ESP32-S3-A7670E-4G', from: ['/26749'] },
 ];
