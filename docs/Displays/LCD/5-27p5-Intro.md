@@ -7,4 +7,3 @@ id: 5-27p5-Overview
 
 # 5 - 27 inch
 
-补充
