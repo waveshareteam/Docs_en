@@ -11,13 +11,19 @@ import Feature from './images/Feature.webp';
 import Interface_Introduction_1 from './images/Interface-Introduction-1.webp';
 import Size from './images/Size.webp';
 
+
+# 23.8inch FHD Monitor
+
+<div style={{maxWidth:600}}> 
+[![23.8inch_FHD_Monitor](./images/23.8inch-product.webp)](https://www.waveshare.com/27inch-fhd-monitor.htm)
+</div>
+
+
 | SKU   | Product                   |
 | ----- | ------------------------- |
 | 34025 | 23.8inch FHD Monitor      |
 | 34080 | 23.8inch FHD Monitor (EU) |
 | 34081 | 23.8inch FHD Monitor (UK) |
-
-# 23.8inch FHD Monitor
 
 ## Features
 

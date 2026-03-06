@@ -11,13 +11,19 @@ import Feature from './images/Feature.webp';
 import Interface_Introduction_1 from './images/Interface-Introduction-1.webp';
 import Size from './images/Size.webp';
 
+
+
+# 27inch FHD Monitor
+
+<div style={{maxWidth:600}}> 
+[![27inch_FHD_Monitor](./images/27inch-product.webp)](https://www.waveshare.com/27inch-fhd-monitor.htm)
+</div>
+
 | SKU   | Product                 |
 | ----- | ----------------------- |
 | 33975 | 27inch FHD Monitor      |
 | 34082 | 27inch FHD Monitor (EU) |
 | 34083 | 27inch FHD Monitor (UK) |
-
-# 27inch FHD Monitor
 
 ## Features
 
