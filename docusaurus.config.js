@@ -39,6 +39,7 @@ const config = {
   trailingSlash: false,
 
   onBrokenLinks: "throw",
+  onBrokenAnchors: "throw",
 
   i18n: {
     defaultLocale: "en",
@@ -197,6 +198,10 @@ const config = {
               {
                 label: "Basic Tutorials",
                 to: "/Raspberry-Pi-Pico-Tutorials-Intro",
+              },
+              {
+                label: "RP2040",
+                to: "/RP2040",
               },
               {
                 label: "RP2350",
