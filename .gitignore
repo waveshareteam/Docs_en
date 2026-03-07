@@ -20,7 +20,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # VS Code
-.vscode
+.vscode/*
+!.vscode/tasks.json
 
 # Antigravity
 .agent
