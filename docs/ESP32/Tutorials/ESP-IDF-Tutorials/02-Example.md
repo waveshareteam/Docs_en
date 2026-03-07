@@ -28,29 +28,39 @@ Let's start with "Hello World" example. This program prints "Hello, world!" to t
 
 ## 1.1 Open the Example
 
-1. Open VS Code and click the icon to start the ESP-IDF extension. Under the "**Advanced**" option, click "**Show Examples Project**".
+1. Open VS Code and click the icon to launch the ESP-IDF extension. Under the **Advanced** section, click **New Project Wizard**.
 
-   ![Open Example 1](./images/02-Example-1.webp)
+   <div style={{maxWidth:300}}>
+   ![New Project Wizard](./images/02-Example-1.webp)
+   </div>
 
-2. Select your ESP-IDF version.
+2. Select the ESP-IDF version.
 
-   ![Open Example 2](./images/02-Example-2.webp)
+   <div style={{maxWidth:600}}>
+   ![Select ESP-IDF Version](./images/02-Example-2.webp)
+   </div>
 
-3. Set the project name, storage location, and relevant parameters. Board-related parameters can be modified after the project is created. After completing the settings, click **"Choose Template"**.
+3. In the list, find **ESP-IDF Examples**, then select **hello_world** under the **get-started** category. Click **Create project using template hello_world**.
+
+   <div style={{maxWidth:800}}>
+   ![Select Template](./images/02-Example-3.webp)
+   </div>
+
+4. Set the project name, storage location, and other parameters. Board-related parameters can be modified after the project is created. Once done, click **Create project**.
 
    :::warning
-   The project path should not contain spaces, Chinese characters, or special characters.
+   The project path must not contain spaces, Chinese characters, or special characters.
    :::
 
-   ![Open Example 3](./images/02-Example-3.webp)
+   <div style={{maxWidth:800}}>
+   ![Project Settings](./images/02-Example-4.webp)
+   </div>
 
-4. Under the ESP-IDF category, navigate to **"get-started"** and select **"hello_world"**. Then click **"Create project using template hello_world"**.
+5. The ESP-IDF extension will automatically copy the example code to the specified location and display "Project has been created!". Click **Open project** to open the example project.
 
-   ![Open Example 4](./images/02-Example-4.webp)
-
-5. The ESP-IDF extension will automatically copy the example code to the specified location and display "Project has been created!". Click **"Open project"** to open the example project.
-
-   ![Open Example 5](./images/02-Example-5.webp)
+   <div style={{maxWidth:600}}>
+   ![Open Project](./images/02-Example-5.webp)
+   </div>
 
 ### 1.2 Project Structure
 
@@ -84,19 +94,25 @@ Before building and flashing, we need to set up the target hardware and connecti
 
 1. Click ![VSCode Select Flash Type Icon](./images/02-VSCode-Flash-Type-Icon.webp)  to select the flashing method: Select the UART interface.
 
+   <div style={{maxWidth:600}}>
    ![VSCode Select Flash Type Option](./images/02-Configure1.webp)
+   </div>
 
 2. Click ![VSCode Select Serial Port Icon](./images/02-VSCode-Serial-Port-Icon.webp) to select the serial port: Connect the ESP32 development board to the computer. Click the port number and select the serial port corresponding to the development board from the list.
 
    - Tip: If you're unsure which port, unplug and replug the board to see which one appears.
 
    - Troubleshooting: If you can't find a new port, try manually entering download mode: **Press and hold the "BOOT" button, plug in the USB cable, and then release the button**. Then check again to find the correct port.
-
+   
+   <div style={{maxWidth:600}}>
    ![VSCode Select Serial Port Option](./images/02-Configure2.webp)
+   </div>
 
 3. Click ![VSCode Select Target Device Icon](./images/02-VSCode-Chip-Target-Icon.webp) to select the target device: Click the chip name (e.g., esp32s3) and select the chip model that exactly matches the development board.
 
+   <div style={{maxWidth:600}}>
    ![VS Code Select Device Chip Option](./images/02-Configure3.webp)
+   </div>
 
    When setting up the target device, ESP-IDF requires configuring the corresponding toolchain and libraries. This process may take some time, please wait patiently for it to complete. For more details, please refer to the [Official Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-guides/tools/idf-py.html#set-target).
 
@@ -131,7 +147,9 @@ Click ![VS Code Monitor Device Icon](./images/02-VSCode-Monitor-Icon.webp) to mo
 
 After startup, the terminal will connect to the development board. You will see the output of the "Hello World" example.
 
+<div style={{maxWidth:600}}>
 ![Hello World Example Output](./images/02-HelloWorld-Output.webp)
+</div>
 
 You can exit the ESP-IDF monitor using the shortcut key <kbd>Ctrl</kbd> + <kbd>]</kbd>.
 
@@ -149,7 +167,9 @@ This program's function is to make the onboard LED on the development board blin
 
 The steps to open the "Blink" example are exactly the same as "Hello World", just select get-started/blink from the example list.
 
+<div style={{maxWidth:800}}>
 ![Open Example 6](./images/02-Example-6.webp)
+</div>
 
 ### 2.2 Project Structure & sdkconfig
 
@@ -196,8 +216,10 @@ Firstly, before building and flashing, please make sure to check and set the cor
        Unlike the command-line configuration tool (TUI) provided by `idf.py menuconfig`, the ESP-IDF VS Code plugin offers a more intuitive graphical configuration interface.
 
     2. Modify the configuration according to the onboard LED of the development board:
-    
+       
+       <div style={{maxWidth:800}}>
        ![Set Project Configuration in the SDK Configuration Editor](./images/02-Set-LED-Pin.webp)
+       </div>
        
        - Blink LED type: Select the LED type.
          - `GPIO`: Regular LED.
@@ -218,11 +240,15 @@ Firstly, before building and flashing, please make sure to check and set the cor
        idf.py menuconfig
        ```
        
+       <div style={{maxWidth:600}}>
        ![Open menuconfig](./images/02-Menuconfig-1.webp)
+       </div>
     
        This will open a text-based menu interface that can be navigated using the arrow keys, and you can enter by pressing the Enter key or the Space key. Press <kbd>Esc</kbd> to return, which is used to set the specific parameters of the project.
     
+       <div style={{maxWidth:600}}>
        ![menuconfig 2](./images/02-Menuconfig-2.webp)
+       </div>
     
     2. Enter **Example Configuration** to modify the project settings:
     
@@ -232,7 +258,9 @@ Firstly, before building and flashing, please make sure to check and set the cor
        - Blink GPIO number: Set the GPIO pin number connected to the LED.
        - Blink period in ms: Set the period of LED blinking (unit: milliseconds).
     
+       <div style={{maxWidth:600}}>
        ![menuconfig 3](./images/02-Menuconfig-3.webp)
+       </div>
           
        :::info
        This tutorial uses the [**Waveshare ESP32-S3-Zero Mini Development Board**](https://www.waveshare.com/esp32-s3-zero.htm), which has a WS2812 addressable LED connected to GPIO 21 pin.
@@ -247,5 +275,7 @@ Firstly, before building and flashing, please make sure to check and set the cor
 1. Click ![VS Code One-Click Build Flash Monitor Icon](./images/02-VSCode-BuildFlashMonitor-Icon.webp) to automatically perform the build, flash, and monitor steps in sequence with one click.
 
 2. After the flashing is completed, you will see the LED on the development board start to blink. At the same time, the serial monitor will start and output the following log information:
-
+   
+   <div style={{maxWidth:600}}>
    ![Blink Example Output](./images/02-Blink-Output.webp)
+   </div>

@@ -37,35 +37,47 @@ Connect the circuit according to the wiring diagram below:
 
 ## 2. Create a Project from a Template
 
-1. Open VS Code, click on the ESP-IDF extension, and open the "**New Project Wizard**" under "**Advanced**".
+1. Open VS Code, click the ESP-IDF extension, and open the **New Project Wizard** under **Advanced**.
 
+   <div style={{maxWidth:350}}>
    ![New Project Wizard](./images/03-New-Project-Wizard.webp)
+   </div>
 
 2. Select the ESP-IDF version.
 
+   <div style={{maxWidth:600}}>
    ![Select ESP-IDF Version](./images/03-Choose-ESP-IDF-Version.webp)
+   </div>
 
-3. Set the project name, storage location, and relevant parameters. Board-related parameters can be modified after the project is created. After completing the settings, click "**Choose Template**".
+3. Under **ESP-IDF Templates**, select the **sample_project** template, then click **Create project using template sample_project**.
+
+   <div style={{maxWidth:800}}>
+   ![Select Template](./images/03-Choose-Template.webp)
+   </div>
+
+4. Set the project name, storage location, and other parameters. Board-related parameters can be modified after the project is created. Once done, click **Create Project**.
 
    :::warning
-   The project path should not contain spaces, Chinese characters, or special characters.
+   The project path must not contain spaces, Chinese characters, or special characters.
    :::
 
-   ![Project Setup](./images/03-Project-Setup.webp)
+   <div style={{maxWidth:600}}>
+   ![Project Settings](./images/03-Project-Setup.webp)
+   </div>
 
-4. Select the "**sample_project**" template, then click "**Create project using template sample_project**".
+5. Click **Open Project** to open the new project.
 
-   ![Select Template](./images/03-Choose-Template.webp)
-
-5. After the project is created, the ESP-IDF extension will display "Project created!" Click "Open Project" to open the new project.
-
+   <div style={{maxWidth:600}}>
    ![Open New Project](./images/03-Open-New-Project-Prompt.webp)
+   </div>
 
 ## 3. Write Code
 
 ESP-IDF will generate many files and folders for the project. In this getting started guide, it is recommended to keep all the default files intact and we will only need to modify the `main.c` file.
 
+<div style={{maxWidth:800}}>
 ![main.c File](./images/03-Main_c.webp)
+</div>
 
 1. Write the following code:
 
@@ -119,8 +131,10 @@ ESP-IDF will generate many files and folders for the project. In this getting st
 2. Click ![VS Code One-Click Build Flash Monitor Icon](./images/02-VSCode-BuildFlashMonitor-Icon.webp) to automatically perform the build, flash, and monitor steps in sequence with one click.
 
 3. After the flashing is complete, you will see the LED start blinking. At the same time, the serial monitor will start and output the following log information:
-
+   
+   <div style={{maxWidth:600}}>
    ![Blink Example Output](./images/03-Blinky-Output.webp)
+   </div>
 
 ## 5. Code Analysis
 
